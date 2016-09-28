@@ -4,9 +4,761 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Debug/IntuneMAM.framework/DefaultMAMPolicies.plist</key>
+		<data>
+		ca2WcOYLwLbr/TovPOSLz54saZc=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAM.h</key>
+		<data>
+		3J42SdhhoPMSRD883pswXuTKhQY=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMAppConfig.h</key>
+		<data>
+		+6pnkyM3GRSQY/I2OWidnGKlXlM=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMAppConfigManager.h</key>
+		<data>
+		FZwKNlCqdvrnJ5bKfJKMcAUJOjY=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMAsyncResult.h</key>
+		<data>
+		igi6ktplS0jVGPvzSWUCj/ViVmQ=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMDataProtectionInfo.h</key>
+		<data>
+		khZmizl8Ya/iBY/kP5hVIG9Fbx0=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMDataProtectionManager.h</key>
+		<data>
+		PxovhG+iUYZh/Hym4mFI5z9CfW8=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMDefs.h</key>
+		<data>
+		miLdFo+aNOncJ4ndTKp8ktP6TVQ=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMEnrollmentDelegate.h</key>
+		<data>
+		K+XePFOYbmhjBTsCXjZo82hNQOk=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMEnrollmentManager.h</key>
+		<data>
+		iwel9dkJiZXw9uu7YKd4KRvSlPA=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMEnrollmentStatus.h</key>
+		<data>
+		h8nIUQ6ae8W8F9f+w5WdsdzOjCI=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMFileProtectionInfo.h</key>
+		<data>
+		T6WE0lhkH48WY7laaS6oOM1kVvo=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMFileProtectionManager.h</key>
+		<data>
+		dMvv13GKOfx04TINzZ8CvwYknik=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMLogger.h</key>
+		<data>
+		GazMffl3bHHRHeFGOuhI4LK6lXU=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMPolicy.h</key>
+		<data>
+		9N8pIIaUN459wVP+9XsKuEWNHJ8=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMPolicyDelegate.h</key>
+		<data>
+		OAv2i3F0966Zueeh2n7+ITgAgRg=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMPolicyManager.h</key>
+		<data>
+		p6vg3U97ylWnQzdfnE6+7oqDl54=
+		</data>
+		<key>Debug/IntuneMAM.framework/Info.plist</key>
+		<data>
+		19S8LrhgYIIYP7Hdt4om/Mbr9ag=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAM</key>
+		<data>
+		aZWMklCKOC8dUFxAVCy5qF+jerg=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
+		<data>
+		0cY31ib07GwwVMfbl+AWMpG3inM=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/AuthViewController_iPhone.nib</key>
+		<data>
+		n9u0QqPY5o+C41CEWIZncTi4/Lg=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/Base.lproj/PinViewController_iPad.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OIQPDdDXvX1y48SKG/JknEHcWiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/Base.lproj/PinViewController_iPhone.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cckyv1ZWf6SmVLEoUJs1MGwRvBc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/BlurViewController_iPad.nib</key>
+		<data>
+		7hG5tdfQxhw9XwvB9CfPKlPEjE4=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/BlurViewController_iPhone.nib</key>
+		<data>
+		uP9/jVTWivj/tOYBw6zRzkYZAdg=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/Info.plist</key>
+		<data>
+		e+OGMotAKWUdkd35PtWY9HLyUK4=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/PolicyViewController_iPad.nib</key>
+		<data>
+		d3lXHS1l6EhwS4zVr4eo5sBIz7o=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/PolicyViewController_iPhone.nib</key>
+		<data>
+		6/JNLM1qiaBKZuKjDW9j2iVd3NY=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/SplashViewWithAlertController_iPad.nib</key>
+		<data>
+		GqWkg/8fTUNITF9A5uMEE7tv5jk=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/SplashViewWithAlertController_iPhone.nib</key>
+		<data>
+		313KnarxJrIVC0Gp6vBHjKWfjd4=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1VPG0csmKPPSQ9N+SiUsSWkDjIk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1FjCNbkk7H7Y6JPSj1T4v17ThjE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jvpU5huy533nYzKUbZ/nCV3tMQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S3Nq5ZkKQFP6UOYawV6G+nEkCO8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zbQcEflhjuNJnUj3RZXx82AR7C4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t6182ENYk0G+3r4ga5IdWFG/3Hs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZapDs7XNfs3y2647Y9kANQgV97U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Jj6dxgqOsNcXibz+APahfITN44U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0TeRYTAXa90Ppzmq7rcQhefFRcE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lsxfeevQO0ftoBelk0q6WLl6XXY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YEec/Xp+Fsa+8LuOwEenlLFlksU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DkA4WQfH52ybGEajRwHg+D4TQJE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ldsuNYmT5q1i1U8IvlgiwTOii2Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JG5ijiX7HNuQfnkCXzcPT5pEUjQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x4jrfzECO4oWlK0pDEBND+SS7QM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Oqy541HDEPIQdkH2Q5SA7B0lds=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jxSBJ8KiI5Z9Oyllyn9z8E9E1q4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZUPfPBUTn6ydX/uWxqn0Zzkue2k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6jtolN07Cn5IBc4CS2Ix2RcCHNA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3n4jN+EFkkidUdKwLIxwhG5HOuw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BSgOxcCzS2lWU2mNLmRWr3CtWV0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9qF5V7vln99TSrySUrs76NICypo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WEn6SL+UOTSfqByBebbXn40Bs/4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WvE3Uak88HfTp6u3y1fFS+CGCXI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kmwHCMWQQy2SVDr6E9bFYZtTZv8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zLA2xVNoUoFdH3D5YQyJKaF4aso=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			imFUGYjPzg0gq7eB2XvdkZlKdos=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IsieXLYrglYI5m3Gbzg2rCvNaiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			45l97Bi/Ea/iiurtlSOhDjbj/Gg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h3AT05n02BPYIQCLGoa6b4/YXoU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4cqOY2S4liddvSaGTup3dGV74u0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wZK3CWbAc5ROKfCvapf7z0dOY74=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v0p7Rn00mWb16X/eBZVqPWzwPUg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			irvXzB2janM6PyxQGVU+32ZYAlw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ihzq8fEyrmuJa/PXsbZwnOzmaF8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i1kiN5FySW8mbqyIXHPma1Bh0gk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hOmGt/DF2Jyspq8CqeOniIbRstA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n7FkiHHU9qZ4mitGCyD2N5XRv5k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h296w7n4yZn7OSV3EsmtVAG8ePc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K+/jUTqZoK7yvD6EiUNU8eEA7WU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YBzKbiMz/p+ll7e4hA0FO6HWC7g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OpzdXKrklTQJmVIXfuyqUDJzbUE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YgPlZHRMkMJ5QOVmr4BBjt0isRE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ElgP1Oj/ZJHLwn/6eCU72YHIVN0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bXaSmW74QxwghjTCneFOTuyvayI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t3jS1ok3DrHGbm+7uFApq2vuiB0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DqvCuavXM0UgkNDtdt0+DrBVcHY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8NJjZLLFn/HzzVOtr453fl04brc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/fG5jhB9jPBNQjo5aVMxHPXOGGs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ez4YP2vaYkPLoqTbenGmWObhPO0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1z4JLkubWvFLEv8e9JtHJw7GZWM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8cridWDDVWAC2+rpjXONEpCZGeQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BzK/gUZ9PxczPp6u2zMeDo4Mc6k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			igq3TX13+v2Wtkla6rYeNh41V6U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V2h7XuSB0ZG5WfBOY59HMCRsczk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w+5kvL47vXRrhU6m38brwJcknTE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H9Ms0xZFFnTSe15Gv7SsXgsVhwI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VU2K7eaY7pdDyMzb6vMLvj9jBo0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4m1UiWqFLuNEBSSSSYnGFlURSzg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1ibHVFLgG8Wa6TMof0w3cpc9edQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sh6DLlX4uLkQL8ZcANMsvPVJkiU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nRWrEhQaAhGsD/kLm2QuhDjYdvU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QWGgRihIO5kwlJv31K6lobEbdaY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U5m5eNKPZSb3Sfducr3Sejfy5EU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q+UfdGGl1skgyD/XTIgscZiXPxo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p80qURpXbqflO7r24Ag0d5PPGiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/MAMDebugSettings.plist</key>
+		<data>
+		4UuhGURuFj8Gc4TiK95eENULnVM=
+		</data>
+		<key>Debug/IntuneMAM.framework/Modules/module.modulemap</key>
+		<data>
+		VUf76SzfIZbERZVVH+ZyNhp7+jg=
+		</data>
+		<key>Debug/IntuneMAM.framework/ThirdPartyNotices.txt</key>
+		<data>
+		6NtuliDPWEyvt4p94ISopB/dQck=
+		</data>
+		<key>Debug/IntuneMAM.framework/_CodeSignature/CodeResources</key>
+		<data>
+		t/FbqsDtcnKCF+zMqV3tg4kkuMs=
+		</data>
+		<key>Debug/libIntuneMAM.a</key>
+		<data>
+		4DUaYGenYq3s7NIY3db8cVXPKuw=
+		</data>
 		<key>Headers/IntuneMAM.h</key>
 		<data>
-		Xzd7rgtrdTncc+C7S+9IkgqhG5Q=
+		3J42SdhhoPMSRD883pswXuTKhQY=
+		</data>
+		<key>Headers/IntuneMAMAppConfig.h</key>
+		<data>
+		+6pnkyM3GRSQY/I2OWidnGKlXlM=
+		</data>
+		<key>Headers/IntuneMAMAppConfigManager.h</key>
+		<data>
+		FZwKNlCqdvrnJ5bKfJKMcAUJOjY=
 		</data>
 		<key>Headers/IntuneMAMAsyncResult.h</key>
 		<data>
@@ -20,9 +772,21 @@
 		<data>
 		PxovhG+iUYZh/Hym4mFI5z9CfW8=
 		</data>
+		<key>Headers/IntuneMAMDefs.h</key>
+		<data>
+		miLdFo+aNOncJ4ndTKp8ktP6TVQ=
+		</data>
+		<key>Headers/IntuneMAMEnrollmentDelegate.h</key>
+		<data>
+		K+XePFOYbmhjBTsCXjZo82hNQOk=
+		</data>
 		<key>Headers/IntuneMAMEnrollmentManager.h</key>
 		<data>
-		GTWBJPaSucC6NvNGDYel0ehFMpc=
+		iwel9dkJiZXw9uu7YKd4KRvSlPA=
+		</data>
+		<key>Headers/IntuneMAMEnrollmentStatus.h</key>
+		<data>
+		h8nIUQ6ae8W8F9f+w5WdsdzOjCI=
 		</data>
 		<key>Headers/IntuneMAMFileProtectionInfo.h</key>
 		<data>
@@ -38,29 +802,29 @@
 		</data>
 		<key>Headers/IntuneMAMPolicy.h</key>
 		<data>
-		fwisTs/p/5wObxa8XPnqSsh4Gag=
+		9N8pIIaUN459wVP+9XsKuEWNHJ8=
 		</data>
 		<key>Headers/IntuneMAMPolicyDelegate.h</key>
 		<data>
-		8QOLyfAKwyv+r7X4s7AvTq/miF0=
+		OAv2i3F0966Zueeh2n7+ITgAgRg=
 		</data>
 		<key>Headers/IntuneMAMPolicyManager.h</key>
 		<data>
-		1NKCPaKIcusgLzE65EzK+Xrt8NY=
+		p6vg3U97ylWnQzdfnE6+7oqDl54=
 		</data>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
 		<data>
-		5ZcEc6GJZt9AuxUD0pgAB+Dl0xs=
+		rcGS0tfVVqt36rI+3C+7w7eOXjM=
 		</data>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPhone.nib</key>
 		<data>
-		ULT/Y0rZ53oPRsxDw8VxUbGb3+I=
+		Bnzznp//NYg+P6nMX82W4xDrnnY=
 		</data>
 		<key>IntuneMAMResources.bundle/Base.lproj/PinViewController_iPad.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7WJ3j7SzghbWYWX8mKC8uUcYKM8=
+			mjwwxyjNNSPSCAm/eP4igwf7Uhg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -69,28 +833,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZzPT/9u+VZZA6pPheOmEBobuTzY=
+			zIoEdlR2AzOyw7NO8gBqjzvebJg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>IntuneMAMResources.bundle/BlurViewController_iPad.nib</key>
+		<data>
+		CTDmWlaSS7VkEH8sRtxG+ZzwlvI=
+		</data>
+		<key>IntuneMAMResources.bundle/BlurViewController_iPhone.nib</key>
+		<data>
+		vIHzPHxhZNPCOq9zJfcRwkxHTFU=
+		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		uECyjTRVo6BVQIKo6QeWoNJ7Tls=
+		e+OGMotAKWUdkd35PtWY9HLyUK4=
+		</data>
+		<key>IntuneMAMResources.bundle/PolicyViewController_iPad.nib</key>
+		<data>
+		k/uzmGDSOfL0FDkAdEbNY9JvVIU=
+		</data>
+		<key>IntuneMAMResources.bundle/PolicyViewController_iPhone.nib</key>
+		<data>
+		0YH9CZTCnINaaMSsLYZHdCRf4hI=
 		</data>
 		<key>IntuneMAMResources.bundle/SplashViewWithAlertController_iPad.nib</key>
 		<data>
-		YFuBXoPMV4CmjMZXxmJvVzRiD8Q=
+		5tlFLlez1aSLWOIoU7pwD/urJkY=
 		</data>
 		<key>IntuneMAMResources.bundle/SplashViewWithAlertController_iPhone.nib</key>
 		<data>
-		tr+WlO8srFyVLH4hgeYA2UyVJME=
+		gzzRDy9HOl+G8AY7WEi3ReUTtC4=
 		</data>
 		<key>IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1p48SF9N7Iyd372xfia4VGa7r6E=
+			1VPG0csmKPPSQ9N+SiUsSWkDjIk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -117,7 +897,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HJmZMgogo2lzAVGUJiDMUyi2z4Y=
+			S3Nq5ZkKQFP6UOYawV6G+nEkCO8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -144,7 +924,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a0Is1Jv1+lRPxYrdyW2/vGsjL5I=
+			ZapDs7XNfs3y2647Y9kANQgV97U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -171,7 +951,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V0IeCOz9SMguPB5WsTviC+HozlA=
+			lsxfeevQO0ftoBelk0q6WLl6XXY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -198,7 +978,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0rB0fjn22ihiX8At4+1s3bdTBVY=
+			ldsuNYmT5q1i1U8IvlgiwTOii2Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -225,7 +1005,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MOmhQYfLV8wN2mVFXrg5SmBr15Q=
+			4Oqy541HDEPIQdkH2Q5SA7B0lds=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -252,7 +1032,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ol8mv9AYPQzhioqQ5oSPRAqL55o=
+			6jtolN07Cn5IBc4CS2Ix2RcCHNA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -279,7 +1059,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TWrgyvDo3hG2BMLY+hpFJC4YLYo=
+			9qF5V7vln99TSrySUrs76NICypo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -306,7 +1086,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u0xzFUqX4sDP55XTodh8wsB0o3M=
+			kmwHCMWQQy2SVDr6E9bFYZtTZv8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -333,7 +1113,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			At34lv/lEYjab+FwvRYGWUE9CMk=
+			IsieXLYrglYI5m3Gbzg2rCvNaiY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -360,7 +1140,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eIjFXdFjQ1Cz8oLmg2T0Wpo3UjA=
+			4cqOY2S4liddvSaGTup3dGV74u0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -387,7 +1167,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9VeroLBbIpx9BrlhKdfIs+lLWS4=
+			irvXzB2janM6PyxQGVU+32ZYAlw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -414,7 +1194,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SBpp1/fLKxBGpJ1DABJ8ZV89ZUM=
+			hOmGt/DF2Jyspq8CqeOniIbRstA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -441,7 +1221,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4hzU5Lz0Epe8r5Z7/Xx4K+A4W30=
+			K+/jUTqZoK7yvD6EiUNU8eEA7WU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -468,7 +1248,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jif/NNkYLzgPy1lE5dqQjNAXceM=
+			YgPlZHRMkMJ5QOVmr4BBjt0isRE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -495,7 +1275,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8WP8l0++JIJBeKxsLylUPJf0oEc=
+			t3jS1ok3DrHGbm+7uFApq2vuiB0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -522,7 +1302,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E/VU/uMp12+m9pGc11oZiIZRWXk=
+			/fG5jhB9jPBNQjo5aVMxHPXOGGs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -549,7 +1329,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PRlDWX7NIqPPoWtO3kt0nZqPIyw=
+			8cridWDDVWAC2+rpjXONEpCZGeQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -576,7 +1356,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AQIMJOJ9BXSMJMJ22/yaqbf82m8=
+			V2h7XuSB0ZG5WfBOY59HMCRsczk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -603,7 +1383,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HAvHdGWu/LUa4BLl+PRlnAxKxQk=
+			VU2K7eaY7pdDyMzb6vMLvj9jBo0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -630,7 +1410,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7HMuBYIc+12+CAXn3J34G83LNk0=
+			sh6DLlX4uLkQL8ZcANMsvPVJkiU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -657,7 +1437,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JrjytQ7YzhV7xPZFzPZB2o84pm0=
+			U5m5eNKPZSb3Sfducr3Sejfy5EU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -682,26 +1462,1522 @@
 		</dict>
 		<key>MAMDebugSettings.plist</key>
 		<data>
-		xb5jhZl7oJ8T5KPxfcSwAuhr1Rc=
+		CYYZFekl4vYolNvB43yY7Rzot9c=
+		</data>
+		<key>ReadME.md</key>
+		<data>
+		kHu0Ddccgq/B/ET3Di3e8yx9yFE=
+		</data>
+		<key>Release/IntuneMAM.framework/DefaultMAMPolicies.plist</key>
+		<data>
+		ca2WcOYLwLbr/TovPOSLz54saZc=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAM.h</key>
+		<data>
+		3J42SdhhoPMSRD883pswXuTKhQY=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMAppConfig.h</key>
+		<data>
+		+6pnkyM3GRSQY/I2OWidnGKlXlM=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMAppConfigManager.h</key>
+		<data>
+		FZwKNlCqdvrnJ5bKfJKMcAUJOjY=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMAsyncResult.h</key>
+		<data>
+		igi6ktplS0jVGPvzSWUCj/ViVmQ=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMDataProtectionInfo.h</key>
+		<data>
+		khZmizl8Ya/iBY/kP5hVIG9Fbx0=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMDataProtectionManager.h</key>
+		<data>
+		PxovhG+iUYZh/Hym4mFI5z9CfW8=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMDefs.h</key>
+		<data>
+		miLdFo+aNOncJ4ndTKp8ktP6TVQ=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMEnrollmentDelegate.h</key>
+		<data>
+		K+XePFOYbmhjBTsCXjZo82hNQOk=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMEnrollmentManager.h</key>
+		<data>
+		iwel9dkJiZXw9uu7YKd4KRvSlPA=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMEnrollmentStatus.h</key>
+		<data>
+		h8nIUQ6ae8W8F9f+w5WdsdzOjCI=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMFileProtectionInfo.h</key>
+		<data>
+		T6WE0lhkH48WY7laaS6oOM1kVvo=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMFileProtectionManager.h</key>
+		<data>
+		dMvv13GKOfx04TINzZ8CvwYknik=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMLogger.h</key>
+		<data>
+		GazMffl3bHHRHeFGOuhI4LK6lXU=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMPolicy.h</key>
+		<data>
+		9N8pIIaUN459wVP+9XsKuEWNHJ8=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMPolicyDelegate.h</key>
+		<data>
+		OAv2i3F0966Zueeh2n7+ITgAgRg=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMPolicyManager.h</key>
+		<data>
+		p6vg3U97ylWnQzdfnE6+7oqDl54=
+		</data>
+		<key>Release/IntuneMAM.framework/Info.plist</key>
+		<data>
+		19S8LrhgYIIYP7Hdt4om/Mbr9ag=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAM</key>
+		<data>
+		WvcNVUY5zg3DjHgYsqeVNwIsf+I=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
+		<data>
+		rcGS0tfVVqt36rI+3C+7w7eOXjM=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/AuthViewController_iPhone.nib</key>
+		<data>
+		Bnzznp//NYg+P6nMX82W4xDrnnY=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/Base.lproj/PinViewController_iPad.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mjwwxyjNNSPSCAm/eP4igwf7Uhg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/Base.lproj/PinViewController_iPhone.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zIoEdlR2AzOyw7NO8gBqjzvebJg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/BlurViewController_iPad.nib</key>
+		<data>
+		CTDmWlaSS7VkEH8sRtxG+ZzwlvI=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/BlurViewController_iPhone.nib</key>
+		<data>
+		vIHzPHxhZNPCOq9zJfcRwkxHTFU=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/Info.plist</key>
+		<data>
+		e+OGMotAKWUdkd35PtWY9HLyUK4=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/PolicyViewController_iPad.nib</key>
+		<data>
+		k/uzmGDSOfL0FDkAdEbNY9JvVIU=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/PolicyViewController_iPhone.nib</key>
+		<data>
+		0YH9CZTCnINaaMSsLYZHdCRf4hI=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/SplashViewWithAlertController_iPad.nib</key>
+		<data>
+		5tlFLlez1aSLWOIoU7pwD/urJkY=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/SplashViewWithAlertController_iPhone.nib</key>
+		<data>
+		gzzRDy9HOl+G8AY7WEi3ReUTtC4=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1VPG0csmKPPSQ9N+SiUsSWkDjIk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1FjCNbkk7H7Y6JPSj1T4v17ThjE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jvpU5huy533nYzKUbZ/nCV3tMQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S3Nq5ZkKQFP6UOYawV6G+nEkCO8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zbQcEflhjuNJnUj3RZXx82AR7C4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t6182ENYk0G+3r4ga5IdWFG/3Hs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZapDs7XNfs3y2647Y9kANQgV97U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Jj6dxgqOsNcXibz+APahfITN44U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0TeRYTAXa90Ppzmq7rcQhefFRcE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lsxfeevQO0ftoBelk0q6WLl6XXY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YEec/Xp+Fsa+8LuOwEenlLFlksU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DkA4WQfH52ybGEajRwHg+D4TQJE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ldsuNYmT5q1i1U8IvlgiwTOii2Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JG5ijiX7HNuQfnkCXzcPT5pEUjQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x4jrfzECO4oWlK0pDEBND+SS7QM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Oqy541HDEPIQdkH2Q5SA7B0lds=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jxSBJ8KiI5Z9Oyllyn9z8E9E1q4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZUPfPBUTn6ydX/uWxqn0Zzkue2k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6jtolN07Cn5IBc4CS2Ix2RcCHNA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3n4jN+EFkkidUdKwLIxwhG5HOuw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BSgOxcCzS2lWU2mNLmRWr3CtWV0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9qF5V7vln99TSrySUrs76NICypo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WEn6SL+UOTSfqByBebbXn40Bs/4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WvE3Uak88HfTp6u3y1fFS+CGCXI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kmwHCMWQQy2SVDr6E9bFYZtTZv8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zLA2xVNoUoFdH3D5YQyJKaF4aso=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			imFUGYjPzg0gq7eB2XvdkZlKdos=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IsieXLYrglYI5m3Gbzg2rCvNaiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			45l97Bi/Ea/iiurtlSOhDjbj/Gg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h3AT05n02BPYIQCLGoa6b4/YXoU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4cqOY2S4liddvSaGTup3dGV74u0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wZK3CWbAc5ROKfCvapf7z0dOY74=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v0p7Rn00mWb16X/eBZVqPWzwPUg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			irvXzB2janM6PyxQGVU+32ZYAlw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ihzq8fEyrmuJa/PXsbZwnOzmaF8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i1kiN5FySW8mbqyIXHPma1Bh0gk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hOmGt/DF2Jyspq8CqeOniIbRstA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n7FkiHHU9qZ4mitGCyD2N5XRv5k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h296w7n4yZn7OSV3EsmtVAG8ePc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K+/jUTqZoK7yvD6EiUNU8eEA7WU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YBzKbiMz/p+ll7e4hA0FO6HWC7g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OpzdXKrklTQJmVIXfuyqUDJzbUE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YgPlZHRMkMJ5QOVmr4BBjt0isRE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ElgP1Oj/ZJHLwn/6eCU72YHIVN0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bXaSmW74QxwghjTCneFOTuyvayI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t3jS1ok3DrHGbm+7uFApq2vuiB0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DqvCuavXM0UgkNDtdt0+DrBVcHY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8NJjZLLFn/HzzVOtr453fl04brc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/fG5jhB9jPBNQjo5aVMxHPXOGGs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ez4YP2vaYkPLoqTbenGmWObhPO0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1z4JLkubWvFLEv8e9JtHJw7GZWM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8cridWDDVWAC2+rpjXONEpCZGeQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BzK/gUZ9PxczPp6u2zMeDo4Mc6k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			igq3TX13+v2Wtkla6rYeNh41V6U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V2h7XuSB0ZG5WfBOY59HMCRsczk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w+5kvL47vXRrhU6m38brwJcknTE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H9Ms0xZFFnTSe15Gv7SsXgsVhwI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VU2K7eaY7pdDyMzb6vMLvj9jBo0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4m1UiWqFLuNEBSSSSYnGFlURSzg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1ibHVFLgG8Wa6TMof0w3cpc9edQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sh6DLlX4uLkQL8ZcANMsvPVJkiU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nRWrEhQaAhGsD/kLm2QuhDjYdvU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QWGgRihIO5kwlJv31K6lobEbdaY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U5m5eNKPZSb3Sfducr3Sejfy5EU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q+UfdGGl1skgyD/XTIgscZiXPxo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p80qURpXbqflO7r24Ag0d5PPGiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/MAMDebugSettings.plist</key>
+		<data>
+		4UuhGURuFj8Gc4TiK95eENULnVM=
+		</data>
+		<key>Release/IntuneMAM.framework/Modules/module.modulemap</key>
+		<data>
+		VUf76SzfIZbERZVVH+ZyNhp7+jg=
+		</data>
+		<key>Release/IntuneMAM.framework/ThirdPartyNotices.txt</key>
+		<data>
+		6NtuliDPWEyvt4p94ISopB/dQck=
+		</data>
+		<key>Release/IntuneMAM.framework/_CodeSignature/CodeResources</key>
+		<data>
+		iKhxZHbX2pf+3QGbLVWVjsQCHJQ=
+		</data>
+		<key>Release/libIntuneMAM.a</key>
+		<data>
+		HsiicHS2i6P3kmMlqPKrLUzF1FE=
 		</data>
 		<key>ThirdPartyNotices.txt</key>
 		<data>
 		6NtuliDPWEyvt4p94ISopB/dQck=
 		</data>
-		<key>debug/libIntuneMAM.a</key>
+		<key>Version.txt</key>
 		<data>
-		swMGgayc5LXQ4nVsvkS/dUNP+IA=
-		</data>
-		<key>release/libIntuneMAM.a</key>
-		<data>
-		SP9xtg9X7msPuXbV+wnprMeGxuU=
+		hughwI5WEC5RMjPxjuQoeqoOBEk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Debug/IntuneMAM.framework/DefaultMAMPolicies.plist</key>
+		<data>
+		ca2WcOYLwLbr/TovPOSLz54saZc=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAM.h</key>
+		<data>
+		3J42SdhhoPMSRD883pswXuTKhQY=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMAppConfig.h</key>
+		<data>
+		+6pnkyM3GRSQY/I2OWidnGKlXlM=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMAppConfigManager.h</key>
+		<data>
+		FZwKNlCqdvrnJ5bKfJKMcAUJOjY=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMAsyncResult.h</key>
+		<data>
+		igi6ktplS0jVGPvzSWUCj/ViVmQ=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMDataProtectionInfo.h</key>
+		<data>
+		khZmizl8Ya/iBY/kP5hVIG9Fbx0=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMDataProtectionManager.h</key>
+		<data>
+		PxovhG+iUYZh/Hym4mFI5z9CfW8=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMDefs.h</key>
+		<data>
+		miLdFo+aNOncJ4ndTKp8ktP6TVQ=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMEnrollmentDelegate.h</key>
+		<data>
+		K+XePFOYbmhjBTsCXjZo82hNQOk=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMEnrollmentManager.h</key>
+		<data>
+		iwel9dkJiZXw9uu7YKd4KRvSlPA=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMEnrollmentStatus.h</key>
+		<data>
+		h8nIUQ6ae8W8F9f+w5WdsdzOjCI=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMFileProtectionInfo.h</key>
+		<data>
+		T6WE0lhkH48WY7laaS6oOM1kVvo=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMFileProtectionManager.h</key>
+		<data>
+		dMvv13GKOfx04TINzZ8CvwYknik=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMLogger.h</key>
+		<data>
+		GazMffl3bHHRHeFGOuhI4LK6lXU=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMPolicy.h</key>
+		<data>
+		9N8pIIaUN459wVP+9XsKuEWNHJ8=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMPolicyDelegate.h</key>
+		<data>
+		OAv2i3F0966Zueeh2n7+ITgAgRg=
+		</data>
+		<key>Debug/IntuneMAM.framework/Headers/IntuneMAMPolicyManager.h</key>
+		<data>
+		p6vg3U97ylWnQzdfnE6+7oqDl54=
+		</data>
+		<key>Debug/IntuneMAM.framework/Info.plist</key>
+		<data>
+		19S8LrhgYIIYP7Hdt4om/Mbr9ag=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAM</key>
+		<data>
+		aZWMklCKOC8dUFxAVCy5qF+jerg=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
+		<data>
+		0cY31ib07GwwVMfbl+AWMpG3inM=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/AuthViewController_iPhone.nib</key>
+		<data>
+		n9u0QqPY5o+C41CEWIZncTi4/Lg=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/Base.lproj/PinViewController_iPad.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OIQPDdDXvX1y48SKG/JknEHcWiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/Base.lproj/PinViewController_iPhone.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cckyv1ZWf6SmVLEoUJs1MGwRvBc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/BlurViewController_iPad.nib</key>
+		<data>
+		7hG5tdfQxhw9XwvB9CfPKlPEjE4=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/BlurViewController_iPhone.nib</key>
+		<data>
+		uP9/jVTWivj/tOYBw6zRzkYZAdg=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/Info.plist</key>
+		<data>
+		e+OGMotAKWUdkd35PtWY9HLyUK4=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/PolicyViewController_iPad.nib</key>
+		<data>
+		d3lXHS1l6EhwS4zVr4eo5sBIz7o=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/PolicyViewController_iPhone.nib</key>
+		<data>
+		6/JNLM1qiaBKZuKjDW9j2iVd3NY=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/SplashViewWithAlertController_iPad.nib</key>
+		<data>
+		GqWkg/8fTUNITF9A5uMEE7tv5jk=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/SplashViewWithAlertController_iPhone.nib</key>
+		<data>
+		313KnarxJrIVC0Gp6vBHjKWfjd4=
+		</data>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1VPG0csmKPPSQ9N+SiUsSWkDjIk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1FjCNbkk7H7Y6JPSj1T4v17ThjE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jvpU5huy533nYzKUbZ/nCV3tMQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S3Nq5ZkKQFP6UOYawV6G+nEkCO8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zbQcEflhjuNJnUj3RZXx82AR7C4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t6182ENYk0G+3r4ga5IdWFG/3Hs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZapDs7XNfs3y2647Y9kANQgV97U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Jj6dxgqOsNcXibz+APahfITN44U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0TeRYTAXa90Ppzmq7rcQhefFRcE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lsxfeevQO0ftoBelk0q6WLl6XXY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YEec/Xp+Fsa+8LuOwEenlLFlksU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DkA4WQfH52ybGEajRwHg+D4TQJE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ldsuNYmT5q1i1U8IvlgiwTOii2Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JG5ijiX7HNuQfnkCXzcPT5pEUjQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x4jrfzECO4oWlK0pDEBND+SS7QM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Oqy541HDEPIQdkH2Q5SA7B0lds=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jxSBJ8KiI5Z9Oyllyn9z8E9E1q4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZUPfPBUTn6ydX/uWxqn0Zzkue2k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6jtolN07Cn5IBc4CS2Ix2RcCHNA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3n4jN+EFkkidUdKwLIxwhG5HOuw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BSgOxcCzS2lWU2mNLmRWr3CtWV0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9qF5V7vln99TSrySUrs76NICypo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WEn6SL+UOTSfqByBebbXn40Bs/4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WvE3Uak88HfTp6u3y1fFS+CGCXI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kmwHCMWQQy2SVDr6E9bFYZtTZv8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zLA2xVNoUoFdH3D5YQyJKaF4aso=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			imFUGYjPzg0gq7eB2XvdkZlKdos=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IsieXLYrglYI5m3Gbzg2rCvNaiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			45l97Bi/Ea/iiurtlSOhDjbj/Gg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h3AT05n02BPYIQCLGoa6b4/YXoU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4cqOY2S4liddvSaGTup3dGV74u0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wZK3CWbAc5ROKfCvapf7z0dOY74=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v0p7Rn00mWb16X/eBZVqPWzwPUg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			irvXzB2janM6PyxQGVU+32ZYAlw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ihzq8fEyrmuJa/PXsbZwnOzmaF8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i1kiN5FySW8mbqyIXHPma1Bh0gk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hOmGt/DF2Jyspq8CqeOniIbRstA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n7FkiHHU9qZ4mitGCyD2N5XRv5k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h296w7n4yZn7OSV3EsmtVAG8ePc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K+/jUTqZoK7yvD6EiUNU8eEA7WU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YBzKbiMz/p+ll7e4hA0FO6HWC7g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OpzdXKrklTQJmVIXfuyqUDJzbUE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YgPlZHRMkMJ5QOVmr4BBjt0isRE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ElgP1Oj/ZJHLwn/6eCU72YHIVN0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bXaSmW74QxwghjTCneFOTuyvayI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t3jS1ok3DrHGbm+7uFApq2vuiB0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DqvCuavXM0UgkNDtdt0+DrBVcHY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8NJjZLLFn/HzzVOtr453fl04brc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/fG5jhB9jPBNQjo5aVMxHPXOGGs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ez4YP2vaYkPLoqTbenGmWObhPO0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1z4JLkubWvFLEv8e9JtHJw7GZWM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8cridWDDVWAC2+rpjXONEpCZGeQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BzK/gUZ9PxczPp6u2zMeDo4Mc6k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			igq3TX13+v2Wtkla6rYeNh41V6U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V2h7XuSB0ZG5WfBOY59HMCRsczk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w+5kvL47vXRrhU6m38brwJcknTE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H9Ms0xZFFnTSe15Gv7SsXgsVhwI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VU2K7eaY7pdDyMzb6vMLvj9jBo0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4m1UiWqFLuNEBSSSSYnGFlURSzg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1ibHVFLgG8Wa6TMof0w3cpc9edQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sh6DLlX4uLkQL8ZcANMsvPVJkiU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nRWrEhQaAhGsD/kLm2QuhDjYdvU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QWGgRihIO5kwlJv31K6lobEbdaY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U5m5eNKPZSb3Sfducr3Sejfy5EU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q+UfdGGl1skgyD/XTIgscZiXPxo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p80qURpXbqflO7r24Ag0d5PPGiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Debug/IntuneMAM.framework/MAMDebugSettings.plist</key>
+		<data>
+		4UuhGURuFj8Gc4TiK95eENULnVM=
+		</data>
+		<key>Debug/IntuneMAM.framework/Modules/module.modulemap</key>
+		<data>
+		VUf76SzfIZbERZVVH+ZyNhp7+jg=
+		</data>
+		<key>Debug/IntuneMAM.framework/ThirdPartyNotices.txt</key>
+		<data>
+		6NtuliDPWEyvt4p94ISopB/dQck=
+		</data>
+		<key>Debug/IntuneMAM.framework/_CodeSignature/CodeResources</key>
+		<data>
+		t/FbqsDtcnKCF+zMqV3tg4kkuMs=
+		</data>
+		<key>Debug/libIntuneMAM.a</key>
+		<data>
+		4DUaYGenYq3s7NIY3db8cVXPKuw=
+		</data>
 		<key>Headers/IntuneMAM.h</key>
 		<data>
-		Xzd7rgtrdTncc+C7S+9IkgqhG5Q=
+		3J42SdhhoPMSRD883pswXuTKhQY=
+		</data>
+		<key>Headers/IntuneMAMAppConfig.h</key>
+		<data>
+		+6pnkyM3GRSQY/I2OWidnGKlXlM=
+		</data>
+		<key>Headers/IntuneMAMAppConfigManager.h</key>
+		<data>
+		FZwKNlCqdvrnJ5bKfJKMcAUJOjY=
 		</data>
 		<key>Headers/IntuneMAMAsyncResult.h</key>
 		<data>
@@ -715,9 +2991,21 @@
 		<data>
 		PxovhG+iUYZh/Hym4mFI5z9CfW8=
 		</data>
+		<key>Headers/IntuneMAMDefs.h</key>
+		<data>
+		miLdFo+aNOncJ4ndTKp8ktP6TVQ=
+		</data>
+		<key>Headers/IntuneMAMEnrollmentDelegate.h</key>
+		<data>
+		K+XePFOYbmhjBTsCXjZo82hNQOk=
+		</data>
 		<key>Headers/IntuneMAMEnrollmentManager.h</key>
 		<data>
-		GTWBJPaSucC6NvNGDYel0ehFMpc=
+		iwel9dkJiZXw9uu7YKd4KRvSlPA=
+		</data>
+		<key>Headers/IntuneMAMEnrollmentStatus.h</key>
+		<data>
+		h8nIUQ6ae8W8F9f+w5WdsdzOjCI=
 		</data>
 		<key>Headers/IntuneMAMFileProtectionInfo.h</key>
 		<data>
@@ -733,29 +3021,29 @@
 		</data>
 		<key>Headers/IntuneMAMPolicy.h</key>
 		<data>
-		fwisTs/p/5wObxa8XPnqSsh4Gag=
+		9N8pIIaUN459wVP+9XsKuEWNHJ8=
 		</data>
 		<key>Headers/IntuneMAMPolicyDelegate.h</key>
 		<data>
-		8QOLyfAKwyv+r7X4s7AvTq/miF0=
+		OAv2i3F0966Zueeh2n7+ITgAgRg=
 		</data>
 		<key>Headers/IntuneMAMPolicyManager.h</key>
 		<data>
-		1NKCPaKIcusgLzE65EzK+Xrt8NY=
+		p6vg3U97ylWnQzdfnE6+7oqDl54=
 		</data>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
 		<data>
-		5ZcEc6GJZt9AuxUD0pgAB+Dl0xs=
+		rcGS0tfVVqt36rI+3C+7w7eOXjM=
 		</data>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPhone.nib</key>
 		<data>
-		ULT/Y0rZ53oPRsxDw8VxUbGb3+I=
+		Bnzznp//NYg+P6nMX82W4xDrnnY=
 		</data>
 		<key>IntuneMAMResources.bundle/Base.lproj/PinViewController_iPad.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7WJ3j7SzghbWYWX8mKC8uUcYKM8=
+			mjwwxyjNNSPSCAm/eP4igwf7Uhg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -764,28 +3052,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZzPT/9u+VZZA6pPheOmEBobuTzY=
+			zIoEdlR2AzOyw7NO8gBqjzvebJg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>IntuneMAMResources.bundle/BlurViewController_iPad.nib</key>
+		<data>
+		CTDmWlaSS7VkEH8sRtxG+ZzwlvI=
+		</data>
+		<key>IntuneMAMResources.bundle/BlurViewController_iPhone.nib</key>
+		<data>
+		vIHzPHxhZNPCOq9zJfcRwkxHTFU=
+		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		uECyjTRVo6BVQIKo6QeWoNJ7Tls=
+		e+OGMotAKWUdkd35PtWY9HLyUK4=
+		</data>
+		<key>IntuneMAMResources.bundle/PolicyViewController_iPad.nib</key>
+		<data>
+		k/uzmGDSOfL0FDkAdEbNY9JvVIU=
+		</data>
+		<key>IntuneMAMResources.bundle/PolicyViewController_iPhone.nib</key>
+		<data>
+		0YH9CZTCnINaaMSsLYZHdCRf4hI=
 		</data>
 		<key>IntuneMAMResources.bundle/SplashViewWithAlertController_iPad.nib</key>
 		<data>
-		YFuBXoPMV4CmjMZXxmJvVzRiD8Q=
+		5tlFLlez1aSLWOIoU7pwD/urJkY=
 		</data>
 		<key>IntuneMAMResources.bundle/SplashViewWithAlertController_iPhone.nib</key>
 		<data>
-		tr+WlO8srFyVLH4hgeYA2UyVJME=
+		gzzRDy9HOl+G8AY7WEi3ReUTtC4=
 		</data>
 		<key>IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1p48SF9N7Iyd372xfia4VGa7r6E=
+			1VPG0csmKPPSQ9N+SiUsSWkDjIk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -812,7 +3116,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HJmZMgogo2lzAVGUJiDMUyi2z4Y=
+			S3Nq5ZkKQFP6UOYawV6G+nEkCO8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -839,7 +3143,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a0Is1Jv1+lRPxYrdyW2/vGsjL5I=
+			ZapDs7XNfs3y2647Y9kANQgV97U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -866,7 +3170,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V0IeCOz9SMguPB5WsTviC+HozlA=
+			lsxfeevQO0ftoBelk0q6WLl6XXY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -893,7 +3197,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0rB0fjn22ihiX8At4+1s3bdTBVY=
+			ldsuNYmT5q1i1U8IvlgiwTOii2Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -920,7 +3224,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MOmhQYfLV8wN2mVFXrg5SmBr15Q=
+			4Oqy541HDEPIQdkH2Q5SA7B0lds=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -947,7 +3251,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ol8mv9AYPQzhioqQ5oSPRAqL55o=
+			6jtolN07Cn5IBc4CS2Ix2RcCHNA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -974,7 +3278,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TWrgyvDo3hG2BMLY+hpFJC4YLYo=
+			9qF5V7vln99TSrySUrs76NICypo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1001,7 +3305,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u0xzFUqX4sDP55XTodh8wsB0o3M=
+			kmwHCMWQQy2SVDr6E9bFYZtTZv8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1028,7 +3332,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			At34lv/lEYjab+FwvRYGWUE9CMk=
+			IsieXLYrglYI5m3Gbzg2rCvNaiY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1055,7 +3359,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eIjFXdFjQ1Cz8oLmg2T0Wpo3UjA=
+			4cqOY2S4liddvSaGTup3dGV74u0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1082,7 +3386,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9VeroLBbIpx9BrlhKdfIs+lLWS4=
+			irvXzB2janM6PyxQGVU+32ZYAlw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1109,7 +3413,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SBpp1/fLKxBGpJ1DABJ8ZV89ZUM=
+			hOmGt/DF2Jyspq8CqeOniIbRstA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1136,7 +3440,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4hzU5Lz0Epe8r5Z7/Xx4K+A4W30=
+			K+/jUTqZoK7yvD6EiUNU8eEA7WU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1163,7 +3467,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jif/NNkYLzgPy1lE5dqQjNAXceM=
+			YgPlZHRMkMJ5QOVmr4BBjt0isRE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1190,7 +3494,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8WP8l0++JIJBeKxsLylUPJf0oEc=
+			t3jS1ok3DrHGbm+7uFApq2vuiB0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1217,7 +3521,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E/VU/uMp12+m9pGc11oZiIZRWXk=
+			/fG5jhB9jPBNQjo5aVMxHPXOGGs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1244,7 +3548,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PRlDWX7NIqPPoWtO3kt0nZqPIyw=
+			8cridWDDVWAC2+rpjXONEpCZGeQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1271,7 +3575,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AQIMJOJ9BXSMJMJ22/yaqbf82m8=
+			V2h7XuSB0ZG5WfBOY59HMCRsczk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1298,7 +3602,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HAvHdGWu/LUa4BLl+PRlnAxKxQk=
+			VU2K7eaY7pdDyMzb6vMLvj9jBo0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1325,7 +3629,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7HMuBYIc+12+CAXn3J34G83LNk0=
+			sh6DLlX4uLkQL8ZcANMsvPVJkiU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1352,7 +3656,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JrjytQ7YzhV7xPZFzPZB2o84pm0=
+			U5m5eNKPZSb3Sfducr3Sejfy5EU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1377,19 +3681,763 @@
 		</dict>
 		<key>MAMDebugSettings.plist</key>
 		<data>
-		xb5jhZl7oJ8T5KPxfcSwAuhr1Rc=
+		CYYZFekl4vYolNvB43yY7Rzot9c=
+		</data>
+		<key>ReadME.md</key>
+		<data>
+		kHu0Ddccgq/B/ET3Di3e8yx9yFE=
+		</data>
+		<key>Release/IntuneMAM.framework/DefaultMAMPolicies.plist</key>
+		<data>
+		ca2WcOYLwLbr/TovPOSLz54saZc=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAM.h</key>
+		<data>
+		3J42SdhhoPMSRD883pswXuTKhQY=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMAppConfig.h</key>
+		<data>
+		+6pnkyM3GRSQY/I2OWidnGKlXlM=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMAppConfigManager.h</key>
+		<data>
+		FZwKNlCqdvrnJ5bKfJKMcAUJOjY=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMAsyncResult.h</key>
+		<data>
+		igi6ktplS0jVGPvzSWUCj/ViVmQ=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMDataProtectionInfo.h</key>
+		<data>
+		khZmizl8Ya/iBY/kP5hVIG9Fbx0=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMDataProtectionManager.h</key>
+		<data>
+		PxovhG+iUYZh/Hym4mFI5z9CfW8=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMDefs.h</key>
+		<data>
+		miLdFo+aNOncJ4ndTKp8ktP6TVQ=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMEnrollmentDelegate.h</key>
+		<data>
+		K+XePFOYbmhjBTsCXjZo82hNQOk=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMEnrollmentManager.h</key>
+		<data>
+		iwel9dkJiZXw9uu7YKd4KRvSlPA=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMEnrollmentStatus.h</key>
+		<data>
+		h8nIUQ6ae8W8F9f+w5WdsdzOjCI=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMFileProtectionInfo.h</key>
+		<data>
+		T6WE0lhkH48WY7laaS6oOM1kVvo=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMFileProtectionManager.h</key>
+		<data>
+		dMvv13GKOfx04TINzZ8CvwYknik=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMLogger.h</key>
+		<data>
+		GazMffl3bHHRHeFGOuhI4LK6lXU=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMPolicy.h</key>
+		<data>
+		9N8pIIaUN459wVP+9XsKuEWNHJ8=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMPolicyDelegate.h</key>
+		<data>
+		OAv2i3F0966Zueeh2n7+ITgAgRg=
+		</data>
+		<key>Release/IntuneMAM.framework/Headers/IntuneMAMPolicyManager.h</key>
+		<data>
+		p6vg3U97ylWnQzdfnE6+7oqDl54=
+		</data>
+		<key>Release/IntuneMAM.framework/Info.plist</key>
+		<data>
+		19S8LrhgYIIYP7Hdt4om/Mbr9ag=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAM</key>
+		<data>
+		WvcNVUY5zg3DjHgYsqeVNwIsf+I=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
+		<data>
+		rcGS0tfVVqt36rI+3C+7w7eOXjM=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/AuthViewController_iPhone.nib</key>
+		<data>
+		Bnzznp//NYg+P6nMX82W4xDrnnY=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/Base.lproj/PinViewController_iPad.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mjwwxyjNNSPSCAm/eP4igwf7Uhg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/Base.lproj/PinViewController_iPhone.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zIoEdlR2AzOyw7NO8gBqjzvebJg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/BlurViewController_iPad.nib</key>
+		<data>
+		CTDmWlaSS7VkEH8sRtxG+ZzwlvI=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/BlurViewController_iPhone.nib</key>
+		<data>
+		vIHzPHxhZNPCOq9zJfcRwkxHTFU=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/Info.plist</key>
+		<data>
+		e+OGMotAKWUdkd35PtWY9HLyUK4=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/PolicyViewController_iPad.nib</key>
+		<data>
+		k/uzmGDSOfL0FDkAdEbNY9JvVIU=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/PolicyViewController_iPhone.nib</key>
+		<data>
+		0YH9CZTCnINaaMSsLYZHdCRf4hI=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/SplashViewWithAlertController_iPad.nib</key>
+		<data>
+		5tlFLlez1aSLWOIoU7pwD/urJkY=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/SplashViewWithAlertController_iPhone.nib</key>
+		<data>
+		gzzRDy9HOl+G8AY7WEi3ReUTtC4=
+		</data>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1VPG0csmKPPSQ9N+SiUsSWkDjIk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1FjCNbkk7H7Y6JPSj1T4v17ThjE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/cs.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jvpU5huy533nYzKUbZ/nCV3tMQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			S3Nq5ZkKQFP6UOYawV6G+nEkCO8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zbQcEflhjuNJnUj3RZXx82AR7C4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/da.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t6182ENYk0G+3r4ga5IdWFG/3Hs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZapDs7XNfs3y2647Y9kANQgV97U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Jj6dxgqOsNcXibz+APahfITN44U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/de.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0TeRYTAXa90Ppzmq7rcQhefFRcE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lsxfeevQO0ftoBelk0q6WLl6XXY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YEec/Xp+Fsa+8LuOwEenlLFlksU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/el.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DkA4WQfH52ybGEajRwHg+D4TQJE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ldsuNYmT5q1i1U8IvlgiwTOii2Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JG5ijiX7HNuQfnkCXzcPT5pEUjQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/en.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			x4jrfzECO4oWlK0pDEBND+SS7QM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Oqy541HDEPIQdkH2Q5SA7B0lds=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jxSBJ8KiI5Z9Oyllyn9z8E9E1q4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/es.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZUPfPBUTn6ydX/uWxqn0Zzkue2k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6jtolN07Cn5IBc4CS2Ix2RcCHNA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3n4jN+EFkkidUdKwLIxwhG5HOuw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fi.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BSgOxcCzS2lWU2mNLmRWr3CtWV0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9qF5V7vln99TSrySUrs76NICypo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WEn6SL+UOTSfqByBebbXn40Bs/4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/fr.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WvE3Uak88HfTp6u3y1fFS+CGCXI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kmwHCMWQQy2SVDr6E9bFYZtTZv8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zLA2xVNoUoFdH3D5YQyJKaF4aso=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/hu.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			imFUGYjPzg0gq7eB2XvdkZlKdos=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IsieXLYrglYI5m3Gbzg2rCvNaiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			45l97Bi/Ea/iiurtlSOhDjbj/Gg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/it.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h3AT05n02BPYIQCLGoa6b4/YXoU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4cqOY2S4liddvSaGTup3dGV74u0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wZK3CWbAc5ROKfCvapf7z0dOY74=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ja.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v0p7Rn00mWb16X/eBZVqPWzwPUg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			irvXzB2janM6PyxQGVU+32ZYAlw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ihzq8fEyrmuJa/PXsbZwnOzmaF8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ko.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i1kiN5FySW8mbqyIXHPma1Bh0gk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hOmGt/DF2Jyspq8CqeOniIbRstA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n7FkiHHU9qZ4mitGCyD2N5XRv5k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nb.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h296w7n4yZn7OSV3EsmtVAG8ePc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K+/jUTqZoK7yvD6EiUNU8eEA7WU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YBzKbiMz/p+ll7e4hA0FO6HWC7g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/nl.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OpzdXKrklTQJmVIXfuyqUDJzbUE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YgPlZHRMkMJ5QOVmr4BBjt0isRE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ElgP1Oj/ZJHLwn/6eCU72YHIVN0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pl.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bXaSmW74QxwghjTCneFOTuyvayI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t3jS1ok3DrHGbm+7uFApq2vuiB0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DqvCuavXM0UgkNDtdt0+DrBVcHY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/pt.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8NJjZLLFn/HzzVOtr453fl04brc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/fG5jhB9jPBNQjo5aVMxHPXOGGs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ez4YP2vaYkPLoqTbenGmWObhPO0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ro.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1z4JLkubWvFLEv8e9JtHJw7GZWM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8cridWDDVWAC2+rpjXONEpCZGeQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BzK/gUZ9PxczPp6u2zMeDo4Mc6k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/ru.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			igq3TX13+v2Wtkla6rYeNh41V6U=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			V2h7XuSB0ZG5WfBOY59HMCRsczk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w+5kvL47vXRrhU6m38brwJcknTE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/sv.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H9Ms0xZFFnTSe15Gv7SsXgsVhwI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VU2K7eaY7pdDyMzb6vMLvj9jBo0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4m1UiWqFLuNEBSSSSYnGFlURSzg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/tr.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1ibHVFLgG8Wa6TMof0w3cpc9edQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sh6DLlX4uLkQL8ZcANMsvPVJkiU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nRWrEhQaAhGsD/kLm2QuhDjYdvU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hans.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QWGgRihIO5kwlJv31K6lobEbdaY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/AppRestrictions.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U5m5eNKPZSb3Sfducr3Sejfy5EU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/PinViewController_iPad.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q+UfdGGl1skgyD/XTIgscZiXPxo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/IntuneMAMResources.bundle/zh-Hant.lproj/PinViewController_iPhone.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p80qURpXbqflO7r24Ag0d5PPGiY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Release/IntuneMAM.framework/MAMDebugSettings.plist</key>
+		<data>
+		4UuhGURuFj8Gc4TiK95eENULnVM=
+		</data>
+		<key>Release/IntuneMAM.framework/Modules/module.modulemap</key>
+		<data>
+		VUf76SzfIZbERZVVH+ZyNhp7+jg=
+		</data>
+		<key>Release/IntuneMAM.framework/ThirdPartyNotices.txt</key>
+		<data>
+		6NtuliDPWEyvt4p94ISopB/dQck=
+		</data>
+		<key>Release/IntuneMAM.framework/_CodeSignature/CodeResources</key>
+		<data>
+		iKhxZHbX2pf+3QGbLVWVjsQCHJQ=
+		</data>
+		<key>Release/libIntuneMAM.a</key>
+		<data>
+		HsiicHS2i6P3kmMlqPKrLUzF1FE=
 		</data>
 		<key>ThirdPartyNotices.txt</key>
 		<data>
 		6NtuliDPWEyvt4p94ISopB/dQck=
 		</data>
-		<key>debug/libIntuneMAM.a</key>
+		<key>Version.txt</key>
 		<data>
-		swMGgayc5LXQ4nVsvkS/dUNP+IA=
-		</data>
-		<key>release/libIntuneMAM.a</key>
-		<data>
-		SP9xtg9X7msPuXbV+wnprMeGxuU=
+		hughwI5WEC5RMjPxjuQoeqoOBEk=
 		</data>
 	</dict>
 	<key>rules</key>
