@@ -7,10 +7,7 @@
 
 /**
  *  This delegate will return status and debug information for operations 
- *  completed by the Intune MAM SDK.  These are provided for the developer
- *  for debugging purposes only.  Note that specific status codes and debug
- *  messages may change, so no application business logic should be based off
- *  this information.
+ *  completed by the Intune MAM SDK. 
  */
 @protocol IntuneMAMEnrollmentDelegate <NSObject>
 
@@ -21,14 +18,14 @@
 /**
  *  Called when an enrollment request operation is completed.
  *
- *  @param status status object containing debug information
+ *  @param status status object containing status
  */
 - (void)enrollmentRequestWithStatus:(IntuneMAMEnrollmentStatus *)status;
 
 /**
  *  Called when a MAM policy request operation is completed.
  *
- *  @param status status object containing debug information
+ *  @param status status object containing status
  */
 - (void)policyRequestWithStatus:(IntuneMAMEnrollmentStatus *)status;
 
@@ -37,7 +34,7 @@
  *
  *  @Note: when a user is un-enrolled, the user is also de-registered with the SDK
  *
- *  @param status status object containing debug information
+ *  @param status status object containing status
  */
 - (void)unenrollRequestWithStatus:(IntuneMAMEnrollmentStatus *)status;
 
