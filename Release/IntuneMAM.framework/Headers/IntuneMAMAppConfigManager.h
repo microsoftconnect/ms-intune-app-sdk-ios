@@ -3,7 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IntuneMAMAppConfig.h"
+#import <IntuneMAM/IntuneMAMAppConfig.h>
 
 // Notification name for MAM service App Configuration change notifications.
 // Applications can register for notifications using the default NSNotificationCenter.

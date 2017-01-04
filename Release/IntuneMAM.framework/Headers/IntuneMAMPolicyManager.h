@@ -3,11 +3,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IntuneMAMPolicyDelegate.h"
-#import "IntuneMAMPolicy.h"
-#import "IntuneMAMAsyncResult.h"
-#import "IntuneMAMLogger.h"
-#import "IntuneMAMDefs.h"
+#import <IntuneMAM/IntuneMAMPolicyDelegate.h>
+#import <IntuneMAM/IntuneMAMPolicy.h>
+#import <IntuneMAM/IntuneMAMAsyncResult.h>
+#import <IntuneMAM/IntuneMAMLogger.h>
+#import <IntuneMAM/IntuneMAMDefs.h>
 
 // Notification name for Intune application policy change notifications.
 // Applications can register for notifications using the default NSNotificationCenter.

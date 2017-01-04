@@ -3,8 +3,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IntuneMAMAsyncResult.h"
-#import "IntuneMAMEnrollmentDelegate.h"
+#import <IntuneMAM/IntuneMAMAsyncResult.h>
+#import <IntuneMAM/IntuneMAMEnrollmentDelegate.h>
 
 @interface IntuneMAMEnrollmentManager : NSObject
 

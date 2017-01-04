@@ -1,6 +1,6 @@
 #Microsoft Intune App SDK for iOS 
 
-v. [6.0.10](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases)
+v. [6.0.13](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases)
 
 The Microsoft Intune App SDK for iOS enables data protection features and mobile app management via Microsoft Intune 
 
