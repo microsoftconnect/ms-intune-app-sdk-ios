@@ -31,7 +31,9 @@ typedef NS_ENUM(NSUInteger, IntuneMAMEnrollmentStatusCode)
     IntuneMAMEnrollmentStatusTimeout = 216,                         // The operation has timed out
     IntuneMAMEnrollmentStatusADALInternalError = 217,               // Generic error returned by ADAL when trying to acquire the user's MAM Token
     IntuneMAMEnrollmentStatusSwitchExistingAccount = 218,           // The operation has failed because the existing enrolled account will be removed first
-    IntuneMAMEnrollmentStatusLoginCanceled = 219                    // The user canceled the login prompt for loginAndEnrollAccount
+    IntuneMAMEnrollmentStatusLoginCanceled = 219,                   // The user canceled the login prompt for loginAndEnrollAccount
+    IntuneMAMEnrollmentStatusPolicyRecordGone = 220,                // Operation failed because we recieved a Gone response from the service
+    IntuneMAMEnrollmentStatusReEnrollForUnenrolledUser = 221        // Operation failed because reenrolls can only be processed if the same user is still enrolled in the app.
 };
 
 /**

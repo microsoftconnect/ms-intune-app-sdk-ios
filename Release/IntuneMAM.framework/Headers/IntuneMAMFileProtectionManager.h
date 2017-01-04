@@ -3,7 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IntuneMAMFileProtectionInfo.h"
+#import <IntuneMAM/IntuneMAMFileProtectionInfo.h>
 
 
 @interface IntuneMAMFileProtectionManager : NSObject

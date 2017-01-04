@@ -3,7 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IntuneMAMEnrollmentStatus.h"
+#import <IntuneMAM/IntuneMAMEnrollmentStatus.h>
 
 /**
  *  This delegate will return status and debug information for operations 

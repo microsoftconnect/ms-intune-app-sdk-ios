@@ -3,8 +3,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IntuneMAMAsyncResult.h"
-#import "IntuneMAMDefs.h"
+#import <IntuneMAM/IntuneMAMAsyncResult.h>
+#import <IntuneMAM/IntuneMAMDefs.h>
 
 typedef NS_ENUM(NSUInteger, IntuneMAMIdentitySwitchReason)
 {
