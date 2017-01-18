@@ -1,6 +1,0 @@
-framework module IntuneMAM {
-  umbrella header "IntuneMAM.h"
-
-  export *
-  module * { export * }
-}
