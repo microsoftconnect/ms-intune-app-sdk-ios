@@ -67,9 +67,12 @@ extern NSString* const IntuneMAMPolicyDidChangeNotification;
 // This method can be called within the openURL handler to retrieve the sender's identity.
 - (NSString*) getIdentityForCurrentActivity;
 
+// Returns TRUE if Intune management policy is applied or required for the application.
+// Returns FALSE if no Intune management policy is applied and policy is not required.
+- (BOOL) isManagementEnabled;
+
 // Returns TRUE if the specified identity is managed.
 - (BOOL) isIdentityManaged:(NSString*)identity;
-
 
 // Returns an object that can be used to retrieve the MAM policy for the current thread identity.
 - (id<IntuneMAMPolicy>) policy;
@@ -99,11 +102,22 @@ extern NSString* const IntuneMAMPolicyDidChangeNotification;
 // be used instead. This value is persisted across application launches.
 @property (nonatomic,strong) NSString* aadAuthorityUriOverride;
 
+#pragma mark - Diagnostics
+
+// This method has been deprecated.  The Intune SDK will soon stop uploading diagnostic information and logs.
+// At that time, this method will be completely removed.  It is recommended that applications use the
+// getIntuneLogPaths: method to obtain the log files and upload diagnostic information manually.
+//
 // Uploads Intune logs and diagnostic information into Sara
--(void) sendDiagnosticInformation:(NSString*) clientID withSessionID:(NSString*) sessionID completionHandler:(void (^)(BOOL))completionHandler;
+-(void) sendDiagnosticInformation:(NSString*) clientID withSessionID:(NSString*) sessionID completionHandler:(void (^)(BOOL))completionHandler __attribute__((deprecated("This API has been deprecated.")));
 
 // Returns a dictionary of diagnostic information
 -(NSDictionary*) getDiagnosticInformation;
+
+// Returns an array containing the string paths of the Intune SDK log files
+// including the standard log file and the diagnostic log file.
+// These files can then be uploaded to a back-end of the application's choosing.
+- (NSArray*) getIntuneLogPaths;
 
 @end
 

@@ -13,14 +13,28 @@
 // Returns nil if an error occurs.
 - (NSData*) protect:(NSData*)data identity:(NSString*)identity;
 
+// Protects the string using the policy associated with the specified identity.
+// Returns a base64 encoded encrypted buffer.
+// Returns nil if an error occurs.
+- (NSString*) protectString:(NSString*)string identity:(NSString*)identity;
+
 // Returns unprotected data.
 // If the specified data was not returned by the protect call, it will be returned unchanged.
 // Returns nil if an error occurs.
 - (NSData*) unprotect:(NSData*)data;
 
+// Returns unprotected string.
+// If the specified string was not returned by the protectString call, it will be returned unchanged.
+// Returns nil if an error occurs.
+- (NSString*) unprotectString:(NSString*)string;
+
 // Returns the protection information for the specified buffer.
 // Returns nil if the data is not protected by the Intune MAM SDK.
 - (id<IntuneMAMDataProtectionInfo>) protectionInfo:(NSData*)data;
+
+// Returns the protection information for the specified string.
+// Returns nil if the data is not protected by the Intune MAM SDK.
+- (id<IntuneMAMDataProtectionInfo>) protectionInfoForString:(NSString*)string;
 
 // Returns the protection information for the specified item provider.
 // Share extensions can call this method to retreive the item's owner.
