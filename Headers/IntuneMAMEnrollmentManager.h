@@ -43,9 +43,9 @@
 
 /**
  *  Creates an enrollment request which is started immediately.
- *  If no token can be retrieved for the identity, the user will be prompted
- *  to enter their credentials, after which enrollment will be retried.
- *
+ *  The user will be prompted to enter their credentials, 
+ *  and we will attempt to enroll the user.
+ 
  *  @param identity The UPN of the account to be logged in and enrolled.
  */
 - (void)loginAndEnrollAccount: (NSString *)identity;
