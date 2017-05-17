@@ -3,7 +3,6 @@
 //
 
 #import <IntuneMAM/IntuneMAMAppConfigManager.h>
-#import <IntuneMAM/IntuneMAMAsyncResult.h>
 #import <IntuneMAM/IntuneMAMDataProtectionInfo.h>
 #import <IntuneMAM/IntuneMAMDataProtectionManager.h>
 #import <IntuneMAM/IntuneMAMEnrollmentManager.h>

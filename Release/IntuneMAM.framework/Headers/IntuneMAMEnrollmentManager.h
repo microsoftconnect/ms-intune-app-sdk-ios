@@ -3,7 +3,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <IntuneMAM/IntuneMAMAsyncResult.h>
 #import <IntuneMAM/IntuneMAMEnrollmentDelegate.h>
 
 @interface IntuneMAMEnrollmentManager : NSObject
@@ -72,33 +71,12 @@
  */
 - (NSArray *)registeredAccounts;
 
-#pragma mark - Deprecated APIs
-
-// Deprecated APIs
-
-- (NSString *)devicePrimaryUser __attribute__((deprecated("This is method is no longer required.  This api will be removed in the December-2016 drop")));
-
-- (void) enrollApplication:(NSString *)identity withAsyncResult:(id<IntuneMAMAsyncResult>)result __attribute__((deprecated("Please use registerAndEnrollAccount:.  This api will be removed in the December-2016 drop")));
-
-- (void) unEnrollApplication:(NSString *)identity withAsyncResult:(id<IntuneMAMAsyncResult>)result __attribute__((deprecated("Please use deRegisterAndUnenrollAccount:.  This api will be removed in the December-2016 drop")));
-
-- (void)unEnrollApplicationAndSwitchPrimaryUserTo:(NSString *)identity withAsyncResult:(id<IntuneMAMAsyncResult>)result __attribute__((deprecated("This method is no longer required.  This api will be removed in the December-2016 drop")));
+/**
+ *  Returns the UPN of the currently enrolled user.  Returns
+ *  nil if the application is not currently enrolled.
+ *
+ *  @return UPN of the enrolled account
+ */
+- (NSString *)enrolledAccount;
 
 @end
-
-#pragma mark - Deprecated Result Codes
-
-// Deprecated Result Codes
-extern id const IntuneMAMServiceEnrollmentSuccess;
-extern id const IntuneMAMServiceEnrollmentAuthorizationNeeded;
-extern id const IntuneMAMServiceEnrollmentFailed;
-extern id const IntuneMAMServiceEnrolledMDM;
-extern id const IntuneMAMServiceNotLicensed;
-extern id const IntuneMAMServiceTooManyRequests;
-extern id const IntuneMAMServiceUnEnrollmentSuccess;
-extern id const IntuneMAMServiceUnEnrollmentFailed;
-extern id const IntuneMAMServiceDisabled;
-extern id const IntuneMAMServiceRequestOngoing;
-extern id const IntuneMAMServiceWrongUser;
-extern id const IntuneMAMServiceAlreadyEnrolled;
-

@@ -3,7 +3,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <IntuneMAM/IntuneMAMAsyncResult.h>
 #import <IntuneMAM/IntuneMAMDefs.h>
 
 typedef NS_ENUM(NSUInteger, IntuneMAMIdentitySwitchReason)
@@ -52,9 +51,5 @@ typedef NS_ENUM(NSUInteger, IntuneMAMAddIdentityResult)
 // IntuneMAMAddIdentityResultSuccess if the app is able to add the identity or IntuneMAMAddIdentityResultFailed otherwise.
 // The completion handler can be called on any thread.
 - (void) addIdentity:(NSString*)identity completionHandler:(void (^)(IntuneMAMAddIdentityResult))completionHandler;
-
-// Deprecated methods
-- (void) identitySwitchRequired:(NSString*)identity reason:(IntuneMAMIdentitySwitchReason)reason withAsyncResult:(id<IntuneMAMAsyncResult>)result  __attribute__((deprecated("Please implement identitySwitchRequired:reason:completionHandler:")));
-- (void) addIdentity:(NSString*)identity withAsyncResult:(id<IntuneMAMAsyncResult>)result __attribute__((deprecated("Please implement addIdentity:completionHandler:")));
 
 @end

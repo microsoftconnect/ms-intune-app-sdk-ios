@@ -5,6 +5,13 @@
 #import <Foundation/Foundation.h>
 #import <IntuneMAM/IntuneMAMDataProtectionInfo.h>
 
+// Notification name for Intune data protection level change notifications.
+// Applications should re-protect data for the managed user after this
+// notification is received.
+// The NSNotification passed to the observer will contain the
+// IntuneMAMDataProtectionManager instance as the object and userInfo will be nil.
+extern NSString* const IntuneMAMDataProtectionDidChangeNotification;
+
 @interface IntuneMAMDataProtectionManager : NSObject
 
 + (IntuneMAMDataProtectionManager*) instance;
@@ -36,11 +43,13 @@
 // Returns nil if the data is not protected by the Intune MAM SDK.
 - (id<IntuneMAMDataProtectionInfo>) protectionInfoForString:(NSString*)string;
 
+#if TARGET_OS_IPHONE
 // Returns the protection information for the specified item provider.
 // Share extensions can call this method to retreive the item's owner.
 // The item must be loaded by calling loadItemForTypeIdentifier prior to calling this method.
 // This method can be called from the completion handler passed to the loadItemForTypeIdentifier call.
 // Returns nil if the item provider is not protected by the Intune MAM SDK.
 - (id<IntuneMAMDataProtectionInfo>) protectionInfoForItemProvider:(NSItemProvider*)itemProvider;
+#endif
 
 @end

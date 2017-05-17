@@ -5,7 +5,6 @@
 #import <Foundation/Foundation.h>
 #import "IntuneMAMPolicyDelegate.h"
 #import "IntuneMAMPolicy.h"
-#import "IntuneMAMAsyncResult.h"
 #import "IntuneMAMLogger.h"
 #import "IntuneMAMDefs.h"
 
@@ -99,17 +98,26 @@ extern NSString* const IntuneMAMPolicyDidChangeNotification;
 // Specifies which AAD authority URI the SDK should use. This property should be set
 // if the application dynamically determines the AAD authority URI. If the authority
 // URI is static, the ADALAuthority value under the IntuneMAMSettings dictionary should
-// be used instead. This value is persisted across application launches.
+// be used instead. This value is persisted across application launches and cleared when
+// a user is unenrolled from MAMService.
 @property (nonatomic,strong) NSString* aadAuthorityUriOverride;
 
-#pragma mark - Diagnostics
+// Specifies AAD redirect URI the SDK should use. This property should be set
+// if the application dynamically determines the AAD redirect URI. If the redirect
+// URI is static, the ADALRedirectUri value under the IntuneMAMSettings dictionary should
+// be used instead. This value is persisted across application launches and cleared when
+// a user is unenrolled from MAMService.
+@property (nonatomic,strong) NSString* aadRedirectUriOverride;
 
-// This method has been deprecated.  The Intune SDK will soon stop uploading diagnostic information and logs.
-// At that time, this method will be completely removed.  It is recommended that applications use the
-// getIntuneLogPaths: method to obtain the log files and upload diagnostic information manually.
-//
-// Uploads Intune logs and diagnostic information into Sara
--(void) sendDiagnosticInformation:(NSString*) clientID withSessionID:(NSString*) sessionID completionHandler:(void (^)(BOOL))completionHandler __attribute__((deprecated("This API has been deprecated.")));
+// Specifies AAD client ID the SDK should use. This property should be set
+// if the application dynamically determines the AAD client ID. If the client
+// ID is static, the ADALClientId value under the IntuneMAMSettings dictionary should
+// be used instead. This value is persisted across application launches and cleared when
+// a user is unenrolled from MAMService.
+@property (nonatomic,strong) NSString* aadClientIdOverride;
+
+
+#pragma mark - Diagnostics
 
 // Returns a dictionary of diagnostic information
 -(NSDictionary*) getDiagnosticInformation;
@@ -121,20 +129,4 @@ extern NSString* const IntuneMAMPolicyDidChangeNotification;
 
 @end
 
-
-// Deprecated interfaces
-
-// Switch identity result codes.
-extern id const IntuneMAMSwitchIdentitySuccess;
-extern id const IntuneMAMSwitchIdentityCanceled;
-extern id const IntuneMAMSwitchIdentityNotAllowed;
-extern id const IntuneMAMSwitchIdentityFailed;
-
-// Add identity result codes
-extern id const IntuneMAMAddIdentitySuccess;
-extern id const IntuneMAMAddIdentityFailed;
-
-@interface IntuneMAMPolicyManager (IntuneMAMPolicyManagerDeprecated)
-- (void) setUIPolicyIdentity:(NSString*)identity withAsyncResult:(id<IntuneMAMAsyncResult>)result __attribute__((deprecated("Please use setUIPolicyIdentity:completionHandler:")));
-@end
 

@@ -17,9 +17,10 @@ typedef enum IntuneMAMLogLevel
 
 @required
 
-// Message with IntuneMAMLogLevelVerbose may contain PII (Personally Identifiable Information) data.
-// Message with IntuneMAMLogLevelInfo/IntuneMAMLogLevelWarning/IntuneMAMLogLevelError is guarenteed
-// to contain no PII data.
+// Messages with IntuneMAMLogLevelVerbose may contain PII (Personally Identifiable Information) data.
+// Messages with IntuneMAMLogLevelInfo/IntuneMAMLogLevelWarning/IntuneMAMLogLevelError will not contain
+// PII data if ADAL messages are not logged through the Intune MAM SDK. ADAL logging through the SDK can
+// be disabled by setting ADALLogOverrideDisabled to YES under IntuneMAMSettings.
 - (void) log:(NSString*)message level:(IntuneMAMLogLevel)level;
 
 @end

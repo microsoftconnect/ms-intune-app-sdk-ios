@@ -3,7 +3,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
+#endif
 
 typedef NS_ENUM(NSInteger, IntuneMAMSaveLocation)
 {
@@ -40,11 +42,13 @@ typedef NS_ENUM(NSInteger, IntuneMAMSaveLocation)
 // Policy enforcement will be entirely handled by the SDK.
 - (BOOL) isURLAllowed: (NSURL*) url;
 
+#if TARGET_OS_IPHONE
 // FALSE if the management policy blocks the specified document picker mode.  Returns TRUE
 // otherwise, regardless of whether there are managed document picker extensions in the
 // UIDocumentPickerViewController that can accept the managed file. Applications can check
 // this policy to customize their UI. Policy enforcement will be entirely handled by the SDK.
 - (BOOL) isDocumentPickerAllowed: (UIDocumentPickerMode) mode;
+#endif
 
 // TRUE if the management policy requires the Intune Managed Browser to handle HTTP/HTTPS
 // requests. Applications can check this policy to customize their UI. Policy enforcement
@@ -69,16 +73,5 @@ typedef NS_ENUM(NSInteger, IntuneMAMSaveLocation)
 // managed applications or share extensions available to share the data with.  Applications can check
 // this policy to customize their UI. Policy enforcement will be entirely handled by the SDK.
 @property (readonly) BOOL isAppSharingAllowed;
-
-#pragma mark - Deprecated APIs
-
-//Deprecated APIs
-
-// TRUE if the management policy allows applications to save files to non-corporated
-// locations. Applications should check this policy and if FALSE should disable any UI which
-// allows users to save documents to locations other than those allowed in the
-// 'isSaveAsAllowedForLocation" method.
-@property (readonly) BOOL isSaveToPersonalAllowed __attribute__ ((deprecated("Please use isSaveToAllowedForLocation: withAccountName:")));
-
 
 @end

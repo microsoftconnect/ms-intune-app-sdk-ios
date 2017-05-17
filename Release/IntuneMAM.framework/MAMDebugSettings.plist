@@ -142,17 +142,17 @@
 				<integer>3</integer>
 			</array>
 		</dict>
-        <dict>
-            <key>Key</key>
-            <string>IntuneMAMPolicy.PrintingBlocked</string>
-            <key>DefaultValue</key>
-            <false/>
-            <key>Title</key>
-            <string>Prevent printing</string>
-            <key>Type</key>
-            <string>PSToggleSwitchSpecifier</string>
-        </dict>
-        <dict>
+		<dict>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.PrintingBlocked</string>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Title</key>
+			<string>Prevent printing</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
 			<key>Key</key>
 			<string>IntuneMAMPolicy.ContactSyncDisabled</string>
 			<key>DefaultValue</key>
@@ -263,6 +263,16 @@
 			<string>IntuneMAMPolicy.SimplePINAllowed</string>
 			<key>DefaultValue</key>
 			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Disable app pin if MDM enrolled and device PIN is set</string>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.AppPinDisabled</string>
+			<key>DefaultValue</key>
+			<false/>
 		</dict>
 		<dict>
 			<key>AutocapitalizationType</key>
@@ -436,7 +446,7 @@
 			<key>IsSecure</key>
 			<false/>
 			<key>Key</key>
-			<string>IntuneMAMPolicy.MinOSVersion</string>
+			<string>IntuneMAMPolicy.MinOsVersion</string>
 			<key>KeyboardType</key>
 			<string>Alphabet</string>
 			<key>Title</key>
@@ -459,6 +469,60 @@
 			<string>Alphabet</string>
 			<key>Title</key>
 			<string>Min App Version</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.MinSDKVersion</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Min SDK Version</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.MinOsVersionWarning</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Min OS Version Warning</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.MinAppVersionWarning</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Min App Version Warning</string>
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 		</dict>
@@ -491,6 +555,26 @@
 			<string>Prevent contacts sync from apps</string>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Values</key>
+			<array>
+				<string>Enabled</string>
+				<string>Disabled</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>0</string>
+				<string>14</string>
+			</array>
+			<key>Title</key>
+			<string>Disable SBIV</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>DefaultValue</key>
+			<integer>14</integer>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.SBIVState</string>
 		</dict>
 		<dict>
 			<key>Type</key>
