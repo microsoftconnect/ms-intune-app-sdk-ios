@@ -73,6 +73,11 @@ extern NSString* const IntuneMAMPolicyDidChangeNotification;
 // Returns TRUE if the specified identity is managed.
 - (BOOL) isIdentityManaged:(NSString*)identity;
 
+// Returns TRUE if the two identities are equal. This method performs a case insensitive compare
+// as well as comparing the AAD object ids of the identities (if known) to determine if the identities
+// are the same.
+- (BOOL) isIdentity:(NSString*)identity1 equalTo:(NSString*)identity2;
+
 // Returns an object that can be used to retrieve the MAM policy for the current thread identity.
 - (id<IntuneMAMPolicy>) policy;
 
