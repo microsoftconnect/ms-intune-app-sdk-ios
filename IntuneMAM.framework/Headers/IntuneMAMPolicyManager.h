@@ -14,6 +14,13 @@
 // as the object and userInfo will be nil.
 extern NSString* const IntuneMAMPolicyDidChangeNotification;
 
+// MAM policy source
+typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
+{
+    IntuneMAMPolicySource_MDM = 0,      //  the policy is from the MDM channel
+    IntuneMAMPolicySource_MAM = 1,      //  the policy is from the MAM channel
+    IntuneMAMPolicySource_Other = 2,
+};
 
 @interface IntuneMAMPolicyManager : NSObject
 
@@ -121,6 +128,8 @@ extern NSString* const IntuneMAMPolicyDidChangeNotification;
 // a user is unenrolled from MAMService.
 @property (nonatomic,strong) NSString* aadClientIdOverride;
 
+// Returns the method used to obtain the Intune MAM policy. Use this property for telemetry or logging purposes.
+@property (nonatomic,readonly) IntuneMAMPolicySource mamPolicySource;
 
 #pragma mark - Diagnostics
 
@@ -133,5 +142,3 @@ extern NSString* const IntuneMAMPolicyDidChangeNotification;
 - (NSArray*) getIntuneLogPaths;
 
 @end
-
-
