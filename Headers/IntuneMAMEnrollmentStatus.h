@@ -21,11 +21,16 @@ typedef NS_ENUM(NSUInteger, IntuneMAMEnrollmentStatusCode)
     IntuneMAMEnrollmentStatusParsingFailure = 206,                  // Failed to parse the service's response
     IntuneMAMEnrollmentStatusNilAccount = 207,                      // Nil identity was passed to SDK
     IntuneMAMEnrollmentStatusAlreadyEnrolled = 208,                 // Operation failed because the application is already enrolled
-    IntuneMAMEnrollmentStatusNotEmmAccount = 209,                   // Operation failed because the SDK is expecting a specific account provided by the 3rd party EMM
+    // 2xx - Failure Codes that require account removal
+    IntuneMAMEnrollmentStatusNotEmmAccount = 209,                   // Operation failed because the SDK requires a specific account provided by the 3rd party EMM
+                                                                    // The application should remove this account.
     IntuneMAMEnrollmentStatusMdmEnrolledDifferentUser = 210,        // Operation failed because the device is MDM enrolled under a different account
+                                                                    // The application should remove this account.
     IntuneMAMEnrollmentStatusNotDeviceAccount = 211,                // Operation failed because the provided identity does not match the device account
+                                                                    // The application should remove this account.
+    // 2xx - Failure Codes
     IntuneMAMEnrollmentStatusPolicyEndPointNetworkFailure = 212,    // Failed to connect to the policy endpoint, see error object for details
-    IntuneMAMEnrollmentStatusAppNotEnrolled = 213,                  // Operation failed because the appliction is not enrolled
+    IntuneMAMEnrollmentStatusAppNotEnrolled = 213,                  // Operation failed because the application is not enrolled
     IntuneMAMEnrollmentStatusNotEnrolledAccount = 214,              // Operation failed because the provided account does not match the currently enrolled account
     IntuneMAMEnrollmentStatusFailedToClearMamData = 215,            // Failed to clear the account's data from the SDK
     IntuneMAMEnrollmentStatusTimeout = 216,                         // The operation has timed out

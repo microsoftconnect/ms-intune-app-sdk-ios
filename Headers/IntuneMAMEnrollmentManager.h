@@ -35,6 +35,10 @@
  *  24 hours.  
  *  If the application has already registered an account using this API, and calls
  *  it again, the SDK will ignore the request and output a warning.
+ *  Any SDK API that requires enrollment will not be valid until after
+ *  enrollment succeeds, for example AppConfig policy is not delivered until 
+ *  after an enrollment.  Use the IntuneMAMEnrollmentDelegate to determine
+ *  if the SDK has successfully enrolled and received policy.
  *
  *  @param identity The UPN of the account to be registered with the SDK
  */
@@ -44,6 +48,10 @@
  *  Creates an enrollment request which is started immediately.
  *  The user will be prompted to enter their credentials, 
  *  and we will attempt to enroll the user.
+ *  Any SDK API that requires enrollment will not be valid until after
+ *  enrollment succeeds, for example AppConfig policy is not delivered until 
+ *  after an enrollment.  Use the IntuneMAMEnrollmentDelegate to determine
+ *  if the SDK has successfully enrolled and received policy.
  
  *  @param identity The UPN of the account to be logged in and enrolled.
  */
