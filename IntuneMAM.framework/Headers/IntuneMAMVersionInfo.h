@@ -10,6 +10,6 @@
 // SDK version is composed of non-negative integers separated by periods
 // Version components decrease in significance from left to right
 // Example: 6.0.5
-+ (NSString*) sdkVersion;
++ (NSString*_Nonnull) sdkVersion;
 
 @end

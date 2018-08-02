@@ -9,6 +9,6 @@
 @required
 
 // The data's owner.
-@property (readonly) NSString* identity;
+@property (readonly,nullable) NSString* identity;
 
 @end

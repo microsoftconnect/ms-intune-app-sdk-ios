@@ -44,6 +44,16 @@
 		</dict>
 		<dict>
 			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Use Sovereign Cloud Beta Environment</string>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.UseSovCloudBeta</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
 			<string>App Web Content</string>
@@ -142,16 +152,16 @@
 				<integer>3</integer>
 			</array>
 		</dict>
-        <dict>
-            <key>Key</key>
-            <string>IntuneMAMPolicy.ContactSyncDisabled</string>
-            <key>DefaultValue</key>
-            <false/>
-            <key>Title</key>
-            <string>Prevent contacts sync from apps</string>
-            <key>Type</key>
-            <string>PSToggleSwitchSpecifier</string>
-        </dict>
+		<dict>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.ContactSyncDisabled</string>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Title</key>
+			<string>Prevent contacts sync from apps</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
 		<dict>
 			<key>Key</key>
 			<string>IntuneMAMPolicy.PrintingBlocked</string>
@@ -159,6 +169,16 @@
 			<false/>
 			<key>Title</key>
 			<string>Prevent printing</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.ThirdPartyKeyboardBlocked</string>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Title</key>
+			<string>Filter out use of Third Party Keyboards</string>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 		</dict>
@@ -334,33 +354,51 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 		</dict>
-        <dict>
-            <key>AutocapitalizationType</key>
-            <string>None</string>
-            <key>AutocorrectionType</key>
-            <string>No</string>
-            <key>DefaultValue</key>
-            <string>90</string>
-            <key>IsSecure</key>
-            <false/>
-            <key>Key</key>
-            <string>IntuneMAMPolicy.PINExpiryDays</string>
-            <key>KeyboardType</key>
-            <string>NumberPad</string>
-            <key>Title</key>
-            <string>Number of days for PIN to expire</string>
-            <key>Type</key>
-            <string>PSTextFieldSpecifier</string>
-        </dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>90</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.PINExpiryDays</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>Title</key>
+			<string>Number of days for PIN to expire</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
 		<dict>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
-			<string>Enable Touch ID with PIN</string>
+			<string>Override Biometric passcode with PIN after timeout</string>
 			<key>Key</key>
-			<string>IntuneMAMPolicy.TouchIDEnabled</string>
+			<string>IntuneMAMPolicy.NonBioPassTimeOutRequired</string>
 			<key>DefaultValue</key>
 			<false/>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>60</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.NonBioPassTimeout</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>Title</key>
+			<string>Timeout</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
 		</dict>
 		<dict>
 			<key>Type</key>
@@ -369,6 +407,16 @@
 			<string>Enable FaceID with PIN</string>
 			<key>Key</key>
 			<string>IntuneMAMPolicy.FaceIDEnabled</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Enable Touch ID with PIN</string>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.TouchIDEnabled</string>
 			<key>DefaultValue</key>
 			<false/>
 		</dict>
@@ -428,96 +476,96 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 		</dict>
-        <dict>
-            <key>AutocapitalizationType</key>
-            <string>None</string>
-            <key>AutocorrectionType</key>
-            <string>No</string>
-            <key>DefaultValue</key>
-            <string>7.0</string>
-            <key>IsSecure</key>
-            <false/>
-            <key>Key</key>
-            <string>IntuneMAMPolicy.MinOsVersion</string>
-            <key>KeyboardType</key>
-            <string>Alphabet</string>
-            <key>Title</key>
-            <string>Min OS Version</string>
-            <key>Type</key>
-            <string>PSTextFieldSpecifier</string>
-        </dict>
-        <dict>
-            <key>AutocapitalizationType</key>
-            <string>None</string>
-            <key>AutocorrectionType</key>
-            <string>No</string>
-            <key>DefaultValue</key>
-            <string>1.0</string>
-            <key>IsSecure</key>
-            <false/>
-            <key>Key</key>
-            <string>IntuneMAMPolicy.MinAppVersion</string>
-            <key>KeyboardType</key>
-            <string>Alphabet</string>
-            <key>Title</key>
-            <string>Min App Version</string>
-            <key>Type</key>
-            <string>PSTextFieldSpecifier</string>
-        </dict>
-        <dict>
-            <key>AutocapitalizationType</key>
-            <string>None</string>
-            <key>AutocorrectionType</key>
-            <string>No</string>
-            <key>DefaultValue</key>
-            <string>1.0</string>
-            <key>IsSecure</key>
-            <false/>
-            <key>Key</key>
-            <string>IntuneMAMPolicy.MinSDKVersion</string>
-            <key>KeyboardType</key>
-            <string>Alphabet</string>
-            <key>Title</key>
-            <string>Min SDK Version</string>
-            <key>Type</key>
-            <string>PSTextFieldSpecifier</string>
-        </dict>
-        <dict>
-            <key>AutocapitalizationType</key>
-            <string>None</string>
-            <key>AutocorrectionType</key>
-            <string>No</string>
-            <key>DefaultValue</key>
-            <string>1.0</string>
-            <key>IsSecure</key>
-            <false/>
-            <key>Key</key>
-            <string>IntuneMAMPolicy.MinOsVersionWarning</string>
-            <key>KeyboardType</key>
-            <string>Alphabet</string>
-            <key>Title</key>
-            <string>Min OS Version Warning</string>
-            <key>Type</key>
-            <string>PSTextFieldSpecifier</string>
-        </dict>
-        <dict>
-            <key>AutocapitalizationType</key>
-            <string>None</string>
-            <key>AutocorrectionType</key>
-            <string>No</string>
-            <key>DefaultValue</key>
-            <string>1.0</string>
-            <key>IsSecure</key>
-            <false/>
-            <key>Key</key>
-            <string>IntuneMAMPolicy.MinAppVersionWarning</string>
-            <key>KeyboardType</key>
-            <string>Alphabet</string>
-            <key>Title</key>
-            <string>Min App Version Warning</string>
-            <key>Type</key>
-            <string>PSTextFieldSpecifier</string>
-        </dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>7.0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.MinOsVersion</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Min OS Version</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.MinAppVersion</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Min App Version</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.MinSDKVersion</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Min SDK Version</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.MinOsVersionWarning</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Min OS Version Warning</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>1.0</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.MinAppVersionWarning</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Title</key>
+			<string>Min App Version Warning</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
 		<dict>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
@@ -574,16 +622,16 @@
 			<key>DefaultValue</key>
 			<false/>
 		</dict>
-        <dict>
-            <key>Type</key>
-            <string>PSToggleSwitchSpecifier</string>
-            <key>Title</key>
-            <string>EnableOpenInFilter</string>
-            <key>Key</key>
-            <string>IntuneMAMPolicy.EnableOpenInFilter</string>
-            <key>DefaultValue</key>
-            <false/>
-        </dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>EnableOpenInFilter</string>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.EnableOpenInFilter</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
 		<dict>
 			<key>Values</key>
 			<array>
@@ -621,6 +669,24 @@
 			<false/>
 		</dict>
 		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>90</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.PINExpiryDays</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>Title</key>
+			<string>Number of days after which pin needs to be reset</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
@@ -643,6 +709,23 @@
 			<string>EMM UPN</string>
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>Values</key>
+			<array>
+				<string>Enabled</string>
+				<string>Disabled</string>
+			</array>
+			<key>Title</key>
+			<string>Allowed Account - Enabled/Disabled</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Key</key>
+			<string>DebugIntuneMAMAllowedAccountsOnly</string>
 		</dict>
 	</array>
 	<key>StringsTable</key>

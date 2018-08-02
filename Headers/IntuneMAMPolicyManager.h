@@ -10,7 +10,7 @@
 // Applications can register for notifications using the default NSNotificationCenter.
 // The NSNotification passed to the observer will contain the IntuneMAMPolicyManager instance
 // as the object and userInfo will be nil.
-extern NSString* const IntuneMAMPolicyDidChangeNotification;
+extern NSString*_Nonnull const IntuneMAMPolicyDidChangeNotification;
 
 // MAM policy source
 typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 
 @interface IntuneMAMPolicyManager : NSObject
 
-+ (IntuneMAMPolicyManager*) instance;
++ (IntuneMAMPolicyManager*_Nonnull) instance;
 
 // setUIPolicyIdentity attempts to switch the UI thread identity to the specified user.
 // If the specified user is managed, the SDK will run the conditional launch checks and
@@ -49,8 +49,8 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 //
 // The empty string may be passed in as the identity to represent 'no user' or an unknown personal account.
 // If nil is passed in, the UI identity will fallback to the process identity.
-- (void) setUIPolicyIdentity:(NSString*)identity completionHandler:(void (^)(IntuneMAMSwitchIdentityResult))completionHandler;
-- (NSString*) getUIPolicyIdentity;
+- (void) setUIPolicyIdentity:(NSString*_Nullable)identity completionHandler:(void (^_Nullable)(IntuneMAMSwitchIdentityResult))completionHandler;
+- (NSString*_Nullable) getUIPolicyIdentity;
 
 // setCurrentThreadIdentity sets the identity of the current thread which is used to determine what
 // policy should be applied on the current thread. Unlike setting setUIPolicyIdentity, this method
@@ -60,34 +60,34 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 //
 // The empty string may be passed in as the identity to represent 'no user' or an unknown personal account.
 // If nil is passed in, the thread identity will fallback to the process identity.
-- (void) setCurrentThreadIdentity:(NSString*)identity;
-- (NSString*) getCurrentThreadIdentity;
+- (void) setCurrentThreadIdentity:(NSString*_Nullable)identity;
+- (NSString*_Nullable) getCurrentThreadIdentity;
 
 // setProcessIdentity sets the process wide identity.
-- (void) setProcessIdentity:(NSString*)identity;
-- (NSString*) getProcessIdentity;
+- (void) setProcessIdentity:(NSString*_Nullable)identity;
+- (NSString*_Nullable) getProcessIdentity;
 
 // Returns the identity of the user which initiated the current activity.
 // This method can be called within the openURL handler to retrieve the sender's identity.
-- (NSString*) getIdentityForCurrentActivity;
+- (NSString*_Nullable) getIdentityForCurrentActivity;
 
 // Returns TRUE if Intune management policy is applied or required for the application.
 // Returns FALSE if no Intune management policy is applied and policy is not required.
 - (BOOL) isManagementEnabled;
 
 // Returns TRUE if the specified identity is managed.
-- (BOOL) isIdentityManaged:(NSString*)identity;
+- (BOOL) isIdentityManaged:(NSString*_Nullable)identity;
 
 // Returns TRUE if the two identities are equal. This method performs a case insensitive compare
 // as well as comparing the AAD object ids of the identities (if known) to determine if the identities
 // are the same.
-- (BOOL) isIdentity:(NSString*)identity1 equalTo:(NSString*)identity2;
+- (BOOL) isIdentity:(NSString*_Nullable)identity1 equalTo:(NSString*_Nullable)identity2;
 
 // Returns an object that can be used to retrieve the MAM policy for the current thread identity.
-- (id<IntuneMAMPolicy>) policy;
+- (_Nullable id  <IntuneMAMPolicy>) policy;
 
 // Returns an object that can be used to retrieve the MAM policy for the specified identity.
-- (id<IntuneMAMPolicy>) policyForIdentity:(NSString*)identity;
+- (_Nullable id<IntuneMAMPolicy>) policyForIdentity:(NSString*_Nullable)identity;
 
 // Returns a list of AAD Authority URIs, ordered from highest to lowest priority, that the SDK will attempt
 // to use when attempting to silently acquire an access token for the given identity. If the SDK is forced
@@ -97,20 +97,20 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 //      2.) Any Authority URIs associated with the given identity found in the ADAL cache.
 //      3.) The value of the compile-time authority URI, taken from the ADALAuthority entry under IntuneMAMSettings in the app's info.plist, if set.
 //          If no such value is defined in the info.plist, the compile-time authority URI will be the SDK's default value.
-- (NSArray*) aadAuthorityUrisForIdentity:(NSString*)identity;
+- (NSArray*_Nullable) aadAuthorityUrisForIdentity:(NSString*_Nullable)identity;
 
 
 // Returns the account name of the primary user in upn format (e.g. user@contoso.com).
-@property (readonly) NSString* primaryUser;
+@property (readonly) NSString* _Nullable primaryUser;
 
 // The delegate property is used to notify the application of certain policy actions that
 // it should perform. See IntuneMDMPolicyDelegate.h for more information.
 // This property must be set by the time the application's UIApplicationDelegate
 // application:willFinishLaunchingWithOptions method returns.
-@property (nonatomic,strong) id<IntuneMAMPolicyDelegate> delegate;
+@property (nonatomic,strong, nullable) id<IntuneMAMPolicyDelegate> delegate;
 
 // Logger used by the Intune MAM SDK.
-@property (nonatomic,strong) id<IntuneMAMLogger> logger;
+@property (nonatomic,strong, nullable) id<IntuneMAMLogger> logger;
 
 // Indicate if telemetry is opted-in or not.
 @property (nonatomic) BOOL telemetryEnabled;
@@ -122,7 +122,7 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 // across application launches and are cleared only when the application explicitly changes the value or a user is
 // unenrolled from the MAM service. To remove the override, applications can either set this property to nil or
 // an empty string.
-@property (nonatomic,strong) NSString* aadAuthorityUriOverride;
+@property (nonatomic,strong,nullable) NSString* aadAuthorityUriOverride;
 
 // Specifies the AAD redirect URI the SDK should use. This property should be set if the application dynamically
 // determines the AAD redirect URI. If the redirect URI is static and known at compile-time, applications do not
@@ -130,7 +130,7 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 // dictionary of the app's info.plist. Values assigned to this property are persisted across application launches
 // and are cleared only when the application explicitly changes the value or a user is unenrolled from the MAM service.
 // To remove the override, applications can either  set this property to nil or an empty string.
-@property (nonatomic,strong) NSString* aadRedirectUriOverride;
+@property (nonatomic,strong,nullable) NSString* aadRedirectUriOverride;
 
 // Specifies the AAD client ID the SDK should use. This property should be set if the application dynamically
 // determines the AAD client ID. If the client ID is static and known at compile-time, developers should instead set
@@ -138,7 +138,7 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 // property are persisted across application launches and are cleared only when the application explicitly changes the
 // value or a user is unenrolled from the MAM service. To remove the override, applications can either  set this
 // property to nil or an empty string.
-@property (nonatomic,strong) NSString* aadClientIdOverride;
+@property (nonatomic,strong,nullable) NSString* aadClientIdOverride;
 
 // Returns the method used to obtain the Intune MAM policy. Use this property for telemetry or logging purposes.
 @property (nonatomic,readonly) IntuneMAMPolicySource mamPolicySource;
@@ -146,11 +146,11 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 #pragma mark - Diagnostics
 
 // Returns a dictionary of diagnostic information
--(NSDictionary*) getDiagnosticInformation;
+-(NSDictionary*_Nullable) getDiagnosticInformation;
 
 // Returns an array containing the string paths of the Intune SDK log files
 // including the standard log file and the diagnostic log file.
 // These files can then be uploaded to a back-end of the application's choosing.
-- (NSArray*) getIntuneLogPaths;
+- (NSArray*_Nullable) getIntuneLogPaths;
 
 @end

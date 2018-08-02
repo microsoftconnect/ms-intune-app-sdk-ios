@@ -1,7 +1,6 @@
 # Microsoft Intune App SDK for iOS 
 
-Version [8.0.6
-](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases)
+Version [8.1.1](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases)
 
 See [release notes](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases) for more information.
 
@@ -12,5 +11,4 @@ Before you install and use Microsoft Intune App SDK for iOS you **must**:
 * Review the [Microsoft Intune Privacy Statement](https://docs.microsoft.com/legal/intune/microsoft-intune-privacy-statement) for information on the privacy policy of the Intune App SDK for iOS.
 
 See the [Intune App SDK iOS Developer Guide](https://docs.microsoft.com/en-us/intune/develop/intune-app-sdk-ios) on how to integrate the SDK into your iOS app.
-
 

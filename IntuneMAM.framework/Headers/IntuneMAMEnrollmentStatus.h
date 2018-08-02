@@ -38,7 +38,8 @@ typedef NS_ENUM(NSUInteger, IntuneMAMEnrollmentStatusCode)
     IntuneMAMEnrollmentStatusSwitchExistingAccount = 218,           // The operation has failed because the existing enrolled account will be removed first
     IntuneMAMEnrollmentStatusLoginCanceled = 219,                   // The user canceled the login prompt for loginAndEnrollAccount
     IntuneMAMEnrollmentStatusPolicyRecordGone = 220,                // Operation failed because we recieved a Gone response from the service
-    IntuneMAMEnrollmentStatusReEnrollForUnenrolledUser = 221        // Operation failed because reenrolls can only be processed if the same user is still enrolled in the app.
+    IntuneMAMEnrollmentStatusReEnrollForUnenrolledUser = 221,       // Operation failed because reenrolls can only be processed if the same user is still enrolled in the app.
+    IntuneMAMEnrollmentStatusUnsupportedAPI = 223                   // MAM does not support enrolling from an extension.
 };
 
 /**
@@ -50,7 +51,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMEnrollmentStatusCode)
 /**
  *  The UPN of the account for which the operation was requested
  */
-@property (nonatomic, strong) NSString *identity;
+@property (nonatomic, strong, nonnull) NSString *identity;
 
 /**
  *  YES if the operation completed successfully, otherwise NO
@@ -67,11 +68,11 @@ typedef NS_ENUM(NSUInteger, IntuneMAMEnrollmentStatusCode)
 /**
  *  A string with debug information for the completed operation
  */
-@property (nonatomic, strong) NSString *errorString;
+@property (nonatomic, strong, nullable) NSString *errorString;
 
 /**
  *  Associated error object for the completed operation.  Could be nil.
  */
-@property (nonatomic, strong) NSError *error;
+@property (nonatomic, strong, nullable) NSError *error;
 
 @end

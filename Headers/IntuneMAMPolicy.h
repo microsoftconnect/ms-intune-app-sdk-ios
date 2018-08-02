@@ -32,13 +32,19 @@ typedef NS_ENUM(NSInteger, IntuneMAMSaveLocation)
 // in the given location. Applications should check this policy and if FALSE should disable any UI
 // which allows users to save managed documents to this account in this location.
 // If the accountName for the location is unknown, set this argument to nil. 
-- (BOOL) isSaveToAllowedForLocation: (IntuneMAMSaveLocation) location withAccountName: (NSString*) accountName;
+- (BOOL) isSaveToAllowedForLocation: (IntuneMAMSaveLocation) location withAccountName: (NSString*_Nullable) accountName;
 
 // FALSE if the management policy blocks application opening/querying the specified URL.
 // Returns TRUE otherwise, regardless of whether the scheme is listed in the application's
 // LSApplicationQueriesSchemes.  Applications can check this policy to customize their UI.
 // Policy enforcement will be entirely handled by the SDK.
-- (BOOL) isURLAllowed: (NSURL*) url;
+- (BOOL) isURLAllowed: (NSURL*_Nonnull) url;
+
+// FALSE if the management policy blocks the application from opening the specified URL with the
+// UIApplicationOpenURLOptionUniversalLinksOnly option set to @YES. Returns TRUE otherwise.
+// Applications can check this policy to customize their UI. Policy enforcement will be entirely handled
+// by the SDK.
+- (BOOL) isUniversalLinkAllowed: (NSURL*_Nonnull) url;
 
 // FALSE if the management policy blocks the specified document picker mode.  Returns TRUE
 // otherwise, regardless of whether there are managed document picker extensions in the
@@ -69,5 +75,12 @@ typedef NS_ENUM(NSInteger, IntuneMAMSaveLocation)
 // managed applications or share extensions available to share the data with.  Applications can check
 // this policy to customize their UI. Policy enforcement will be entirely handled by the SDK.
 @property (readonly) BOOL isAppSharingAllowed;
+
+// TRUE if management policy requires File Provider extensions to encrypt files. Applications
+// should check for this policy in their File provider extension if they are supporting iOS11 or higher
+// File Provider APIs. Policy enforcement will not be handled by the SDK. Application will explicitly
+// need to invoke encryptFile:forIdentity API in IntuneMAMFileProtectionManager for each file exposed by
+// the File Provider.
+@property (readonly) BOOL shouldFileProviderEncryptFiles;
 
 @end
