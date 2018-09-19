@@ -1,41 +1,24 @@
-//
-//  Copyright (c) Microsoft Corporation. All rights reserved.
-//
 
-#import <Foundation/Foundation.h>
-#import <IntuneMAM/IntuneMAMEnrollmentStatus.h>
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 2"; ObjectID = "1ST-WC-GyN"; */
+"1ST-WC-GyN.accessibilityLabel" = "ψηφίο pin 2";
 
-/**
- *  This delegate will return status and debug information for operations 
- *  completed by the Intune MAM SDK. 
- */
-@protocol IntuneMAMEnrollmentDelegate <NSObject>
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 3"; ObjectID = "3Yo-zD-shC"; */
+"3Yo-zD-shC.accessibilityLabel" = "ψηφίο pin 3";
 
-#pragma mark - Delegate Methods
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 1"; ObjectID = "9o4-yL-Bgd"; */
+"9o4-yL-Bgd.accessibilityLabel" = "ψηφίο pin 1";
 
-@optional
+/* Class = "IBUIButton"; normalTitle = "Forgot your PIN?"; ObjectID = "TGv-Ph-lHG"; */
+"TGv-Ph-lHG.normalTitle" = "Ξεχάσατε το PIN σας;";
 
-/**
- *  Called when an enrollment request operation is completed.
- *
- *  @param status status object containing status
- */
-- (void)enrollmentRequestWithStatus:(IntuneMAMEnrollmentStatus *_Nonnull)status;
+/* Class = "IBUILabel"; text = "Error Text"; ObjectID = "bJv-ZX-fp7"; */
+"bJv-ZX-fp7.text" = "Σφάλμα κειμένου";
 
-/**
- *  Called when a MAM policy request operation is completed.
- *
- *  @param status status object containing status
- */
-- (void)policyRequestWithStatus:(IntuneMAMEnrollmentStatus *_Nonnull)status;
+/* Class = "IBUILabel"; text = "Managed by label"; ObjectID = "bxE-yp-KHv"; */
+"bxE-yp-KHv.text" = "Διαχείριση κατά ετικέτα";
 
-/**
- *  Called when a un-enroll request operation is completed.
- *
- *  @Note: when a user is un-enrolled, the user is also de-registered with the SDK
- *
- *  @param status status object containing status
- */
-- (void)unenrollRequestWithStatus:(IntuneMAMEnrollmentStatus *_Nonnull)status;
+/* Class = "IBUILabel"; text = "PIN Text:"; ObjectID = "ugO-8b-0j3"; */
+"ugO-8b-0j3.text" = "Κείμενο PIN:";
 
-@end
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 4"; ObjectID = "z7P-LK-UCt"; */
+"z7P-LK-UCt.accessibilityLabel" = "ψηφίο pin 4";

@@ -1,55 +1,24 @@
-//
-//  Copyright (c) Microsoft Corporation. All rights reserved.
-//
 
-#import <Foundation/Foundation.h>
-#import <IntuneMAM/IntuneMAMDefs.h>
+/* Class = "IBUILabel"; text = "PIN Text"; ObjectID = "Ehz-WT-9A9"; */
+"Ehz-WT-9A9.text" = "PIN テキスト";
 
-typedef NS_ENUM(NSUInteger, IntuneMAMIdentitySwitchReason)
-{
-    IntuneMAMIdentitySwitchOpenURL,
-    IntuneMAMIdentitySwitchCancelConditionalLaunch
-};
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 2"; ObjectID = "Haq-qL-nzm"; */
+"Haq-qL-nzm.accessibilityLabel" = "PIN の第 2 桁目";
 
-typedef NS_ENUM(NSUInteger, IntuneMAMAddIdentityResult)
-{
-    IntuneMAMAddIdentityResultSuccess,
-    IntuneMAMAddIdentityResultFailed
-};
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 3"; ObjectID = "PHN-wI-PGJ"; */
+"PHN-wI-PGJ.accessibilityLabel" = "PIN の第 3 桁目";
 
+/* Class = "IBUIButton"; normalTitle = "Forgot your PIN?"; ObjectID = "SaW-PY-sB6"; */
+"SaW-PY-sB6.normalTitle" = "PIN をお忘れですか?";
 
-@protocol IntuneMAMPolicyDelegate <NSObject>
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 4"; ObjectID = "VWH-Xv-yTw"; */
+"VWH-Xv-yTw.accessibilityLabel" = "PIN の第 4 桁目";
 
-@optional
+/* Class = "IBUILabel"; text = "Error Text"; ObjectID = "aRQ-lV-tCk"; */
+"aRQ-lV-tCk.text" = "エラー テキスト";
 
-// Called by the Intune SDK to inform the application an identity switch is required.
-// The application must call the completion handler. IntuneMAMSwitchIdentityResultSuccess should
-// be passed to the completion handler if the SDK is allowed to switch to the specified identity,
-// otherwise IntuneMAMSwitchIdentityResultFailed should be passed in.
-// The SDK will block the operation which required the identity
-// switch until the application calls the completion handler. This method may also be
-// called in response to a user clicking the 'cancel' button on the PIN or
-// Authentication UI after an application resume.
-// The completion handler can be called on any thread.
-// The application does not have to call setUIPolicyIdentity in response to this call.
-- (void) identitySwitchRequired:(NSString*_Nonnull)identity reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 1"; ObjectID = "mMy-gW-3gK"; */
+"mMy-gW-3gK.accessibilityLabel" = "PIN の第 1 桁目";
 
-// Called by the Intune SDK when the application should wipe data for the
-// specified account user principal name (e.g. user@contoso.com).
-// Returns TRUE if successful, FALSE if the account data could not be completely wiped.
-- (BOOL) wipeDataForAccount:(NSString*_Nonnull)upn;
-
-// Called by the Intune SDK when the application needs to restart
-// because policy has been received for the first time.  This method
-// is called on a background thread.
-// Returns TRUE if the host application will restart on its own.
-// Returns FALSE if the host application wants the Intune SDK to handle the restart
-- (BOOL) restartApplication;
-
-// Called by the Intune SDK when the application needs to add an user account as the app has been
-// automatically enrolled by the SDK. The application must call the completion handler passing in
-// IntuneMAMAddIdentityResultSuccess if the app is able to add the identity or IntuneMAMAddIdentityResultFailed otherwise.
-// The completion handler can be called on any thread.
-- (void) addIdentity:(NSString*_Nonnull)identity completionHandler:(void (^_Nonnull)(IntuneMAMAddIdentityResult))completionHandler;
-
-@end
+/* Class = "IBUILabel"; text = "Managed by your company"; ObjectID = "vl7-ew-oH0"; */
+"vl7-ew-oH0.text" = "会社によって管理されています";

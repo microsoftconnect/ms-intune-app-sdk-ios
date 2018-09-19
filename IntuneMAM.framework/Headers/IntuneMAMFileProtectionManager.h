@@ -1,35 +1,24 @@
-//
-//  Copyright (c) Microsoft Corporation. All rights reserved.
-//
 
-#import <Foundation/Foundation.h>
-#import <IntuneMAM/IntuneMAMFileProtectionInfo.h>
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 2"; ObjectID = "1ST-WC-GyN"; */
+"1ST-WC-GyN.accessibilityLabel" = "pin 数字 2";
 
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 3"; ObjectID = "3Yo-zD-shC"; */
+"3Yo-zD-shC.accessibilityLabel" = "pin 数字 3";
 
-@interface IntuneMAMFileProtectionManager : NSObject
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 1"; ObjectID = "9o4-yL-Bgd"; */
+"9o4-yL-Bgd.accessibilityLabel" = "pin 数字 1";
 
-+ (IntuneMAMFileProtectionManager*_Nonnull) instance;
+/* Class = "IBUIButton"; normalTitle = "Forgot your PIN?"; ObjectID = "TGv-Ph-lHG"; */
+"TGv-Ph-lHG.normalTitle" = "忘记 PIN 了?";
 
-// Protects the specified path using the policy associated with the specified identity.
-- (void) protect:(NSString*_Nonnull)path identity:(NSString*_Nullable)identity;
+/* Class = "IBUILabel"; text = "Error Text"; ObjectID = "bJv-ZX-fp7"; */
+"bJv-ZX-fp7.text" = "错误文本";
 
-// Verifies the path is currently protected with the specified identity.
-// If it is not, protect:identity: is called on the path.
-- (void) verifyAndProtect:(NSString*_Nonnull)path identity:(NSString*_Nullable)identity;
+/* Class = "IBUILabel"; text = "Managed by label"; ObjectID = "bxE-yp-KHv"; */
+"bxE-yp-KHv.text" = "通过标签管理";
 
-// Returns the protection information for the specified path. Returns nil if the
-// path does not exist or the path is not managed by the Intune MAM SDK.
-- (_Nullable id<IntuneMAMFileProtectionInfo>) protectionInfo:(NSString*_Nonnull)path;
+/* Class = "IBUILabel"; text = "PIN Text:"; ObjectID = "ugO-8b-0j3"; */
+"ugO-8b-0j3.text" = "PIN 文本:";
 
-// Encrypts and protects the specified file for the provided managed user. This is expected to
-// be invoked in file provider extensions if shouldFileProviderEncryptFiles policy is enabled.
-- (BOOL) encryptFile:(NSString*_Nonnull)filePath forIdentity:(NSString*_Nonnull)identity;
-
-// Decrypts the specified file. This is expected to be invoked in file provider extensions if
-// shouldFileProviderEncryptFiles policy is enabled.
-- (BOOL) decryptFile:(NSString*_Nonnull)filePath;
-
-// Determines if the given file is encrypted.
-- (BOOL) isFileEncrypted:(NSString*_Nonnull)filePath;
-
-@end
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 4"; ObjectID = "z7P-LK-UCt"; */
+"z7P-LK-UCt.accessibilityLabel" = "pin 数字 4";
