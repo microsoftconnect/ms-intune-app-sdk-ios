@@ -1,14 +1,24 @@
-//
-//  Copyright (c) Microsoft Corporation. All rights reserved.
-//
 
-#import <Foundation/Foundation.h>
+/* Class = "IBUILabel"; text = "PIN Text"; ObjectID = "Ehz-WT-9A9"; */
+"Ehz-WT-9A9.text" = "PIN-text";
 
-@protocol IntuneMAMDataProtectionInfo <NSObject>
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 2"; ObjectID = "Haq-qL-nzm"; */
+"Haq-qL-nzm.accessibilityLabel" = "pin-siffra 2";
 
-@required
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 3"; ObjectID = "PHN-wI-PGJ"; */
+"PHN-wI-PGJ.accessibilityLabel" = "pin-siffra 3";
 
-// The data's owner.
-@property (readonly,nullable) NSString* identity;
+/* Class = "IBUIButton"; normalTitle = "Forgot your PIN?"; ObjectID = "SaW-PY-sB6"; */
+"SaW-PY-sB6.normalTitle" = "Har du glömt PIN-koden?";
 
-@end
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 4"; ObjectID = "VWH-Xv-yTw"; */
+"VWH-Xv-yTw.accessibilityLabel" = "pin-siffra 4";
+
+/* Class = "IBUILabel"; text = "Error Text"; ObjectID = "aRQ-lV-tCk"; */
+"aRQ-lV-tCk.text" = "Feltext";
+
+/* Class = "IBUITextField"; accessibilityLabel = "pin digit 1"; ObjectID = "mMy-gW-3gK"; */
+"mMy-gW-3gK.accessibilityLabel" = "pin-siffra 1";
+
+/* Class = "IBUILabel"; text = "Managed by your company"; ObjectID = "vl7-ew-oH0"; */
+"vl7-ew-oH0.text" = "Hanteras av ditt företag";
