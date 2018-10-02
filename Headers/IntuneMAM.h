@@ -4,9 +4,10 @@
 
 #import "IntuneMAMAppConfigManager.h"
 #import "IntuneMAMAppConfig.h"
-#import "IntuneMAMDefs.h"
+#import "IntuneMAMComplianceManager.h"
 #import "IntuneMAMDataProtectionInfo.h"
 #import "IntuneMAMDataProtectionManager.h"
+#import "IntuneMAMDefs.h"
 #import "IntuneMAMDiagnosticConsole.h"
 #import "IntuneMAMEnrollmentDelegate.h"
 #import "IntuneMAMEnrollmentManager.h"
@@ -18,4 +19,3 @@
 #import "IntuneMAMPolicyDelegate.h"
 #import "IntuneMAMPolicyManager.h"
 #import "IntuneMAMVersionInfo.h"
-#import "IntuneMAMComplianceManager.h"
