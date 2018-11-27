@@ -2,7 +2,7 @@
 
 Version [9.0.5](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases)
 
-See [release notes](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases) for more information.
+See [release notes](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases) for more information. GitHub users can recieve email notifications for new releases to this repo by clicking on **Releases only** from the "Watch" drop-down menu in the upper right-hand corner.
 
 The Microsoft Intune App SDK for iOS enables data protection features and mobile app management via Microsoft Intune 
 
