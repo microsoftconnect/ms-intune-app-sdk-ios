@@ -7,8 +7,14 @@
 
 typedef NS_ENUM(NSUInteger, IntuneMAMIdentitySwitchReason)
 {
+    // An identity switch is required so that a URL can be opened
     IntuneMAMIdentitySwitchOpenURL,
-    IntuneMAMIdentitySwitchCancelConditionalLaunch
+    
+    // An identity switch is required because the user has cancelled conditional launch
+    IntuneMAMIdentitySwitchCancelConditionalLaunch,
+    
+    // An identity switch is required so that one or more documents can be imported
+    IntuneMAMIdentitySwitchDocumentImport
 };
 
 typedef NS_ENUM(NSUInteger, IntuneMAMAddIdentityResult)
