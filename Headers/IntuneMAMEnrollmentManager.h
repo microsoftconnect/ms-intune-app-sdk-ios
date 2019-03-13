@@ -119,4 +119,13 @@ extern NSString*_Nonnull const IntuneMAMAllowedAccountsDidChangeNotification;
  */
 - (NSArray *_Nullable)allowedAccounts;
 
+/**
+ *  Returns the UPN of the MDM enrolled user. Returns nil if the device is not MDM enrolled.
+ *  For 3rd party applications, the application must also be managed and have IntuneMAMUPN
+ *  set to the MDM enrolled user in managed app config.
+ *
+ *  @return UPN of the MDM enrolled account
+ */
+- (NSString *_Nullable)mdmEnrolledAccount;
+
 @end
