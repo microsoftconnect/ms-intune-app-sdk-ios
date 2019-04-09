@@ -70,6 +70,11 @@ typedef NS_ENUM(NSInteger, IntuneMAMSaveLocation)
 // policy enforcement will be entirely handled by the SDK.
 @property (readonly) BOOL isSpotlightIndexingAllowed;
 
+// TRUE if the management policy allows applications to use Siri intents.
+// Multi-Identitity applications should check this policy and if FALSE should block Siri intents.
+// For single identity applications, policy enforcement will be entirely handled by the SDK.
+@property (readonly) BOOL areSiriIntentsAllowed;
+
 // FALSE if the management policy blocks sharing via the UIActivityViewController/
 // UIDocumentInteractionViewController.  Returns TRUE otherwise, regardless of whether there are
 // managed applications or share extensions available to share the data with.  Applications can check
