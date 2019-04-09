@@ -23,7 +23,9 @@ typedef NS_ENUM(NSUInteger, IntuneMAMComplianceStatus)
  * This method is called when the Intune SDK has completed compliance remediation for an identity.
  * If the identity has not been added to the app and is compliant, it should be added at this time.
  * All values of IntuneMAMComplianceStatus will populate the error parameter with a localized error string.
- * Please note that delegate methods are not guarenteed to be called on the Main thread.
+ * This method is guarenteed to be called after application:willFinishLaunchingWithOptions:
+ *
+ * @warning Delegate methods are not guarenteed to be called on the Main thread.
  *
  * @param identity The UPN of the identity for which compliance remediation was requested
  * @param status The compliance status of identity
@@ -48,6 +50,9 @@ typedef NS_ENUM(NSUInteger, IntuneMAMComplianceStatus)
  *
  * Compliance status is returned via the delegate method identity:hasComplianceStatus:withErrorMessage:andErrorTitle:
  * The app should wait until this delegate method is called to retry the token acquisition
+ *
+ * If this API is called mutliple times, additional users will be queued then processed after the currently remediating user has
+ * finished.  Calling multiple times for the same user before remediation has completed has no effect, the additional calls will be dropped.
  *
  * @warning If the identity given has not already been enrolled into Intune, this method can cause an application restart.
  * In this case, the Intune SDK will take UI control at next application launch and call the delegate method identity:hasComplianceStatus:withErrorString: when finished
