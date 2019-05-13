@@ -1,0 +1,4 @@
+framework module IntuneMAMSwift {
+  header "IntuneMAM-Swift.h"
+  requires objc
+}
