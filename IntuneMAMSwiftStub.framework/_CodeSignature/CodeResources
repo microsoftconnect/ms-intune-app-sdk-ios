@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9IINpIS4BArMt+5a34e2YN6iFC4=
+		d3yNj9/8MIi61LKmOB5Avocw030=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm.swiftmodule</key>
 		<data>
-		hxxUQZS3QOPc1ePG9xNbG8PrMdE=
+		KCHJmgfAJpfs8fC6DL2iee2SIk0=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		01FY6DMuatwYe9aLZ4fOPn3EZDU=
+		YdM3F2OYTx9m4DixjXepP8AlE5E=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		hxxUQZS3QOPc1ePG9xNbG8PrMdE=
+		KCHJmgfAJpfs8fC6DL2iee2SIk0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hxxUQZS3QOPc1ePG9xNbG8PrMdE=
+			KCHJmgfAJpfs8fC6DL2iee2SIk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vqx8qF9Qx2Ek2vNXcVWxeBpiK0ResS+mGzrJ3H027WU=
+			oIWJ4eIBe6bERPxYu0aMWWNY4a+ewbB3wAWsJIW7quo=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64.swiftdoc</key>
@@ -106,11 +106,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			01FY6DMuatwYe9aLZ4fOPn3EZDU=
+			YdM3F2OYTx9m4DixjXepP8AlE5E=
 			</data>
 			<key>hash2</key>
 			<data>
-			37RGCAvwR1AGpOcDJl8BT/2lPJh3BDBH8OeTHSJwIKg=
+			TOQR6d7DPjOiaRhi7THDFrEtQAeLiPnD+/xylzv8vtQ=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/armv7.swiftdoc</key>
@@ -128,11 +128,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hxxUQZS3QOPc1ePG9xNbG8PrMdE=
+			KCHJmgfAJpfs8fC6DL2iee2SIk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vqx8qF9Qx2Ek2vNXcVWxeBpiK0ResS+mGzrJ3H027WU=
+			oIWJ4eIBe6bERPxYu0aMWWNY4a+ewbB3wAWsJIW7quo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
