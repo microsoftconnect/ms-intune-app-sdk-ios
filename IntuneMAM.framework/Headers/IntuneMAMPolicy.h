@@ -17,6 +17,17 @@ typedef NS_ENUM(NSInteger, IntuneMAMSaveLocation)
 
 };
 
+// IntuneMAMNotificationPolicyAllow - All notifications for the managed user should be allowed
+// IntuneMAMNotificationPolicyBlockOrgData - Only static notifications without specific details
+// should be shown for the managed user e.g. "You've got mail" or "You have a meeting".
+// IntuneMAMNotificationPolicyBlock - All notifications for the managed user should be suppressed.
+typedef NS_ENUM(NSInteger, IntuneMAMNotificationPolicy)
+{
+    IntuneMAMNotificationPolicyAllow = 0,
+    IntuneMAMNotificationPolicyBlockOrgData = 1,
+    IntuneMAMNotificationPolicyBlock = 2,
+};
+
 @protocol IntuneMAMPolicy <NSObject>
 
 @required
@@ -87,5 +98,12 @@ typedef NS_ENUM(NSInteger, IntuneMAMSaveLocation)
 // need to invoke encryptFile:forIdentity API in IntuneMAMFileProtectionManager for each file exposed by
 // the File Provider.
 @property (readonly) BOOL shouldFileProviderEncryptFiles;
+
+// Returns an IntuneMAMNotificationPolicy value indicating the current notification policy
+// IntuneMAMNotificationPolicyAllow - All notifications for the managed user should be allowed
+// IntuneMAMNotificationPolicyBlockOrgData - Only static notifications without specific details
+// should be shown for the managed user e.g. "You've got mail" or "You have a meeting".
+// IntuneMAMNotificationPolicyBlock - All notifications for the managed user should be suppressed.
+@property (readonly) IntuneMAMNotificationPolicy notificationPolicy;
 
 @end
