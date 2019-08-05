@@ -4,17 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/AppRestrictionsSwiftStub.h</key>
-		<data>
-		sHzuY3exMZROAD4xrkM+0QzDWS8=
-		</data>
-		<key>Headers/IntuneMAMSwiftStub-Swift.h</key>
-		<data>
-		8TyBQOPGyku8j6/qz4Yo4Jq9AbQ=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		vVIeowXvWsou4ocvrUgf+4IBqQE=
+		QZkHXccqZDIUX/Hp6mC4HRQBEm8=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -42,33 +34,11 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		tk8c6W3AgxAL5SoL/MqCdbWARTM=
+		eqTFXhD4LvnMe1bPIMk1HlCKds4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/AppRestrictionsSwiftStub.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sHzuY3exMZROAD4xrkM+0QzDWS8=
-			</data>
-			<key>hash2</key>
-			<data>
-			hm2p9wPzFCmvQ0UGkPG+NC+W2ww6d7Zr9fHlN6X8FDg=
-			</data>
-		</dict>
-		<key>Headers/IntuneMAMSwiftStub-Swift.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8TyBQOPGyku8j6/qz4Yo4Jq9AbQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			0KMHBdYlSHRtI9S4tRETTBUt7XMedoSlGZf9w+mvzk8=
-			</data>
-		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
@@ -139,11 +109,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tk8c6W3AgxAL5SoL/MqCdbWARTM=
+			eqTFXhD4LvnMe1bPIMk1HlCKds4=
 			</data>
 			<key>hash2</key>
 			<data>
-			FdcpvPGSKrdWtXdo8UUIJ/6YdjZpecqprQgNadRXYmY=
+			DetlQgDoYwbiMGL+tWc4SBlIipjvrWeNMS6lCr76zFk=
 			</data>
 		</dict>
 	</dict>
