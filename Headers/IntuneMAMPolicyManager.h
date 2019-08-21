@@ -89,17 +89,6 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 // Returns an object that can be used to retrieve the MAM policy for the specified identity.
 - (_Nullable id<IntuneMAMPolicy>) policyForIdentity:(NSString*_Nullable)identity;
 
-// Returns a list of AAD Authority URIs, ordered from highest to lowest priority, that the SDK will attempt
-// to use when attempting to silently acquire an access token for the given identity. If the SDK is forced
-// to prompt the user for credentials, the first URI in the list will be used.
-// The ordering of the URIs in the list is always as follows:
-//      1.) The value of the aadAuthorityUriOverride property, if set.
-//      2.) Any Authority URIs associated with the given identity found in the ADAL cache.
-//      3.) The value of the compile-time authority URI, taken from the ADALAuthority entry under IntuneMAMSettings in the app's info.plist, if set.
-//          If no such value is defined in the info.plist, the compile-time authority URI will be the SDK's default value.
-- (NSArray*_Nullable) aadAuthorityUrisForIdentity:(NSString*_Nullable)identity;
-
-
 // Returns the account name of the primary user in upn format (e.g. user@contoso.com).
 @property (readonly) NSString* _Nullable primaryUser;
 
@@ -112,45 +101,23 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 // Logger used by the Intune MAM SDK.
 @property (nonatomic,strong, nullable) id<IntuneMAMLogger> logger;
 
-// Indicate if telemetry is opted-in or not.
-@property (nonatomic) BOOL telemetryEnabled;
-
-// Specifies which AAD authority URI the SDK should use. This property should be set if the application
-// dynamically determines the AAD authority URI. If the authority URI is static and known at compile-time,
-// applications do not need to set this property and developers should instead set the ADALAuthority value
-// under the IntuneMAMSettings dictionary of the app's info.plist. Values asigned to this property are persisted
-// across application launches and are cleared only when the application explicitly changes the value or a user is
-// unenrolled from the MAM service. To remove the override, applications can either set this property to nil or
-// an empty string.
-@property (nonatomic,strong,nullable) NSString* aadAuthorityUriOverride;
-
-// Specifies the AAD redirect URI the SDK should use. This property should be set if the application dynamically
-// determines the AAD redirect URI. If the redirect URI is static and known at compile-time, applications do not
-// need to set this property and developers should instead set the ADALRedirectUri value under the IntuneMAMSettings
-// dictionary of the app's info.plist. Values assigned to this property are persisted across application launches
-// and are cleared only when the application explicitly changes the value or a user is unenrolled from the MAM service.
-// To remove the override, applications can either  set this property to nil or an empty string.
-@property (nonatomic,strong,nullable) NSString* aadRedirectUriOverride;
-
-// Specifies the AAD client ID the SDK should use. This property should be set if the application dynamically
-// determines the AAD client ID. If the client ID is static and known at compile-time, developers should instead set
-// the ADALClientId value under the IntuneMAMSettings dictionary of the app's info.plist. Values assigned to this
-// property are persisted across application launches and are cleared only when the application explicitly changes the
-// value or a user is unenrolled from the MAM service. To remove the override, applications can either  set this
-// property to nil or an empty string.
-@property (nonatomic,strong,nullable) NSString* aadClientIdOverride;
-
 // Returns the method used to obtain the Intune MAM policy. Use this property for telemetry or logging purposes.
 @property (nonatomic,readonly) IntuneMAMPolicySource mamPolicySource;
 
-#pragma mark - Diagnostics
+#pragma mark - Deprecated APIs
 
-// Returns a dictionary of diagnostic information
--(NSDictionary*_Nullable) getDiagnosticInformation;
+- (NSArray*_Nullable) aadAuthorityUrisForIdentity:(NSString*_Nullable)identity __attribute__((deprecated("This method is deprecated and will be removed in a future release. Use [IntuneMAMSettings aadAuthorityUrisForIdentity:identity] instead")));
 
-// Returns an array containing the string paths of the Intune SDK log files
-// including the standard log file and the diagnostic log file.
-// These files can then be uploaded to a back-end of the application's choosing.
-- (NSArray*_Nullable) getIntuneLogPaths;
+@property (nonatomic) BOOL telemetryEnabled __attribute__((deprecated("This property is deprecated and will be removed in a future release. Use [IntuneMAMSettings telemetryEnabled] instead")));
+
+@property (nonatomic,strong,nullable) NSString* aadAuthorityUriOverride __attribute__((deprecated("This property is deprecated and will be removed in a future release. Use [IntuneMAMSettings aadAuthorityUriOverride] instead")));
+
+@property (nonatomic,strong,nullable) NSString* aadRedirectUriOverride __attribute__((deprecated("This property is deprecated and will be removed in a future release. Use [IntuneMAMSettings aadRedirectUriOveride] instead")));
+
+@property (nonatomic,strong,nullable) NSString* aadClientIdOverride __attribute__((deprecated("This property is deprecated and will be removed in a future release. Use [IntuneMAMSettings aadClientIdOverride] instead")));
+
+-(NSDictionary*_Nullable) getDiagnosticInformation __attribute__((deprecated("This method is deprecated and will be removed in a future release. Use [IntuneMAMDiagnosticConsole getDiagnosticInformation] instead")));
+
+- (NSArray*_Nullable) getIntuneLogPaths __attribute__((deprecated("This method is deprecated and will be removed in a future release. Use [IntuneMAMDiagnosticConsole getIntuneLogPaths] instead")));
 
 @end

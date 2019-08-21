@@ -18,4 +18,5 @@
 #import <IntuneMAM/IntuneMAMPolicy.h>
 #import <IntuneMAM/IntuneMAMPolicyDelegate.h>
 #import <IntuneMAM/IntuneMAMPolicyManager.h>
+#import <IntuneMAM/IntuneMAMSettings.h>
 #import <IntuneMAM/IntuneMAMVersionInfo.h>
