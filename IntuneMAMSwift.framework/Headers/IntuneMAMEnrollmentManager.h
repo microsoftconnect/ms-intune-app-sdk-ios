@@ -109,11 +109,11 @@ extern NSString*_Nonnull const IntuneMAMAllowedAccountsDidChangeNotification;
 - (NSString *_Nullable)enrolledAccount;
 
 /**
- *  BETA: Please contact the MAM team before implementing this API
- *  Returns the UPN(s) of the allowed accounts.  Returns
- *  nil if there are no allowed accounts.
+ *  Returns the UPN(s) of the allowed accounts.
  *  If there is an allowed account(s), only these account(s) should be allowed to sign into the app,
- *  and if there any existing signed in users who are not UPN, those users should be signed out.
+ *  and any existing signed in users who are not in allowedAccounts should be signed out.
+ *  allowedAccounts returns nil if the administrator has not targeted an allowed account,
+ *  in which case the app should do nothing.
  *
  *  @return UPNs of the enrolled account or nil
  */

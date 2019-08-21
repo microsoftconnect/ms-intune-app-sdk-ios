@@ -1,6 +1,11 @@
 framework module IntuneMAMSwift {
-  header "IntuneMAM-Swift.h"
+  umbrella header "IntuneMAMSwift.h"
 
   export *
-  module IntuneMAMSwift { export * }
+  module * { export * }
+}
+
+module IntuneMAMSwift.Swift {
+    header "IntuneMAM-Swift.h"
+    requires objc
 }
