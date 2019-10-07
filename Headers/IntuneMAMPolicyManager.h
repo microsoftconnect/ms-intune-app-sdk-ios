@@ -50,7 +50,13 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 // The empty string may be passed in as the identity to represent 'no user' or an unknown personal account.
 // If nil is passed in, the UI identity will fallback to the process identity.
 - (void) setUIPolicyIdentity:(NSString*_Nullable)identity completionHandler:(void (^_Nullable)(IntuneMAMSwitchIdentityResult))completionHandler;
+- (void) setUIPolicyIdentity:(NSString*_Nullable)identity forWindow:(UIWindow*_Nullable)window completionHandler:(void (^_Nullable)(IntuneMAMSwitchIdentityResult))completionHandler;
+
+// Returns the UI identity for the current key window.
 - (NSString*_Nullable) getUIPolicyIdentity;
+
+// Returns the UI identity for the specified window.
+- (NSString*_Nullable) getUIPolicyIdentityForWindow:(UIWindow*_Nullable)window;
 
 // setCurrentThreadIdentity sets the identity of the current thread which is used to determine what
 // policy should be applied on the current thread. Unlike setting setUIPolicyIdentity, this method
@@ -88,6 +94,9 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 
 // Returns an object that can be used to retrieve the MAM policy for the specified identity.
 - (_Nullable id<IntuneMAMPolicy>) policyForIdentity:(NSString*_Nullable)identity;
+
+// Returns an object that can be used to retrieve the MAM policy for the specified window.
+- (_Nullable id<IntuneMAMPolicy>) policyForWindow:(UIWindow*_Nullable)window;
 
 // Returns the account name of the primary user in upn format (e.g. user@contoso.com).
 @property (readonly) NSString* _Nullable primaryUser;
