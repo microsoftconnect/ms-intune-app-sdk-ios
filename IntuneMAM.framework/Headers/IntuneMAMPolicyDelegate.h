@@ -39,6 +39,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMAddIdentityResult)
 // The completion handler can be called on any thread.
 // The application does not have to call setUIPolicyIdentity in response to this call.
 - (void) identitySwitchRequired:(NSString*_Nonnull)identity reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
+- (void) identitySwitchRequired:(NSString*_Nonnull)identity forWindow:(UIWindow*_Nonnull)window reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
 
 // Called by the Intune SDK when the application should wipe data for the
 // specified account user principal name (e.g. user@contoso.com).

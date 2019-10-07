@@ -2,6 +2,9 @@
 //  Copyright (c) Microsoft Corporation. All rights reserved.
 //
 
+#if TARGET_OS_IPHONE
+#import <UIKit/UIKit.h>
+#endif
 #import <Foundation/Foundation.h>
 #import <IntuneMAM/IntuneMAMEnrollmentDelegate.h>
 
@@ -67,6 +70,8 @@ extern NSString*_Nonnull const IntuneMAMAllowedAccountsDidChangeNotification;
  *  enrollment succeeds, for example AppConfig policy is not delivered until 
  *  after an enrollment.  Use the IntuneMAMEnrollmentDelegate to determine
  *  if the SDK has successfully enrolled and received policy.
+ *  Applciations which support UIScenes can call loginAndEnrollAccount:onWindow:
+ *  to specify which window the login screen should appear.
  *
  *  @note Do not use this in an extension.  If you do so, we will return
  *  IntuneMAMEnrollmentStatusUnsupportedAPI in the IntuneMAMEnrollmentDelegate.
@@ -74,7 +79,9 @@ extern NSString*_Nonnull const IntuneMAMAllowedAccountsDidChangeNotification;
  *  @param identity The UPN of the account to be logged in and enrolled.
  */
 - (void)loginAndEnrollAccount:(NSString *_Nullable)identity;
-
+#if TARGET_OS_IPHONE
+- (void)loginAndEnrollAccount:(NSString *_Nullable)identity onWindow:(UIWindow *_Nullable)window;
+#endif
 /**
  *  This method will remove the provided account from the list of
  *  registered accounts.  Once removed, if the account has enrolled
