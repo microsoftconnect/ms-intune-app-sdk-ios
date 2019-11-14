@@ -39,6 +39,32 @@
 //can either set this property to nil or an empty string.
 @property (class,nonatomic,strong,nullable) NSString* accentColor;
 
+//Specifies the secondary background color the SDK should use when presenting UI (ex: MTD screen).
+//This is used in sections of the UI that don't have primary content, for example, its used in MTD screens on larger displays
+//for buffering on the left and right of the main content area. Ensure to set this different from the backgroundColor property.
+//Accepts a hexadecimal RGB string in the form of #XXXXXX where X can range from 0-9 or A-F. Assigning a string
+//which does not conform to this format will result in the assignment being ignored. The default is white.
+//This property should be set if the application dynamically determines the secondary background color. If the secondary
+//background color is static and known at compile-time, applications do not need to set this property and developers
+//should instead set the SecondaryBackgroundColor value under the IntuneMAMSettings dictionary of the app's info.plist.
+//Values assigned to this property are persisted across application launches and are cleared only when the application
+//explicitly changes the value or when reinstalling the application. To use the default secondary background color, applications
+//can either set this property to nil or an empty string.
+@property (class,nonatomic,strong,nullable) NSString* secondaryBackgroundColor;
+
+//Specifies the secondary foreground color the SDK should use when presenting UI (ex: MTD screen).
+//This is used for secondary text content, for example, its used in MTD screens to display footnote text. Ensure to set this
+//different from the foregroundColor, backgroundColor and secondaryBackgroundColor properties you've set.
+//Accepts a hexadecimal RGB string in the form of #XXXXXX where X can range from 0-9 or A-F. The default is gray.
+//This property should be set if the application dynamically determines the secondary foreground color. Assigning a string
+//which does not conform to this format will result in the assignment being ignored. If the secondary foreground color
+//is static and known at compile-time, applications do not need to set this property and developers should instead
+//set the SecondaryForegroundColor value under the IntuneMAMSettings dictionary of the app's info.plist. Values assigned
+//to this property are persisted across application launches and are cleared only when the application explicitly
+//changes the value or when reinstalling the application. To use the default secondary foreground color, applications
+//can either set this property to nil or an empty string.
+@property (class,nonatomic,strong,nullable) NSString* secondaryForegroundColor;
+
 // Returns a list of AAD Authority URIs, ordered from highest to lowest priority, that the SDK will attempt
 // to use when attempting to silently acquire an access token for the given identity. If the SDK is forced
 // to prompt the user for credentials, the first URI in the list will be used.
