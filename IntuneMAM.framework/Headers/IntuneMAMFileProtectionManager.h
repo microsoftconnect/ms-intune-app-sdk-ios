@@ -25,15 +25,18 @@
 // Encrypts and protects the specified file for the provided managed user. This is expected to
 // be invoked in file provider extensions if shouldFileProviderEncryptFiles policy is enabled.
 - (BOOL) encryptFile:(NSString*_Nonnull)filePath forIdentity:(NSString*_Nonnull)identity;
+- (BOOL) encryptFile:(NSString*_Nonnull)filePath forIdentity:(NSString*_Nonnull)identity error:(NSError*_Nullable*_Nullable)error;
 
 // Decrypts the specified file. This is expected to be invoked in file provider extensions if
 // shouldFileProviderEncryptFiles policy is enabled.
 - (BOOL) decryptFile:(NSString*_Nonnull)filePath;
+- (BOOL) decryptFile:(NSString*_Nonnull)filePath error:(NSError*_Nullable*_Nullable)error;
 
 // Decrypts the specified file and saves it to the copyPath. This is expected to be invoked in
 // file provider extensions if shouldFileProviderEncryptFiles policy is enabled and a copy
 // of the decrypted file is needed instead of decrypting the original.
 - (BOOL) decryptFile:(NSString*_Nonnull)filePath toCopyPath:(NSString*_Nonnull)copyPath;
+- (BOOL) decryptFile:(NSString*_Nonnull)filePath toCopyPath:(NSString*_Nonnull)copyPath error:(NSError*_Nullable*_Nullable)error;
 
 // Determines if the given file is encrypted. This is expected to be invoked in
 // file provider extensions if shouldFileProviderEncryptFiles policy is enabled.
