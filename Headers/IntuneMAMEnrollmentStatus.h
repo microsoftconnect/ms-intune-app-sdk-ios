@@ -14,7 +14,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMEnrollmentStatusCode)
     // 2xx - Failure Codes
     IntuneMAMEnrollmentStatusAccountNotLicensed = 200,              // The user's tenant is enabled for MAM, but the user is not licensed
     IntuneMAMEnrollmentStatusInternalError = 201,                   // Internal error, see error object for details
-    IntuneMAMEnrollmentStatusMamServiceDisabled = 202,              // The MAM Service is disabled in the application's info.plist
+    IntuneMAMEnrollmentStatusMamServiceDisabled = 202,              // Obsolete
     IntuneMAMEnrollmentStatusAuthRequired = 203,                    // Operation failed because the SDK could not access the user's AAD token because the users credentials are needed
     IntuneMAMEnrollmentStatusLocationServiceFailure = 204,          // Failed to connect to the location service to determine the user's endpoint, see error object for details
     IntuneMAMEnrollmentStatusEnrollmentEndPointNetworkFailure = 205,// Failed to connect to the enrollment endpoint, see error object for details

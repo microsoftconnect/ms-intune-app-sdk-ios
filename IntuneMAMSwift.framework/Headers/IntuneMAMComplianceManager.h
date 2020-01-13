@@ -29,7 +29,8 @@ typedef NS_ENUM(NSUInteger, IntuneMAMComplianceStatus)
  *
  * @param identity The UPN of the identity for which compliance remediation was requested
  * @param status The compliance status of identity
- * @param error A localized string describing the error encountered if the identity is not compliant.
+ * @param errMsg A localized string describing the error encountered if the identity is not compliant.
+ * @param errTitle A localized title string for the error encountered if the identity is not compliant.
  */
 - (void) identity:(NSString*_Nonnull) identity hasComplianceStatus:(IntuneMAMComplianceStatus) status withErrorMessage:(NSString*_Nonnull) errMsg andErrorTitle:(NSString*_Nonnull) errTitle;
 
@@ -62,6 +63,9 @@ typedef NS_ENUM(NSUInteger, IntuneMAMComplianceStatus)
  * @param silent A bool indicating whether or not the Intune SDK will take UI control for the duration of the this method
  */
 - (void) remediateComplianceForIdentity:(NSString*_Nonnull) identity silent:(BOOL) silent;
+
+// Returns TRUE if a compliance remediation is in progress for the specified user.
+- (BOOL) remediationInProgressForIdentity:(NSString*_Nonnull) identity;
 
 @end
 

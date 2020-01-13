@@ -194,6 +194,16 @@
 		</dict>
 		<dict>
 			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Prevent &quot;Open From&quot;</string>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.OpenDataIntoOrgDocumentsBlocked</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
 			<string>If prevent save as is enabled, users can only save to the selected storage services. All other services (listed or unlisted) will be blocked.</string>
@@ -204,7 +214,7 @@
 			<key>Title</key>
 			<string>OneDrive for Business</string>
 			<key>Key</key>
-			<string>IntuneMAMPolicy.Location1</string>
+			<string>IntuneMAMPolicy.SaveLocation1</string>
 			<key>DefaultValue</key>
 			<true/>
 		</dict>
@@ -214,7 +224,7 @@
 			<key>Title</key>
 			<string>Sharepoint</string>
 			<key>Key</key>
-			<string>IntuneMAMPolicy.Location2</string>
+			<string>IntuneMAMPolicy.SaveLocation2</string>
 			<key>DefaultValue</key>
 			<true/>
 		</dict>
@@ -224,7 +234,7 @@
 			<key>Title</key>
 			<string>Box</string>
 			<key>Key</key>
-			<string>IntuneMAMPolicy.Location4</string>
+			<string>IntuneMAMPolicy.SaveLocation4</string>
 			<key>DefaultValue</key>
 			<false/>
 		</dict>
@@ -234,7 +244,7 @@
 			<key>Title</key>
 			<string>Dropbox</string>
 			<key>Key</key>
-			<string>IntuneMAMPolicy.Location8</string>
+			<string>IntuneMAMPolicy.SaveLocation8</string>
 			<key>DefaultValue</key>
 			<false/>
 		</dict>
@@ -244,7 +254,7 @@
 			<key>Title</key>
 			<string>Google Drive</string>
 			<key>Key</key>
-			<string>IntuneMAMPolicy.Location16</string>
+			<string>IntuneMAMPolicy.SaveLocation16</string>
 			<key>DefaultValue</key>
 			<false/>
 		</dict>
@@ -254,7 +264,53 @@
 			<key>Title</key>
 			<string>Local Storage</string>
 			<key>Key</key>
-			<string>IntuneMAMPolicy.Location32</string>
+			<string>IntuneMAMPolicy.SaveLocation32</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>If prevent open from is enabled, users can only open from the selected source locations. All other locations (listed or unlisted) will be blocked.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>OneDrive for Business</string>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.OpenLocation1</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>SharePoint</string>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.OpenLocation2</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Camera</string>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.OpenLocation4</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Local Storage</string>
+			<key>Key</key>
+			<string>IntuneMAMPolicy.OpenLocation8</string>
 			<key>DefaultValue</key>
 			<false/>
 		</dict>

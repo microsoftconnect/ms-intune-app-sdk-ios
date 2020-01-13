@@ -20,3 +20,4 @@
 #import <IntuneMAM/IntuneMAMPolicyManager.h>
 #import <IntuneMAM/IntuneMAMSettings.h>
 #import <IntuneMAM/IntuneMAMVersionInfo.h>
+#import <IntuneMAM/IntuneMAMUIHelper.h>
