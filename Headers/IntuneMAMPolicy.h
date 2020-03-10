@@ -123,4 +123,8 @@ typedef NS_ENUM(NSInteger, IntuneMAMNotificationPolicy)
 // IntuneMAMNotificationPolicyBlock - All notifications for the managed user should be suppressed.
 @property (readonly) IntuneMAMNotificationPolicy notificationPolicy;
 
+// TRUE if management policy requires software encryption of files on disk. FALSE otherwise.
+// If TRUE the app should encrypt all managed files on disk.
+@property (readonly) BOOL isFileEncryptionRequired;
+
 @end
