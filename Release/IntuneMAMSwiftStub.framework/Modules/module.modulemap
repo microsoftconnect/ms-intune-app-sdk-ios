@@ -1,0 +1,6 @@
+framework module IntuneMAMSwiftStub {
+  header "IntuneMAMSwiftStub-Swift.h"
+
+  export *
+  module IntuneMAMSwiftStub { export * }
+}
