@@ -14,7 +14,8 @@ typedef NS_ENUM(NSInteger, IntuneMAMSaveLocation)
     IntuneMAMSaveLocationDropbox = 1<<3,
     IntuneMAMSaveLocationGoogleDrive = 1<<4,
     IntuneMAMSaveLocationLocalDrive = 1<<5,
-    IntuneMAMSaveLocationAccountDocument = 1<<6, // When the location is not listed in this enum but is accessed with a managed account, use this value
+    IntuneMAMSaveLocationCameraRoll = 1<<6,
+    IntuneMAMSaveLocationAccountDocument = 1<<7, // When the location is not listed in this enum but is accessed with a managed account, use this value
 
 };
 
@@ -39,6 +40,13 @@ typedef NS_ENUM(NSInteger, IntuneMAMNotificationPolicy)
     IntuneMAMNotificationPolicyBlock = 2,
 };
 
+@interface IntuneMAMLocation : NSObject
+
+@property (readonly) int location;
+@property (readonly) BOOL allowed;
+
+@end
+
 @protocol IntuneMAMPolicy <NSObject>
 
 @required
@@ -61,6 +69,18 @@ typedef NS_ENUM(NSInteger, IntuneMAMNotificationPolicy)
 // allows users to open documents from this account and location into the managed app.
 // If the accountName for the location is unknown, set this argument to nil.
 - (BOOL) isOpenFromAllowedForLocation: (IntuneMAMOpenLocation) location withAccountName: (NSString* _Nullable) accountName;
+
+// Returns a dictionary mapping of all the IntuneMAMSaveLocations and whether each is allowed to have
+// data saved to it. Both the IntuneMAMSaveLocation keys and the BOOL allowed value are wrapped in
+// NSNumbers. Calling this is the same as calling isSaveToAllowedForLocation:withAccountName: for each
+// IntuneMAMSaveLocation in the enum.
+- (NSDictionary<NSNumber *, NSNumber *>* _Nonnull) getSaveToLocationsForAccount:(NSString* _Nullable)toAccount;
+
+// Returns a dictionary mapping of all the IntuneMAMOpenFromLocations and whether each is allowed to
+// have data opened from it. Both the IntuneMAMOpenLocation keys and the BOOL allowed values are wrapped
+// in NSNumbers. Calling this is the same as calling isOpenFromAllowedForLocation:withAccountName: for
+// each IntuneMAMOpenLocation in the enum.
+- (NSDictionary<NSNumber *, NSNumber *>* _Nonnull) getOpenFromLocationsForAccount:(NSString* _Nullable)fromAccount;
 
 // FALSE if the management policy blocks application opening/querying the specified URL.
 // Returns TRUE otherwise, regardless of whether the scheme is listed in the application's

@@ -12,6 +12,7 @@
 #import <IntuneMAM/IntuneMAMEnrollmentDelegate.h>
 #import <IntuneMAM/IntuneMAMEnrollmentManager.h>
 #import <IntuneMAM/IntuneMAMEnrollmentStatus.h>
+#import <IntuneMAM/IntuneMAMFile.h>
 #import <IntuneMAM/IntuneMAMFileProtectionInfo.h>
 #import <IntuneMAM/IntuneMAMFileProtectionManager.h>
 #import <IntuneMAM/IntuneMAMLogger.h>
