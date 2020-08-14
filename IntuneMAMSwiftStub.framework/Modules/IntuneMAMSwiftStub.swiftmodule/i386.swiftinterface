@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftStub
+import Darwin
 import Dispatch
 import Foundation
 import Swift
@@ -26,6 +27,13 @@ extension StringProtocol {
 }
 extension URL {
   public static func cmarRealURLWriteBookmarkData(_ data: Foundation.Data, to url: Foundation.URL) throws
+}
+@_hasMissingDesignatedInitializers public class DarwinStubs {
+  public static func cmarRealOpen(_ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32) -> Swift.Int32
+  public static func cmarRealOpen(_ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32, _ mode: Darwin.mode_t) -> Swift.Int32
+  public static func cmarRealOpenat(_ fd: Swift.Int32, _ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32) -> Swift.Int32
+  public static func cmarRealOpenat(_ fd: Swift.Int32, _ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32, _ mode: Darwin.mode_t) -> Swift.Int32
+  @objc deinit
 }
 extension Data {
   public func cmarRealDataWrite(to url: Foundation.URL, options: Foundation.Data.WritingOptions = []) throws

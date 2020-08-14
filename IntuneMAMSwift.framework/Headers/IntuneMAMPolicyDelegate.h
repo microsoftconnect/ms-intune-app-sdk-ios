@@ -60,4 +60,20 @@ typedef NS_ENUM(NSUInteger, IntuneMAMAddIdentityResult)
 // The completion handler can be called on any thread.
 - (void) addIdentity:(NSString*_Nonnull)identity completionHandler:(void (^_Nonnull)(IntuneMAMAddIdentityResult))completionHandler;
 
+/**
+ * We will call this method each time we navigate to a new URL under a managed account in a WKWebView. It will use
+ * the result to decide whether we need to restrict access to it. Returning YES will indicate to the SDK that the site being
+ * navigated to is an unmanaged external site and should be opened with proper protections. Returning NO will indicate
+ * to the SDK that the site being navigated to is an internal site that the app knows is managed, meaning the SDK does
+ * not need to restrict access to it. If this delegate method is not implemented, it will assume all URLs in WKWebView's
+ * are managed sites.
+ *
+ * (Note: This method only needs to be implemented if your app is using WKWebViews to display arbitrary URLs. Not
+ * implementing it is the same as always returning NO.)
+ *
+ * @param url - the URL the WKWebView will be navigating to
+ * @return a BOOL representing if the URL is an external unmanaged URL.
+ */
+- (BOOL) isExternalURL:(NSURL*_Nonnull)url;
+
 @end
