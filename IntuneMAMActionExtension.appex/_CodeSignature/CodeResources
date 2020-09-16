@@ -6,7 +6,7 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		RSbEt1YB7QUJO9AiL9M1QRlxRK4=
+		Py3J6F67ttKE+V9Ff4rAckDf0z0=
 		</data>
 		<key>cs.lproj/InfoPlist.strings</key>
 		<dict>
@@ -260,10 +260,6 @@
 	<dict>
 		<key>cs.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -273,10 +269,6 @@
 		</dict>
 		<key>da.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -286,10 +278,6 @@
 		</dict>
 		<key>de.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -299,10 +287,6 @@
 		</dict>
 		<key>el.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -312,10 +296,6 @@
 		</dict>
 		<key>embedded.mobileprovision</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			W3v8hio1cC+YEnzDWkGjGKgJapQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			BMLLQR1I3bJEJY2o93UE9iPgSrAgfjgPkHdG+viMjgI=
@@ -323,10 +303,6 @@
 		</dict>
 		<key>en.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -336,10 +312,6 @@
 		</dict>
 		<key>es.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -349,10 +321,6 @@
 		</dict>
 		<key>fi.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -362,10 +330,6 @@
 		</dict>
 		<key>fr.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -375,10 +339,6 @@
 		</dict>
 		<key>hr.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -388,10 +348,6 @@
 		</dict>
 		<key>hu.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -401,10 +357,6 @@
 		</dict>
 		<key>id.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -414,10 +366,6 @@
 		</dict>
 		<key>it.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -427,10 +375,6 @@
 		</dict>
 		<key>ja.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -440,10 +384,6 @@
 		</dict>
 		<key>ko.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -453,10 +393,6 @@
 		</dict>
 		<key>nb.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -466,10 +402,6 @@
 		</dict>
 		<key>nl.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -479,10 +411,6 @@
 		</dict>
 		<key>pl.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -492,10 +420,6 @@
 		</dict>
 		<key>pt-BR.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -505,10 +429,6 @@
 		</dict>
 		<key>pt-PT.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -518,10 +438,6 @@
 		</dict>
 		<key>ro.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -531,10 +447,6 @@
 		</dict>
 		<key>ru.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -544,10 +456,6 @@
 		</dict>
 		<key>sv.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -557,10 +465,6 @@
 		</dict>
 		<key>th.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -570,10 +474,6 @@
 		</dict>
 		<key>tr.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -583,10 +483,6 @@
 		</dict>
 		<key>vi.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -596,10 +492,6 @@
 		</dict>
 		<key>zh-Hans.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=
@@ -609,10 +501,6 @@
 		</dict>
 		<key>zh-Hant.lproj/InfoPlist.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oTCWeh4OzxqyeSKNR313TVM/Yp4=
-			</data>
 			<key>hash2</key>
 			<data>
 			e5JJ1i/U2ARzXy8IOwN7YmeJQiRRRQ+Tww+UrS95ByY=

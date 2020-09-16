@@ -113,20 +113,4 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 // Returns the method used to obtain the Intune MAM policy. Use this property for telemetry or logging purposes.
 @property (nonatomic,readonly) IntuneMAMPolicySource mamPolicySource;
 
-#pragma mark - Deprecated APIs
-
-- (NSArray*_Nullable) aadAuthorityUrisForIdentity:(NSString*_Nullable)identity __attribute__((deprecated("This method is deprecated and will be removed in a future release. Use [IntuneMAMSettings aadAuthorityUrisForIdentity:identity] instead")));
-
-@property (nonatomic) BOOL telemetryEnabled __attribute__((deprecated("This property is deprecated and will be removed in a future release. Use [IntuneMAMSettings telemetryEnabled] instead")));
-
-@property (nonatomic,strong,nullable) NSString* aadAuthorityUriOverride __attribute__((deprecated("This property is deprecated and will be removed in a future release. Use [IntuneMAMSettings aadAuthorityUriOverride] instead")));
-
-@property (nonatomic,strong,nullable) NSString* aadRedirectUriOverride __attribute__((deprecated("This property is deprecated and will be removed in a future release. Use [IntuneMAMSettings aadRedirectUriOveride] instead")));
-
-@property (nonatomic,strong,nullable) NSString* aadClientIdOverride __attribute__((deprecated("This property is deprecated and will be removed in a future release. Use [IntuneMAMSettings aadClientIdOverride] instead")));
-
--(NSDictionary*_Nullable) getDiagnosticInformation __attribute__((deprecated("This method is deprecated and will be removed in a future release. Use [IntuneMAMDiagnosticConsole getDiagnosticInformation] instead")));
-
-- (NSArray*_Nullable) getIntuneLogPaths __attribute__((deprecated("This method is deprecated and will be removed in a future release. Use [IntuneMAMDiagnosticConsole getIntuneLogPaths] instead")));
-
 @end

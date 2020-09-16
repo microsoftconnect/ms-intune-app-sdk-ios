@@ -1,11 +1,14 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
-// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftStub
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftStub
 import Darwin
 import Dispatch
 import Foundation
 import Swift
+import SwiftUI
+import System
 import UIKit
+import WidgetKit
 public func cmarRealUIApplicationMain(_ argc: Swift.Int32, _ argv: Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<Swift.Int8>?>, _ principalClassName: Swift.String?, _ delegateClassName: Swift.String?) -> Swift.Int32
 extension DispatchQueue {
   public func cmarRealDispatchQueueAsync(group: Dispatch.DispatchGroup? = nil, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
@@ -25,6 +28,10 @@ extension StringProtocol {
   public func cmarRealStringWrite<T>(toFile path: T, atomically useAuxiliaryFile: Swift.Bool, encoding enc: Swift.String.Encoding) throws where T : Swift.StringProtocol
   public func cmarRealStringWrite(to url: Foundation.URL, atomically useAuxiliaryFile: Swift.Bool, encoding enc: Swift.String.Encoding) throws
 }
+@available(iOS 14.0, *)
+extension FileDescriptor {
+  public static func cmarRealOpen(_ path: Swift.UnsafePointer<Swift.CChar>, _ mode: System.FileDescriptor.AccessMode, options: System.FileDescriptor.OpenOptions, permissions: System.FilePermissions?, retryOnInterrupt: Swift.Bool) throws -> System.FileDescriptor
+}
 extension URL {
   public static func cmarRealURLWriteBookmarkData(_ data: Foundation.Data, to url: Foundation.URL) throws
 }
@@ -34,6 +41,20 @@ extension URL {
   public static func cmarRealOpenat(_ fd: Swift.Int32, _ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32) -> Swift.Int32
   public static func cmarRealOpenat(_ fd: Swift.Int32, _ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32, _ mode: Darwin.mode_t) -> Swift.Int32
   @objc deinit
+}
+@available(iOS 14.0.0, *)
+extension View {
+  public func cmarRealWidgetURL(_ url: Foundation.URL?) -> some SwiftUI.View
+  
+}
+@available(iOS 14.0.0, *)
+extension Link where Label == SwiftUI.Text {
+  public init(_ titleKey: SwiftUI.LocalizedStringKey, cmarRealURL: Foundation.URL)
+  public init<S>(_ title: S, cmarRealURL: Foundation.URL) where S : Swift.StringProtocol
+}
+@available(iOS 14.0.0, *)
+extension Link {
+  public init(_ cmarRealURL: Foundation.URL, @SwiftUI.ViewBuilder label: () -> Label)
 }
 extension Data {
   public func cmarRealDataWrite(to url: Foundation.URL, options: Foundation.Data.WritingOptions = []) throws
