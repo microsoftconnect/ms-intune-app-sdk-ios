@@ -82,25 +82,26 @@
 // dynamically determines the AAD authority URI. If the authority URI is static and known at compile-time,
 // applications do not need to set this property and developers should instead set the ADALAuthority value
 // under the IntuneMAMSettings dictionary of the app's info.plist. Values asigned to this property are persisted
-// across application launches and are cleared only when the application explicitly changes the value or when
-// reinstalling the application. To remove the override, applications can either set this property to nil or
-// an empty string.
+// across application launches and are cleared only when the application explicitly changes the value, the managed
+// identity is unenrolled, or when reinstalling the application. To remove the override, applications can either set
+// this property to nil or an empty string.
 @property (class,nonatomic,strong,nullable) NSString* aadAuthorityUriOverride;
 
 // Specifies the AAD redirect URI the SDK should use. This property should be set if the application dynamically
 // determines the AAD redirect URI. If the redirect URI is static and known at compile-time, applications do not
 // need to set this property and developers should instead set the ADALRedirectUri value under the IntuneMAMSettings
 // dictionary of the app's info.plist. Values assigned to this property are persisted across application launches
-// and are cleared only when the application explicitly changes the value or when reinstalling the application.
-// To remove the override, applications can either  set this property to nil or an empty string.
+// and are cleared only when the application explicitly changes the value, the managed identity is unenrolled, or
+// when reinstalling the application. To remove the override, applications can either  set this property to nil or
+// an empty string.
 @property (class,nonatomic,strong,nullable) NSString* aadRedirectUriOverride;
 
 // Specifies the AAD client ID the SDK should use. This property should be set if the application dynamically
 // determines the AAD client ID. If the client ID is static and known at compile-time, developers should instead set
 // the ADALClientId value under the IntuneMAMSettings dictionary of the app's info.plist. Values assigned to this
 // property are persisted across application launches and are cleared only when the application explicitly changes the
-// value or when reinstalling the application. To remove the override, applications can either  set this
-// property to nil or an empty string.
+// value, the managed identity is unenrolled, or when reinstalling the application. To remove the override, applications
+// can either set this property to nil or an empty string.
 @property (class,nonatomic,strong,nullable) NSString* aadClientIdOverride;
 
 @end
