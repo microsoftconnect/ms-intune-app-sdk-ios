@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftStub
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftStub
 import Darwin
 import Dispatch
 import Foundation
@@ -8,7 +8,6 @@ import Swift
 import SwiftUI
 import System
 import UIKit
-import WidgetKit
 public func cmarRealUIApplicationMain(_ argc: Swift.Int32, _ argv: Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<Swift.Int8>?>, _ principalClassName: Swift.String?, _ delegateClassName: Swift.String?) -> Swift.Int32
 extension DispatchQueue {
   public func cmarRealDispatchQueueAsync(group: Dispatch.DispatchGroup? = nil, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
@@ -54,7 +53,7 @@ extension Link where Label == SwiftUI.Text {
 }
 @available(iOS 14.0.0, *)
 extension Link {
-  public init(_ cmarRealURL: Foundation.URL, @SwiftUI.ViewBuilder label: () -> Label)
+  public init(_ cmarRealURL: Foundation.URL, @SwiftUI.ViewBuilder cmarRealLabel: () -> Label)
 }
 extension Data {
   public func cmarRealDataWrite(to url: Foundation.URL, options: Foundation.Data.WritingOptions = []) throws

@@ -98,6 +98,12 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
 // Returns an object that can be used to retrieve the MAM policy for the specified window.
 - (_Nullable id<IntuneMAMPolicy>) policyForWindow:(UIWindow*_Nullable)window;
 
+// Sets an IntuneMAMWebViewPolicyDelegate for the passed in WKWebView or SFSafariViewController.
+// This delegate should be set for each WKWebView or SFSafariViewController being used to access
+// arbitrary URLs or URLs that might access external data. See IntuneMAMPolicyDelegate.h for more
+// information about this delegate and if it needs to be set.
+- (void) setWebViewPolicyDelegate:(id<IntuneMAMWebViewPolicyDelegate>_Nullable)delegate forWebViewer:(id _Nonnull)webViewer;
+
 // Returns the account name of the primary user in upn format (e.g. user@contoso.com).
 @property (readonly) NSString* _Nullable primaryUser;
 
