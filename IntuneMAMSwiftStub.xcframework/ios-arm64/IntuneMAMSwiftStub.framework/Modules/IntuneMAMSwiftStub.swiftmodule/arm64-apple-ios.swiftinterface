@@ -1,0 +1,60 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios12.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftStub
+import Darwin
+import Dispatch
+import Foundation
+import Swift
+import SwiftUI
+import System
+import UIKit
+public func cmarRealUIApplicationMain(_ argc: Swift.Int32, _ argv: Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<Swift.Int8>?>, _ principalClassName: Swift.String?, _ delegateClassName: Swift.String?) -> Swift.Int32
+extension DispatchQueue {
+  public func cmarRealDispatchQueueAsync(group: Dispatch.DispatchGroup? = nil, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
+  public func cmarRealDispatchQueueSync<T>(execute work: () throws -> T) rethrows -> T
+  public func cmarRealDispatchQueueSync<T>(flags: Dispatch.DispatchWorkItemFlags, execute work: () throws -> T) rethrows -> T
+  public func cmarRealDispatchQueueAsyncAfter(deadline: Dispatch.DispatchTime, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
+  public func cmarRealDispatchQueueAsyncAfter(wallDeadline: Dispatch.DispatchWallTime, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
+  public class func cmarRealDispatchQueueConcurrentPerform(iterations: Swift.Int, execute work: (Swift.Int) -> Swift.Void)
+}
+extension DispatchGroup {
+  public func cmarRealDispatchGroupNotify(qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], queue: Dispatch.DispatchQueue, execute work: @escaping @convention(block) () -> ())
+}
+extension DispatchWorkItem {
+  public func cmarRealDispatchWorkItemNotify(qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], queue: Dispatch.DispatchQueue, execute: @escaping @convention(block) () -> Swift.Void)
+}
+extension StringProtocol {
+  public func cmarRealStringWrite<T>(toFile path: T, atomically useAuxiliaryFile: Swift.Bool, encoding enc: Swift.String.Encoding) throws where T : Swift.StringProtocol
+  public func cmarRealStringWrite(to url: Foundation.URL, atomically useAuxiliaryFile: Swift.Bool, encoding enc: Swift.String.Encoding) throws
+}
+@available(iOS 14.0, *)
+extension FileDescriptor {
+  public static func cmarRealOpen(_ path: Swift.UnsafePointer<Swift.CChar>, _ mode: System.FileDescriptor.AccessMode, options: System.FileDescriptor.OpenOptions, permissions: System.FilePermissions?, retryOnInterrupt: Swift.Bool) throws -> System.FileDescriptor
+}
+extension URL {
+  public static func cmarRealURLWriteBookmarkData(_ data: Foundation.Data, to url: Foundation.URL) throws
+}
+@_hasMissingDesignatedInitializers public class DarwinStubs {
+  public static func cmarRealOpen(_ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32) -> Swift.Int32
+  public static func cmarRealOpen(_ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32, _ mode: Darwin.mode_t) -> Swift.Int32
+  public static func cmarRealOpenat(_ fd: Swift.Int32, _ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32) -> Swift.Int32
+  public static func cmarRealOpenat(_ fd: Swift.Int32, _ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32, _ mode: Darwin.mode_t) -> Swift.Int32
+  @objc deinit
+}
+@available(iOS 14.0.0, *)
+extension View {
+  public func cmarRealWidgetURL(_ url: Foundation.URL?) -> some SwiftUI.View
+  
+}
+@available(iOS 14.0.0, *)
+extension Link where Label == SwiftUI.Text {
+  public init(_ titleKey: SwiftUI.LocalizedStringKey, cmarRealURL: Foundation.URL)
+  public init<S>(_ title: S, cmarRealURL: Foundation.URL) where S : Swift.StringProtocol
+}
+@available(iOS 14.0.0, *)
+extension Link {
+  public init(_ cmarRealURL: Foundation.URL, @SwiftUI.ViewBuilder cmarRealLabel: () -> Label)
+}
+extension Data {
+  public func cmarRealDataWrite(to url: Foundation.URL, options: Foundation.Data.WritingOptions = []) throws
+}
