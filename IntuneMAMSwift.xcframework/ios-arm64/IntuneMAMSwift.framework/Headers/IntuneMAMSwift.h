@@ -3,3 +3,4 @@
 //
 
 #import <IntuneMAMSwift/IntuneMAM.h>
+#import <IntuneMAMSwift/IntuneMAMTelemetry.h>
