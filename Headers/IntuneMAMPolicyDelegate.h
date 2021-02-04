@@ -74,6 +74,30 @@ typedef NS_ENUM(NSUInteger, IntuneMAMAddIdentityResult)
  * @param url - the URL the WKWebView will be navigating to
  * @return a BOOL representing if the URL is an external unmanaged URL.
  */
-- (BOOL) isExternalURL:(NSURL*_Nonnull)url;
+- (BOOL) isExternalURL:(NSURL*_Nonnull)url __attribute__((deprecated("This delegate method will be removed in a future release. Implement the IntuneMAMWebViewPolicyDelegate for each web view that can access abitrary URLs instead. Set the delegate using setWebViewPolicyDelegate:forWebViewer: within IntuneMAMPolicyManager")));
+
+@end
+
+@protocol IntuneMAMWebViewPolicyDelegate <NSObject>
+
+@optional
+/**
+ * We will call this method each time we navigate to a new URL under a managed account in the WKWebView or
+ * SFSafariViewController this delegate is tied to. It will use the result to decide whether we need to restrict access to it.
+ * Returning YES will indicate to the SDK that the site being navigated to is an unmanaged external site and should be
+ * opened with proper protections. Returning NO will indicate to the SDK that the site being navigated to is an internal
+ * site that the app knows is managed, meaning the SDK does not need to restrict access to it. If this delegate method
+ * is not implemented, it will assume all URLs in this web view are managed sites.
+ *
+ * (Note: This method only needs to be implemented if your app is using WKWebViews or SFSafariViewControllers to
+ * display arbitrary URLs. Not implementing it is the same as always returning NO. If all the web views presented within
+ * the app are being used for accessing non-corporate data, TreatAllWebViewsAsUnmanaged can be set as YES in the
+ * app's Info.plist under IntuneMAMSettings. This setting will ensure that pasteboard content is not leaked through any
+ * web views.)
+ *
+ * @param url - the URL the web view will be navigating to
+ * @return a BOOL representing if the URL is an external unmanaged URL.
+ */
+- (BOOL) isExternalURL:(NSURL* _Nonnull) url;
 
 @end
