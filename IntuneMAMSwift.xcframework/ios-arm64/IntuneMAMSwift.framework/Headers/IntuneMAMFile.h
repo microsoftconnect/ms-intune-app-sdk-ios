@@ -7,6 +7,7 @@
 #import <Foundation/Foundation.h>
 #import "IntuneMAMFileProtectionInfo.h"
 
+__attribute__((visibility("default")))
 @interface IntuneMAMFile : NSObject
 
 - (instancetype _Nonnull) init __attribute__((unavailable("Must use class methods to create IntuneMAMFile instance.")));

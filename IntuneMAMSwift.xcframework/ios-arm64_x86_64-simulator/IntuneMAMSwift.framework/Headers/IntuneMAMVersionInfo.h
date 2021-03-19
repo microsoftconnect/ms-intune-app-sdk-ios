@@ -5,6 +5,7 @@
 #import <Foundation/Foundation.h>
 
 
+__attribute__((visibility("default")))
 @interface IntuneMAMVersionInfo : NSObject
 
 // SDK version is composed of non-negative integers separated by periods

@@ -25,6 +25,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMStringQueryType)
     IntuneMAMStringMax
 };
 
+__attribute__((visibility("default")))
 @protocol IntuneMAMAppConfig <NSObject>
 
 @required

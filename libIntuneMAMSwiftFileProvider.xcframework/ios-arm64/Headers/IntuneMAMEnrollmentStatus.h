@@ -42,13 +42,15 @@ typedef NS_ENUM(NSUInteger, IntuneMAMEnrollmentStatusCode)
     IntuneMAMEnrollmentStatusTenantMigration = 222,                 // Operation failed because the user's tenant is either undergoing a migration, or the user is not licensed for MAM
     IntuneMAMEnrollmentStatusUnsupportedAPI = 223,                   // MAM does not support enrolling from an extension.
     IntuneMAMEnrollmentStatusADALMethodUnsupported = 224,            // The linked version of ADAL does not support this method. (ADAL below 2.6.4)
-    IntuneMAMEnrollmentStatusLicensedNotTargeted = 225                // The account is licensed for Intune but is not targeted with MAM policy
+    IntuneMAMEnrollmentStatusLicensedNotTargeted = 225,                // The account is licensed for Intune but is not targeted with MAM policy
+    IntuneMAMEnrollmentStatusDeviceBlockedEnrollment = 226        // The device blocked the enrollment
 };
 
 /**
  *  An IntuneMAMEnrollmentStatus object will be returned as a
  *  parameter in the methods defined in IntuneMAMEnrollmentDelegate.h
  */
+__attribute__((visibility("default")))
 @interface IntuneMAMEnrollmentStatus : NSObject
 
 /**

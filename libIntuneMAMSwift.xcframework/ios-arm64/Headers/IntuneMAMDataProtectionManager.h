@@ -10,8 +10,10 @@
 // notification is received.
 // The NSNotification passed to the observer will contain the
 // IntuneMAMDataProtectionManager instance as the object and userInfo will be nil.
+__attribute__((visibility("default")))
 extern NSString*_Nonnull const IntuneMAMDataProtectionDidChangeNotification;
 
+__attribute__((visibility("default")))
 @interface IntuneMAMDataProtectionManager : NSObject
 
 + (IntuneMAMDataProtectionManager*_Nonnull) instance;

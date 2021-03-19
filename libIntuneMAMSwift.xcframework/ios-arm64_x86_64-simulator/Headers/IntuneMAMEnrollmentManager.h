@@ -13,9 +13,11 @@
  *  the object sent is the NSArray UPN (or nil)
  *  of the allowed users.
  */
+__attribute__((visibility("default")))
 extern NSString*_Nonnull const IntuneMAMAllowedAccountsDidChangeNotification;
 
 
+__attribute__((visibility("default")))
 @interface IntuneMAMEnrollmentManager : NSObject
 
 #pragma mark - Public APIs

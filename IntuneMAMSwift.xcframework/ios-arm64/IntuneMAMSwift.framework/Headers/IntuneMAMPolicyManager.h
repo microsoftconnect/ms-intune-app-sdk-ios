@@ -10,6 +10,7 @@
 // Applications can register for notifications using the default NSNotificationCenter.
 // The NSNotification passed to the observer will contain the IntuneMAMPolicyManager instance
 // as the object and userInfo will be nil.
+__attribute__((visibility("default")))
 extern NSString*_Nonnull const IntuneMAMPolicyDidChangeNotification;
 
 // MAM policy source
@@ -20,6 +21,7 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
     IntuneMAMPolicySource_Other = 2,
 };
 
+__attribute__((visibility("default")))
 @interface IntuneMAMPolicyManager : NSObject
 
 + (IntuneMAMPolicyManager*_Nonnull) instance;

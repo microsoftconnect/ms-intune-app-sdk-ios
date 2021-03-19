@@ -4,6 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
+__attribute__((visibility("default")))
 @interface IntuneMAMSettings: NSObject
 
 //Specifies the background color the SDK should use when presenting UI (ex: PIN screen, diagnostics console).

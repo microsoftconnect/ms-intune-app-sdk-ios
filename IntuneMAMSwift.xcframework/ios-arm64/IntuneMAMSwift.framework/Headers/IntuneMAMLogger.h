@@ -5,6 +5,7 @@
 #import <Foundation/Foundation.h>
 
 // Intune MAM logging interface.
+__attribute__((visibility("default")))
 @protocol IntuneMAMLogger<NSObject>
 
 typedef enum IntuneMAMLogLevel

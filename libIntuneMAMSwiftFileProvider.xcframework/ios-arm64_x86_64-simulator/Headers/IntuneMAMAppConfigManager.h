@@ -5,12 +5,15 @@
 #import <Foundation/Foundation.h>
 #import "IntuneMAMAppConfig.h"
 
+
 // Notification name for MAM service App Configuration change notifications.
 // Applications can register for notifications using the default NSNotificationCenter.
 // The NSNotification passed to the observer will contain the IntuneMAMAppConfigManager instance
 // as the object.
+__attribute__((visibility("default")))
 extern NSString* _Nonnull const IntuneMAMAppConfigDidChangeNotification;
 
+__attribute__((visibility("default")))
 @interface IntuneMAMAppConfigManager : NSObject
 
 + (IntuneMAMAppConfigManager*_Nonnull) instance;

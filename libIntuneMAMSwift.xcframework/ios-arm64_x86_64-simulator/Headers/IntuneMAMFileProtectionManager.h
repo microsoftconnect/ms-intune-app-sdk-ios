@@ -7,6 +7,7 @@
 #import "IntuneMAMFileProtectionInfo.h"
 
 
+__attribute__((visibility("default")))
 @interface IntuneMAMFileProtectionManager : NSObject
 
 + (IntuneMAMFileProtectionManager*_Nonnull) instance;

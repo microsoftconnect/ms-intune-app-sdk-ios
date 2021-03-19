@@ -689,26 +689,6 @@
 			<false/>
 		</dict>
 		<dict>
-			<key>Values</key>
-			<array>
-				<string>Enabled</string>
-				<string>Disabled</string>
-			</array>
-			<key>Titles</key>
-			<array>
-				<string>0</string>
-				<string>14</string>
-			</array>
-			<key>Title</key>
-			<string>Disable SBIV</string>
-			<key>Type</key>
-			<string>PSMultiValueSpecifier</string>
-			<key>DefaultValue</key>
-			<integer>14</integer>
-			<key>Key</key>
-			<string>IntuneMAMPolicy.SBIVState</string>
-		</dict>
-		<dict>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>

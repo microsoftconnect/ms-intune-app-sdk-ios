@@ -24,6 +24,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMAddIdentityResult)
 };
 
 
+__attribute__((visibility("default")))
 @protocol IntuneMAMPolicyDelegate <NSObject>
 
 @optional
@@ -62,6 +63,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMAddIdentityResult)
 
 @end
 
+__attribute__((visibility("default")))
 @protocol IntuneMAMWebViewPolicyDelegate <NSObject>
 
 @required

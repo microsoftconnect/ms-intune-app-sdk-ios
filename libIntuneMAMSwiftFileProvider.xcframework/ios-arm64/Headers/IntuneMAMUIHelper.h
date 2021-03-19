@@ -2,6 +2,7 @@
 //  Copyright (c) Microsoft Corporation. All rights reserved.
 //
 
+__attribute__((visibility("default")))
 @interface IntuneMAMUIHelper : NSObject
 
 // Shows an alert displaying an error message to the user, indicated that the requested sharing action

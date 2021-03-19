@@ -29,6 +29,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMTelemetryPriorityLevel)
   IntuneMAMTelemetryPriorityImmediate = 4  /**< Send the event as soon as possible. */
 };
 
+__attribute__((visibility("default")))
 @protocol IntuneMAMTelemetryDelegate <NSObject>
 
 @required
@@ -50,6 +51,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMTelemetryPriorityLevel)
 
 @end
 
+__attribute__((visibility("default")))
 @interface IntuneMAMTelemetryManager : NSObject
 
 /**

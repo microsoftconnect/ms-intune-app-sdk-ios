@@ -40,13 +40,7 @@ typedef NS_ENUM(NSInteger, IntuneMAMNotificationPolicy)
     IntuneMAMNotificationPolicyBlock = 2,
 };
 
-@interface IntuneMAMLocation : NSObject
-
-@property (readonly) int location;
-@property (readonly) BOOL allowed;
-
-@end
-
+__attribute__((visibility("default")))
 @protocol IntuneMAMPolicy <NSObject>
 
 @required
@@ -98,7 +92,10 @@ typedef NS_ENUM(NSInteger, IntuneMAMNotificationPolicy)
 // otherwise, regardless of whether there are managed document picker extensions in the
 // UIDocumentPickerViewController that can accept the managed file. Applications can check
 // this policy to customize their UI. Policy enforcement will be entirely handled by the SDK.
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
 - (BOOL) isDocumentPickerAllowed: (UIDocumentPickerMode) mode;
+#pragma clang diagnostic pop
 
 // TRUE if the management policy requires the Intune Managed Browser to handle HTTP/HTTPS
 // requests. Applications can check this policy to customize their UI. Policy enforcement

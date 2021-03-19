@@ -9,6 +9,7 @@
  *  This delegate will return status and debug information for operations 
  *  completed by the Intune MAM SDK. 
  */
+__attribute__((visibility("default")))
 @protocol IntuneMAMEnrollmentDelegate <NSObject>
 
 #pragma mark - Delegate Methods

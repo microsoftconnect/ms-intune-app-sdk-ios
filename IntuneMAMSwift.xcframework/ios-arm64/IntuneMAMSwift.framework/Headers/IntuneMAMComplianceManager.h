@@ -17,6 +17,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMComplianceStatus)
 /**
  *  This delegate will return compliance information requested by the app
  */
+__attribute__((visibility("default")))
 @protocol IntuneMAMComplianceDelegate <NSObject>
 
 /**
@@ -36,6 +37,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMComplianceStatus)
 
 @end
 
+__attribute__((visibility("default")))
 @interface IntuneMAMComplianceManager : NSObject
 
 /**
