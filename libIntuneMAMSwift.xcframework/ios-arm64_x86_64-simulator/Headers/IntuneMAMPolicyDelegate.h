@@ -4,6 +4,7 @@
 
 #import <Foundation/Foundation.h>
 #import "IntuneMAMDefs.h"
+#import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSUInteger, IntuneMAMIdentitySwitchReason)
 {

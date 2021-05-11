@@ -5,6 +5,7 @@
 #import "IntuneMAMLogger.h"
 #import "IntuneMAMPolicy.h"
 #import "IntuneMAMPolicyDelegate.h"
+#import <UIKit/UIKit.h>
 
 // Notification name for Intune application policy change notifications.
 // Applications can register for notifications using the default NSNotificationCenter.
@@ -19,6 +20,14 @@ typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
     IntuneMAMPolicySource_MDM = 0,      //  the policy is from the MDM channel
     IntuneMAMPolicySource_MAM = 1,      //  the policy is from the MAM channel
     IntuneMAMPolicySource_Other = 2,
+};
+
+// MAM web view policy
+typedef NS_ENUM(NSInteger, IntuneMAMWebViewPolicy)
+{
+    IntuneMAMWebViewPolicyUnset = 0,            // the web view will be treated according to the TreatAllWebviewsAsUnmanaged flag
+    IntuneMAMWebViewPolicyUnmanaged = 1,        // the web view will be treated as unmanaged
+    IntuneMAMWebViewPolicyCurrentIdentity = 2,  // the web view will be treated as the current ui identity
 };
 
 __attribute__((visibility("default")))
@@ -105,6 +114,12 @@ __attribute__((visibility("default")))
 // arbitrary URLs or URLs that might access external data. See IntuneMAMPolicyDelegate.h for more
 // information about this delegate and if it needs to be set.
 - (void) setWebViewPolicyDelegate:(id<IntuneMAMWebViewPolicyDelegate>_Nullable)delegate forWebViewer:(id _Nonnull)webViewer;
+
+// Sets an IntuneMAMWebViewPolicy value for the passed in UIView or UIViewController. This web
+// view policy value will apply to any current or future child WKWebViews of the webViewer. A
+// WKWebView can also be passed in directly as the webViewer. The passed in webViewPolicy will
+// overwrite the TreatAllWebViewsAsUnmanaged flag for the passed in webViewer and its children.
+- (void) setWebViewPolicy:(IntuneMAMWebViewPolicy)webViewPolicy forWebViewer:(id _Nonnull)webViewer;
 
 // Returns the account name of the primary user in upn format (e.g. user@contoso.com).
 @property (readonly) NSString* _Nullable primaryUser;
