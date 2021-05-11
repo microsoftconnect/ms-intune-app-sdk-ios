@@ -12,3 +12,8 @@ Before you install and use Microsoft Intune App SDK for iOS you **must**:
 
 See the [Intune App SDK iOS Developer Guide](https://docs.microsoft.com/en-us/intune/develop/intune-app-sdk-ios) on how to integrate the SDK into your iOS app.
 
+Supported Xcode and iOS versions:
+| Intune SDK Version  | Supported iOS Versions  | Supported Xcode Version | Support Scope |
+| ----------------------- | ---------------------------- | -----------------------------  | ----------------- |                         
+| 14.1.0+                     | 12.2+                               | 12                                       | Main release branch - supports all feature work and bug fixes |
+| 12.9.4+                     | 12+ (no support for iOS 14 features) | 11 (latest minor version) | High-priority security fixes only |
