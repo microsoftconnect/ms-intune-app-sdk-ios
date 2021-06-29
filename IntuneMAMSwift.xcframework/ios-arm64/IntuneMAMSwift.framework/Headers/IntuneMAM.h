@@ -22,3 +22,4 @@
 #import "IntuneMAMSettings.h"
 #import "IntuneMAMVersionInfo.h"
 #import "IntuneMAMUIHelper.h"
+#import "IntuneMAMCertificatePinningManager.h"
