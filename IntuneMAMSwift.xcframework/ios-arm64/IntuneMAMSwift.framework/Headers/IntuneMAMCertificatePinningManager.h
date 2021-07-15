@@ -16,6 +16,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMCertificatePinningStatusCode)
     IntuneMAMCertificatePinningMatchNotFound = 107,            // Failed to find a matching pin within the provided certificate chain with the provided host
 };
 
+__attribute__((visibility("default")))
 @interface IntuneMAMCertificatePinningManager : NSObject
 
 +(IntuneMAMCertificatePinningManager* _Nonnull) instance;
