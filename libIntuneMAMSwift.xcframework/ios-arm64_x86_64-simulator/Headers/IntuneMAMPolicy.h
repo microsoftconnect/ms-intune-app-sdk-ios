@@ -80,7 +80,18 @@ __attribute__((visibility("default")))
 // Returns TRUE otherwise, regardless of whether the scheme is listed in the application's
 // LSApplicationQueriesSchemes.  Applications can check this policy to customize their UI.
 // Policy enforcement will be entirely handled by the SDK.
+//
+// If the URL is for an app that is known to have implemented the SDK, then pass in isKnownManagedAppScheme=TRUE
+// In this case the returned value will be TRUE if the URL can be opened and will not be blocked by policy
+// Returns FALSE otherwise.
+// isKnownManagedAppScheme defaults to FALSE
+//
+// If you know a scheme is for a managed app and you always call isURLAllowed with isKnownManagedAppScheme=TRUE for that scheme,
+// then the app does not need to put "sceheme-intunemam" into its LSApplicationQueriesSchemes.
+// However, calling canOpenURL without "scheme-intunemam" in LSApplicationQueriesSchemes will still return false when the url wouldn't be blocked.
+// Therefore, use this API instead of canOpenURL() for known managed apps that you don't have "scheme-intunemam: in LSApplicationQueriesSchemes.
 - (BOOL) isURLAllowed: (NSURL*_Nonnull) url;
+- (BOOL) isURLAllowed: (NSURL*_Nonnull) url isKnownManagedAppScheme:(BOOL)isKnownManagedAppScheme;
 
 // FALSE if the management policy blocks the application from opening the specified URL with the
 // UIApplicationOpenURLOptionUniversalLinksOnly option set to @YES. Returns TRUE otherwise.

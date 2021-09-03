@@ -79,6 +79,11 @@ __attribute__((visibility("default")))
 // Indicate if telemetry is opted-in or not.
 @property (class,nonatomic) BOOL telemetryEnabled;
 
+// Specifies a list of keys for their values to be scrubbed from the logs. This property should be set if there are specific
+// configuration values in the logs that applications want to be scrubbed in the json response logging and the diagnostic
+// logging.
+@property (class,nonatomic,strong,nullable) NSArray* valuesToScrubFromLogging;
+
 // Specifies which AAD authority URI the SDK should use. This property should be set if the application
 // dynamically determines the AAD authority URI. If the authority URI is static and known at compile-time,
 // applications do not need to set this property and developers should instead set the ADALAuthority value
