@@ -77,12 +77,7 @@ __attribute__((visibility("default")))
 //
 // The empty string may be passed in as the identity to represent 'no user' or an unknown personal account.
 // If nil is passed in, the thread identity will fallback to the process identity.
-- (void) setCurrentThreadIdentity:(NSString*_Nullable)identity  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setIdentity(_ :forScope:) APIs instead.") __deprecated_msg("Use setCurrentThreadIdentity:forScope: instead.");
-
-// Similar to the setCurrentThreadIdentity:, setCurrentThreadIdentity:forScope: will set the current thread identity but only for the scope of the passed block
-// It is preferable to use scoped thread identities to ensure that they are only set for a specified scope and will have a guaranteed removal.
-- (void) setCurrentThreadIdentity:(NSString*_Nullable)identity forScope:(void(^_Nullable)(void))scope  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setIdentity(_ :forScope:) APIs instead.");
-
+- (void) setCurrentThreadIdentity:(NSString*_Nullable)identity;
 - (NSString*_Nullable) getCurrentThreadIdentity;
 
 // setProcessIdentity sets the process wide identity.

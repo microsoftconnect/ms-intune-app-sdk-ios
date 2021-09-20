@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/IntuneMAM-Swift.h</key>
 		<data>
-		S4E4m8B1AykyKPjygKAIeETwgo4=
+		yOIAgs36QQ8aT1mJBPHO7FT8jQ4=
 		</data>
 		<key>Headers/IntuneMAM.h</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/IntuneMAMPolicy.h</key>
 		<data>
-		N6Zy9g5SBij1zfwV6Bl3Tu7oPPA=
+		+mRkPFz4Uie7MMOPMiCCkJmFTAk=
 		</data>
 		<key>Headers/IntuneMAMPolicyDelegate.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/IntuneMAMPolicyManager.h</key>
 		<data>
-		F1h1bRXcA2zQwrUHlfvF78071aM=
+		1KTINvpyQ3aG503AQALZC8ujWzo=
 		</data>
 		<key>Headers/IntuneMAMSettings.h</key>
 		<data>
@@ -106,92 +106,92 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		e56KBIrl+mKsOFFoGxRhyZBKupc=
+		ThHHEqzma3TdxsNy/n+jPE1Doa8=
 		</data>
 		<key>IntuneMAMResources.bundle/ActivityAlertViewController.nib</key>
 		<data>
-		208TyUqlluzEqLPKnCBWfo4C+Pg=
+		ENi6Ev1rF/bSSUmNISxZgT9DI3Y=
 		</data>
 		<key>IntuneMAMResources.bundle/Assets.car</key>
 		<data>
-		xevHIhJ9mXoj6wdr9Ye2YPD1mHo=
+		ouvZOdiKGAEvaqGp8J5zYbwQylU=
 		</data>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
 		<data>
-		CBIc1iU+DQlw1dqW+Cy+hoEwJwA=
+		qISQvS4XUHDIPJUGcS68SfrdO7s=
 		</data>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPhone.nib</key>
 		<data>
-		GaoiUdIKhJdfE1ZXG5mvbuVA0Rk=
+		RysiJMzClaZB9QiEUuJirtP9PUQ=
 		</data>
 		<key>IntuneMAMResources.bundle/Base.lproj/PinViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jTVaBclESUF4HRyPD9piVRjkqEc=
+			3XHSaAqIuY5x6EqwLTmaHKFlwd4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>IntuneMAMResources.bundle/BlurViewController_iPad.nib</key>
 		<data>
-		nSZ4fRF38WwqHqeS7f9i8wMX+oc=
+		xkhJXHa/mYpxjhK01EHxwEzeUps=
 		</data>
 		<key>IntuneMAMResources.bundle/BlurViewController_iPhone.nib</key>
 		<data>
-		sDowiYEskDW+DvgGsfS4rvi6XLI=
+		B7GGMYxw3pAWW6vkLaiNUa+yPUA=
 		</data>
 		<key>IntuneMAMResources.bundle/DiagnosticAppStatusViewController.nib</key>
 		<data>
-		r0xa/6kIoFKVq6d1nU4WX9Udu0c=
+		gtKmi2BYvFocdgPFowssoRR+D7w=
 		</data>
 		<key>IntuneMAMResources.bundle/DiagnosticUploadViewController.nib</key>
 		<data>
-		WRu8qVYPiNxiSZ2sQ1c0bqsVsb8=
+		jYivdJxxlycyS32Mvmf/n/4ERrg=
 		</data>
 		<key>IntuneMAMResources.bundle/DiagnosticViewController.nib</key>
 		<data>
-		xxF0306/VxyiCG7kVlYwyhUQhps=
+		0bk51C+2oGacBfr0yS6PiKYzq74=
 		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		q1aytUfYmMxhVffCtivFA4y+oTY=
+		68Xm0JlVYxaRlURjcEXvtVmqQ88=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<data>
-		adMvImUjd1smfNOjsYixkzIFo/E=
+		pqKfdQLaW8pQf9kMqIqLNppCoAM=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewControllerUnlistedMTDApp.nib</key>
 		<data>
-		vtFoRaqyszdcO1D47ar3mYzhi2A=
+		A1g/hTynv364fb5fXe7cZ0fcHQ0=
 		</data>
 		<key>IntuneMAMResources.bundle/MessageViewController.nib</key>
 		<data>
-		5nHQk/nzysF5JrZP/KmZw80K/Ks=
+		TI0KGzxcbWxXr0bxHTL+08nSrG8=
 		</data>
 		<key>IntuneMAMResources.bundle/OpenInExtensionViewController.nib</key>
 		<data>
-		0sHvQCZlR4VqnohgvIoQzRPYLsU=
+		DIX3R9lZalnzdpyzwaDEMVAlAIk=
 		</data>
 		<key>IntuneMAMResources.bundle/PolicyViewController_iPad.nib</key>
 		<data>
-		luiLbUD4X5+ofNs3LNPsWhhZ448=
+		tpEc77iq05EBbEvlpDSwK9MxizM=
 		</data>
 		<key>IntuneMAMResources.bundle/PolicyViewController_iPhone.nib</key>
 		<data>
-		bf17gDGb+j3VSYcfxu+p50XG1kY=
+		9ORxecA6wz70YHHVqWF5XHALJo8=
 		</data>
 		<key>IntuneMAMResources.bundle/SplashViewWithAlertController_iPad.nib</key>
 		<data>
-		wFyjdjHWURwNYK4zKX4s/MvkBwc=
+		SD1qaScnt6YWeiMAfoUTQl6EvtM=
 		</data>
 		<key>IntuneMAMResources.bundle/SplashViewWithAlertController_iPhone.nib</key>
 		<data>
-		pMNU+CSTE5aUdNz7wYotXGJbH5Q=
+		VjsbvWgbFuyoTg/HrGs1/J5FP30=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		gPl2sYe1FCDA539qHs2QdDkGiuE=
+		rFc/v60PsdEsJYOb0aOOjgXSLhs=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -199,11 +199,11 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		UwqixCO2NazgxJKevYL07lRS3Ws=
+		xQfzusfF2vqGS8o+XZVxJWpx5xM=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		3+/fmqFijimnzx9nm418WtZ8gSU=
+		jf3CAH9PzCbzff4Nyf6rHLhqPhg=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -701,67 +701,67 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		09kLbAODvXqx9Jd34tkMw1eyxmM=
+		XiPB6a/heHSR+lhsjiXJO7jpfGU=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		09kLbAODvXqx9Jd34tkMw1eyxmM=
+		XiPB6a/heHSR+lhsjiXJO7jpfGU=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		tUkrDwxcGATg77gI03+Mw6OREqI=
+		642eSzjSXDoTX0Mf4Kho47xgDcU=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		tUkrDwxcGATg77gI03+Mw6OREqI=
+		642eSzjSXDoTX0Mf4Kho47xgDcU=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+TFAXQ4qb2PKuYlz8suOmeL24iw=
+		G6CDXpZACwnb++M0NPUhjGBTc9w=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8xreFXAUei1tknhrOBOi1tvlags=
+		Q1u60LtVx5uAVlnDvxAqb8es5eU=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5Nk9yhLorpr+QrBasKj26wZ9HMQ=
+		0MjsfH/t4Ks5J0V1u6AaZUrLs5A=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		+TFAXQ4qb2PKuYlz8suOmeL24iw=
+		G6CDXpZACwnb++M0NPUhjGBTc9w=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		8xreFXAUei1tknhrOBOi1tvlags=
+		Q1u60LtVx5uAVlnDvxAqb8es5eU=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		5Nk9yhLorpr+QrBasKj26wZ9HMQ=
+		0MjsfH/t4Ks5J0V1u6AaZUrLs5A=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ccoDwUlzgZLi2sRG1+RVvF/dRXk=
+		SGOhdpZXa6gLiK2ItgneGneic5c=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TxlDRT3Y61/5wOM+onDdkI3iRis=
+		s9/5o6bCUDCgVVJ29Mwaor+gClo=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		G+RrcgsITobTXGmPFZSoMSqx4VE=
+		d3G4vUgQUsyCuSoMMO0kvHfLVbA=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		ccoDwUlzgZLi2sRG1+RVvF/dRXk=
+		SGOhdpZXa6gLiK2ItgneGneic5c=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		TxlDRT3Y61/5wOM+onDdkI3iRis=
+		s9/5o6bCUDCgVVJ29Mwaor+gClo=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		G+RrcgsITobTXGmPFZSoMSqx4VE=
+		d3G4vUgQUsyCuSoMMO0kvHfLVbA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -778,7 +778,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5q6bfGXvylCz8uKOA/MYY/TfUjz9DCN2dYqX6BzhQ1c=
+			manApASKRTxsQUFeHO6mwb/V98DMIODx1qGQA2EwLII=
 			</data>
 		</dict>
 		<key>Headers/IntuneMAM.h</key>
@@ -897,7 +897,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IsVLEEn7MkTCLoNFRllw1xiYEQNMCLHjrmsqvxiXXQA=
+			5pHaW9LKgPKb5iTA8pATVUAqjpUhwhHltaPo/GliiUQ=
 			</data>
 		</dict>
 		<key>Headers/IntuneMAMPolicyDelegate.h</key>
@@ -911,7 +911,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OKzVhgoAO8cp9l5FEOF1/dyhtpg07RSlULnRMp6QEwI=
+			3tKiZNmQF0KkocqbmsssRB+n6fDwLlB4cZMPl4o1JQw=
 			</data>
 		</dict>
 		<key>Headers/IntuneMAMSettings.h</key>
@@ -953,35 +953,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajBBiaCpuj/IDoCf4Xc9DulHvPpveWSLMuqrD/Ulok4=
+			w5aAjfJpwvGo/EqVRRp4hajzZ5nGYXaCeGo/uUJvrdE=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aWm01B0qXLY0XhxeLVdGzUA6FMuET6pnJaUiwTuiQXo=
+			K8ra5H5YzeoxfmMPVrR6XaLp4rkYqrg4F6rqLQF8zv4=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KXw8d0iEAof1dhzU7T6hX8pGkIRUfNZFReX/mwJyh3M=
+			GZ+dzvD3gyfkW5iF/uvfrvEb48SqflX7ied0quO0KS0=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPhone.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iwzfZL6oVcphadG+Uu7pU+E0yCB91MYdb6/lHQhuQkQ=
+			jU0HWPAYHdhQ0lw9NxIVtufeW1sFYhL1GYEkCe7cZK8=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/Base.lproj/PinViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dUpMpXgGPjrLTqR2xBPVexYxzqQDmbxw4cddHVm+dIw=
+			2giX/F5I/UnUJYVE3ECzkuY8XT4Hnpq5xNeT2NfxuLo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -990,105 +990,105 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8AhZNISJ0FUJ7i3MYMllg3js/gxVUyOKOLs4Jf56DpU=
+			XesQtpw++HzWiP3YCw/e3gzd142BWyv/uh5EQBm7F9c=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/BlurViewController_iPhone.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MlFIxinLsyL5TPsSpCG9KDBDPDcybrjPGFwx+xsy4ag=
+			lEYCKp7el6Yjo4+YahqHjDxUb/kMleM7heWn9hLHgSw=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/DiagnosticAppStatusViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2fPJGg6stCGLMv5u5e0Hv8CmHJAFFrkNPUyn8MDqoKo=
+			OpiarWKh6k5gKbSHgs/8ezDJh+pwyn1MOWYeFaiUB1Q=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/DiagnosticUploadViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kfN8qKk5CQePSgzi1nIIS0mPBE2pPASAlerJB01Kf5s=
+			3kLGqK3nI+K2TRrCjsOw74yXbogFqFai06KeLi6LbM0=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/DiagnosticViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+yoAzsMlg0vy7UwOXyxmRYjNTZZS18mFZqSeKAGtWfU=
+			nGDnHHjrZWDDuStEhwQ2cyLwyOLjzoVrMDriFg1ZwMI=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O+dg/Z88PZPj+ZH9xyAF3TGjfLOcPyNrLBslugrJRhA=
+			OhLT1TwYTL4JgSXoGrmUQwD2TmCz/wpPQs+diJoZE4M=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ln67dSg9IskInt4XJTwgFFX12sKyd5gTowA1i6LDY9g=
+			M/m9FC9XOB0JKIgCAQbYn3PYSPbsTcR3ZI7X106KOFA=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewControllerUnlistedMTDApp.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zAKoaVumqCGwUTsk9ajIKCpp8vAVGejzrKoJ+QFsw7Y=
+			nUcb4h2tPX2aUEnBVKKhg1CJcmclHp/T5oivcstyi2o=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MessageViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P3iUwnf7ZnVgqOAVnbL5PpoclCju0qOohV/iMq1HG18=
+			q7O+JGfPepjLbtHV3GLYhKS7ZF7ja5K1S27UtX5bO/o=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/OpenInExtensionViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EY4f1CrGN62bVlHpIh7+GVvra1f7YHgy1d40/wnCpdQ=
+			WZn80f+l4+IsvUSjtKPek9jSq0XUNMvPfLx2OZ7FuqQ=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/PolicyViewController_iPad.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NM4ubrDwmZrNGT352EdP3HUBB1R6QP8C1OkVUII2110=
+			jBcDX6uvwe2CwgWCo1QZ1FxJWAOwmGl1SFtPLsjlm9c=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/PolicyViewController_iPhone.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sLkq4tPqYAdtTpCScfkvXIn6xAGXLC1DqQtThjoIdtY=
+			2CNSAahKC+yIhyE2xFPBWfCZ+9VhoCm23WnNDhYyQP0=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/SplashViewWithAlertController_iPad.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sRjrqOunwRiEhplZoC8nteqyaZvUvTCGRhN5WeDMMSU=
+			eRxMIiaHl+WdRGKZPwbY/Ezj3s+TDrWobtJf+oudoJw=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/SplashViewWithAlertController_iPhone.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GK/3WI7a0Hq+JsrDOVReoqHXfWhJCnBYin1wFVbYwbA=
+			+Y2Irbryxjn2L3E2hTnDNYA6yzytsZTdccb7FFnGUMA=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z7tgT4uHS/LaSzgz02Di/tBNzk1yrUNmgmBa0lrWppI=
+			AaUR9tqOH1BvemoOF6DMHjP0RbEbLuhs3Cx8Q2JcTY0=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1102,14 +1102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aheSn9ccZUddq7JWvMVv6Brek2Q8Oo5CN9O68+YVdJs=
+			SBA664mblsB332CfwWV6mMiJhKAf09ijzM7+xUkwBvU=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pjlj6o8eDLd2Fu7q1Gct+qUpOI7gmXXgM0rdDBoTA5c=
+			gh2MUAB3CyzChnJr6uObC4yYY3/+iGJEeYrkVB3mGyU=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeSignature</key>
@@ -1616,112 +1616,112 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ExiAhK6VjzfIXvq5vsQBQuOD3xXoyHlxj2pMoStLmLw=
+			PoaAXn46imUEvpZpYg1RwFxThPA4tN4e/uWqpm0AqPw=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ExiAhK6VjzfIXvq5vsQBQuOD3xXoyHlxj2pMoStLmLw=
+			PoaAXn46imUEvpZpYg1RwFxThPA4tN4e/uWqpm0AqPw=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gBJLcOpa9Mk4vPvIcS8K1fezyEYhQ1Wu8kQSxXWRcFk=
+			QboJb5WYFRkTsvQ4J4AJXrMYFCkZC6iIoCe+wb10Wgo=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gBJLcOpa9Mk4vPvIcS8K1fezyEYhQ1Wu8kQSxXWRcFk=
+			QboJb5WYFRkTsvQ4J4AJXrMYFCkZC6iIoCe+wb10Wgo=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjz9I+lEdKMsnK17JcukcCN65ENR/b42OqkrV7T4cRA=
+			TMawrpZStxbOeXWidcgFlw/jQA89vhS+USV8B03SoGk=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EdE92EBcqRxGnONhH33RJfAznIOsb6k8gWiIeOVbIA0=
+			I5kY8c1Rl37lHsQItM0zjUlCNTZ2jvrWLE9avLogthc=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e8xHfSQrrBGI53kfElcU9SXXbE6Cb/8JYFDdV4jpBQA=
+			HfNbuhBukg6bJi2inv78jl2b0mqYDY4c96S+CWr/zQc=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjz9I+lEdKMsnK17JcukcCN65ENR/b42OqkrV7T4cRA=
+			TMawrpZStxbOeXWidcgFlw/jQA89vhS+USV8B03SoGk=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EdE92EBcqRxGnONhH33RJfAznIOsb6k8gWiIeOVbIA0=
+			I5kY8c1Rl37lHsQItM0zjUlCNTZ2jvrWLE9avLogthc=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e8xHfSQrrBGI53kfElcU9SXXbE6Cb/8JYFDdV4jpBQA=
+			HfNbuhBukg6bJi2inv78jl2b0mqYDY4c96S+CWr/zQc=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1eAUBg30XNOlknmzuLYm4KbSHT7xPbIljhSLPNV5qUM=
+			ToJEGYMQOEQNZHEjw/St2LtQJdP1O0L3AmAzHrVMR7I=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LFxjDz9EWjs6AHUTjlfJEVsvQOWa0YTP5HgNqq0xjnU=
+			RNyKq8+E5VM2SDBOVYGc8pGRFncacrux6qyOz3DSemQ=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rH/ZnOv/691+mjBgvo46Os8ZKP4Oqz0dlSuR9p0O+Mo=
+			uSbx0xTBQJRXLJDBbYXSpiBTPJcG4KGl756m1Y81+zI=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1eAUBg30XNOlknmzuLYm4KbSHT7xPbIljhSLPNV5qUM=
+			ToJEGYMQOEQNZHEjw/St2LtQJdP1O0L3AmAzHrVMR7I=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LFxjDz9EWjs6AHUTjlfJEVsvQOWa0YTP5HgNqq0xjnU=
+			RNyKq8+E5VM2SDBOVYGc8pGRFncacrux6qyOz3DSemQ=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rH/ZnOv/691+mjBgvo46Os8ZKP4Oqz0dlSuR9p0O+Mo=
+			uSbx0xTBQJRXLJDBbYXSpiBTPJcG4KGl756m1Y81+zI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
