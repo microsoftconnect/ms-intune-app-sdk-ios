@@ -1,6 +1,6 @@
 # Microsoft Intune App SDK for iOS 
 
-Version [14.7.1](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases)
+Version [15.1.0](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases)
 
 NOTE: If your app is using ADAL, please make sure to update Intune SDK to version 14.7.0+ and ADAL to version 5.0.0 to avoid crashes on iOS 15.
 
@@ -17,5 +17,6 @@ See the [Intune App SDK iOS Developer Guide](https://docs.microsoft.com/en-us/in
 Supported Xcode and iOS versions:
 | Intune SDK Version  | Supported iOS Versions  | Supported Xcode Version | Support Scope |
 | ----------------------- | ---------------------------- | -----------------------------  | ----------------- |                         
-| 14.1.0+                     | 12.2+                               | 12                                       | Main release branch - supports all feature work and bug fixes |
+| 15.0.0+                     | 12.2+                               | 13                                       | Main release branch - supports all feature work and bug fixes |
+| 14.7.1+                     | 12.2+ (no support for iOS 15 features) | 12 (latest minor version) | High-priority security fixes only |
 | 12.9.4+                     | 12+ (no support for iOS 14 features) | 11 (latest minor version) | High-priority security fixes only |

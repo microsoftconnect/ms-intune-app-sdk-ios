@@ -26,7 +26,8 @@ typedef NS_ENUM(NSInteger, IntuneMAMOpenLocation)
     IntuneMAMOpenLocationSharePoint = 1<<1,
     IntuneMAMOpenLocationCamera = 1<<2,
     IntuneMAMOpenLocationLocalStorage = 1<<3,
-    IntuneMAMOpenLocationAccountDocument = 1<<4, // When opening a document that has a managed account identity or the location is not listed in this enum but is accessed with a managed account, use this value
+    IntuneMAMOpenLocationPhotos = 1<<4,
+    IntuneMAMOpenLocationAccountDocument = 1<<5, // When opening a document that has a managed account identity or the location is not listed in this enum but is accessed with a managed account, use this value
 };
 
 // IntuneMAMNotificationPolicyAllow - All notifications for the managed user should be allowed
@@ -82,14 +83,20 @@ __attribute__((visibility("default")))
 // Policy enforcement will be entirely handled by the SDK.
 //
 // If the URL is for an app that is known to have implemented the SDK, then pass in isKnownManagedAppScheme=TRUE
-// In this case the returned value will be TRUE if the URL can be opened and will not be blocked by policy
-// Returns FALSE otherwise.
 // isKnownManagedAppScheme defaults to FALSE
 //
 // If you know a scheme is for a managed app and you always call isURLAllowed with isKnownManagedAppScheme=TRUE for that scheme,
-// then the app does not need to put "sceheme-intunemam" into its LSApplicationQueriesSchemes.
-// However, calling canOpenURL without "scheme-intunemam" in LSApplicationQueriesSchemes will still return false when the url wouldn't be blocked.
-// Therefore, use this API instead of canOpenURL() for known managed apps that you don't have "scheme-intunemam: in LSApplicationQueriesSchemes.
+// then the app does not need to put "scheme-intunemam" into its LSApplicationQueriesSchemes.
+// However, calling canOpenURL without "scheme-intunemam" in LSApplicationQueriesSchemes may still return false in cases when the url wouldn't be blocked by policy.
+// Therefore, to determine if you can open a URL of a known managed app without having "scheme-intunemam" in LSApplicationQueriesSchemes can be done like so
+//
+// BOOL __block canOpen = NO;
+// if([policy isURLAllowed:urlForKnownManagedApp isKnownManagedAppScheme:YES])
+// {
+//     [[IntuneMAMPolicyManager instance] setCurrentThreadIdentity:"" forScope:^{
+//     canOpen = [[UIApplication sharedApplication] canOpenURL:urlForKnownManagedApp];
+//     }];
+// }
 - (BOOL) isURLAllowed: (NSURL*_Nonnull) url;
 - (BOOL) isURLAllowed: (NSURL*_Nonnull) url isKnownManagedAppScheme:(BOOL)isKnownManagedAppScheme;
 
@@ -98,6 +105,20 @@ __attribute__((visibility("default")))
 // Applications can check this policy to customize their UI. Policy enforcement will be entirely handled
 // by the SDK.
 - (BOOL) isUniversalLinkAllowed: (NSURL*_Nonnull) url;
+
+#if TARGET_OS_IPHONE
+// Applications should check this method before displaying any data shared to it through a share extension.
+// Returns TRUE if the policy object's identity can receive an incoming item provider sent via a share
+// extension. If this method returns FALSE, then the data should be blocked by the app.
+// The item must be loaded prior to calling this method (e.g. by calling loadItemForTypeIdentifier).
+// This method can be called from the completion handler passed to the NSItemProvider load call.
+- (BOOL) canReceiveSharedItemProvider:(NSItemProvider*_Nonnull)itemProvider;
+#endif
+
+// Applications should check this method before displaying any new received files. Returns TRUE
+// if the policy object's identity can receive an incoming file. If this method returns FALSE,
+// then the data should be blocked by the app.
+- (BOOL) canReceiveSharedFile:(NSString*_Nonnull)path;
 
 // FALSE if the management policy blocks the specified document picker mode.  Returns TRUE
 // otherwise, regardless of whether there are managed document picker extensions in the

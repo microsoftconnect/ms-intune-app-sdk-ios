@@ -1,0 +1,30 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target x86_64-apple-ios12.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwift
+import Dispatch
+import Foundation
+import GroupActivities
+import IntuneMAMSwiftStub
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _System_Foundation
+@_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
+  public static func getScopedIdentity() -> Swift.String?
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: () -> Swift.Void)
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: () throws -> Swift.Void) throws
+  
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: () async -> Swift.Void) async
+  #endif
+
+  
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: () async throws -> Swift.Void) async throws
+  #endif
+
+  @objc deinit
+}
