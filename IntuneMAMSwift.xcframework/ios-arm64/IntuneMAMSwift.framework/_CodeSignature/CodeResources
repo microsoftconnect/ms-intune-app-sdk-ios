@@ -114,7 +114,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jNBTJsKUZ2sf8b24Z3ajFElRnyY=
+		uCNi9vj5fgJlbC8QnuBDcxOV2ug=
 		</data>
 		<key>IntuneMAMResources.bundle/ActivityAlertViewController.nib</key>
 		<data>
@@ -163,7 +163,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		W7alnQVxPxBjxKgmsSRmPgaV9Mo=
+		DVtBGlu6vahaIXKKLRppLfZqMGA=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<data>
@@ -689,11 +689,11 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		bTL9Pw9caN3/jCBIc4Pr+Mg8Nho=
+		ki8m3STDNwY91iHd8pGV0YKW4fU=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		bTL9Pw9caN3/jCBIc4Pr+Mg8Nho=
+		ki8m3STDNwY91iHd8pGV0YKW4fU=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -995,7 +995,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/hHSvcyERicUTlCpcGOVb0OvWMQg8tetYhwYYSkoebI=
+			H+tg2AKinWgLH9ldC3faCnhIPMY5ml5RROaRhOqPwUg=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
@@ -1551,14 +1551,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JICBrarLJyHhQIbetVFWqR7kzQbDc3rGcU4bPdi0Aks=
+			EUS1TTaNJCl9kpSa7h3PyOb5FTQl+DdBpRhuyLLKf4A=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JICBrarLJyHhQIbetVFWqR7kzQbDc3rGcU4bPdi0Aks=
+			EUS1TTaNJCl9kpSa7h3PyOb5FTQl+DdBpRhuyLLKf4A=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
