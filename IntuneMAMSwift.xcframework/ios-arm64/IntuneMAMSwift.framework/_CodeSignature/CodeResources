@@ -114,7 +114,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uCNi9vj5fgJlbC8QnuBDcxOV2ug=
+		9mxbEjtjCZIXLYxEkwO/Oz1snR8=
 		</data>
 		<key>IntuneMAMResources.bundle/ActivityAlertViewController.nib</key>
 		<data>
@@ -163,7 +163,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		DVtBGlu6vahaIXKKLRppLfZqMGA=
+		OJEXvaDHbIjJwM//wVKUP5nhoSk=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<data>
@@ -689,11 +689,11 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		ki8m3STDNwY91iHd8pGV0YKW4fU=
+		pHmVEqgWfSCb/fMUHW5/Hdi8dc0=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		ki8m3STDNwY91iHd8pGV0YKW4fU=
+		pHmVEqgWfSCb/fMUHW5/Hdi8dc0=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -705,7 +705,7 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		GjCKoyb03+hJpsrCukApPO8gb/w=
+		9JZj3xGeVGcczZ8XsGvHGf0qydo=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -717,7 +717,7 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GjCKoyb03+hJpsrCukApPO8gb/w=
+		9JZj3xGeVGcczZ8XsGvHGf0qydo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -995,7 +995,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H+tg2AKinWgLH9ldC3faCnhIPMY5ml5RROaRhOqPwUg=
+			OU9MtnArC1Hgr4G4KBs81I3vQj9gnJAR78fn5pZgWKg=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
@@ -1551,14 +1551,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EUS1TTaNJCl9kpSa7h3PyOb5FTQl+DdBpRhuyLLKf4A=
+			gmaglHUkBrtoqHUgNg6BDi5uIgC6M0spJP6Obo0KLUw=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EUS1TTaNJCl9kpSa7h3PyOb5FTQl+DdBpRhuyLLKf4A=
+			gmaglHUkBrtoqHUgNg6BDi5uIgC6M0spJP6Obo0KLUw=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -1579,7 +1579,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZdbG1pR8gG9ejpOEjsAhY0ap5CgP43W238speDwyIDI=
+			UaMxkIjUwB3pXVrt94XtppX9jBbCwvgDBZa4wCoVx0I=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftdoc</key>
@@ -1600,7 +1600,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZdbG1pR8gG9ejpOEjsAhY0ap5CgP43W238speDwyIDI=
+			UaMxkIjUwB3pXVrt94XtppX9jBbCwvgDBZa4wCoVx0I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
