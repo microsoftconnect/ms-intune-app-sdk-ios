@@ -6,15 +6,15 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		SgE9UH5M8SkjRBFKb2D7dacHNMc=
+		0PxzTI1uDBQf94UR4mF1Udfnbis=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		7lO/gysZ0R4VpYfE+BRDHRYEyX8=
+		F0xguWUt8OdnHh3PUhmVRxjwZxE=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		7lO/gysZ0R4VpYfE+BRDHRYEyX8=
+		F0xguWUt8OdnHh3PUhmVRxjwZxE=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ArbdX3xpIxQx1ynJe/cCqlXGqawwziANERzSRssvYag=
+			mttY0F7CJoCp8CN7N0+oAfzsHyFdfeGXvWc3AOn444E=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ArbdX3xpIxQx1ynJe/cCqlXGqawwziANERzSRssvYag=
+			mttY0F7CJoCp8CN7N0+oAfzsHyFdfeGXvWc3AOn444E=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.swiftdoc</key>
