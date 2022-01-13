@@ -13,18 +13,18 @@ import _Concurrency
 import _System_Foundation
 @_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
   public static func getScopedIdentity() -> Swift.String?
-  public static func setIdentity(_ identity: Swift.String?, forScope scope: () -> Swift.Void)
-  public static func setIdentity(_ identity: Swift.String?, forScope scope: () throws -> Swift.Void) throws
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () -> Swift.Void)
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
   
   #if compiler(>=5.3) && $AsyncAwait
   @available(iOS 15.0, *)
-  public static func setIdentity(_ identity: Swift.String?, forScope scope: () async -> Swift.Void) async
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () async -> Swift.Void) async
   #endif
 
   
   #if compiler(>=5.3) && $AsyncAwait
   @available(iOS 15.0, *)
-  public static func setIdentity(_ identity: Swift.String?, forScope scope: () async throws -> Swift.Void) async throws
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
   #endif
 
   @objc deinit

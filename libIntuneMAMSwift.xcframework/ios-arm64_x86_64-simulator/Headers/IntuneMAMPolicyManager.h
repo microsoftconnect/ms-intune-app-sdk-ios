@@ -134,7 +134,7 @@ __attribute__((visibility("default")))
 @property (readonly) NSString* _Nullable primaryUser;
 
 // The delegate property is used to notify the application of certain policy actions that
-// it should perform. See IntuneMDMPolicyDelegate.h for more information.
+// it should perform. See IntuneMAMPolicyDelegate.h for more information.
 // This property must be set by the time the application's UIApplicationDelegate
 // application:willFinishLaunchingWithOptions method returns.
 @property (nonatomic,strong, nullable) id<IntuneMAMPolicyDelegate> delegate;

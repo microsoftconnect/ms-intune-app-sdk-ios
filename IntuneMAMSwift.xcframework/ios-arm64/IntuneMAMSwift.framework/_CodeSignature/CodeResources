@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/IntuneMAMPolicyManager.h</key>
 		<data>
-		D/MmkTeC7Zh1z38+dttr6SvjtxU=
+		d8AG4ggatyAyhdH0XsBSiR7bK7I=
 		</data>
 		<key>Headers/IntuneMAMSettings.h</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KfdzlCw8gDVA4seJuG3dynSCaAA=
+		wIKqfnyfiy+QZNKT37hVeVfRp9M=
 		</data>
 		<key>IntuneMAMResources.bundle/ActivityAlertViewController.nib</key>
 		<data>
@@ -163,7 +163,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		Kt3uDkbdhCwvCc4xBKpvsjMkD4s=
+		MpsMG7Y6ft4sltH1rjVGK2KbDkc=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<data>
@@ -273,7 +273,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iT5wx6bO577B9w4o7YA1bwVXQCI=
+			C2AkgApi1IKmxLqzY5Eo4oVTRVI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -689,11 +689,11 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Qdjxm3vS4Nz9nEJkeyXi3fItBEI=
+		kp7DqzZu5kzzIuloxgpDuoDeY1s=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		Qdjxm3vS4Nz9nEJkeyXi3fItBEI=
+		kp7DqzZu5kzzIuloxgpDuoDeY1s=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -701,11 +701,11 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		PASrmedT3GBAA1tPDnwmhjcxcgA=
+		Pzqmb9WC2KjGmfW048WWet3MHhM=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9JZj3xGeVGcczZ8XsGvHGf0qydo=
+		QeVbG9BFRMhF1ZOmAFA6iqgPdfc=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -713,11 +713,11 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		PASrmedT3GBAA1tPDnwmhjcxcgA=
+		Pzqmb9WC2KjGmfW048WWet3MHhM=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		9JZj3xGeVGcczZ8XsGvHGf0qydo=
+		QeVbG9BFRMhF1ZOmAFA6iqgPdfc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -867,7 +867,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G/s8o1ILo76IijpTR9OnTWEawdeHZvCLHcK+CYt9J94=
+			/kj5hNq1jSQJzMA4ybunqCQ2BSQQorDGqGfEFi+ZXh0=
 			</data>
 		</dict>
 		<key>Headers/IntuneMAMSettings.h</key>
@@ -995,7 +995,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AqTqtXvPD3x5O2VjTmRYOgKehXTlSM//2ncfmh6s0h0=
+			41qy9zljlmuGSatbtQg55jEBqSyb79dO4rGD+WikSqA=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
@@ -1130,7 +1130,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N/ymSarLzBMYK01eF11WEL0IEXfTg3PsJaKz8yvHgo4=
+			Q7nH5jZJajOhPqXJKetRUxZYz165KW6OUGcn2BqCbEg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1551,14 +1551,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h58JKjxphvqawQPVBELENfGJbQw4K5IWGEwkI9V6roU=
+			4/KG+nlBF8kVy7YyF8zsZWSlno9PoZLqRs/ZHBghrpk=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h58JKjxphvqawQPVBELENfGJbQw4K5IWGEwkI9V6roU=
+			4/KG+nlBF8kVy7YyF8zsZWSlno9PoZLqRs/ZHBghrpk=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -1572,14 +1572,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UoqDyy3O35QkDfi3+TRSRKzDr54hm2ctZgCZzmp7ayw=
+			truLfySQ9rqG9YCAo4SW6ce2CNYwSi7L2r3NxoG9QNg=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UaMxkIjUwB3pXVrt94XtppX9jBbCwvgDBZa4wCoVx0I=
+			exUvx19j6xp+yT5S0JDPK6E1NosK7tC48qZu1zArcF8=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftdoc</key>
@@ -1593,14 +1593,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UoqDyy3O35QkDfi3+TRSRKzDr54hm2ctZgCZzmp7ayw=
+			truLfySQ9rqG9YCAo4SW6ce2CNYwSi7L2r3NxoG9QNg=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UaMxkIjUwB3pXVrt94XtppX9jBbCwvgDBZa4wCoVx0I=
+			exUvx19j6xp+yT5S0JDPK6E1NosK7tC48qZu1zArcF8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
