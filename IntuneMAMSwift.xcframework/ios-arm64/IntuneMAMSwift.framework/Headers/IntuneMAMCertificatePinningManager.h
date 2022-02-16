@@ -34,5 +34,8 @@ __attribute__((visibility("default")))
 // If nil is passed in for the identity, the current thread identity is used to perform the certificate pinning validation.
 - (BOOL) validateChainWithCertificates:(NSArray<NSData*>* _Nonnull)certificates andHostname:(NSString* _Nonnull)hostname andIdentity:(NSString* _Nullable)identity error:(NSError* _Nullable* _Nullable)error;
 
+// Shows an alert displaying an error message to the user for certificate pinning validation, indicating that the requested endpoint was blocked. If nil is passed in for the identity, the current thread identity is used. Call this method instead when the certificate validation APIs return false.
+- (void) showErrorMessageForIdentity:(NSString* _Nullable)identity withDismissHanlder:(void(^_Nullable)(void))dismissHandler;
+
 @end
 
