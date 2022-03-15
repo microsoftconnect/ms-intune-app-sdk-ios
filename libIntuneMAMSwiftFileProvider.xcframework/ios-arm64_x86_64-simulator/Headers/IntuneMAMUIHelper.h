@@ -12,4 +12,7 @@ __attribute__((visibility("default")))
 // or isOpenFromAllowedForLocation returned false.
 + (void) showSharingBlockedMessage:(void(^_Nullable)(void))completion;
 
+// Returns a localized string value for the policy requires restart message.
++ (NSString*_Nullable) getRestartApplicationMessage;
+
 @end
