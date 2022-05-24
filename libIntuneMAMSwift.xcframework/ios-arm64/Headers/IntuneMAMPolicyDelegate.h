@@ -43,10 +43,18 @@ __attribute__((visibility("default")))
 - (void) identitySwitchRequired:(NSString*_Nonnull)identity reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
 - (void) identitySwitchRequired:(NSString*_Nonnull)identity forWindow:(UIWindow*_Nonnull)window reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
 
+- (void) identitySwitchRequiredForAccountId:(NSString*_Nonnull)accountId reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
+- (void) identitySwitchRequiredForAccountId:(NSString*_Nonnull)accountId forWindow:(UIWindow*_Nonnull)window reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
+
 // Called by the Intune SDK when the application should wipe data for the
 // specified account user principal name (e.g. user@contoso.com).
 // Returns TRUE if successful, FALSE if the account data could not be completely wiped.
 - (BOOL) wipeDataForAccount:(NSString*_Nonnull)upn;
+
+// Called by the Intune SDK when the application should wipe data for the
+// specified account AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+// Returns TRUE if successful, FALSE if the account data could not be completely wiped.
+- (BOOL) wipeDataForAccountId:(NSString*_Nonnull)accountId;
 
 // Called by the Intune SDK when the application needs to restart
 // because policy has been received for the first time, or if we're handling a mam-ca remediation
@@ -61,6 +69,13 @@ __attribute__((visibility("default")))
 // IntuneMAMAddIdentityResultSuccess if the app is able to add the identity or IntuneMAMAddIdentityResultFailed otherwise.
 // The completion handler can be called on any thread.
 - (void) addIdentity:(NSString*_Nonnull)identity completionHandler:(void (^_Nonnull)(IntuneMAMAddIdentityResult))completionHandler;
+
+
+// Called by the Intune SDK when the application needs to add an user account by AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) as the app has been
+// automatically enrolled by the SDK. The application must call the completion handler passing in
+// IntuneMAMAddIdentityResultSuccess if the app is able to add the AccountId or IntuneMAMAddIdentityResultFailed otherwise.
+// The completion handler can be called on any thread.
+- (void) addAccountId:(NSString*_Nonnull)accountId completionHandler:(void (^_Nonnull)(IntuneMAMAddIdentityResult))completionHandler;
 
 @end
 

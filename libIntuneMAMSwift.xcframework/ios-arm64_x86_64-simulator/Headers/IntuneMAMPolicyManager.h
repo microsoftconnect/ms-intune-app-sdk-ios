@@ -66,12 +66,20 @@ __attribute__((visibility("default")))
 // If nil is passed in, the UI identity will fallback to the process identity.
 - (void) setUIPolicyIdentity:(NSString*_Nullable)identity completionHandler:(void (^_Nullable)(IntuneMAMSwitchIdentityResult))completionHandler;
 - (void) setUIPolicyIdentity:(NSString*_Nullable)identity forWindow:(UIWindow*_Nullable)window completionHandler:(void (^_Nullable)(IntuneMAMSwitchIdentityResult))completionHandler;
+- (void) setUIPolicyAccountId:(NSString*_Nullable)accountId completionHandler:(void (^_Nullable)(IntuneMAMSwitchIdentityResult))completionHandler;
+- (void) setUIPolicyAccountId:(NSString*_Nullable)accountId forWindow:(UIWindow*_Nullable)window completionHandler:(void (^_Nullable)(IntuneMAMSwitchIdentityResult))completionHandler;
 
 // Returns the UI identity for the current key window.
 - (NSString*_Nullable) getUIPolicyIdentity;
 
+// Returns the UI AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) for the current key window.
+- (NSString*_Nullable) getUIPolicyAccountId;
+
 // Returns the UI identity for the specified window.
 - (NSString*_Nullable) getUIPolicyIdentityForWindow:(UIWindow*_Nullable)window;
+
+// Returns the UI AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) for the specified window.
+- (NSString*_Nullable) getUIPolicyAccountIdForWindow:(UIWindow*_Nullable)window;
 
 // setCurrentThreadIdentity sets the identity of the current thread which is used to determine what
 // policy should be applied on the current thread. Unlike setting setUIPolicyIdentity, this method
@@ -87,15 +95,30 @@ __attribute__((visibility("default")))
 // It is preferable to use scoped thread identities to ensure that they are only set for a specified scope and will have a guaranteed removal.
 - (void) setCurrentThreadIdentity:(NSString*_Nullable)identity forScope:(void(^_Nullable)(void))scope  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setIdentity(_ :forScope:) APIs instead.");
 
+// setCurrentThreadAccountId:forScope: will set the current thread AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) but only for the scope of the passed block
+// It is preferable to use scoped thread identities to ensure that they are only set for a specified scope and will have a guaranteed removal.
+- (void) setCurrentThreadAccountId:(NSString*_Nullable)accountId forScope:(void(^_Nullable)(void))scope  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setAccountId(_ :forScope:) APIs instead.");
+
 - (NSString*_Nullable) getCurrentThreadIdentity;
+
+// Return current thread AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+- (NSString*_Nullable) getCurrentThreadAccountId;
 
 // setProcessIdentity sets the process wide identity.
 - (void) setProcessIdentity:(NSString*_Nullable)identity;
 - (NSString*_Nullable) getProcessIdentity;
 
+// setProcessIdentity sets the process wide AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+- (void) setProcessAccountId:(NSString*_Nullable)accountId;
+- (NSString*_Nullable) getProcessAccountId;
+
 // Returns the identity of the user which initiated the current activity.
 // This method can be called within the openURL handler to retrieve the sender's identity.
 - (NSString*_Nullable) getIdentityForCurrentActivity;
+
+// Returns the AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) of the user which initiated the current activity.
+// This method can be called within the openURL handler to retrieve the sender's AccountId.
+- (NSString*_Nullable) getAccountIdForCurrentActivity;
 
 // Returns TRUE if Intune management policy is applied or required for the application.
 // Returns FALSE if no Intune management policy is applied and policy is not required.
@@ -103,6 +126,9 @@ __attribute__((visibility("default")))
 
 // Returns TRUE if the specified identity is managed.
 - (BOOL) isIdentityManaged:(NSString*_Nullable)identity;
+
+// Returns TRUE if the specified accountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) is managed.
+- (BOOL) isAccountIdManaged:(NSString*_Nullable)accountId;
 
 // Returns TRUE if the two identities are equal. This method performs a case insensitive compare
 // as well as comparing the AAD object ids of the identities (if known) to determine if the identities
@@ -114,6 +140,9 @@ __attribute__((visibility("default")))
 
 // Returns an object that can be used to retrieve the MAM policy for the specified identity.
 - (_Nullable id<IntuneMAMPolicy>) policyForIdentity:(NSString*_Nullable)identity;
+
+// Returns an object that can be used to retrieve the MAM policy for the specified AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+- (_Nullable id<IntuneMAMPolicy>) policyForAccountId:(NSString*_Nullable)accountId;
 
 // Returns an object that can be used to retrieve the MAM policy for the specified window.
 - (_Nullable id<IntuneMAMPolicy>) policyForWindow:(UIWindow*_Nullable)window;
@@ -132,6 +161,9 @@ __attribute__((visibility("default")))
 
 // Returns the account name of the primary user in upn format (e.g. user@contoso.com).
 @property (readonly) NSString* _Nullable primaryUser;
+
+// Returns the account name of the primary user in AccountId format (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+@property (readonly) NSString* _Nullable primaryAccountId;
 
 // The delegate property is used to notify the application of certain policy actions that
 // it should perform. See IntuneMAMPolicyDelegate.h for more information.

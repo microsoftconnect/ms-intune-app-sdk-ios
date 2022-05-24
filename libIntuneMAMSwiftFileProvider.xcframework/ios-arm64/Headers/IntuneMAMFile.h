@@ -21,11 +21,21 @@ __attribute__((visibility("default")))
 // the file contents will be software encrypted on disk. The flags/mode parameters are the same as the flags passed to POSIX open().
 + (instancetype _Nullable) createFileAtPath:(NSString* _Nonnull)path forIdentity:(NSString* _Nullable)identity error:(NSError* _Nullable* _Nullable)error;
 + (instancetype _Nullable) createFileAtPath:(NSString* _Nonnull)path flags:(int)flags mode:(mode_t)mode forIdentity:(NSString* _Nullable)identity error:(NSError* _Nullable* _Nullable)error;
+
+// Creates a new file or truncates an existing file for the specified owner AccountId(e.g. 3ec2c00f-b125-4519-acf0-302ac3761822). If encryption is required by policy,
+// the file contents will be software encrypted on disk. The flags/mode parameters are the same as the flags passed to POSIX open().
++ (instancetype _Nullable) createFileAtPath:(NSString* _Nonnull)path forAccountId:(NSString* _Nullable)acountId error:(NSError* _Nullable* _Nullable)error;
++ (instancetype _Nullable) createFileAtPath:(NSString* _Nonnull)path flags:(int)flags mode:(mode_t)mode forAccountId:(NSString* _Nullable)acountId error:(NSError* _Nullable* _Nullable)error;
                                     
 // Protects the file for the specified identity. The file will be software encrypted if required by policy.
 // If called on an encrypted file and the policy or identity changes to no longer require software
 // encryption, the file will be decrypted.
 + (BOOL) protectFileAtPath:(NSString* _Nonnull)path forIdentity:(NSString* _Nullable)identity error:(NSError* _Nullable* _Nullable)error;
+
+// Protects the file for the specified identity. The file will be software encrypted if required by policy.
+// If called on an encrypted file and the policy or AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) changes to no longer require software
+// encryption, the file will be decrypted.
++ (BOOL) protectFileAtPath:(NSString* _Nonnull)path forAccountId:(NSString* _Nullable)acountId error:(NSError* _Nullable* _Nullable)error;
 
 // Decrypts the specified file even if policy requires it to be software encrypted.
 // Calling protectFileAtPath:forIdentity: will re-encrypt the file if required.

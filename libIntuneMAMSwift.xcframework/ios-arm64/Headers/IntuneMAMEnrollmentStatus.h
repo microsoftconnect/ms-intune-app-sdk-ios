@@ -56,9 +56,14 @@ __attribute__((visibility("default")))
 @interface IntuneMAMEnrollmentStatus : NSObject
 
 /**
- *  The UPN of the account for which the operation was requested
+ *  The UPN of the account for which the operation was requested (e.g. user@contoso.com)
  */
 @property (nonatomic, strong, nonnull) NSString *identity;
+
+/**
+ *  The AccountId of the account for which the operation was requested (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ */
+@property (nonatomic, strong, nonnull) NSString *accountId;
 
 /**
  *  YES if the operation completed successfully, otherwise NO

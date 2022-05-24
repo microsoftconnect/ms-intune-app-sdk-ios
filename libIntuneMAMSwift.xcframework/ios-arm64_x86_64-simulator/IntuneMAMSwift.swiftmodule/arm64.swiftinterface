@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target arm64-apple-ios12.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwift
 import Dispatch
 import Foundation
@@ -12,8 +12,11 @@ import _Concurrency
 import _System_Foundation
 @_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
   public static func getScopedIdentity() -> Swift.String?
+  public static func getScopedAccountId() -> Swift.String?
   public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () -> Swift.Void)
+  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () -> Swift.Void)
   public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
+  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
   
   #if compiler(>=5.3) && $AsyncAwait
   @available(iOS 15.0, *)
@@ -23,7 +26,19 @@ import _System_Foundation
   
   #if compiler(>=5.3) && $AsyncAwait
   @available(iOS 15.0, *)
+  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async -> Swift.Void) async
+  #endif
+
+  
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
   public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
+  #endif
+
+  
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
   #endif
 
   @objc deinit

@@ -9,7 +9,9 @@ __attribute__((visibility("default")))
 
 @required
 
-// The data's owner.
+// UPN of the data's owner (e.g. user@contoso.com)
 @property (readonly,nullable) NSString* identity;
+// AccountId of the data owner (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+@property (readonly,nullable) NSString* accountId;
 
 @end

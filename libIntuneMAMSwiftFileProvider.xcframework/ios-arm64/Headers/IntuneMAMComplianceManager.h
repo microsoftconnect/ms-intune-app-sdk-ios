@@ -35,6 +35,22 @@ __attribute__((visibility("default")))
  */
 - (void) identity:(NSString*_Nonnull) identity hasComplianceStatus:(IntuneMAMComplianceStatus) status withErrorMessage:(NSString*_Nonnull) errMsg andErrorTitle:(NSString*_Nonnull) errTitle;
 
+@optional
+/**
+ * This method is called when the Intune SDK has completed compliance remediation for an identity.
+ * If the identity has not been added to the app and is compliant, it should be added at this time.
+ * All values of IntuneMAMComplianceStatus will populate the error parameter with a localized error string.
+ * This method is guarenteed to be called after application:willFinishLaunchingWithOptions:
+ *
+ * @warning Delegate methods are not guarenteed to be called on the Main thread.
+ *
+ * @param accountId The AccountId of the identity for which compliance remediation was requested (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ * @param status The compliance status of identity
+ * @param errMsg A localized string describing the error encountered if the identity is not compliant.
+ * @param errTitle A localized title string for the error encountered if the identity is not compliant.
+ */
+- (void) accountId:(NSString*_Nonnull) accountId hasComplianceStatus:(IntuneMAMComplianceStatus) status withErrorMessage:(NSString*_Nonnull) errMsg andErrorTitle:(NSString*_Nonnull) errTitle;
+
 @end
 
 __attribute__((visibility("default")))
@@ -68,6 +84,15 @@ __attribute__((visibility("default")))
 
 // Returns TRUE if a compliance remediation is in progress for the specified user.
 - (BOOL) remediationInProgressForIdentity:(NSString*_Nonnull) identity;
+
+/**
+ * @param accountId The AccountId of the identity sending the request (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ * @param silent A bool indicating whether or not the Intune SDK will take UI control for the duration of the this method
+ */
+- (void) remediateComplianceForAccountId:(NSString*_Nonnull) accountId silent:(BOOL) silent;
+
+// Returns TRUE if a compliance remediation is in progress for the specified user AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+- (BOOL) remediationInProgressForAccountId:(NSString*_Nonnull) accountId;
 
 @end
 

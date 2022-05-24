@@ -65,6 +65,25 @@ __attribute__((visibility("default")))
 - (void)registerAndEnrollAccount:(NSString *_Nonnull)identity;
 
 /**
+ *  This method will add the account to the list of registered accounts.
+ *  An enrollment request will immediately be started.  If the enrollment
+ *  is not successful, the SDK will periodically re-try the enrollment every
+ *  24 hours.
+ *  If the application has already registered an account using this API, and calls
+ *  it again, the SDK will ignore the request and output a warning.
+ *  Any SDK API that requires enrollment will not be valid until after
+ *  enrollment succeeds, for example AppConfig policy is not delivered until
+ *  after an enrollment.  Use the IntuneMAMEnrollmentDelegate to determine
+ *  if the SDK has successfully enrolled and received policy.
+ *
+ *  @note Do not use this in an extension.  If you do so, we will return
+ *  IntuneMAMEnrollmentStatusUnsupportedAPI in the IntuneMAMEnrollmentDelegate.
+ *
+ *  @param accountId The AccountId of the account to be registered with the SDK (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ */
+- (void)registerAndEnrollAccountId:(NSString *_Nonnull)accountId;
+
+/**
  *  Creates an enrollment request which is started immediately.
  *  The user will be prompted to enter their credentials, 
  *  and we will attempt to enroll the user.
@@ -103,11 +122,36 @@ __attribute__((visibility("default")))
 - (void)deRegisterAndUnenrollAccount:(NSString *_Nonnull)identity withWipe:(BOOL)doWipe;
 
 /**
+ *  This method will remove the provided account from the list of
+ *  registered accounts.  Once removed, if the account has enrolled
+ *  the application, the account will be un-enrolled.
+ *
+ *  @note In the case where an un-enroll is initiated, this method will block
+ *  until the MAM token is acquired, then return.  This method must be called before
+ *  the user is removed from the application (so that required AAD tokens are not purged
+ *  before this method is called).
+ *
+ *  @note Do not use this in an extension.  If you do so, we will return
+ *  IntuneMAMEnrollmentStatusUnsupportedAPI in the IntuneMAMEnrollmentDelegate.
+ *
+ *  @param accountId The AccountId of the account to be removed (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ *  @param doWipe   If YES, a selective wipe if the account is un-enrolled
+ */
+- (void)deRegisterAndUnenrollAccountId:(NSString *_Nonnull)accountId withWipe:(BOOL)doWipe;
+
+/**
  *  Returns a list of UPNs of account currently registered with the SDK.
  *
  *  @return Array containing UPNs of registered accounts
  */
 - (NSArray *_Nonnull)registeredAccounts;
+
+/**
+ *  Returns a list of UPNs of account currently registered with the SDK.
+ *
+ *  @return Array containing AccountIds of registered accounts
+ */
+- (NSArray *_Nonnull)registeredAccountIds;
 
 /**
  *  Returns the UPN of the currently enrolled user.  Returns
@@ -116,6 +160,14 @@ __attribute__((visibility("default")))
  *  @return UPN of the enrolled account
  */
 - (NSString *_Nullable)enrolledAccount;
+
+/**
+ *  Returns the AccountId of the currently enrolled user.  Returns
+ *  nil if the application is not currently enrolled.
+ *
+ *  @return AccountId of the enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ */
+- (NSString *_Nullable)enrolledAccountId;
 
 /**
  *  Semi-Private: Please contact the MAM team before using this API
@@ -131,6 +183,19 @@ __attribute__((visibility("default")))
 - (NSArray *_Nullable)allowedAccounts;
 
 /**
+ *  Semi-Private: Please contact the MAM team before using this API
+ *  Returns the AccountId(s) of the allowed accounts.  Returns
+ *  nil if there are no allowed accounts.
+ *  If there is an allowed account(s), only these account(s) should be allowed to sign into the app,
+ *  and any existing signed in users who are not in allowedAccounts should be signed out.
+ *  allowedAccounts returns nil if the administrator has not targeted an allowed account,
+ *  in which case the app should do nothing.
+ *
+ *  @return AccountId of the enrolled account or nil
+ */
+- (NSArray *_Nullable)allowedAccountIds;
+
+/**
  *  Returns the UPN of the MDM enrolled user. Returns nil if the device is not MDM enrolled.
  *  For 3rd party applications, the application must also be managed and have IntuneMAMUPN
  *  set to the MDM enrolled user in managed app config.
@@ -138,5 +203,14 @@ __attribute__((visibility("default")))
  *  @return UPN of the MDM enrolled account
  */
 - (NSString *_Nullable)mdmEnrolledAccount;
+
+/**
+ *  Returns the AccountId of the MDM enrolled user. Returns nil if the device is not MDM enrolled.
+ *  For 3rd party applications, the application must also be managed and have IntuneMAMOID
+ *  set to the MDM enrolled user in managed app config.
+ *
+ *  @return AccountId of the MDM enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ */
+- (NSString *_Nullable)mdmEnrolledAccountId;
 
 @end
