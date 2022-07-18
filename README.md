@@ -19,4 +19,3 @@ Supported Xcode and iOS versions:
 | ----------------------- | ---------------------------- | -----------------------------  | ----------------- |                         
 | 15.0.0+                     | 12.2+                               | 13                                       | Main release branch - supports all feature work and bug fixes |
 | 14.7.1+                     | 12.2+ (no support for iOS 15 features) | 12 (latest minor version) | High-priority security fixes only |
-| 12.9.4+                     | 12+ (no support for iOS 14 features) | 11 (latest minor version) | High-priority security fixes only |
