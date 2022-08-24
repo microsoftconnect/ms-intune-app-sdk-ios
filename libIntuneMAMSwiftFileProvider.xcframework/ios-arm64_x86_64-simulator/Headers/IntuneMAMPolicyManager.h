@@ -91,6 +91,16 @@ __attribute__((visibility("default")))
 // If nil is passed in, the thread identity will fallback to the process identity.
 - (void) setCurrentThreadIdentity:(NSString*_Nullable)identity  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setIdentity(_ :forScope:) APIs instead.") __deprecated_msg("Use setCurrentThreadIdentity:forScope: instead.");
 
+// setCurrentThreadAccountId sets the AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) of the current thread which is used to determine what
+// policy should be applied on the current thread. Unlike setting setUIPolicyAccountId, this method
+// will not run the conditional launch policy checks for the user.
+//
+// The current thread AccountId overrides the process AccountId if set.
+//
+// The empty string may be passed in as the accountId to represent 'no user' or an unknown personal account.
+// If nil is passed in, the thread AccountId will fallback to the process AccountId.
+- (void) setCurrentThreadAccountId:(NSString*_Nullable)accountId  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setAccountId(_ :forScope:) APIs instead.") __deprecated_msg("Use setCurrentThreadAccountId:forScope: instead.");
+
 // Similar to the setCurrentThreadIdentity:, setCurrentThreadIdentity:forScope: will set the current thread identity but only for the scope of the passed block
 // It is preferable to use scoped thread identities to ensure that they are only set for a specified scope and will have a guaranteed removal.
 - (void) setCurrentThreadIdentity:(NSString*_Nullable)identity forScope:(void(^_Nullable)(void))scope  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setIdentity(_ :forScope:) APIs instead.");
