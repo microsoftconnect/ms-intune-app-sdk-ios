@@ -26,6 +26,12 @@ extension Dispatch.DispatchWorkItem {
   public func cmarRealDispatchWorkItemNotify(qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], queue: Dispatch.DispatchQueue, execute: @escaping @convention(block) () -> Swift.Void)
   convenience public init(cmarRealQoS: Dispatch.DispatchQoS, cmarRealFlags: Dispatch.DispatchWorkItemFlags, cmarRealBlock: @escaping @convention(block) () -> Swift.Void)
 }
+@available(iOS 13.0, *)
+extension UIKit.UIMenu {
+  @available(iOS 15.0, *)
+  @_Concurrency.MainActor(unsafe) convenience public init(cmarRealTitle: Swift.String, cmarRealSubtitle: Swift.String?, cmarRealImage: UIKit.UIImage?, cmarRealIdentifier: UIKit.UIMenu.Identifier?, cmarRealOptions: UIKit.UIMenu.Options, cmarRealChildren: [UIKit.UIMenuElement])
+  @_Concurrency.MainActor(unsafe) convenience public init(cmarRealTitle: Swift.String, cmarRealImage: UIKit.UIImage?, cmarRealIdentifier: UIKit.UIMenu.Identifier?, cmarRealOptions: UIKit.UIMenu.Options, cmarRealChildren: [UIKit.UIMenuElement])
+}
 extension Swift.StringProtocol {
   public func cmarRealStringWrite<T>(toFile path: T, atomically useAuxiliaryFile: Swift.Bool, encoding enc: Swift.String.Encoding) throws where T : Swift.StringProtocol
   public func cmarRealStringWrite(to url: Foundation.URL, atomically useAuxiliaryFile: Swift.Bool, encoding enc: Swift.String.Encoding) throws
