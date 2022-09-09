@@ -1,0 +1,3250 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "cmarRealUIApplicationMain",
+        "printedName": "cmarRealUIApplicationMain(_:_:_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "UnsafeMutablePointer",
+            "printedName": "Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<Swift.Int8>?>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<Swift.Int8>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int8",
+                        "printedName": "Swift.Int8",
+                        "usr": "s:s4Int8V"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "usr": "s:Sp"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:18IntuneMAMSwiftStub25cmarRealUIApplicationMainys5Int32VAD_SpySpys4Int8VGSgGSSSgAJtF",
+        "mangledName": "$s18IntuneMAMSwiftStub25cmarRealUIApplicationMainys5Int32VAD_SpySpys4Int8VGSgGSSSgAJtF",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Dispatch",
+        "printedName": "Dispatch",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VisionKit",
+        "printedName": "VisionKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "System",
+        "printedName": "System",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GroupActivities",
+        "printedName": "GroupActivities",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DarwinStubs",
+        "printedName": "DarwinStubs",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealOpen",
+            "printedName": "cmarRealOpen(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IntuneMAMSwiftStub11DarwinStubsC12cmarRealOpenys5Int32VSPys4Int8VG_AFtFZ",
+            "mangledName": "$s18IntuneMAMSwiftStub11DarwinStubsC12cmarRealOpenys5Int32VSPys4Int8VG_AFtFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealOpen",
+            "printedName": "cmarRealOpen(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IntuneMAMSwiftStub11DarwinStubsC12cmarRealOpenys5Int32VSPys4Int8VG_AFs6UInt16VtFZ",
+            "mangledName": "$s18IntuneMAMSwiftStub11DarwinStubsC12cmarRealOpenys5Int32VSPys4Int8VG_AFs6UInt16VtFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealOpenat",
+            "printedName": "cmarRealOpenat(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IntuneMAMSwiftStub11DarwinStubsC14cmarRealOpenatys5Int32VAF_SPys4Int8VGAFtFZ",
+            "mangledName": "$s18IntuneMAMSwiftStub11DarwinStubsC14cmarRealOpenatys5Int32VAF_SPys4Int8VGAFtFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealOpenat",
+            "printedName": "cmarRealOpenat(_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18IntuneMAMSwiftStub11DarwinStubsC14cmarRealOpenatys5Int32VAF_SPys4Int8VGAFs6UInt16VtFZ",
+            "mangledName": "$s18IntuneMAMSwiftStub11DarwinStubsC14cmarRealOpenatys5Int32VAF_SPys4Int8VGAFs6UInt16VtFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18IntuneMAMSwiftStub11DarwinStubsC",
+        "mangledName": "$s18IntuneMAMSwiftStub11DarwinStubsC",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DispatchQueue",
+        "printedName": "DispatchQueue",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealDispatchQueueAsync",
+            "printedName": "cmarRealDispatchQueueAsync(group:qos:flags:execute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Dispatch.DispatchGroup?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DispatchGroup",
+                    "printedName": "Dispatch.DispatchGroup",
+                    "usr": "c:objc(cs)OS_dispatch_group"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItemFlags",
+                "printedName": "Dispatch.DispatchWorkItemFlags",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A13WorkItemFlagsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17OS_dispatch_queueC18IntuneMAMSwiftStubE26cmarRealDispatchQueueAsync5group3qos5flags7executeySo0a1_b1_L0CSg_0I00I3QoSVAL0I13WorkItemFlagsVyyXLtF",
+            "mangledName": "$sSo17OS_dispatch_queueC18IntuneMAMSwiftStubE26cmarRealDispatchQueueAsync5group3qos5flags7executeySo0a1_b1_L0CSg_0I00I3QoSVAL0I13WorkItemFlagsVyyXLtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealDispatchQueueSync",
+            "printedName": "cmarRealDispatchQueueSync(execute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17OS_dispatch_queueC18IntuneMAMSwiftStubE25cmarRealDispatchQueueSync7executexxyKXE_tKlF",
+            "mangledName": "$sSo17OS_dispatch_queueC18IntuneMAMSwiftStubE25cmarRealDispatchQueueSync7executexxyKXE_tKlF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Rethrows"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealDispatchQueueSync",
+            "printedName": "cmarRealDispatchQueueSync(flags:execute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItemFlags",
+                "printedName": "Dispatch.DispatchWorkItemFlags",
+                "usr": "s:8Dispatch0A13WorkItemFlagsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17OS_dispatch_queueC18IntuneMAMSwiftStubE25cmarRealDispatchQueueSync5flags7executex0I00I13WorkItemFlagsV_xyKXEtKlF",
+            "mangledName": "$sSo17OS_dispatch_queueC18IntuneMAMSwiftStubE25cmarRealDispatchQueueSync5flags7executex0I00I13WorkItemFlagsV_xyKXEtKlF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "Rethrows"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealDispatchQueueAsyncAfter",
+            "printedName": "cmarRealDispatchQueueAsyncAfter(deadline:qos:flags:execute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchTime",
+                "printedName": "Dispatch.DispatchTime",
+                "usr": "s:8Dispatch0A4TimeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItemFlags",
+                "printedName": "Dispatch.DispatchWorkItemFlags",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A13WorkItemFlagsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17OS_dispatch_queueC18IntuneMAMSwiftStubE31cmarRealDispatchQueueAsyncAfter8deadline3qos5flags7executey0I00I4TimeV_AI0I3QoSVAI0I13WorkItemFlagsVyyXLtF",
+            "mangledName": "$sSo17OS_dispatch_queueC18IntuneMAMSwiftStubE31cmarRealDispatchQueueAsyncAfter8deadline3qos5flags7executey0I00I4TimeV_AI0I3QoSVAI0I13WorkItemFlagsVyyXLtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealDispatchQueueAsyncAfter",
+            "printedName": "cmarRealDispatchQueueAsyncAfter(wallDeadline:qos:flags:execute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWallTime",
+                "printedName": "Dispatch.DispatchWallTime",
+                "usr": "s:8Dispatch0A8WallTimeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItemFlags",
+                "printedName": "Dispatch.DispatchWorkItemFlags",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A13WorkItemFlagsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17OS_dispatch_queueC18IntuneMAMSwiftStubE31cmarRealDispatchQueueAsyncAfter12wallDeadline3qos5flags7executey0I00I8WallTimeV_AI0I3QoSVAI0I13WorkItemFlagsVyyXLtF",
+            "mangledName": "$sSo17OS_dispatch_queueC18IntuneMAMSwiftStubE31cmarRealDispatchQueueAsyncAfter12wallDeadline3qos5flags7executey0I00I8WallTimeV_AI0I3QoSVAI0I13WorkItemFlagsVyyXLtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealDispatchQueueConcurrentPerform",
+            "printedName": "cmarRealDispatchQueueConcurrentPerform(iterations:execute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17OS_dispatch_queueC18IntuneMAMSwiftStubE38cmarRealDispatchQueueConcurrentPerform10iterations7executeySi_ySiXEtFZ",
+            "mangledName": "$sSo17OS_dispatch_queueC18IntuneMAMSwiftStubE38cmarRealDispatchQueueConcurrentPerform10iterations7executeySi_ySiXEtFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)OS_dispatch_queue",
+        "moduleName": "Dispatch",
+        "isOpen": true,
+        "objc_name": "OS_dispatch_queue",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)OS_dispatch_object",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Dispatch.DispatchObject",
+          "os_object.OS_object",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Scheduler",
+            "printedName": "Scheduler",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SchedulerTimeType",
+                "printedName": "SchedulerTimeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SchedulerTimeType",
+                    "printedName": "Dispatch.DispatchQueue.SchedulerTimeType",
+                    "usr": "s:So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SchedulerOptions",
+                "printedName": "SchedulerOptions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SchedulerOptions",
+                    "printedName": "Dispatch.DispatchQueue.SchedulerOptions",
+                    "usr": "s:So17OS_dispatch_queueC8DispatchE16SchedulerOptionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine9SchedulerP",
+            "mangledName": "$s7Combine9SchedulerP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DispatchGroup",
+        "printedName": "DispatchGroup",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealDispatchGroupNotify",
+            "printedName": "cmarRealDispatchGroupNotify(qos:flags:queue:execute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItemFlags",
+                "printedName": "Dispatch.DispatchWorkItemFlags",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A13WorkItemFlagsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So17OS_dispatch_groupC18IntuneMAMSwiftStubE27cmarRealDispatchGroupNotify3qos5flags5queue7executey0I00I3QoSV_AI0I13WorkItemFlagsVSo0a1_b1_N0CyyXLtF",
+            "mangledName": "$sSo17OS_dispatch_groupC18IntuneMAMSwiftStubE27cmarRealDispatchGroupNotify3qos5flags5queue7executey0I00I3QoSV_AI0I13WorkItemFlagsVSo0a1_b1_N0CyyXLtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)OS_dispatch_group",
+        "moduleName": "Dispatch",
+        "isOpen": true,
+        "objc_name": "OS_dispatch_group",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)OS_dispatch_object",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Dispatch.DispatchObject",
+          "os_object.OS_object",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DispatchWorkItem",
+        "printedName": "DispatchWorkItem",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealDispatchWorkItemNotify",
+            "printedName": "cmarRealDispatchWorkItemNotify(qos:flags:queue:execute:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItemFlags",
+                "printedName": "Dispatch.DispatchWorkItemFlags",
+                "hasDefaultArg": true,
+                "usr": "s:8Dispatch0A13WorkItemFlagsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQueue",
+                "printedName": "Dispatch.DispatchQueue",
+                "usr": "c:objc(cs)OS_dispatch_queue"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Dispatch0A8WorkItemC18IntuneMAMSwiftStubE08cmarRealabC6Notify3qos5flags5queue7executeyAA0A3QoSV_AA0abC5FlagsVSo012OS_dispatch_L0CyyXLtF",
+            "mangledName": "$s8Dispatch0A8WorkItemC18IntuneMAMSwiftStubE08cmarRealabC6Notify3qos5flags5queue7executeyAA0A3QoSV_AA0abC5FlagsVSo012OS_dispatch_L0CyyXLtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealQoS:cmarRealFlags:cmarRealBlock:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItem",
+                "printedName": "Dispatch.DispatchWorkItem",
+                "usr": "s:8Dispatch0A8WorkItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchQoS",
+                "printedName": "Dispatch.DispatchQoS",
+                "usr": "s:8Dispatch0A3QoSV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItemFlags",
+                "printedName": "Dispatch.DispatchWorkItemFlags",
+                "usr": "s:8Dispatch0A13WorkItemFlagsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Dispatch0A8WorkItemC18IntuneMAMSwiftStubE11cmarRealQoS0gH5Flags0gH5BlockAcA0aI1SV_AA0abcJ0VyyXLtcfc",
+            "mangledName": "$s8Dispatch0A8WorkItemC18IntuneMAMSwiftStubE11cmarRealQoS0gH5Flags0gH5BlockAcA0aI1SV_AA0abcJ0VyyXLtcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealFlags:cmarRealBlock:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItem",
+                "printedName": "Dispatch.DispatchWorkItem",
+                "usr": "s:8Dispatch0A8WorkItemC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DispatchWorkItemFlags",
+                "printedName": "Dispatch.DispatchWorkItemFlags",
+                "usr": "s:8Dispatch0A13WorkItemFlagsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Dispatch0A8WorkItemC18IntuneMAMSwiftStubE13cmarRealFlags0gH5BlockAcA0abcI0V_yyXLtcfc",
+            "mangledName": "$s8Dispatch0A8WorkItemC18IntuneMAMSwiftStubE13cmarRealFlags0gH5BlockAcA0abcI0V_yyXLtcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8Dispatch0A8WorkItemC",
+        "mangledName": "$s8Dispatch0A8WorkItemC",
+        "moduleName": "Dispatch",
+        "intro_Macosx": "10.10",
+        "intro_iOS": "8.0",
+        "declAttributes": [
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DataScannerViewController",
+        "printedName": "DataScannerViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealDataScannerIsSupported",
+            "printedName": "cmarRealDataScannerIsSupported()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9VisionKit25DataScannerViewControllerC18IntuneMAMSwiftStubE08cmarRealcD11IsSupportedSbyFZ",
+            "mangledName": "$s9VisionKit25DataScannerViewControllerC18IntuneMAMSwiftStubE08cmarRealcD11IsSupportedSbyFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "static": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VisionKit@objc(cs)DataScannerViewController",
+        "mangledName": "$s9VisionKit25DataScannerViewControllerC",
+        "moduleName": "VisionKit",
+        "intro_iOS": "16.0",
+        "declAttributes": [
+          "Custom",
+          "Available",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageAnalysisInteraction",
+        "printedName": "ImageAnalysisInteraction",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealImageAnalysisInteractionInit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageAnalysisInteraction",
+                "printedName": "VisionKit.ImageAnalysisInteraction",
+                "usr": "c:@M@VisionKit@objc(cs)ImageAnalysisInteraction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9VisionKit24ImageAnalysisInteractionC18IntuneMAMSwiftStubE08cmarRealcdE4InitACSb_tcfc",
+            "mangledName": "$s9VisionKit24ImageAnalysisInteractionC18IntuneMAMSwiftStubE08cmarRealcdE4InitACSb_tcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "Custom",
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealImageAnalysisInteractionInitDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageAnalysisInteraction",
+                "printedName": "VisionKit.ImageAnalysisInteraction",
+                "usr": "c:@M@VisionKit@objc(cs)ImageAnalysisInteraction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageAnalysisInteractionDelegate",
+                "printedName": "VisionKit.ImageAnalysisInteractionDelegate",
+                "usr": "s:9VisionKit32ImageAnalysisInteractionDelegateP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9VisionKit24ImageAnalysisInteractionC18IntuneMAMSwiftStubE08cmarRealcdE12InitDelegateAcA0cdeL0_p_tcfc",
+            "mangledName": "$s9VisionKit24ImageAnalysisInteractionC18IntuneMAMSwiftStubE08cmarRealcdE12InitDelegateAcA0cdeL0_p_tcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "Custom",
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealPreferredInteractionTypes",
+            "printedName": "cmarRealPreferredInteractionTypes(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InteractionTypes",
+                "printedName": "VisionKit.ImageAnalysisInteraction.InteractionTypes",
+                "usr": "s:9VisionKit24ImageAnalysisInteractionC0E5TypesV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9VisionKit24ImageAnalysisInteractionC18IntuneMAMSwiftStubE017cmarRealPreferredE5TypesyyAC0eL0VF",
+            "mangledName": "$s9VisionKit24ImageAnalysisInteractionC18IntuneMAMSwiftStubE017cmarRealPreferredE5TypesyyAC0eL0VF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "Custom",
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealAllowLongPressForDataDetectorsInTextMode",
+            "printedName": "cmarRealAllowLongPressForDataDetectorsInTextMode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9VisionKit24ImageAnalysisInteractionC18IntuneMAMSwiftStubE48cmarRealAllowLongPressForDataDetectorsInTextModeyySbF",
+            "mangledName": "$s9VisionKit24ImageAnalysisInteractionC18IntuneMAMSwiftStubE48cmarRealAllowLongPressForDataDetectorsInTextModeyySbF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "Custom",
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VisionKit@objc(cs)ImageAnalysisInteraction",
+        "mangledName": "$s9VisionKit24ImageAnalysisInteractionC",
+        "moduleName": "VisionKit",
+        "intro_iOS": "16.0",
+        "declAttributes": [
+          "Final",
+          "Custom",
+          "Available",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIMenu",
+        "printedName": "UIMenu",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealTitle:cmarRealSubtitle:cmarRealImage:cmarRealIdentifier:cmarRealOptions:cmarRealPreferredElementSize:cmarRealChildren:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIMenu",
+                "printedName": "UIKit.UIMenu",
+                "usr": "c:objc(cs)UIMenu"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIMenu.Identifier?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Identifier",
+                    "printedName": "UIKit.UIMenu.Identifier",
+                    "usr": "c:@T@UIMenuIdentifier"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "UIKit.UIMenu.Options",
+                "usr": "c:@E@UIMenuOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ElementSize",
+                "printedName": "UIKit.UIMenu.ElementSize",
+                "usr": "c:@E@UIMenuElementSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIMenuElement]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIMenuElement",
+                    "printedName": "UIKit.UIMenuElement",
+                    "usr": "c:objc(cs)UIMenuElement"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So6UIMenuC18IntuneMAMSwiftStubE13cmarRealTitle0eF8Subtitle0eF5Image0eF10Identifier0eF7Options0eF20PreferredElementSize0eF8ChildrenABSS_SSSgSo7UIImageCSgSo0aJ0aSgSo0aK0VSo0amN0VSaySo0aM0CGtcfc",
+            "mangledName": "$sSo6UIMenuC18IntuneMAMSwiftStubE13cmarRealTitle0eF8Subtitle0eF5Image0eF10Identifier0eF7Options0eF20PreferredElementSize0eF8ChildrenABSS_SSSgSo7UIImageCSgSo0aJ0aSgSo0aK0VSo0amN0VSaySo0aM0CGtcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "intro_iOS": "16.0",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealTitle:cmarRealSubtitle:cmarRealImage:cmarRealIdentifier:cmarRealOptions:cmarRealChildren:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIMenu",
+                "printedName": "UIKit.UIMenu",
+                "usr": "c:objc(cs)UIMenu"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIMenu.Identifier?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Identifier",
+                    "printedName": "UIKit.UIMenu.Identifier",
+                    "usr": "c:@T@UIMenuIdentifier"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "UIKit.UIMenu.Options",
+                "usr": "c:@E@UIMenuOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIMenuElement]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIMenuElement",
+                    "printedName": "UIKit.UIMenuElement",
+                    "usr": "c:objc(cs)UIMenuElement"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So6UIMenuC18IntuneMAMSwiftStubE13cmarRealTitle0eF8Subtitle0eF5Image0eF10Identifier0eF7Options0eF8ChildrenABSS_SSSgSo7UIImageCSgSo0aJ0aSgSo0aK0VSaySo0A7ElementCGtcfc",
+            "mangledName": "$sSo6UIMenuC18IntuneMAMSwiftStubE13cmarRealTitle0eF8Subtitle0eF5Image0eF10Identifier0eF7Options0eF8ChildrenABSS_SSSgSo7UIImageCSgSo0aJ0aSgSo0aK0VSaySo0A7ElementCGtcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "intro_iOS": "15.0",
+            "declAttributes": [
+              "Custom",
+              "Convenience",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealTitle:cmarRealImage:cmarRealIdentifier:cmarRealOptions:cmarRealChildren:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIMenu",
+                "printedName": "UIKit.UIMenu",
+                "usr": "c:objc(cs)UIMenu"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIMenu.Identifier?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Identifier",
+                    "printedName": "UIKit.UIMenu.Identifier",
+                    "usr": "c:@T@UIMenuIdentifier"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "UIKit.UIMenu.Options",
+                "usr": "c:@E@UIMenuOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIMenuElement]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIMenuElement",
+                    "printedName": "UIKit.UIMenuElement",
+                    "usr": "c:objc(cs)UIMenuElement"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So6UIMenuC18IntuneMAMSwiftStubE13cmarRealTitle0eF5Image0eF10Identifier0eF7Options0eF8ChildrenABSS_So7UIImageCSgSo0aI0aSgSo0aJ0VSaySo0A7ElementCGtcfc",
+            "mangledName": "$sSo6UIMenuC18IntuneMAMSwiftStubE13cmarRealTitle0eF5Image0eF10Identifier0eF7Options0eF8ChildrenABSS_So7UIImageCSgSo0aI0aSgSo0aJ0VSaySo0A7ElementCGtcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "Custom",
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIMenu",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "13.0",
+        "objc_name": "UIMenu",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIMenuElement",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIMenuElement",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StringProtocol",
+        "printedName": "StringProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealStringWrite",
+            "printedName": "cmarRealStringWrite(toFile:atomically:encoding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoding",
+                "printedName": "Swift.String.Encoding",
+                "usr": "s:SS10FoundationE8EncodingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sy18IntuneMAMSwiftStubE19cmarRealStringWrite6toFile10atomically8encodingyqd___SbSS10FoundationE8EncodingVtKSyRd__lF",
+            "mangledName": "$sSy18IntuneMAMSwiftStubE19cmarRealStringWrite6toFile10atomically8encodingyqd___SbSS10FoundationE8EncodingVtKSyRd__lF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swift.StringProtocol, τ_1_0 : Swift.StringProtocol>",
+            "sugared_genericSig": "<Self, T where Self : Swift.StringProtocol, T : Swift.StringProtocol>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealStringWrite",
+            "printedName": "cmarRealStringWrite(to:atomically:encoding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoding",
+                "printedName": "Swift.String.Encoding",
+                "usr": "s:SS10FoundationE8EncodingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:Sy18IntuneMAMSwiftStubE19cmarRealStringWrite2to10atomically8encodingy10Foundation3URLV_SbSSAFE8EncodingVtKF",
+            "mangledName": "$sSy18IntuneMAMSwiftStubE19cmarRealStringWrite2to10atomically8encodingy10Foundation3URLV_SbSSAFE8EncodingVtKF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.StringProtocol>",
+            "sugared_genericSig": "<Self where Self : Swift.StringProtocol>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:Sy",
+        "mangledName": "$sSy",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 : Swift.BidirectionalCollection, τ_0_0 : Swift.Comparable, τ_0_0 : Swift.ExpressibleByStringInterpolation, τ_0_0 : Swift.Hashable, τ_0_0 : Swift.LosslessStringConvertible, τ_0_0 : Swift.TextOutputStream, τ_0_0 : Swift.TextOutputStreamable, τ_0_0.Element == Swift.Character, τ_0_0.Index == Swift.String.Index, τ_0_0.StringInterpolation == Swift.DefaultStringInterpolation, τ_0_0.SubSequence : Swift.StringProtocol, τ_0_0.UTF16View : Swift.BidirectionalCollection, τ_0_0.UTF8View : Swift.Collection, τ_0_0.UnicodeScalarView : Swift.BidirectionalCollection, τ_0_0.UTF16View.Element == Swift.UInt16, τ_0_0.UTF16View.Index == Swift.String.Index, τ_0_0.UTF8View.Element == Swift.UInt8, τ_0_0.UTF8View.Index == Swift.String.Index, τ_0_0.UnicodeScalarView.Element == Swift.Unicode.Scalar, τ_0_0.UnicodeScalarView.Index == Swift.String.Index>",
+        "sugared_genericSig": "<Self : Swift.BidirectionalCollection, Self : Swift.Comparable, Self : Swift.ExpressibleByStringInterpolation, Self : Swift.Hashable, Self : Swift.LosslessStringConvertible, Self : Swift.TextOutputStream, Self : Swift.TextOutputStreamable, Self.Element == Swift.Character, Self.Index == Swift.String.Index, Self.StringInterpolation == Swift.DefaultStringInterpolation, Self.SubSequence : Swift.StringProtocol, Self.UTF16View : Swift.BidirectionalCollection, Self.UTF8View : Swift.Collection, Self.UnicodeScalarView : Swift.BidirectionalCollection, Self.UTF16View.Element == Swift.UInt16, Self.UTF16View.Index == Swift.String.Index, Self.UTF8View.Element == Swift.UInt8, Self.UTF8View.Index == Swift.String.Index, Self.UnicodeScalarView.Element == Swift.Unicode.Scalar, Self.UnicodeScalarView.Index == Swift.String.Index>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FileDescriptor",
+        "printedName": "FileDescriptor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealOpen",
+            "printedName": "cmarRealOpen(_:_:options:permissions:retryOnInterrupt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FileDescriptor",
+                "printedName": "System.FileDescriptor",
+                "usr": "s:6System14FileDescriptorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccessMode",
+                "printedName": "System.FileDescriptor.AccessMode",
+                "usr": "s:6System14FileDescriptorV10AccessModeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenOptions",
+                "printedName": "System.FileDescriptor.OpenOptions",
+                "usr": "s:6System14FileDescriptorV11OpenOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "System.FilePermissions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FilePermissions",
+                    "printedName": "System.FilePermissions",
+                    "usr": "s:6System15FilePermissionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6System14FileDescriptorV18IntuneMAMSwiftStubE12cmarRealOpen__7options11permissions16retryOnInterruptACSPys4Int8VG_AC10AccessModeVAC0I7OptionsVAA0B11PermissionsVSgSbtKFZ",
+            "mangledName": "$s6System14FileDescriptorV18IntuneMAMSwiftStubE12cmarRealOpen__7options11permissions16retryOnInterruptACSPys4Int8VG_AC10AccessModeVAC0I7OptionsVAA0B11PermissionsVSgSbtKFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "static": true,
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6System14FileDescriptorV",
+        "mangledName": "$s6System14FileDescriptorV",
+        "moduleName": "System",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
+        "intro_tvOS": "14.0",
+        "intro_watchOS": "7.0",
+        "declAttributes": [
+          "Frozen",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URL",
+        "printedName": "URL",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealURLWriteBookmarkData",
+            "printedName": "cmarRealURLWriteBookmarkData(_:to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation3URLV18IntuneMAMSwiftStubE28cmarRealURLWriteBookmarkData_2toyAA0J0V_ACtKFZ",
+            "mangledName": "$s10Foundation3URLV18IntuneMAMSwiftStubE28cmarRealURLWriteBookmarkData_2toyAA0J0V_ACtKFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "static": true,
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation3URLV",
+        "mangledName": "$s10Foundation3URLV",
+        "moduleName": "Foundation",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSURL",
+                    "printedName": "Foundation.NSURL",
+                    "usr": "c:objc(cs)NSURL"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByFileReferenceLiteral",
+            "printedName": "_ExpressibleByFileReferenceLiteral",
+            "usr": "s:s34_ExpressibleByFileReferenceLiteralP",
+            "mangledName": "$ss34_ExpressibleByFileReferenceLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GroupActivity",
+        "printedName": "GroupActivity",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealActivateGroupActivities",
+            "printedName": "cmarRealActivateGroupActivities()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15GroupActivities0A8ActivityP18IntuneMAMSwiftStubE016cmarRealActivateaB0SbyYaKF",
+            "mangledName": "$s15GroupActivities0A8ActivityP18IntuneMAMSwiftStubE016cmarRealActivateaB0SbyYaKF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : GroupActivities.GroupActivity>",
+            "sugared_genericSig": "<Self where Self : GroupActivities.GroupActivity>",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:15GroupActivities0A8ActivityP",
+        "mangledName": "$s15GroupActivities0A8ActivityP",
+        "moduleName": "GroupActivities",
+        "genericSig": "<τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<Self : Swift.Decodable, Self : Swift.Encodable>",
+        "intro_Macosx": "12",
+        "intro_iOS": "15",
+        "intro_tvOS": "15",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealWidgetURL",
+            "printedName": "cmarRealWidgetURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE17cmarRealWidgetURLyQr10Foundation0J0VSgF",
+            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE17cmarRealWidgetURLyQr10Foundation0J0VSgF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Link",
+        "printedName": "Link",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:cmarRealURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Link",
+                "printedName": "SwiftUI.Link<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7SwiftUI4LinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LocalizedStringKey",
+                "printedName": "SwiftUI.LocalizedStringKey",
+                "usr": "s:7SwiftUI18LocalizedStringKeyV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI4LinkV18IntuneMAMSwiftStubAA4TextVRszrlE_11cmarRealURLACyAFGAA18LocalizedStringKeyV_10Foundation0J0Vtcfc",
+            "mangledName": "$s7SwiftUI4LinkV18IntuneMAMSwiftStubAA4TextVRszrlE_11cmarRealURLACyAFGAA18LocalizedStringKeyV_10Foundation0J0Vtcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
+            "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:cmarRealURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Link",
+                "printedName": "SwiftUI.Link<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7SwiftUI4LinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI4LinkV18IntuneMAMSwiftStubAA4TextVRszrlE_11cmarRealURLACyAFGqd___10Foundation0J0VtcSyRd__lufc",
+            "mangledName": "$s7SwiftUI4LinkV18IntuneMAMSwiftStubAA4TextVRszrlE_11cmarRealURLACyAFGqd___10Foundation0J0VtcSyRd__lufc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 == SwiftUI.Text, τ_1_0 : Swift.StringProtocol>",
+            "sugared_genericSig": "<Label, S where Label == SwiftUI.Text, S : Swift.StringProtocol>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:cmarRealLabel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Link",
+                "printedName": "SwiftUI.Link<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:7SwiftUI4LinkV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7SwiftUI4LinkV18IntuneMAMSwiftStubE_13cmarRealLabelACyxG10Foundation3URLV_xyXEtcfc",
+            "mangledName": "$s7SwiftUI4LinkV18IntuneMAMSwiftStubE_13cmarRealLabelACyxG10Foundation3URLV_xyXEtcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Label where Label : SwiftUI.View>",
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI4LinkV",
+        "mangledName": "$s7SwiftUI4LinkV",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+        "sugared_genericSig": "<Label where Label : SwiftUI.View>",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
+        "intro_tvOS": "14.0",
+        "intro_watchOS": "7.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Data",
+        "printedName": "Data",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealDataWrite",
+            "printedName": "cmarRealDataWrite(to:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WritingOptions",
+                "printedName": "Foundation.NSData.WritingOptions",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSDataWritingOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation4DataV18IntuneMAMSwiftStubE08cmarRealB5Write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF",
+            "mangledName": "$s10Foundation4DataV18IntuneMAMSwiftStubE08cmarRealB5Write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Foundation4DataV",
+        "mangledName": "$s10Foundation4DataV",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ReferenceConvertible",
+            "printedName": "ReferenceConvertible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReferenceType",
+                "printedName": "ReferenceType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation20ReferenceConvertibleP",
+            "mangledName": "$s10Foundation20ReferenceConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RandomAccessCollection",
+            "printedName": "RandomAccessCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sk",
+            "mangledName": "$sSk"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableCollection",
+            "printedName": "MutableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SM",
+            "mangledName": "$sSM"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MutableDataProtocol",
+            "printedName": "MutableDataProtocol",
+            "usr": "s:10Foundation19MutableDataProtocolP",
+            "mangledName": "$s10Foundation19MutableDataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ContiguousBytes",
+            "printedName": "ContiguousBytes",
+            "usr": "s:10Foundation15ContiguousBytesP",
+            "mangledName": "$s10Foundation15ContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Range",
+                    "printedName": "Swift.Range<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sn"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DataProtocol",
+            "printedName": "DataProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Regions",
+                "printedName": "Regions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CollectionOfOne",
+                    "printedName": "Swift.CollectionOfOne<Foundation.Data>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:s15CollectionOfOneV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation12DataProtocolP",
+            "mangledName": "$s10Foundation12DataProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Foundation.Data.Iterator",
+                    "usr": "s:10Foundation4DataV8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSData",
+                    "printedName": "Foundation.NSData",
+                    "usr": "c:objc(cs)NSData"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Sendable",
+                        "printedName": "Swift.Sendable",
+                        "usr": "s:s8SendableP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CKRecordValueProtocol",
+            "printedName": "CKRecordValueProtocol",
+            "usr": "s:8CloudKit21CKRecordValueProtocolP",
+            "mangledName": "$s8CloudKit21CKRecordValueProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "kind": "Array",
+      "offset": 248,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "kind": "Array",
+      "offset": 855,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "kind": "Array",
+      "offset": 1151,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "kind": "Array",
+      "offset": 1646,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "kind": "Array",
+      "offset": 1953,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Data.swift",
+      "kind": "Array",
+      "offset": 183,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

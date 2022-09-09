@@ -6,6 +6,6 @@ framework module IntuneMAMSwift {
 }
 
 module IntuneMAMSwift.Swift {
-    header "IntuneMAM-Swift.h"
-    requires objc
+  header "IntuneMAM-Swift.h"
+  requires objc
 }

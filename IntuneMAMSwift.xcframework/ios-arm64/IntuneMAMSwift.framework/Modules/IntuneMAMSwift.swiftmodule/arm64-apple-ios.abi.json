@@ -1,0 +1,1170 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GroupActivities",
+        "printedName": "GroupActivities",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IntuneMAMSwiftContextManager",
+        "printedName": "IntuneMAMSwiftContextManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getScopedIdentity",
+            "printedName": "getScopedIdentity()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift0aB14ContextManagerC17getScopedIdentitySSSgyFZ",
+            "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC17getScopedIdentitySSSgyFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getScopedAccountId",
+            "printedName": "getScopedAccountId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift0aB14ContextManagerC18getScopedAccountIdSSSgyFZ",
+            "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC18getScopedAccountIdSSSgyFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIdentity",
+            "printedName": "setIdentity(_:forScope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyctFZ",
+            "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyctFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccountId",
+            "printedName": "setAccountId(_:forScope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift0aB14ContextManagerC12setAccountId_8forScopeySSSg_yyctFZ",
+            "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC12setAccountId_8forScopeySSSg_yyctFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIdentity",
+            "printedName": "setIdentity(_:forScope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyKctKFZ",
+            "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyKctKFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccountId",
+            "printedName": "setAccountId(_:forScope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift0aB14ContextManagerC12setAccountId_8forScopeySSSg_yyKctKFZ",
+            "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC12setAccountId_8forScopeySSSg_yyKctKFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIdentity",
+            "printedName": "setIdentity(_:forScope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() async -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyYactYaFZ",
+            "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyYactYaFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "intro_iOS": "15.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccountId",
+            "printedName": "setAccountId(_:forScope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() async -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift0aB14ContextManagerC12setAccountId_8forScopeySSSg_yyYactYaFZ",
+            "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC12setAccountId_8forScopeySSSg_yyYactYaFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "intro_iOS": "15.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIdentity",
+            "printedName": "setIdentity(_:forScope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() async throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyYaKctYaKFZ",
+            "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyYaKctYaKFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "intro_iOS": "15.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccountId",
+            "printedName": "setAccountId(_:forScope:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() async throws -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift0aB14ContextManagerC12setAccountId_8forScopeySSSg_yyYaKctYaKFZ",
+            "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC12setAccountId_8forScopeySSSg_yyYaKctYaKFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "intro_iOS": "15.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14IntuneMAMSwift0aB14ContextManagerC",
+        "mangledName": "$s14IntuneMAMSwift0aB14ContextManagerC",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Dispatch",
+        "printedName": "Dispatch",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "System",
+        "printedName": "System",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "VisionKit",
+        "printedName": "VisionKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DataSwiftHooks.swift",
+      "kind": "Array",
+      "offset": 1489,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 814,
+      "length": 73,
+      "value": "\"$s8Dispatch0A8WorkItemC3qos5flags5blockAcA0A3QoSV_AA0abC5FlagsVyyXBtcfC\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 60,
+      "value": "\"$s8Dispatch0A8WorkItemC5flags5blockAcA0abC5FlagsV_yyXBtcfC\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 1015,
+      "length": 108,
+      "value": "\"$s8Dispatch0A8WorkItemC6notify3qos5flags5queue7executeyAA0A3QoSV_AA0abC5FlagsVSo012OS_dispatch_G0CyyXBtFTj\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1250,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "kind": "Array",
+      "offset": 7553,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "kind": "Array",
+      "offset": 8364,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "kind": "Array",
+      "offset": 9098,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "kind": "Array",
+      "offset": 13160,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "kind": "Array",
+      "offset": 13897,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 253,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 54,
+      "value": "\"\/System\/Library\/Frameworks\/SwiftUI.framework\/SwiftUI\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "kind": "StringLiteral",
+      "offset": 443,
+      "length": 58,
+      "value": "\"\/System\/Library\/Frameworks\/WidgetKit.framework\/WidgetKit\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 70,
+      "value": "\"\/System\/Library\/Frameworks\/GroupActivities.framework\/GroupActivities\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 895,
+      "length": 170,
+      "value": "\"$sSo6UIMenuC5UIKitE5title8subtitle5image10identifier7options20preferredElementSize8childrenABSS_SSSgSo7UIImageCSgSo0A10IdentifieraSgSo0A7OptionsVSo0aiJ0VSaySo0aI0CGtcfC\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 1139,
+      "length": 146,
+      "value": "\"$sSo6UIMenuC5UIKitE5title8subtitle5image10identifier7options8childrenABSS_SSSgSo7UIImageCSgSo0A10IdentifieraSgSo0A7OptionsVSaySo0A7ElementCGtcfC\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 1351,
+      "length": 133,
+      "value": "\"$sSo6UIMenuC5UIKitE5title5image10identifier7options8childrenABSS_So7UIImageCSgSo0A10IdentifieraSgSo0A7OptionsVSaySo0A7ElementCGtcfC\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 3665,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "kind": "Array",
+      "offset": 3913,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 20,
+      "value": "\"IntuneMAMSwift.CMARUIMenuSwiftHooks\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 41,
+      "value": "\"$s6Darwin4openys5Int32VSPys4Int8VG_ADtF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 50,
+      "value": "\"$s6Darwin4openys5Int32VSPys4Int8VG_ADs6UInt16VtF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 865,
+      "length": 45,
+      "value": "\"$s6Darwin6openatys5Int32VAD_SPys4Int8VGADtF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 962,
+      "length": 54,
+      "value": "\"$s6Darwin6openatys5Int32VAD_SPys4Int8VGADs6UInt16VtF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 1089,
+      "length": 164,
+      "value": "\"$s6System14FileDescriptorV5_open__7options11permissions16retryOnInterrupts6ResultOyAcA5ErrnoVGSPys4Int8VG_AC10AccessModeVAC11OpenOptionsVAA0B11PermissionsVSgSbtFZ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6921,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/SwiftTaskContextUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 46,
+      "value": "\"com.microsoft.intunemam.cmarswifttaskcontext\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/SwiftTaskContextUtils.swift",
+      "kind": "Dictionary",
+      "offset": 465,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 342,
+      "length": 61,
+      "value": "\"$s7SwiftUI4ViewP9WidgetKitE9widgetURLyQr10Foundation0G0VSgF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 87,
+      "value": "\"$s7SwiftUI4LinkVA2A4TextVRszrlE_11destinationACyAEGqd___10Foundation3URLVtcSyRd__lufC\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 647,
+      "length": 98,
+      "value": "\"$s7SwiftUI4LinkVA2A4TextVRszrlE_11destinationACyAEGAA18LocalizedStringKeyV_10Foundation3URLVtcfC\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 797,
+      "length": 68,
+      "value": "\"$s7SwiftUI4LinkV11destination5labelACyxG10Foundation3URLV_xyXEtcfC\""
+    }
+  ]
+}

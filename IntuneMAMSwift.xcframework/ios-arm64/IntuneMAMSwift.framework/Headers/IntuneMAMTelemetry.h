@@ -38,24 +38,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMTelemetryDataRegion)
 __attribute__((visibility("default")))
 @protocol IntuneMAMTelemetryDelegate <NSObject>
 
-@optional
-/*!
- * Logs the specified event to Aria.
- * @param name The name of the event.
- * @param privacyLevel Privacy level of the data that is being sent.
- * @param privacyDataTypes Privacy data types of the data that is being sent.
- * @param priorityLevel Priority level of the data that is being sent.
- * @param properties Additional properties related to the event.
- * @param tenantID Destination Aria tenant ID.
- */
-- (void)logAriaEventWithName:(NSString * _Nonnull)name
-    properties:(NSDictionary<NSString *, NSObject *> * _Nonnull)properties
-    privacyLevel:(IntuneMAMTelemetryPrivacyLevel)privacyLevel
-    privacyDataTypes: (IntuneMAMTelemetryPrivacyDataTypes)privacyDataTypes
-    priorityLevel:(IntuneMAMTelemetryPriorityLevel)priorityLevel
-    tenantID:(NSString * _Nonnull)tenantID __deprecated_msg("Use the logAriaEventWithName:properties:privacylevel:privacyDataTypes:priorityLevel:dataRegion:tenantID: API instead.");
-
-@optional
+@required
 /*!
  * Logs the specified event to Aria.
  * @param name The name of the event.
