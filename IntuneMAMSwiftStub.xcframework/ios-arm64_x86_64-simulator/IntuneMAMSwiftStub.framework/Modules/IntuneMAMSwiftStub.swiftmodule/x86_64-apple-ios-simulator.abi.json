@@ -101,6 +101,30 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "System",
+        "printedName": "System",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub"
+      },
+      {
+        "kind": "Import",
+        "name": "AppleArchive",
+        "printedName": "AppleArchive",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub"
+      },
+      {
+        "kind": "Import",
         "name": "Dispatch",
         "printedName": "Dispatch",
         "declKind": "Import",
@@ -179,6 +203,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub"
       },
       {
         "kind": "Import",
@@ -426,6 +457,430 @@
         "moduleName": "IntuneMAMSwiftStub",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArchiveByteStream",
+        "printedName": "ArchiveByteStream",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealFileStream",
+            "printedName": "cmarRealFileStream(path:mode:options:permissions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppleArchive.ArchiveByteStream?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArchiveByteStream",
+                    "printedName": "AppleArchive.ArchiveByteStream",
+                    "usr": "s:12AppleArchive0B10ByteStreamC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FilePath",
+                "printedName": "System.FilePath",
+                "usr": "s:6System8FilePathV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccessMode",
+                "printedName": "System.FileDescriptor.AccessMode",
+                "usr": "s:6System14FileDescriptorV10AccessModeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenOptions",
+                "printedName": "System.FileDescriptor.OpenOptions",
+                "usr": "s:6System14FileDescriptorV11OpenOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FilePermissions",
+                "printedName": "System.FilePermissions",
+                "usr": "s:6System15FilePermissionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppleArchive0B10ByteStreamC18IntuneMAMSwiftStubE012cmarRealFileD04path4mode7options11permissionsACSg6System0J4PathV_AK0J10DescriptorV10AccessModeVAO11OpenOptionsVAK0J11PermissionsVtFZ",
+            "mangledName": "$s12AppleArchive0B10ByteStreamC18IntuneMAMSwiftStubE012cmarRealFileD04path4mode7options11permissionsACSg6System0J4PathV_AK0J10DescriptorV10AccessModeVAO11OpenOptionsVAK0J11PermissionsVtFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealWithFileStream",
+            "printedName": "cmarRealWithFileStream(path:mode:options:permissions:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FilePath",
+                "printedName": "System.FilePath",
+                "usr": "s:6System8FilePathV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AccessMode",
+                "printedName": "System.FileDescriptor.AccessMode",
+                "usr": "s:6System14FileDescriptorV10AccessModeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpenOptions",
+                "printedName": "System.FileDescriptor.OpenOptions",
+                "usr": "s:6System14FileDescriptorV11OpenOptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FilePermissions",
+                "printedName": "System.FilePermissions",
+                "usr": "s:6System15FilePermissionsV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppleArchive.ArchiveByteStream) throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArchiveByteStream",
+                    "printedName": "AppleArchive.ArchiveByteStream",
+                    "usr": "s:12AppleArchive0B10ByteStreamC"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppleArchive0B10ByteStreamC18IntuneMAMSwiftStubE016cmarRealWithFileD04path4mode7options11permissions_x6System0K4PathV_AJ0K10DescriptorV10AccessModeVAN11OpenOptionsVAJ0K11PermissionsVxACKXEtKlFZ",
+            "mangledName": "$s12AppleArchive0B10ByteStreamC18IntuneMAMSwiftStubE016cmarRealWithFileD04path4mode7options11permissions_x6System0K4PathV_AJ0K10DescriptorV10AccessModeVAN11OpenOptionsVAJ0K11PermissionsVxACKXEtKlFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<E>",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AppleArchive0B10ByteStreamC",
+        "mangledName": "$s12AppleArchive0B10ByteStreamC",
+        "moduleName": "AppleArchive",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
+        "intro_tvOS": "14.0",
+        "intro_watchOS": "7.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "superclassUsr": "s:12AppleArchive24_AAOptionalObjectWrapperC",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AppleArchive._AAOptionalObjectWrapper<AppleArchive._AAByteStreamTraits>"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ArchiveByteStreamProtocol",
+            "printedName": "ArchiveByteStreamProtocol",
+            "usr": "s:12AppleArchive0B18ByteStreamProtocolP",
+            "mangledName": "$s12AppleArchive0B18ByteStreamProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ArchiveStream",
+        "printedName": "ArchiveStream",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealExtractStream",
+            "printedName": "cmarRealExtractStream(extractingTo:selectUsing:flags:threadCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AppleArchive.ArchiveStream?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArchiveStream",
+                    "printedName": "AppleArchive.ArchiveStream",
+                    "usr": "s:12AppleArchive0B6StreamC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FilePath",
+                "printedName": "System.FilePath",
+                "usr": "s:6System8FilePathV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((AppleArchive.ArchiveHeader.EntryMessage, System.FilePath, AppleArchive.ArchiveHeader.EntryFilterData?) -> AppleArchive.ArchiveHeader.EntryMessageStatus)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppleArchive.ArchiveHeader.EntryMessage, System.FilePath, AppleArchive.ArchiveHeader.EntryFilterData?) -> AppleArchive.ArchiveHeader.EntryMessageStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EntryMessageStatus",
+                        "printedName": "AppleArchive.ArchiveHeader.EntryMessageStatus",
+                        "usr": "s:12AppleArchive0B6HeaderC18EntryMessageStatusV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(AppleArchive.ArchiveHeader.EntryMessage, System.FilePath, AppleArchive.ArchiveHeader.EntryFilterData?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EntryMessage",
+                            "printedName": "AppleArchive.ArchiveHeader.EntryMessage",
+                            "usr": "s:12AppleArchive0B6HeaderC12EntryMessageV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FilePath",
+                            "printedName": "System.FilePath",
+                            "usr": "s:6System8FilePathV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "AppleArchive.ArchiveHeader.EntryFilterData?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EntryFilterData",
+                                "printedName": "AppleArchive.ArchiveHeader.EntryFilterData",
+                                "usr": "s:12AppleArchive0B6HeaderC15EntryFilterDataO"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArchiveFlags",
+                "printedName": "AppleArchive.ArchiveFlags",
+                "hasDefaultArg": true,
+                "usr": "s:12AppleArchive0B5FlagsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppleArchive0B6StreamC18IntuneMAMSwiftStubE015cmarRealExtractC012extractingTo11selectUsing5flags11threadCountACSg6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAO0uV0V_AmO0U10FilterDataOSgtcSgAA0B5FlagsVSitFZ",
+            "mangledName": "$s12AppleArchive0B6StreamC18IntuneMAMSwiftStubE015cmarRealExtractC012extractingTo11selectUsing5flags11threadCountACSg6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAO0uV0V_AmO0U10FilterDataOSgtcSgAA0B5FlagsVSitFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealWithExtractStream",
+            "printedName": "cmarRealWithExtractStream(extractingTo:selectUsing:flags:threadCount:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FilePath",
+                "printedName": "System.FilePath",
+                "usr": "s:6System8FilePathV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((AppleArchive.ArchiveHeader.EntryMessage, System.FilePath, AppleArchive.ArchiveHeader.EntryFilterData?) -> AppleArchive.ArchiveHeader.EntryMessageStatus)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AppleArchive.ArchiveHeader.EntryMessage, System.FilePath, AppleArchive.ArchiveHeader.EntryFilterData?) -> AppleArchive.ArchiveHeader.EntryMessageStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EntryMessageStatus",
+                        "printedName": "AppleArchive.ArchiveHeader.EntryMessageStatus",
+                        "usr": "s:12AppleArchive0B6HeaderC18EntryMessageStatusV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(AppleArchive.ArchiveHeader.EntryMessage, System.FilePath, AppleArchive.ArchiveHeader.EntryFilterData?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EntryMessage",
+                            "printedName": "AppleArchive.ArchiveHeader.EntryMessage",
+                            "usr": "s:12AppleArchive0B6HeaderC12EntryMessageV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FilePath",
+                            "printedName": "System.FilePath",
+                            "usr": "s:6System8FilePathV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "AppleArchive.ArchiveHeader.EntryFilterData?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "EntryFilterData",
+                                "printedName": "AppleArchive.ArchiveHeader.EntryFilterData",
+                                "usr": "s:12AppleArchive0B6HeaderC15EntryFilterDataO"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ArchiveFlags",
+                "printedName": "AppleArchive.ArchiveFlags",
+                "hasDefaultArg": true,
+                "usr": "s:12AppleArchive0B5FlagsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AppleArchive.ArchiveStream) throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ArchiveStream",
+                    "printedName": "AppleArchive.ArchiveStream",
+                    "usr": "s:12AppleArchive0B6StreamC"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AppleArchive0B6StreamC18IntuneMAMSwiftStubE019cmarRealWithExtractC012extractingTo11selectUsing5flags11threadCount_x6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAN0vW0V_AlN0V10FilterDataOSgtcSgAA0B5FlagsVSixACKXEtKlFZ",
+            "mangledName": "$s12AppleArchive0B6StreamC18IntuneMAMSwiftStubE019cmarRealWithExtractC012extractingTo11selectUsing5flags11threadCount_x6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAN0vW0V_AlN0V10FilterDataOSgtcSgAA0B5FlagsVSixACKXEtKlFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<E>",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AppleArchive0B6StreamC",
+        "mangledName": "$s12AppleArchive0B6StreamC",
+        "moduleName": "AppleArchive",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
+        "intro_tvOS": "14.0",
+        "intro_watchOS": "7.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "superclassUsr": "s:12AppleArchive34_AAOptionalObjectWrapperWithFilterC",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AppleArchive._AAOptionalObjectWrapperWithFilter<AppleArchive._AAArchiveStreamTraits>"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ArchiveStreamProtocol",
+            "printedName": "ArchiveStreamProtocol",
+            "usr": "s:12AppleArchive0B14StreamProtocolP",
+            "mangledName": "$s12AppleArchive0B14StreamProtocolP"
+          }
         ]
       },
       {
@@ -2350,6 +2805,27 @@
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealPrepareForActivation",
+            "printedName": "cmarRealPrepareForActivation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroupActivityActivationResult",
+                "printedName": "GroupActivities.GroupActivityActivationResult",
+                "usr": "s:15GroupActivities0A24ActivityActivationResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15GroupActivities0A8ActivityP18IntuneMAMSwiftStubE28cmarRealPrepareForActivationAA0acK6ResultOyYaF",
+            "mangledName": "$s15GroupActivities0A8ActivityP18IntuneMAMSwiftStubE28cmarRealPrepareForActivationAA0acK6ResultOyYaF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : GroupActivities.GroupActivity>",
+            "sugared_genericSig": "<Self where Self : GroupActivities.GroupActivity>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -2382,6 +2858,161 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GroupActivitySharingController",
+        "printedName": "GroupActivitySharingController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealActivity:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroupActivitySharingController",
+                "printedName": "_GroupActivities_UIKit.GroupActivitySharingController",
+                "usr": "c:@M@_GroupActivities_UIKit@objc(cs)GroupActivitySharingController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22_GroupActivities_UIKit0A25ActivitySharingControllerC18IntuneMAMSwiftStubE08cmarRealD0ACx_tKc0aB00aD0Rzlufc",
+            "mangledName": "$s22_GroupActivities_UIKit0A25ActivitySharingControllerC18IntuneMAMSwiftStubE08cmarRealD0ACx_tKc0aB00aD0Rzlufc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : GroupActivities.GroupActivity>",
+            "sugared_genericSig": "<ActivityType where ActivityType : GroupActivities.GroupActivity>",
+            "declAttributes": [
+              "Convenience",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealPreparationHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GroupActivitySharingController",
+                "printedName": "_GroupActivities_UIKit.GroupActivitySharingController",
+                "usr": "c:@M@_GroupActivities_UIKit@objc(cs)GroupActivitySharingController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() async throws -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22_GroupActivities_UIKit0A25ActivitySharingControllerC18IntuneMAMSwiftStubE26cmarRealPreparationHandlerACxyYaKc_tc0aB00aD0Rzlufc",
+            "mangledName": "$s22_GroupActivities_UIKit0A25ActivitySharingControllerC18IntuneMAMSwiftStubE26cmarRealPreparationHandlerACxyYaKc_tc0aB00aD0Rzlufc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : GroupActivities.GroupActivity>",
+            "sugared_genericSig": "<ActivityType where ActivityType : GroupActivities.GroupActivity>",
+            "declAttributes": [
+              "Convenience",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@_GroupActivities_UIKit@objc(cs)GroupActivitySharingController",
+        "mangledName": "$s22_GroupActivities_UIKit0A25ActivitySharingControllerC",
+        "moduleName": "_GroupActivities_UIKit",
+        "intro_iOS": "15.4",
+        "declAttributes": [
+          "Custom",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -3204,6 +3835,34 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
+      "kind": "Array",
+      "offset": 1155,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1178,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
+      "kind": "Array",
+      "offset": 1487,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1510,
+      "length": 1,
+      "value": "0"
+    },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
       "kind": "Array",

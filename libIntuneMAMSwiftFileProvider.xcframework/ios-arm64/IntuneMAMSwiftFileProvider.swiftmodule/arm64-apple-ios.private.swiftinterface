@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftFileProvider
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AppleArchive
 import Dispatch
 import Foundation
 import IntuneMAMSwiftStub
@@ -35,3 +36,13 @@ import _System_Foundation
   #endif
   @objc deinit
 }
+public enum IntuneMAMSwiftError : Swift.Error {
+  case GroupActivitiesBlocked
+  public static func == (a: IntuneMAMSwiftFileProvider.IntuneMAMSwiftError, b: IntuneMAMSwiftFileProvider.IntuneMAMSwiftError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension IntuneMAMSwiftFileProvider.IntuneMAMSwiftError : Swift.Equatable {}
+extension IntuneMAMSwiftFileProvider.IntuneMAMSwiftError : Swift.Hashable {}

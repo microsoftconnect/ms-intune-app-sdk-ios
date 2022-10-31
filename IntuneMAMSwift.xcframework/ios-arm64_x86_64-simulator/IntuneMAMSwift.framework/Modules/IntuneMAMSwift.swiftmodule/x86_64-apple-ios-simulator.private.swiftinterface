@@ -2,9 +2,9 @@
 // swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwift
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AppleArchive
 import Dispatch
 import Foundation
-import GroupActivities
 @_exported import IntuneMAMSwift
 import IntuneMAMSwiftStub
 import Swift
@@ -12,6 +12,7 @@ import SwiftUI
 import UIKit
 import VisionKit
 import _Concurrency
+import _GroupActivities_UIKit
 import _StringProcessing
 import _System_Foundation
 @_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
@@ -39,3 +40,13 @@ import _System_Foundation
   #endif
   @objc deinit
 }
+public enum IntuneMAMSwiftError : Swift.Error {
+  case GroupActivitiesBlocked
+  public static func == (a: IntuneMAMSwift.IntuneMAMSwiftError, b: IntuneMAMSwift.IntuneMAMSwiftError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension IntuneMAMSwift.IntuneMAMSwiftError : Swift.Equatable {}
+extension IntuneMAMSwift.IntuneMAMSwiftError : Swift.Hashable {}

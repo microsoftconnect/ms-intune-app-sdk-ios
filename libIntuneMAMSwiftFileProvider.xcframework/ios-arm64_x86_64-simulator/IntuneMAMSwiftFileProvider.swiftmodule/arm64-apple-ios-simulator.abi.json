@@ -23,6 +23,47 @@
       },
       {
         "kind": "Import",
+        "name": "AppleArchive",
+        "printedName": "AppleArchive",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftFileProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "System",
+        "printedName": "System",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftFileProvider"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftFileProvider",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftFileProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftFileProvider"
+      },
+      {
+        "kind": "Import",
         "name": "IntuneMAM_Private",
         "printedName": "IntuneMAM_Private",
         "declKind": "Import",
@@ -705,6 +746,193 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "IntuneMAMSwiftError",
+        "printedName": "IntuneMAMSwiftError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "GroupActivitiesBlocked",
+            "printedName": "GroupActivitiesBlocked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IntuneMAMSwiftFileProvider.IntuneMAMSwiftError.Type) -> IntuneMAMSwiftFileProvider.IntuneMAMSwiftError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntuneMAMSwiftError",
+                    "printedName": "IntuneMAMSwiftFileProvider.IntuneMAMSwiftError",
+                    "usr": "s:26IntuneMAMSwiftFileProvider0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IntuneMAMSwiftFileProvider.IntuneMAMSwiftError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntuneMAMSwiftError",
+                        "printedName": "IntuneMAMSwiftFileProvider.IntuneMAMSwiftError",
+                        "usr": "s:26IntuneMAMSwiftFileProvider0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26IntuneMAMSwiftFileProvider0aB5ErrorO22GroupActivitiesBlockedyA2CmF",
+            "mangledName": "$s26IntuneMAMSwiftFileProvider0aB5ErrorO22GroupActivitiesBlockedyA2CmF",
+            "moduleName": "IntuneMAMSwiftFileProvider"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntuneMAMSwiftError",
+                "printedName": "IntuneMAMSwiftFileProvider.IntuneMAMSwiftError",
+                "usr": "s:26IntuneMAMSwiftFileProvider0aB5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IntuneMAMSwiftError",
+                "printedName": "IntuneMAMSwiftFileProvider.IntuneMAMSwiftError",
+                "usr": "s:26IntuneMAMSwiftFileProvider0aB5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26IntuneMAMSwiftFileProvider0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s26IntuneMAMSwiftFileProvider0aB5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "IntuneMAMSwiftFileProvider",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26IntuneMAMSwiftFileProvider0aB5ErrorO9hashValueSivp",
+            "mangledName": "$s26IntuneMAMSwiftFileProvider0aB5ErrorO9hashValueSivp",
+            "moduleName": "IntuneMAMSwiftFileProvider",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26IntuneMAMSwiftFileProvider0aB5ErrorO9hashValueSivg",
+                "mangledName": "$s26IntuneMAMSwiftFileProvider0aB5ErrorO9hashValueSivg",
+                "moduleName": "IntuneMAMSwiftFileProvider",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26IntuneMAMSwiftFileProvider0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s26IntuneMAMSwiftFileProvider0aB5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "IntuneMAMSwiftFileProvider",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:26IntuneMAMSwiftFileProvider0aB5ErrorO",
+        "mangledName": "$s26IntuneMAMSwiftFileProvider0aB5ErrorO",
+        "moduleName": "IntuneMAMSwiftFileProvider",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftFileProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "System",
         "printedName": "System",
@@ -800,6 +1028,76 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 896,
+      "length": 161,
+      "value": "\"$s12AppleArchive0B10ByteStreamC04fileD04path4mode7options11permissionsACSg6System8FilePathV_AJ0K10DescriptorV10AccessModeVAN11OpenOptionsVAJ0K11PermissionsVtFZ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 1117,
+      "length": 169,
+      "value": "\"$s12AppleArchive0B10ByteStreamC08withFileD04path4mode7options11permissions_x6System0F4PathV_AI0F10DescriptorV10AccessModeVAM11OpenOptionsVAI0F11PermissionsVxACKXEtKlFZ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 1391,
+      "length": 188,
+      "value": "\"$s12AppleArchive0B6StreamC07extractC012extractingTo11selectUsing5flags11threadCountACSg6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAN0pQ0V_AlN0P10FilterDataOSgtcSgAA0B5FlagsVSitFZ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 1639,
+      "length": 199,
+      "value": "\"$s12AppleArchive0B6StreamC011withExtractC012extractingTo11selectUsing5flags11threadCount_x6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAM0qR0V_AkM0Q10FilterDataOSgtcSgAA0B5FlagsVSixACKXEtKlFZ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 26,
+      "value": "\"IntuneMAMSwiftFileProvider.CMARAppleArchiveSwiftHooks\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 6728,
+      "length": 51,
+      "value": "\"cmarHooked.AppleArchvie.ExtractStream.SerialQueue\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "kind": "Array",
+      "offset": 10135,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10158,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "kind": "Array",
+      "offset": 11270,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11293,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
       "kind": "IntegerLiteral",
       "offset": 253,
@@ -837,7 +1135,7 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DataSwiftHooks.swift",
       "kind": "Array",
-      "offset": 1489,
+      "offset": 1972,
       "length": 2,
       "value": "[]"
     },

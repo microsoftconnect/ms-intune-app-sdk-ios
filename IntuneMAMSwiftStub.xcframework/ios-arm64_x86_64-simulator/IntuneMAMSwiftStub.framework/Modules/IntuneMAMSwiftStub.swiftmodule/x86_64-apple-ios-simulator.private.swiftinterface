@@ -2,18 +2,30 @@
 // swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftStub
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AppleArchive
 import Darwin
 import Dispatch
 import Foundation
-import GroupActivities
 import Swift
 import SwiftUI
 import System
 import UIKit
 import VisionKit
 import _Concurrency
+import _GroupActivities_UIKit
 import _StringProcessing
+import _System_Foundation
 public func cmarRealUIApplicationMain(_ argc: Swift.Int32, _ argv: Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<Swift.Int8>?>, _ principalClassName: Swift.String?, _ delegateClassName: Swift.String?) -> Swift.Int32
+@available(iOS 14.0, *)
+extension AppleArchive.ArchiveByteStream {
+  public static func cmarRealFileStream(path: System.FilePath, mode: System.FileDescriptor.AccessMode, options: System.FileDescriptor.OpenOptions, permissions: System.FilePermissions) -> AppleArchive.ArchiveByteStream?
+  public static func cmarRealWithFileStream<E>(path: System.FilePath, mode: System.FileDescriptor.AccessMode, options: System.FileDescriptor.OpenOptions, permissions: System.FilePermissions, _ body: (AppleArchive.ArchiveByteStream) throws -> E) throws -> E
+}
+@available(iOS 14.0, *)
+extension AppleArchive.ArchiveStream {
+  public static func cmarRealExtractStream(extractingTo directory: System.FilePath, selectUsing filter: AppleArchive.ArchiveHeader.EntryFilter? = nil, flags: AppleArchive.ArchiveFlags = [], threadCount: Swift.Int = 0) -> AppleArchive.ArchiveStream?
+  public static func cmarRealWithExtractStream<E>(extractingTo directory: System.FilePath, selectUsing filter: AppleArchive.ArchiveHeader.EntryFilter? = nil, flags: AppleArchive.ArchiveFlags = [], threadCount: Swift.Int = 0, _ body: (AppleArchive.ArchiveStream) throws -> E) throws -> E
+}
 extension Dispatch.DispatchQueue {
   public func cmarRealDispatchQueueAsync(group: Dispatch.DispatchGroup? = nil, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
   public func cmarRealDispatchQueueSync<T>(execute work: () throws -> T) rethrows -> T
@@ -60,10 +72,20 @@ extension System.FileDescriptor {
 extension Foundation.URL {
   public static func cmarRealURLWriteBookmarkData(_ data: Foundation.Data, to url: Foundation.URL) throws
 }
-@available(iOS 15.0.0, *)
+@available(iOS 15.0, *)
 extension GroupActivities.GroupActivity {
   #if compiler(>=5.3) && $AsyncAwait
   public func cmarRealActivateGroupActivities() async throws -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func cmarRealPrepareForActivation() async -> GroupActivities.GroupActivityActivationResult
+  #endif
+}
+@available(iOS 15.4, *)
+extension _GroupActivities_UIKit.GroupActivitySharingController {
+  @_Concurrency.MainActor convenience public init<ActivityType>(cmarRealActivity: ActivityType) throws where ActivityType : GroupActivities.GroupActivity
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor convenience public init<ActivityType>(cmarRealPreparationHandler: @escaping () async throws -> ActivityType) where ActivityType : GroupActivities.GroupActivity
   #endif
 }
 @_hasMissingDesignatedInitializers public class DarwinStubs {
