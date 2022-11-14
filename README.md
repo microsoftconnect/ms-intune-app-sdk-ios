@@ -17,5 +17,5 @@ See the [Intune App SDK iOS Developer Guide](https://docs.microsoft.com/en-us/in
 Supported Xcode and iOS versions:
 | Intune SDK Version  | Supported iOS Versions  | Supported Xcode Version | Support Scope |
 | ----------------------- | ---------------------------- | -----------------------------  | ----------------- |                         
-| 17.0.0+                     | 12.2+                               | 14                                       | Main release branch - supports all feature work and bug fixes |
+| 17.0.0+                     | 14+                               | 14                                       | Main release branch - supports all feature work and bug fixes |
 | 15.0.0+                     | 12.2+ (no support for iOS 16 features) | 13 (latest minor version) | High-priority security fixes only |
