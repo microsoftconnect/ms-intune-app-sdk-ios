@@ -114,7 +114,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sCLDtkZsNyGDMKs7HxaHZGprIX8=
+		DAuNgP9pYX0BxuXJ+86cjQkeNyw=
 		</data>
 		<key>IntuneMAMResources.bundle/ActivityAlertViewController.nib</key>
 		<data>
@@ -155,15 +155,15 @@
 		</data>
 		<key>IntuneMAMResources.bundle/DiagnosticUploadViewController.nib</key>
 		<data>
-		gZySiK9xEjKX3BQCPeyJp9YBc/A=
+		cPNDUzBWTBz9AyB0hWczluQlqY8=
 		</data>
 		<key>IntuneMAMResources.bundle/DiagnosticViewController.nib</key>
 		<data>
-		jSbXKFms1QWP0kxBXmkwFab4gFY=
+		Er+2BR8p76ux7QPIEvlSt6Is2uw=
 		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		kgB15EnWFoESZXsl83tKsQ3cq4Q=
+		fhFtuwLmAVPeH4vhU1clMUm5bo4=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<data>
@@ -199,7 +199,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		nfRF9f9V2GuC38JbpRRCSZv9eAg=
+		muCHH2t+vPHyhG2wpwVZQUKeqcU=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -207,11 +207,11 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		94FC9SfZjzQsq+0eXrRm9fjDB/s=
+		niubwVdQZKyj9OsEMGvN5YDTCms=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		Ya1f8ptCEg3meOSObX2P4cSIvQw=
+		JA3XT27HDlLLCjmMbhP3gRuG4C4=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -221,7 +221,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rDTrELVEI+L6o5NXUGjhDHRYwyw=
+			0A7fyBFjFB8X706R6gnCVqcOYeQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -239,7 +239,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OcCE+/NElhGXlXg6kg0msKAHO2I=
+			W5YMQP+CzEb/PiXD2oDPzUrvmE8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -257,7 +257,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4ekHL5z0hdfx0pL0klrNsiXQTIs=
+			/WfdaEDjvsWlVC1WARr1NazU7qQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -275,7 +275,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NN1M4ZSk5R0foOfygkL3k0OItQc=
+			irxQVaLLvx8+/QzOm4S/9sPyVeU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -293,7 +293,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BUofrp4XdKFeBOqUFIvOp4qN9yM=
+			J4KkW46+W0zBxMWo8wNQOWpF89U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -311,7 +311,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xp7BiHfEQueqBBLxuHEgwkXTzNk=
+			PinWMwprKdPTJQY0J7dJgqZ/Uwo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -329,7 +329,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3c29qOqed70ybsPU0FYHQD+F/nA=
+			a6E0WlwOiwLBCre2ZLSXh0IXNks=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -347,7 +347,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s0Kv63nWS+KzlhKiw60XGCCKcPI=
+			3EOxWDgHnMaqCrjOScbaJxs31Mc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -365,7 +365,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WyNBVxU0bQGPfYoRkL2a48NTECU=
+			4/dCokB8VBX+wBN1KNpVSGitBFA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -383,7 +383,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lGX+Y7AtDK6LauBB7OowE7WkKII=
+			leo8FIi/M2SW33G/4fZ/pOE6ims=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -401,7 +401,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+OnjtCVybyoOX/hACLfRDid1uB8=
+			tjtUBh/ZNjn25q0IsFlVdQQgMms=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -419,7 +419,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			911557YcnYsUzHy4jB+IaG4rTkk=
+			JggQdg9/UV2WR1ItBcxcnQuHwzo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -437,7 +437,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vb99Wlx5A+t9cK+po+ONpz8Qr6w=
+			SaRBlRz8lj2jt1wsgpiXqgFkSKw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -455,7 +455,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m0FbumhHkyKTeXeTCxYFOOIJiiY=
+			bgizVsXaRZHGsSVo+CUdqAK5MHg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -471,13 +471,13 @@
 		</dict>
 		<key>IntuneMAMResources.bundle/mappingTable.plist</key>
 		<data>
-		kDWLTjl8MSitOstQXTrksapXcAw=
+		tI5Wr/6fznlgEBQzU+4exrbyvvE=
 		</data>
 		<key>IntuneMAMResources.bundle/nb.lproj/AppRestrictions.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wUOIvIkR+DYZRmVWoadi/Un7bFg=
+			3v0EbmiEbj7vbddgHQO5vb0gMKc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -495,7 +495,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ruy2Yy9gVb0yZOIRpptzt+FDuDs=
+			+Z5zcDcrphJyMfr+FypIWTD6wi8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -513,7 +513,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nvrJqzrmTcKiOVKU5wvhrbAdCb8=
+			z5fTFQjcc1tgFc6EnjLKtFTAn78=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -531,7 +531,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mAQIy7divQ7WLyi14SU/d+J3i3o=
+			UkrHvsbKpTghmNfb0U7t+JsXlHg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -549,7 +549,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ckmjjI1/HYHM7dEr2A1vHNhvEIU=
+			kJRVkM+4GAJYJuKJjFalVM3eV24=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -567,7 +567,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SQhdJ8OFkmHdqgP3v4gBtt4sRDw=
+			+31Ahxj2iHswe3u+pyUqlOW+Cb8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -585,7 +585,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qLZyzUWuaHmV+HWKH2gwCjoxgjE=
+			RbQQ/PQz09zFs+LSmAiNp24NBKM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -603,7 +603,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RwrhvVL5zkqX3PzPfBcyVDVyv58=
+			/XumWFY1/jRByZOy/zT/J0hc0xc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -621,7 +621,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v0Bn2SgwaIdCLIT2Dg+ainmxP3Q=
+			AUKPuMxX3OEgoHekxoX1PCXL3OY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -639,7 +639,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pXic9t28UaWLQjdi1HwYIPENze4=
+			MKPbl+nwnvtnAQDllRlr7Fg3fMQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -657,7 +657,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mxJFSivb07/e2x0mZL0GGqBaV4s=
+			PQyhguvW3oMvQS4mxg/4hFjmCZI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -675,7 +675,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T/Szde4fohWGcZm/aL6VhiWXR7Y=
+			xVA/2M+NlGvSosBEsJ03WagocnA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -693,7 +693,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			soVr2zsWTyW7mUSGVHlqu6B6gRI=
+			IpOlDCqnVQm4zeaCPdiCxvxHEsg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -729,7 +729,7 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Mcz2biE9wLij8roz8nyx78kfMLc=
+		/qz3UXyVJrLWxibMlHnvj0QjMoo=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -749,7 +749,7 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8/hcQEDiRWFaB9kBUKucdiNCFME=
+		uQpw1BYiUhpj64ZFgzL1a2rBUjs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1013,21 +1013,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uvcH7LrX2y8AIgDXJ7/GEgUR2vmOmlNHjVU/68SsgXk=
+			PL5UhAyDmUuu490aFfe6a3LSOZK3XEjbcOAMb61i7KA=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/DiagnosticViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1CY17kf7kZ9S4TjZyz8X9B45ltQdvOvetB1Mp/oi12k=
+			2v6rPdQ1e7Majvy8tvTTKTnstxZ6668mT/lkO3ki/tg=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rNCsFZr3hN2XK2aakDk7uyJ/5GiUk2JJyj8VH7k/o7U=
+			LONsAD4ULxnDQBOggFngMpgtksfMbkySKW9CMSWEgDI=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
@@ -1090,7 +1090,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eE9YyqPVktBHvW14VfvOxjlzhjmWHT1Fqde4FtwDR0k=
+			S6LuP9DjLNKpXdlcb8T5nXUxEdGVGL3BW9VXX6+i0Zs=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1104,14 +1104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zdavCf/oNKJUfePPLebcX5FI1kKvKhYHG6BFuE8qhro=
+			j2znjFemH06Zrvm9Y0HL3qVqYJ6GN5VdjHo6a7efU2g=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LQrriaERPkqh6rh57ECN2B7WV0OL91e8/hPqQ8fIRsI=
+			g8oZ0AHHtecHu8EkUvunPZjBx8LWdp0bKCndSmmHJ5k=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeSignature</key>
@@ -1125,7 +1125,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+k+C5CVfbkZGUIXY1lhzb+lVr0Pj+hTVrzo0/JkTDkM=
+			rOQu8AVyaErLfrC7EuObvjCuNJjOksP/TuIDq5pokqA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1143,7 +1143,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i9In6F+tm9n4v53qudOHGDW0rOX79y2ss/ziK9ftTM8=
+			pdgkwXez4FE0yyCMLdcbG7HTaZYUlmMDTjEx55qU7OU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1161,7 +1161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S+YSVtSe1RiFSmBlNULoYgQFSdM3iZBTQfur0ULYqfk=
+			jUZt/4hIQOgXjiuklsfWTn8+fY+8ElKLoWJwFslmdW0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1179,7 +1179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1IKpETJhtPQpi1LxsnoMmTHLO3IlPAKCuuxEA00QUcs=
+			IJZm6ii3LUOZ6f1UR8F8ul20fUPJwX9maJknf5j8FXQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1197,7 +1197,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rS3KPV3xrIyhwgb0RH22dy1BaffIbG4jc/hmIkwhxpY=
+			n06MZweTcEG9ffM7ROWDQ1OIGSzpFvgXH+VAVNjNz/s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1215,7 +1215,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WyjzlMR6Qffq4ON087w8XwC+QirJls8jeW4MrQblAak=
+			5bJlOD4UXHPVKNnbqRWeAFvxieLzbu+rRJT+AyoGsvM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1233,7 +1233,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Drc6EfORbl0MYLyuOWEc+PjhVRAdCccFAZ4VtjxBHTc=
+			8tLG0bdswocFAX1c9EtWyjDeeApo4fNugnrtcJP993Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1251,7 +1251,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CsJ0e6wI1ot0P1N/SwOxCOPgcPJdsoJ41bqVS2Y/C5U=
+			cRX+OkZUs3xsvv4tG0zpaq4FwLhlOwfc7J7nrchGX+I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1269,7 +1269,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Rb44Gnai+EOzHTurCATY3qo/03jn4jhTgwuRPP2AF4=
+			PZNpNRAJmM95r1S3yLIdnv5wgyi8yMmkWZtrZ9HLQBM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1287,7 +1287,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f991BbkpzJK9XqNnjPlMRsm6GSWWmNx159b7wQm30tY=
+			nvLTV7UJi6QAWgGurHpSRYC2+MXaYsADDZG/PQWY4U0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1305,7 +1305,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k1BxhDdfXsCPYi90fMpa5SXrFnPnD9snTl7haHrB0DA=
+			qkg4jjW8kYLZPAcoIaGfUuZE7Nrjgp1j9ZAiITeCB8E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1323,7 +1323,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v7uCU2bn8VD/j5Ki2sxQ0e2zM+ManZh+ETaHG2mkU1s=
+			pcDU9Ny9Muv3B0WFZgEsBzJStVH8Lbl5Y2etX0jKVWU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1341,7 +1341,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			orFDUyAKbtmbUu+JPDWl0R10WRCicjxSTa5tr9STekI=
+			8aMn8+yeIuR+qL2d9B0IxEBbu7bTxdbHSj0uTbdlhYc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1359,7 +1359,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pfHiKN/MMmr+gfk6c4bw+nFcp0zE287n5PJ7R/nZW4w=
+			6im4/LnUn2sPk8C4WxGncUYbUlQbaaCqYRjLVt1X70c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1377,14 +1377,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N58kkMuyUE/+YaMOhbvmMYR4/ChRuuc6GtJ+Lek6g08=
+			NjgJiqOw0QaDBbrW5JPSnvC8Cpc1Q/1OyciaIGaOuA4=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/nb.lproj/AppRestrictions.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GPQ26zgvzxlRSPoFDAgACIvSeDaBC8oB9MJwSMJrqAM=
+			B15OjPXQZO5Mg25GwcMAudkpSD9ELzLzasd2BFmmrKg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1402,7 +1402,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jnV69+hoSe3MwLtYrmy8stQANosNzZuLOMM+zpXckjY=
+			Z9/q3n6p8yBPB+2BinLM/92oS8ciZgWClvuPAwr6l84=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1420,7 +1420,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MAF9T8SoTcKHdK2We/e8+XMkplvMD6J/X8BBP8TTHQo=
+			1bECPK68FLDxE9Om9Rw7EB0hfJ67aMzg5yMpzFYVg78=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1438,7 +1438,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vKM9Idf66VQ6NCpIEEssTk6NB+8E3VJvKi/VBKRqOKU=
+			SexBK1AA+9ZWMO4Ap3bvW5EpVdU0wW3AjCVEX7poVUk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1456,7 +1456,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A1zkxM7kf6GMuZ/yXxwuLC798HCx+5YO2CYf+RhRC3E=
+			iFtmEMHv8WwuoktowUurVf9w+i8zAJfiO287z1LnrjI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1474,7 +1474,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B2S1hqDzWSzT4f7zklJAlyp0zYODoCnV2C4V6D8TJYc=
+			ZSHT4NLDSEK85eN1vxMhvdWRHojkmm1UxlLOIooUj8Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1492,7 +1492,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RgVGT66MI4Be3e33yAlzmyQwLX8Tynt+GpOsuy5zj4o=
+			FKpEQqdeg2J0uNEr+M/k6yQQpTESs7ZNJQ29nD52dHA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1510,7 +1510,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jdpgYLRyMr4G2szTWJqitvFOW6z2nWs3Y6ljSrma84Q=
+			MWWyGyQLCExBde1X4azqWZQmg3LYSEZPqKWQguiDCyU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1528,7 +1528,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jEOu8k2POy3C4mEaczvy+I4HJHx5m0HwyOyPZu60kPw=
+			i/MQYC08BCA4kkTRGNSYs65toq+ifdPSCeGr7I+u/Pw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1546,7 +1546,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q3/P3fruydwXs3iHhyIQBhatinaZagDEb0HsbYGIvuI=
+			AR3EdfiYkVt+cEIoaQtNvbXQX7PhZnmiwmCeegtgUVY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1564,7 +1564,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xv9jwvcO397Ta9O56Eya54lOVU91Rv0fo83j84smxoA=
+			pykGCwsTe9Cn5KzNLZGyNW3+WxPB1/0lGZ+5nC+4th0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1582,7 +1582,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XC1OTtKnn2dQXsC1f0aXbtEjT2OxdE3alzqFxcD4Cco=
+			Tc1lflxFwGhx9OyQ75sRXd6UnVwMS/AFFBUcSAyJG+U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1600,7 +1600,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ip6EcVxvyoHZm6KmVqNQ7PVKUcL1qe8iKD36nNLyPNw=
+			yXP4vdioIwunsMJpl729mRIjgiYM8iqnQdc6yVGYj10=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1653,7 +1653,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P8i3OmVlhq6+50oCrjCrfYeJwoSqpk+1wPlOGPFEri0=
+			9IiheNsrIVp15gBN0v3oVLWxGWM3fgfK/CNVfQld57A=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1688,7 +1688,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WUih/qwNJAsiU64MI14uDuQQlqZzs4cVL5wmFNC2WGE=
+			0d693alTjXqspMOBHRHUCrwRWD8wqPut7wyKjIm9dU8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
