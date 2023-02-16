@@ -25,6 +25,7 @@ __attribute__((visibility("default")))
 extern NSString*_Nonnull const IntuneMAMDataProtectionDidChangeNotification;
 
 // Data protection/unprotection operation error domain used for NSError objects.
+__attribute__((visibility("default")))
 extern NSString*_Nonnull IntuneMAMDataProtectionErrorDomain;
 
 __attribute__((visibility("default")))
