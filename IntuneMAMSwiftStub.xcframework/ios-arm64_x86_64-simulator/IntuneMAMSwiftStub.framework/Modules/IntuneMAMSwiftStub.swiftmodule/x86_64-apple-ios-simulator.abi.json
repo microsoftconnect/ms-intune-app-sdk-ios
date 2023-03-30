@@ -15,6 +15,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub"
+      },
+      {
         "kind": "Function",
         "name": "cmarRealUIApplicationMain",
         "printedName": "cmarRealUIApplicationMain(_:_:_:_:)",
@@ -458,6 +465,51 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "App",
+        "printedName": "App",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealSwiftUIMain",
+            "printedName": "cmarRealSwiftUIMain()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI3AppP18IntuneMAMSwiftStubE08cmarRealA6UIMainyyFZ",
+            "mangledName": "$s7SwiftUI3AppP18IntuneMAMSwiftStubE08cmarRealA6UIMainyyFZ",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.App>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.App>",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI3AppP",
+        "mangledName": "$s7SwiftUI3AppP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.Scene>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.Scene>",
+        "intro_Macosx": "11.0",
+        "intro_iOS": "14.0",
+        "intro_tvOS": "14.0",
+        "intro_watchOS": "7.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
       },
       {
         "kind": "TypeDecl",

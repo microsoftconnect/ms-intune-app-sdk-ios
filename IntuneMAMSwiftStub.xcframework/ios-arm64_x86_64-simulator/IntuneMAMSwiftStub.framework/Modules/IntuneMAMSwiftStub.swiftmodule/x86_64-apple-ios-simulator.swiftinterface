@@ -17,6 +17,10 @@ import _StringProcessing
 import _System_Foundation
 public func cmarRealUIApplicationMain(_ argc: Swift.Int32, _ argv: Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<Swift.Int8>?>, _ principalClassName: Swift.String?, _ delegateClassName: Swift.String?) -> Swift.Int32
 @available(iOS 14.0, *)
+extension SwiftUI.App {
+  public static func cmarRealSwiftUIMain()
+}
+@available(iOS 14.0, *)
 extension AppleArchive.ArchiveByteStream {
   public static func cmarRealFileStream(path: System.FilePath, mode: System.FileDescriptor.AccessMode, options: System.FileDescriptor.OpenOptions, permissions: System.FilePermissions) -> AppleArchive.ArchiveByteStream?
   public static func cmarRealWithFileStream<E>(path: System.FilePath, mode: System.FileDescriptor.AccessMode, options: System.FileDescriptor.OpenOptions, permissions: System.FilePermissions, _ body: (AppleArchive.ArchiveByteStream) throws -> E) throws -> E
