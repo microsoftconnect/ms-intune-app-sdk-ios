@@ -42,10 +42,11 @@ typedef NS_ENUM(NSUInteger, IntuneMAMEnrollmentStatusCode)
     IntuneMAMEnrollmentStatusPolicyRecordGone = 220,                // Operation failed because we recieved a Gone response from the service
     IntuneMAMEnrollmentStatusReEnrollForUnenrolledUser = 221,       // Operation failed because reenrolls can only be processed if the same user is still enrolled in the app.
     IntuneMAMEnrollmentStatusTenantMigration = 222,                 // Operation failed because the user's tenant is either undergoing a migration, or the user is not licensed for MAM
-    IntuneMAMEnrollmentStatusUnsupportedAPI = 223,                   // MAM does not support enrolling from an extension.
-    IntuneMAMEnrollmentStatusADALMethodUnsupported = 224,            // The linked version of ADAL does not support this method. (ADAL below 2.6.4)
-    IntuneMAMEnrollmentStatusLicensedNotTargeted = 225,                // The account is licensed for Intune but is not targeted with MAM policy
-    IntuneMAMEnrollmentStatusDeviceBlockedEnrollment = 226        // The device blocked the enrollment
+    IntuneMAMEnrollmentStatusUnsupportedAPI = 223,                  // MAM does not support enrolling from an extension.
+    IntuneMAMEnrollmentStatusADALMethodUnsupported = 224,           // The linked version of ADAL does not support this method. (ADAL below 2.6.4)
+    IntuneMAMEnrollmentStatusLicensedNotTargeted = 225,             // The account is licensed for Intune but is not targeted with MAM policy
+    IntuneMAMEnrollmentStatusDeviceBlockedEnrollment = 226,         // The device blocked the enrollment
+    IntuneMAMEnrollmentStatusSingleManagedAccountMode = 227,        // Operation failed because only a single managed account is allowed
 };
 
 /**

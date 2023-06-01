@@ -156,6 +156,7 @@ __attribute__((visibility("default")))
 /**
  *  Returns the UPN of the currently enrolled user.  Returns
  *  nil if the application is not currently enrolled.
+ *  Should be called only by applications which don't support multiple managed accounts.
  *
  *  @return UPN of the enrolled account
  */
@@ -164,10 +165,18 @@ __attribute__((visibility("default")))
 /**
  *  Returns the AccountId of the currently enrolled user.  Returns
  *  nil if the application is not currently enrolled.
+ *  Should be called only by applications which don't support multiple managed accounts.
  *
  *  @return AccountId of the enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  */
 - (NSString *_Nullable)enrolledAccountId;
+
+/**
+ *  Returns an array containing the AccountId of all currently enrolled users.
+ *
+ *  @return AccountId of the enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ */
+- (NSArray<NSString*> *_Nonnull)enrolledAccountIds;
 
 /**
  *  Semi-Private: Please contact the MAM team before using this API

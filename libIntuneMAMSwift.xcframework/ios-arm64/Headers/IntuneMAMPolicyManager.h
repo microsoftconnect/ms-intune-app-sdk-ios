@@ -10,9 +10,13 @@
 // Notification name for Intune application policy change notifications.
 // Applications can register for notifications using the default NSNotificationCenter.
 // The NSNotification passed to the observer will contain the IntuneMAMPolicyManager instance
-// as the object and userInfo will be nil.
+// as the object.
 __attribute__((visibility("default")))
 extern NSString*_Nonnull const IntuneMAMPolicyDidChangeNotification;
+
+// UserInfo dictionary constants.
+__attribute__((visibility("default")))
+extern NSString*_Nonnull const IntuneMAMPolicyDidChangeNotificationAccountId;
 
 // Notification posted after the Intune SDK completes wiping the managed account.
 __attribute__((visibility("default")))
@@ -170,10 +174,15 @@ __attribute__((visibility("default")))
 - (void) setWebViewPolicy:(IntuneMAMWebViewPolicy)webViewPolicy forWebViewer:(id _Nonnull)webViewer;
 
 // Returns the account name of the primary user in upn format (e.g. user@contoso.com).
+// Should be called only by applications which don't support multiple managed accounts.
 @property (readonly) NSString* _Nullable primaryUser;
 
 // Returns the account name of the primary user in AccountId format (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+// Should be called only by applications which don't support multiple managed accounts.
 @property (readonly) NSString* _Nullable primaryAccountId;
+
+// Returns an array of managed accounts in AccountId format (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+@property (readonly) NSArray<NSString*>* _Nonnull managedAccountIds;
 
 // The delegate property is used to notify the application of certain policy actions that
 // it should perform. See IntuneMAMPolicyDelegate.h for more information.

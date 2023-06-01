@@ -7,10 +7,12 @@
 
 // Notification name for Intune User Status change notifications.
 // Applications can register for notifications using the default NSNotificationCenter.
-// The NSNotification passed to the observer will contain the IntuneMAMUserStatusManager instance as the object
-// and userInfo will be nil.
+// The NSNotification passed to the observer will contain the IntuneMAMUserStatusManager instance as the object.
 __attribute__((visibility("default"))) extern NSString*_Nonnull const IntuneMAMUserStatusDidChangeNotification;
 
+// UserInfo dictionary constants.
+__attribute__((visibility("default")))
+extern NSString*_Nonnull const IntuneMAMUserStatusDidChangeNotificationAccountId;
 
 __attribute__((visibility("default")))
 @interface IntuneMAMUserStatusManager : NSObject

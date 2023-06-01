@@ -13,6 +13,10 @@
 __attribute__((visibility("default")))
 extern NSString* _Nonnull const IntuneMAMAppConfigDidChangeNotification;
 
+// UserInfo dictionary constants.
+__attribute__((visibility("default")))
+extern NSString*_Nonnull const IntuneMAMAppConfigDidChangeNotificationAccountId;
+
 __attribute__((visibility("default")))
 @interface IntuneMAMAppConfigManager : NSObject
 

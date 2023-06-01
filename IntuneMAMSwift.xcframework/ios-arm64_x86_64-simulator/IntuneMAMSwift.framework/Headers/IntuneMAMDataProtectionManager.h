@@ -20,9 +20,13 @@ typedef NS_ENUM(NSUInteger, IntuneMAMDataProtectionStatusCode)
 // Applications should re-protect data for the managed user after this
 // notification is received.
 // The NSNotification passed to the observer will contain the
-// IntuneMAMDataProtectionManager instance as the object and userInfo will be nil.
+// IntuneMAMDataProtectionManager instance as the object.
 __attribute__((visibility("default")))
 extern NSString*_Nonnull const IntuneMAMDataProtectionDidChangeNotification;
+
+// UserInfo dictionary constants.
+__attribute__((visibility("default")))
+extern NSString*_Nonnull const IntuneMAMDataProtectionDidChangeNotificationAccountId;
 
 // Data protection/unprotection operation error domain used for NSError objects.
 __attribute__((visibility("default")))

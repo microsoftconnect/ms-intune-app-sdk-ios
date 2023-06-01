@@ -26,7 +26,7 @@ __attribute__((visibility("default")))
 // the file contents will be software encrypted on disk. The flags/mode parameters are the same as the flags passed to POSIX open().
 + (instancetype _Nullable) createFileAtPath:(NSString* _Nonnull)path forAccountId:(NSString* _Nullable)acountId error:(NSError* _Nullable* _Nullable)error;
 + (instancetype _Nullable) createFileAtPath:(NSString* _Nonnull)path flags:(int)flags mode:(mode_t)mode forAccountId:(NSString* _Nullable)acountId error:(NSError* _Nullable* _Nullable)error;
-                                    
+
 // Protects the file for the specified identity. The file will be software encrypted if required by policy.
 // If called on an encrypted file and the policy or identity changes to no longer require software
 // encryption, the file will be decrypted.
