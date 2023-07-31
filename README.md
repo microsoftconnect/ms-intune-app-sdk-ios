@@ -1,6 +1,6 @@
 # Microsoft Intune App SDK for iOS 
 
-Version [17.6.1](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases)
+Version [17.6.3](https://github.com/msintuneappsdk/ms-intune-app-sdk-ios/releases)
 
 NOTE: We only support Intune App SDK version 17.0.0+ We recommend always staying up to date with the latest version.
 
