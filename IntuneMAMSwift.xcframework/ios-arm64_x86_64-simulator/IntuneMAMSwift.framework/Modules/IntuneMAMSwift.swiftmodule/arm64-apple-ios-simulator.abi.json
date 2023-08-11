@@ -1465,6 +1465,27 @@
       "value": "\"IntuneMAMSwift.CMARApplicationSwiftHooks\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 58,
+      "value": "\"$s10Foundation3URLV17writeBookmarkData_2toyAA0E0V_ACtKFZ\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 672,
+      "length": 63,
+      "value": "\"$s10Foundation3URLV17setResourceValuesyyAA011URLResourceE0VKF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 17,
+      "value": "\"IntuneMAMSwift.CMARURLSwiftHooks\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
       "kind": "StringLiteral",
       "offset": 670,

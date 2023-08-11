@@ -65,4 +65,9 @@ __attribute__((visibility("default")))
 // in multi-identity apps.
 - (void) setAccountId:(NSString*_Nonnull)accountId onFileProviderEnumerator:(id<NSFileProviderEnumerator>_Nonnull)enumerator;
 
+// Marks the item as owned by user accountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+// This is expected to be set in replicated file provider extensions whenever a new
+// NSFileProviderItem is handed to the system in multi-identity apps.
+- (void) protectFileProviderItem:(NSFileProviderItem _Nonnull)item forAccountId:(NSString*_Nonnull)accountId;
+
 @end

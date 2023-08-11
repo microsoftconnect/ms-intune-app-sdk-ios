@@ -53,5 +53,8 @@ __attribute__((visibility("default")))
 // Shows an alert displaying an error message to the user with accountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) for certificate pinning validation, indicating that the requested endpoint was blocked. If nil is passed in for the AccountId, the current thread identity is used. Call this method instead when the certificate validation APIs return false.
 - (void) showErrorMessageForAccountId:(NSString* _Nullable)accountId withDismissHandler:(void(^_Nullable)(void))dismissHandler;
 
+// Checks if the Intune service sent down certificate pins for an accountId. Pinning is enabled if pins are found for the accountId. Managed apps should check connections using evaluateChallenge or evaluateCertificateChain regardless of the status returned by isPinningEnabledForIdentity. If nil is passed in for the accountId, the current thread identity is used to perform the certificate pinning check.
+- (BOOL) isPinningEnabledForAccountId:(NSString* _Nullable)accountId;
+
 @end
 
