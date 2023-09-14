@@ -1,7 +1,7 @@
 framework module IntuneMAMSwift {
   umbrella header "IntuneMAMSwift.h"
-
   export *
+
   module * { export * }
 }
 

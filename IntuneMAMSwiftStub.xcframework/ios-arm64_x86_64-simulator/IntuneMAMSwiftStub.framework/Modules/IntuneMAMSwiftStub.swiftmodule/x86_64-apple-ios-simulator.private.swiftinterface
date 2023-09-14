@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftStub
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AppleArchive
@@ -14,6 +14,7 @@ import VisionKit
 import _Concurrency
 import _GroupActivities_UIKit
 import _StringProcessing
+import _SwiftConcurrencyShims
 import _System_Foundation
 public func cmarRealUIApplicationMain(_ argc: Swift.Int32, _ argv: Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<Swift.Int8>?>, _ principalClassName: Swift.String?, _ delegateClassName: Swift.String?) -> Swift.Int32
 @available(iOS 14.0, *)
@@ -37,6 +38,13 @@ extension Dispatch.DispatchQueue {
   public func cmarRealDispatchQueueAsyncAfter(deadline: Dispatch.DispatchTime, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
   public func cmarRealDispatchQueueAsyncAfter(wallDeadline: Dispatch.DispatchWallTime, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
   public class func cmarRealDispatchQueueConcurrentPerform(iterations: Swift.Int, execute work: (Swift.Int) -> Swift.Void)
+  @available(iOS 17.0, *)
+  public func cmarRealDispatchQueueAsyncAfterUnsafe(deadline: Dispatch.DispatchTime, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
+  @available(iOS 17.0, *)
+  public func cmarRealDispatchQueueAsyncAfterUnsafe(wallDeadline: Dispatch.DispatchWallTime, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
+  @available(iOS 17.0, *)
+  public func cmarRealDispatchQueueAsyncUnsafe(group: Dispatch.DispatchGroup? = nil, qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], execute work: @escaping @convention(block) () -> Swift.Void)
+  public func cmarRealDispatchQueueAsyncAndWait(execute work: @escaping @convention(block) () -> Swift.Void)
 }
 extension Dispatch.DispatchGroup {
   public func cmarRealDispatchGroupNotify(qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], queue: Dispatch.DispatchQueue, execute work: @escaping @convention(block) () -> ())
