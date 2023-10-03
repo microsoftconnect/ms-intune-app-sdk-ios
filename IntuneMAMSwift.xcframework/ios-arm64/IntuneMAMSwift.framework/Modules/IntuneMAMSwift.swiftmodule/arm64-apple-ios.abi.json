@@ -1229,112 +1229,70 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DataSwiftHooks.swift",
       "kind": "Array",
-      "offset": 2117,
+      "offset": 1972,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 967,
+      "offset": 814,
       "length": 73,
       "value": "\"$s8Dispatch0A8WorkItemC3qos5flags5blockAcA0A3QoSV_AA0abC5FlagsVyyXBtcfC\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 1079,
+      "offset": 926,
       "length": 60,
       "value": "\"$s8Dispatch0A8WorkItemC5flags5blockAcA0abC5FlagsV_yyXBtcfC\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 1168,
+      "offset": 1015,
       "length": 108,
       "value": "\"$s8Dispatch0A8WorkItemC6notify3qos5flags5queue7executeyAA0A3QoSV_AA0abC5FlagsVSo012OS_dispatch_G0CyyXBtFTj\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
-      "kind": "StringLiteral",
-      "offset": 1323,
-      "length": 128,
-      "value": "\"$sSo17OS_dispatch_queueC8DispatchE16asyncAfterUnsafe8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
-      "kind": "StringLiteral",
-      "offset": 1502,
-      "length": 137,
-      "value": "\"$sSo17OS_dispatch_queueC8DispatchE16asyncAfterUnsafe12wallDeadline3qos5flags7executeyAC0D8WallTimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
-      "kind": "StringLiteral",
-      "offset": 1678,
-      "length": 124,
-      "value": "\"$sSo17OS_dispatch_queueC8DispatchE11asyncUnsafe5group3qos5flags7executeySo0a1_b1_G0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "IntegerLiteral",
-      "offset": 1929,
+      "offset": 1250,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
-      "offset": 9687,
+      "offset": 7553,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
-      "offset": 10498,
+      "offset": 8364,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
-      "offset": 11232,
+      "offset": 9098,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
-      "offset": 15317,
+      "offset": 13158,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
-      "offset": 16093,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
-      "kind": "Array",
-      "offset": 16877,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
-      "kind": "Array",
-      "offset": 17599,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
-      "kind": "Array",
-      "offset": 18336,
+      "offset": 13895,
       "length": 2,
       "value": "[]"
     },
@@ -1467,14 +1425,14 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 3900,
+      "offset": 3659,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
       "kind": "Array",
-      "offset": 4148,
+      "offset": 3907,
       "length": 2,
       "value": "[]"
     },
@@ -1509,21 +1467,21 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 570,
       "length": 58,
       "value": "\"$s10Foundation3URLV17writeBookmarkData_2toyAA0E0V_ACtKFZ\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 671,
+      "offset": 672,
       "length": 63,
       "value": "\"$s10Foundation3URLV17setResourceValuesyyAA011URLResourceE0VKF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 425,
       "length": 17,
       "value": "\"IntuneMAMSwift.CMARURLSwiftHooks\""
     },
@@ -1565,7 +1523,7 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
       "kind": "BooleanLiteral",
-      "offset": 7070,
+      "offset": 6921,
       "length": 4,
       "value": "true"
     },

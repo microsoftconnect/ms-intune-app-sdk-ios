@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftFileProvider
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AppleArchive
@@ -11,7 +11,6 @@ import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 import _System_Foundation
 @_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
   public static func getScopedIdentity() -> Swift.String?
