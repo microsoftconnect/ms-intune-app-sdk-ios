@@ -1488,21 +1488,21 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ApplicationSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 995,
+      "offset": 1159,
       "length": 29,
       "value": "\"$s7SwiftUI3AppPAAE4mainyyFZ\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ApplicationSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 1064,
+      "offset": 1228,
       "length": 66,
       "value": "\"$s5UIKit17UIApplicationMainys5Int32VAD_SpySpys4Int8VGGSgSSSgAJtF\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ApplicationSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 840,
+      "offset": 1004,
       "length": 25,
       "value": "\"IntuneMAMSwift.CMARApplicationSwiftHooks\""
     },
