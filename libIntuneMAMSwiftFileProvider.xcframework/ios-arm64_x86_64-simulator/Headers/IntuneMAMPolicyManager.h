@@ -36,6 +36,7 @@ typedef NS_ENUM(NSInteger, IntuneMAMWebViewPolicy)
     IntuneMAMWebViewPolicyUnset = 0,            // the web view will be treated according to the TreatAllWebviewsAsUnmanaged flag
     IntuneMAMWebViewPolicyUnmanaged = 1,        // the web view will be treated as unmanaged
     IntuneMAMWebViewPolicyCurrentIdentity = 2,  // the web view will be treated as the current ui identity
+    IntuneMAMWebViewPolicyCurrentIdentityBlockUpload = 3,  // the web view will be treated as the current ui identity but will block file uploads and paste
 };
 
 __attribute__((visibility("default")))
