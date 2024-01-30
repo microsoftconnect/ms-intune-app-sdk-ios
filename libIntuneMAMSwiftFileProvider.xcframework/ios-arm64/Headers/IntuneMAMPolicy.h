@@ -165,6 +165,11 @@ __attribute__((visibility("default")))
 // entirely handled by the SDK.
 @property (readonly) BOOL isContactSyncAllowed;
 
+// TRUE if the management policy allows applications to sync policy managed app data with app's widgets.
+// Applications should check this policy and if FALSE should not sync
+// corporate data with the app's widgets.
+@property (readonly) BOOL isWidgetContentSyncAllowed;
+
 // TRUE if the management policy allows applications to index coporate data for
 // Core Spotlight.  Multi-Identity applications should check this policy and if FALSE should set
 // eligibleForPublicIndexing and eligibleForSearch to FALSE for corporate NSUserActivity objects

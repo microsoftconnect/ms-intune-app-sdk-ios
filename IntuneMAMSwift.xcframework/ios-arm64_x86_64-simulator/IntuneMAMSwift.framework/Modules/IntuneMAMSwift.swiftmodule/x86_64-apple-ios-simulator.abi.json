@@ -1306,35 +1306,35 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
-      "offset": 15317,
+      "offset": 15311,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
-      "offset": 16093,
+      "offset": 16087,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
-      "offset": 16877,
+      "offset": 16871,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
-      "offset": 17599,
+      "offset": 17593,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
-      "offset": 18336,
+      "offset": 18330,
       "length": 2,
       "value": "[]"
     },
@@ -1467,14 +1467,14 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 3900,
+      "offset": 3801,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
       "kind": "Array",
-      "offset": 4148,
+      "offset": 4049,
       "length": 2,
       "value": "[]"
     },
