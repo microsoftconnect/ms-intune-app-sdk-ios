@@ -211,7 +211,7 @@ __attribute__((visibility("default")))
  *
  *  @return UPN of the MDM enrolled account
  */
-- (NSString *_Nullable)mdmEnrolledAccount;
+- (NSString *_Nullable)mdmEnrolledAccount __attribute__((deprecated ("Use mdmEnrolledAccountIdWithCompletion instead.")));
 
 /**
  *  Returns the AccountId of the MDM enrolled user. Returns nil if the device is not MDM enrolled.
@@ -220,6 +220,15 @@ __attribute__((visibility("default")))
  *
  *  @return AccountId of the MDM enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  */
-- (NSString *_Nullable)mdmEnrolledAccountId;
+- (NSString *_Nullable)mdmEnrolledAccountId __attribute__((deprecated ("Use mdmEnrolledAccountIdWithCompletion instead.")));
+
+/**
+ *  Asynchronously returns the AccountId of the MDM enrolled user. Returns nil if the device is not MDM enrolled.
+ *  For 3rd party applications, the application must also be managed and have IntuneMAMOID
+ *  set to the MDM enrolled user in managed app config.
+ *
+ *  @return AccountId of the MDM enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ */
+- (void) mdmEnrolledAccountIdWithCompletion:(void (^_Nonnull)(NSString*_Nullable))completionHandler;
 
 @end
