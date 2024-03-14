@@ -1,0 +1,10 @@
+The following libraries can be redistributed if you are using the Microsoft Intune App SDK for iOS, subject to its license:
+ 
+	IntuneMAMResources.bundle
+	IntuneMAMSwift.xcframework
+	IntuneMAMSwiftStub.xcframework
+	IntuneMAMTelemetry.xcframework
+	libIntuneMAMSwift.xcframework
+	libIntuneMAMSwiftFileProvider.xcframework
+ 
+Depending on your usage, you only need to redistribute a subset of the above.
