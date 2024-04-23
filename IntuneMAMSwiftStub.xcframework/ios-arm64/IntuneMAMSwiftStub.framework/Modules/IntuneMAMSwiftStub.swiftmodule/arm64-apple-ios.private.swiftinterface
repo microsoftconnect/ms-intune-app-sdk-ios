@@ -65,7 +65,6 @@ extension VisionKit.ImageAnalysisInteraction {
   @_Concurrency.MainActor final public func cmarRealPreferredInteractionTypes(_ types: VisionKit.ImageAnalysisInteraction.InteractionTypes)
   @_Concurrency.MainActor final public func cmarRealAllowLongPressForDataDetectorsInTextMode(_ allow: Swift.Bool)
 }
-@available(iOS 13.0, *)
 extension UIKit.UIMenu {
   @available(iOS 16.0, *)
   @_Concurrency.MainActor(unsafe) convenience public init(cmarRealTitle: Swift.String, cmarRealSubtitle: Swift.String?, cmarRealImage: UIKit.UIImage?, cmarRealIdentifier: UIKit.UIMenu.Identifier?, cmarRealOptions: UIKit.UIMenu.Options, cmarRealPreferredElementSize: UIKit.UIMenu.ElementSize, cmarRealChildren: [UIKit.UIMenuElement])

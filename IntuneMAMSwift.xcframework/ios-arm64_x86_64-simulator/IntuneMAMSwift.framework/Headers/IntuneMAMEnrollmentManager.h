@@ -227,7 +227,6 @@ __attribute__((visibility("default")))
  *  For 3rd party applications, the application must also be managed and have IntuneMAMOID
  *  set to the MDM enrolled user in managed app config.
  *
- *  @return AccountId of the MDM enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  */
 - (void) mdmEnrolledAccountIdWithCompletion:(void (^_Nonnull)(NSString*_Nullable))completionHandler;
 
