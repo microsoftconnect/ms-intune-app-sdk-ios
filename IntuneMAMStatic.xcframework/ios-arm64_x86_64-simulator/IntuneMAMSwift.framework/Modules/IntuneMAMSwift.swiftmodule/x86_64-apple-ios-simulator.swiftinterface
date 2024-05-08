@@ -1,0 +1,53 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwift
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AppleArchive
+import Dispatch
+import Foundation
+@_exported import IntuneMAMSwift
+import IntuneMAMSwiftStub
+import Swift
+import SwiftUI
+import UIKit
+import VisionKit
+import _Concurrency
+import _GroupActivities_UIKit
+import _StringProcessing
+import _SwiftConcurrencyShims
+import _System_Foundation
+@_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
+  public static func getScopedIdentity() -> Swift.String?
+  public static func getScopedAccountId() -> Swift.String?
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () -> Swift.Void)
+  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () -> Swift.Void)
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
+  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () async -> Swift.Void) async
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async -> Swift.Void) async
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
+  #endif
+  @objc deinit
+}
+public enum IntuneMAMSwiftError : Swift.Error {
+  case GroupActivitiesBlocked
+  public static func == (a: IntuneMAMSwift.IntuneMAMSwiftError, b: IntuneMAMSwift.IntuneMAMSwiftError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension IntuneMAMSwift.IntuneMAMSwiftError : Swift.Equatable {}
+extension IntuneMAMSwift.IntuneMAMSwiftError : Swift.Hashable {}
