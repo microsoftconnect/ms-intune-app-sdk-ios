@@ -33,7 +33,7 @@ __attribute__((visibility("default")))
  * @param errMsg A localized string describing the error encountered if the identity is not compliant.
  * @param errTitle A localized title string for the error encountered if the identity is not compliant.
  */
-- (void) identity:(NSString*_Nonnull) identity hasComplianceStatus:(IntuneMAMComplianceStatus) status withErrorMessage:(NSString*_Nonnull) errMsg andErrorTitle:(NSString*_Nonnull) errTitle;
+- (void) identity:(NSString*_Nonnull) identity hasComplianceStatus:(IntuneMAMComplianceStatus) status withErrorMessage:(NSString*_Nonnull) errMsg andErrorTitle:(NSString*_Nonnull) errTitle DEPRECATED_MSG_ATTRIBUTE("Use accountId:hasComplianceStatus:withErrorMessage:andErrorTitle: instead.");
 
 @optional
 /**
@@ -44,7 +44,7 @@ __attribute__((visibility("default")))
  *
  * @warning Delegate methods are not guarenteed to be called on the Main thread.
  *
- * @param accountId The AccountId of the identity for which compliance remediation was requested (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ * @param accountId The Entra object ID of the identity for which compliance remediation was requested (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  * @param status The compliance status of identity
  * @param errMsg A localized string describing the error encountered if the identity is not compliant.
  * @param errTitle A localized title string for the error encountered if the identity is not compliant.
@@ -80,13 +80,13 @@ __attribute__((visibility("default")))
  * @param identity The UPN of the identity sending the request
  * @param silent A bool indicating whether or not the Intune SDK will take UI control for the duration of the this method
  */
-- (void) remediateComplianceForIdentity:(NSString*_Nonnull) identity silent:(BOOL) silent;
+- (void) remediateComplianceForIdentity:(NSString*_Nonnull) identity silent:(BOOL) silent DEPRECATED_MSG_ATTRIBUTE("Use remediateComplianceForAccountId:silent: instead.");
 
 // Returns TRUE if a compliance remediation is in progress for the specified user.
-- (BOOL) remediationInProgressForIdentity:(NSString*_Nonnull) identity;
+- (BOOL) remediationInProgressForIdentity:(NSString*_Nonnull) identity DEPRECATED_MSG_ATTRIBUTE("Use remediationInProgressForAccountId: instead.");
 
 /**
- * @param accountId The AccountId of the identity sending the request (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ * @param accountId The The Entra object ID of the identity sending the request (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  * @param silent A bool indicating whether or not the Intune SDK will take UI control for the duration of the this method
  */
 - (void) remediateComplianceForAccountId:(NSString*_Nonnull) accountId silent:(BOOL) silent;

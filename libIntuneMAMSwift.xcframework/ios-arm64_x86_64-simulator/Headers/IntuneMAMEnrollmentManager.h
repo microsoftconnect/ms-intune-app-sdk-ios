@@ -62,7 +62,7 @@ __attribute__((visibility("default")))
  *
  *  @param identity The UPN of the account to be registered with the SDK
  */
-- (void)registerAndEnrollAccount:(NSString *_Nonnull)identity;
+- (void)registerAndEnrollAccount:(NSString *_Nonnull)identity DEPRECATED_MSG_ATTRIBUTE("Use registerAndEnrollAccountId: instead.");
 
 /**
  *  This method will add the account to the list of registered accounts.
@@ -79,7 +79,7 @@ __attribute__((visibility("default")))
  *  @note Do not use this in an extension.  If you do so, we will return
  *  IntuneMAMEnrollmentStatusUnsupportedAPI in the IntuneMAMEnrollmentDelegate.
  *
- *  @param accountId The AccountId of the account to be registered with the SDK (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ *  @param accountId The Entra object ID of the account to be registered with the SDK (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  */
 - (void)registerAndEnrollAccountId:(NSString *_Nonnull)accountId;
 
@@ -119,7 +119,7 @@ __attribute__((visibility("default")))
  *  @param identity The UPN of the account to be removed.
  *  @param doWipe   If YES, a selective wipe if the account is un-enrolled
  */
-- (void)deRegisterAndUnenrollAccount:(NSString *_Nonnull)identity withWipe:(BOOL)doWipe;
+- (void)deRegisterAndUnenrollAccount:(NSString *_Nonnull)identity withWipe:(BOOL)doWipe DEPRECATED_MSG_ATTRIBUTE("Use deRegisterAndUnenrollAccountId:withWipe: instead.");
 
 /**
  *  This method will remove the provided account from the list of
@@ -134,7 +134,7 @@ __attribute__((visibility("default")))
  *  @note Do not use this in an extension.  If you do so, we will return
  *  IntuneMAMEnrollmentStatusUnsupportedAPI in the IntuneMAMEnrollmentDelegate.
  *
- *  @param accountId The AccountId of the account to be removed (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ *  @param accountId The Entra object ID of the account to be removed (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  *  @param doWipe   If YES, a selective wipe if the account is un-enrolled
  */
 - (void)deRegisterAndUnenrollAccountId:(NSString *_Nonnull)accountId withWipe:(BOOL)doWipe;
@@ -144,12 +144,12 @@ __attribute__((visibility("default")))
  *
  *  @return Array containing UPNs of registered accounts
  */
-- (NSArray *_Nonnull)registeredAccounts;
+- (NSArray *_Nonnull)registeredAccounts DEPRECATED_MSG_ATTRIBUTE("Use registeredAccountIds instead.");
 
 /**
  *  Returns a list of UPNs of account currently registered with the SDK.
  *
- *  @return Array containing AccountIds of registered accounts
+ *  @return Array containing Entra object IDs of registered accounts
  */
 - (NSArray *_Nonnull)registeredAccountIds;
 
@@ -160,21 +160,21 @@ __attribute__((visibility("default")))
  *
  *  @return UPN of the enrolled account
  */
-- (NSString *_Nullable)enrolledAccount;
+- (NSString *_Nullable)enrolledAccount DEPRECATED_MSG_ATTRIBUTE("Use enrolledAccountId instead.");
 
 /**
- *  Returns the AccountId of the currently enrolled user.  Returns
+ *  Returns the Entra object ID of the currently enrolled user.  Returns
  *  nil if the application is not currently enrolled.
  *  Should be called only by applications which don't support multiple managed accounts.
  *
- *  @return AccountId of the enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ *  @return Entra object ID of the enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  */
 - (NSString *_Nullable)enrolledAccountId;
 
 /**
- *  Returns an array containing the AccountId of all currently enrolled users.
+ *  Returns an array containing the Entra object ID of all currently enrolled users.
  *
- *  @return AccountId of the enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ *  @return Entra object ID of the enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  */
 - (NSArray<NSString*> *_Nonnull)enrolledAccountIds;
 
@@ -193,14 +193,14 @@ __attribute__((visibility("default")))
 
 /**
  *  Semi-Private: Please contact the MAM team before using this API
- *  Returns the AccountId(s) of the allowed accounts.  Returns
+ *  Returns the Entra object ID(s) of the allowed accounts.  Returns
  *  nil if there are no allowed accounts.
  *  If there is an allowed account(s), only these account(s) should be allowed to sign into the app,
  *  and any existing signed in users who are not in allowedAccounts should be signed out.
  *  allowedAccounts returns nil if the administrator has not targeted an allowed account,
  *  in which case the app should do nothing.
  *
- *  @return AccountId of the enrolled account or nil
+ *  @return Entra object ID of the enrolled account or nil
  */
 - (NSArray *_Nullable)allowedAccountIds;
 
@@ -214,16 +214,16 @@ __attribute__((visibility("default")))
 - (NSString *_Nullable)mdmEnrolledAccount __attribute__((deprecated ("Use mdmEnrolledAccountIdWithCompletion instead.")));
 
 /**
- *  Returns the AccountId of the MDM enrolled user. Returns nil if the device is not MDM enrolled.
+ *  Returns the Entra object ID of the MDM enrolled user. Returns nil if the device is not MDM enrolled.
  *  For 3rd party applications, the application must also be managed and have IntuneMAMOID
  *  set to the MDM enrolled user in managed app config.
  *
- *  @return AccountId of the MDM enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ *  @return Entra object ID of the MDM enrolled account (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  */
 - (NSString *_Nullable)mdmEnrolledAccountId __attribute__((deprecated ("Use mdmEnrolledAccountIdWithCompletion instead.")));
 
 /**
- *  Asynchronously returns the AccountId of the MDM enrolled user. Returns nil if the device is not MDM enrolled.
+ *  Asynchronously returns the Entra object ID of the MDM enrolled user. Returns nil if the device is not MDM enrolled.
  *  For 3rd party applications, the application must also be managed and have IntuneMAMOID
  *  set to the MDM enrolled user in managed app config.
  *

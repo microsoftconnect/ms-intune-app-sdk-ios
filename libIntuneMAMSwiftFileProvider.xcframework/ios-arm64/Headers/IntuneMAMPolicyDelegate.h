@@ -24,6 +24,29 @@ typedef NS_ENUM(NSUInteger, IntuneMAMAddIdentityResult)
     IntuneMAMAddIdentityResultFailed
 };
 
+typedef NS_ENUM(NSUInteger, IntuneMAMBlockAccountResult)
+{
+    // The application successfully hid the account.
+    IntuneMAMBlockAccountResultSuccess,
+
+    // The application failed to hide the account.
+    IntuneMAMBlockAccountResultFailed
+};
+
+typedef NS_ENUM(NSUInteger, IntuneMAMBlockAccountReason)
+{
+    // The account is not blocked.
+    IntuneMAMBlockAccountReasonNotBlocked,
+
+    // The account is blocked due to conditional launch blocking the account
+    IntuneMAMBlockAccountReasonConditionalLaunchBlocked,
+
+    // The account is blocked due to the user canceling conditional launch.
+    IntuneMAMBlockAccountReasonConditionalLaunchCanceled,
+
+    // The account is blocked due to being clocked out.
+    IntuneMAMBlockAccountReasonClockedOut
+};
 
 __attribute__((visibility("default")))
 @protocol IntuneMAMPolicyDelegate <NSObject>
@@ -40,19 +63,27 @@ __attribute__((visibility("default")))
 // Authentication UI after an application resume.
 // The completion handler can be called on any thread.
 // The application does not have to call setUIPolicyIdentity in response to this call.
-- (void) identitySwitchRequired:(NSString*_Nonnull)identity reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
-- (void) identitySwitchRequired:(NSString*_Nonnull)identity forWindow:(UIWindow*_Nonnull)window reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
+- (void) identitySwitchRequired:(NSString*_Nonnull)identity reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler DEPRECATED_MSG_ATTRIBUTE("Use identitySwitchRequiredForAccountId:reason:completionHandler: instead.");
+- (void) identitySwitchRequired:(NSString*_Nonnull)identity forWindow:(UIWindow*_Nonnull)window reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler DEPRECATED_MSG_ATTRIBUTE("Use identitySwitchRequiredForAccountId:forWindow:completionHandler: instead.");
 
 - (void) identitySwitchRequiredForAccountId:(NSString*_Nonnull)accountId reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
 - (void) identitySwitchRequiredForAccountId:(NSString*_Nonnull)accountId forWindow:(UIWindow*_Nonnull)window reason:(IntuneMAMIdentitySwitchReason)reason completionHandler:(void (^_Nonnull)(IntuneMAMSwitchIdentityResult))completionHandler;
 
+// Delegate method which is called by the SDK to notify the application it should hide the specified account from its UI.
+// The application should call the completion handler with success or failure when it's done handling the request. The SDK
+// UI will remain visible with a spinner until the completion handler is called. If the application fails to hide the account
+// and calls the completion handler with IntuneMAMBlockAccountResultFailed, an alert will be displayed and the application
+// will be forced to exit. This delegate will be called for each window with an account that needs to be hidden.
+- (void) blockAccountId:(NSString*_Nonnull)accountId reason:(IntuneMAMBlockAccountReason)reason completionHandler:(void(^_Nonnull)(IntuneMAMBlockAccountResult))completionHandler;
+- (void) blockAccountId:(NSString*_Nonnull)accountId reason:(IntuneMAMBlockAccountReason)reason forWindow:(UIWindow*_Nonnull)window completionHandler:(void(^_Nonnull)(IntuneMAMBlockAccountResult))completionHandler;
+
 // Called by the Intune SDK when the application should wipe data for the
 // specified account user principal name (e.g. user@contoso.com).
 // Returns TRUE if successful, FALSE if the account data could not be completely wiped.
-- (BOOL) wipeDataForAccount:(NSString*_Nonnull)upn;
+- (BOOL) wipeDataForAccount:(NSString*_Nonnull)upn DEPRECATED_MSG_ATTRIBUTE("Use wipeDataForAccountId: instead.");
 
 // Called by the Intune SDK when the application should wipe data for the
-// specified account AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+// specified account Entra object ID (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
 // Returns TRUE if successful, FALSE if the account data could not be completely wiped.
 - (BOOL) wipeDataForAccountId:(NSString*_Nonnull)accountId;
 
@@ -68,10 +99,10 @@ __attribute__((visibility("default")))
 // automatically enrolled by the SDK. The application must call the completion handler passing in
 // IntuneMAMAddIdentityResultSuccess if the app is able to add the identity or IntuneMAMAddIdentityResultFailed otherwise.
 // The completion handler can be called on any thread.
-- (void) addIdentity:(NSString*_Nonnull)identity completionHandler:(void (^_Nonnull)(IntuneMAMAddIdentityResult))completionHandler;
+- (void) addIdentity:(NSString*_Nonnull)identity completionHandler:(void (^_Nonnull)(IntuneMAMAddIdentityResult))completionHandler DEPRECATED_MSG_ATTRIBUTE("Use addAccountId:completionHandler: instead.");
 
 
-// Called by the Intune SDK when the application needs to add an user account by AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) as the app has been
+// Called by the Intune SDK when the application needs to add an user account by Entra object ID (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) as the app has been
 // automatically enrolled by the SDK. The application must call the completion handler passing in
 // IntuneMAMAddIdentityResultSuccess if the app is able to add the AccountId or IntuneMAMAddIdentityResultFailed otherwise.
 // The completion handler can be called on any thread.

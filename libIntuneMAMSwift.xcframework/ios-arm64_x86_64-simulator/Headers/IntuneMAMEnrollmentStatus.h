@@ -62,7 +62,7 @@ __attribute__((visibility("default")))
 @property (nonatomic, strong, nonnull) NSString *identity;
 
 /**
- *  The AccountId of the account for which the operation was requested (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+ *  The Entra object ID of the account for which the operation was requested (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
  */
 @property (nonatomic, strong, nonnull) NSString *accountId;
 

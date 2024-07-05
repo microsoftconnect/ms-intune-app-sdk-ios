@@ -39,26 +39,26 @@ __attribute__((visibility("default")))
 
 // Protects the buffer using the policy associated with the specified identity.
 // Returns nil if an error occurs.
-- (NSData*_Nullable) protect:(NSData*_Nonnull)data identity:(NSString*_Nonnull)identity;
+- (NSData*_Nullable) protect:(NSData*_Nonnull)data identity:(NSString*_Nonnull)identity DEPRECATED_MSG_ATTRIBUTE("Use protect:accountId: instead.");
 
-// Protects the buffer using the policy associated with the specified AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+// Protects the buffer using the policy associated with the specified Entra object ID (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
 // Returns nil if an error occurs.
 - (NSData*_Nullable) protect:(NSData*_Nonnull)data accountId:(NSString*_Nonnull)accountId;
 
 // Protects the buffer using the policy associated with the specified identity.
 // Populates an NSError object and returns nil if an error occurs.
-- (NSData*_Nullable) protect:(NSData*_Nonnull)data identity:(NSString*_Nonnull)identity withError:(NSError * _Nullable * _Nullable)error;
+- (NSData*_Nullable) protect:(NSData*_Nonnull)data identity:(NSString*_Nonnull)identity withError:(NSError * _Nullable * _Nullable)error DEPRECATED_MSG_ATTRIBUTE("Use protect:accountId:withError: instead.");
 
-// Protects the buffer using the policy associated with the specified AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+// Protects the buffer using the policy associated with the specified Entra object ID (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
 // Populates an NSError object and returns nil if an error occurs.
 - (NSData*_Nullable) protect:(NSData*_Nonnull)data accountId:(NSString*_Nonnull)accountId withError:(NSError * _Nullable * _Nullable)error;
 
 // Protects the string using the policy associated with the specified identity.
 // Returns a base64 encoded encrypted buffer.
 // Returns nil if an error occurs.
-- (NSString*_Nullable) protectString:(NSString*_Nonnull)string identity:(NSString*_Nonnull)identity;
+- (NSString*_Nullable) protectString:(NSString*_Nonnull)string identity:(NSString*_Nonnull)identity DEPRECATED_MSG_ATTRIBUTE("Use protectString:accountId: instead.");
 
-// Protects the string using the policy associated with the specified AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+// Protects the string using the policy associated with the specified Entra object ID (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
 // Returns a base64 encoded encrypted buffer.
 // Returns nil if an error occurs.
 - (NSString*_Nullable) protectString:(NSString*_Nonnull)string accountId:(NSString*_Nonnull)accountId;
@@ -66,9 +66,9 @@ __attribute__((visibility("default")))
 // Protects the string using the policy associated with the specified identity.
 // Returns a base64 encoded encrypted buffer.
 // Populates an NSError object and returns nil if an error occurs.
-- (NSString*_Nullable) protectString:(NSString*_Nonnull)string identity:(NSString*_Nonnull)identity withError:(NSError * _Nullable * _Nullable)error;
+- (NSString*_Nullable) protectString:(NSString*_Nonnull)string identity:(NSString*_Nonnull)identity withError:(NSError * _Nullable * _Nullable)error DEPRECATED_MSG_ATTRIBUTE("Use protectString:accountId:withError: instead.");
 
-// Protects the string using the policy associated with the specified AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+// Protects the string using the policy associated with the specified Entra object ID (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
 // Returns a base64 encoded encrypted buffer.
 // Populates an NSError object and returns nil if an error occurs.
 - (NSString*_Nullable) protectString:(NSString*_Nonnull)string accountId:(NSString*_Nonnull)accountId withError:(NSError * _Nullable * _Nullable)error;

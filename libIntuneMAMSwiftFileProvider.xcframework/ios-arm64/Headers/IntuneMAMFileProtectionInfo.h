@@ -10,8 +10,8 @@ __attribute__((visibility("default")))
 @required
 
 // The UPN of file's owner (e.g. user@contoso.com)
-@property (readonly,nullable) NSString* identity;
-// The AccountId of the file's owner (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
+@property (readonly,nullable) NSString* identity DEPRECATED_MSG_ATTRIBUTE("Use accountId instead.");
+// The Entra object ID of the file's owner (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822).
 @property (readonly,nullable) NSString* accountId;
 
 @end
