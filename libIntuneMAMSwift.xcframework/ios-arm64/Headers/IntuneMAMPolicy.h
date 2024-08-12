@@ -181,6 +181,11 @@ __attribute__((visibility("default")))
 // Applications should check this policy and if FALSE should block Siri intents.
 @property (readonly) BOOL areSiriIntentsAllowed;
 
+// TRUE if the management policy allows applications to use App Intents.
+// Applications should check this policy and if FALSE should block App Intents
+// containing data or actions for the managed account.
+@property (readonly) BOOL areAppIntentsAllowed;
+
 // FALSE if the management policy blocks sharing via the UIActivityViewController/
 // UIDocumentInteractionViewController.  Returns TRUE otherwise, regardless of whether there are
 // managed applications or share extensions available to share the data with.  Applications can check

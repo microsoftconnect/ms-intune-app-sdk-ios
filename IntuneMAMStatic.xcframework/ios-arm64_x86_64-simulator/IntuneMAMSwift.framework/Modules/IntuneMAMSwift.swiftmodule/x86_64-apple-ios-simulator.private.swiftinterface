@@ -17,14 +17,18 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import _System_Foundation
 @_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
+  @available(*, deprecated, message: "Use getScopedAccountId instead.")
   public static func getScopedIdentity() -> Swift.String?
   public static func getScopedAccountId() -> Swift.String?
+  @available(*, deprecated, message: "Use setAccountId:forScope: instead.")
   public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () -> Swift.Void)
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () -> Swift.Void)
+  @available(*, deprecated, message: "Use setAccountId:forScope: instead.")
   public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
   #if compiler(>=5.3) && $AsyncAwait
   @available(iOS 15.0, *)
+  @available(*, deprecated, message: "Use setAccountId:forScope: instead.")
   public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () async -> Swift.Void) async
   #endif
   #if compiler(>=5.3) && $AsyncAwait
@@ -33,6 +37,7 @@ import _System_Foundation
   #endif
   #if compiler(>=5.3) && $AsyncAwait
   @available(iOS 15.0, *)
+  @available(*, deprecated, message: "Use setAccountId:forScope: instead.")
   public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
   #endif
   #if compiler(>=5.3) && $AsyncAwait

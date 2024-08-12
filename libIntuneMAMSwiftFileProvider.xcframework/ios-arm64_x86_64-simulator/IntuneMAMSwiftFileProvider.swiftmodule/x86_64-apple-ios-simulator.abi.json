@@ -237,9 +237,11 @@
             "mangledName": "$s26IntuneMAMSwiftFileProvider0aB14ContextManagerC17getScopedIdentitySSSgyFZ",
             "moduleName": "IntuneMAMSwiftFileProvider",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "Final",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -322,9 +324,11 @@
             "mangledName": "$s26IntuneMAMSwiftFileProvider0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyctFZ",
             "moduleName": "IntuneMAMSwiftFileProvider",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "Final",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -429,9 +433,11 @@
             "mangledName": "$s26IntuneMAMSwiftFileProvider0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyKctKFZ",
             "moduleName": "IntuneMAMSwiftFileProvider",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "Available"
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -537,10 +543,12 @@
             "mangledName": "$s26IntuneMAMSwiftFileProvider0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyYactYaFZ",
             "moduleName": "IntuneMAMSwiftFileProvider",
             "static": true,
+            "deprecated": true,
             "intro_iOS": "15.0",
             "declAttributes": [
               "Final",
               "AccessControl",
+              "Available",
               "Available"
             ],
             "funcSelfKind": "NonMutating"
@@ -647,10 +655,12 @@
             "mangledName": "$s26IntuneMAMSwiftFileProvider0aB14ContextManagerC11setIdentity_8forScopeySSSg_yyYaKctYaKFZ",
             "moduleName": "IntuneMAMSwiftFileProvider",
             "static": true,
+            "deprecated": true,
             "intro_iOS": "15.0",
             "declAttributes": [
               "Final",
               "AccessControl",
+              "Available",
               "Available"
             ],
             "throwing": true,
@@ -1072,35 +1082,35 @@
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 6774,
+      "offset": 7204,
       "length": 51,
       "value": "\"cmarHooked.AppleArchvie.ExtractStream.SerialQueue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "Array",
-      "offset": 10259,
+      "offset": 10945,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "IntegerLiteral",
-      "offset": 10282,
+      "offset": 10968,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "Array",
-      "offset": 11420,
+      "offset": 12233,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "IntegerLiteral",
-      "offset": 11443,
+      "offset": 12256,
       "length": 1,
       "value": "0"
     },

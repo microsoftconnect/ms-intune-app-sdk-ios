@@ -121,7 +121,7 @@ __attribute__((visibility("default")))
 //
 // The empty string may be passed in as the identity to represent 'no user' or an unknown personal account.
 // If nil is passed in, the thread identity will fallback to the process identity.
-- (void) setCurrentThreadIdentity:(NSString*_Nullable)identity  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setIdentity(_ :forScope:) APIs instead.") __deprecated_msg("Use setCurrentThreadIdentity:forScope: instead.");
+- (void) setCurrentThreadIdentity:(NSString*_Nullable)identity  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setIdentity(_ :forScope:) APIs instead.") __deprecated_msg("Use setCurrentThreadAccountId:forScope: instead.");
 
 // setCurrentThreadAccountId sets the Entra object ID (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) of the current thread which is used to determine what
 // policy should be applied on the current thread. Unlike setting setUIPolicyAccountId, this method
@@ -135,7 +135,7 @@ __attribute__((visibility("default")))
 
 // Similar to the setCurrentThreadIdentity:, setCurrentThreadIdentity:forScope: will set the current thread identity but only for the scope of the passed block
 // It is preferable to use scoped thread identities to ensure that they are only set for a specified scope and will have a guaranteed removal.
-- (void) setCurrentThreadIdentity:(NSString*_Nullable)identity forScope:(void(^_Nullable)(void))scope  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setIdentity(_ :forScope:) APIs instead.");
+- (void) setCurrentThreadIdentity:(NSString*_Nullable)identity forScope:(void(^_Nullable)(void))scope  NS_SWIFT_UNAVAILABLE("Use the IntuneMAMSwiftContextManager.setIdentity(_ :forScope:) APIs instead.") DEPRECATED_MSG_ATTRIBUTE("Use setCurrentThreadAccountId:forScope instead.");
 
 // setCurrentThreadAccountId:forScope: will set the current thread Entra object ID (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) but only for the scope of the passed block
 // It is preferable to use scoped thread identities to ensure that they are only set for a specified scope and will have a guaranteed removal.
