@@ -1,11 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IntuneMAMSwiftStub
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IntuneMAMSwiftStub
 import AppleArchive
 import Darwin
 import Dispatch
 import Foundation
+import GroupActivities
 import Swift
 import SwiftUI
 import System
@@ -15,11 +15,10 @@ import _Concurrency
 import _GroupActivities_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
-import _System_Foundation
 public func cmarRealUIApplicationMain(_ argc: Swift.Int32, _ argv: Swift.UnsafeMutablePointer<Swift.UnsafeMutablePointer<Swift.Int8>?>, _ principalClassName: Swift.String?, _ delegateClassName: Swift.String?) -> Swift.Int32
 @available(iOS 14.0, *)
 extension SwiftUI.App {
-  public static func cmarRealSwiftUIMain()
+  @_Concurrency.MainActor @preconcurrency public static func cmarRealSwiftUIMain()
 }
 @available(iOS 14.0, *)
 extension AppleArchive.ArchiveByteStream {
@@ -67,10 +66,10 @@ extension VisionKit.ImageAnalysisInteraction {
 }
 extension UIKit.UIMenu {
   @available(iOS 16.0, *)
-  @_Concurrency.MainActor(unsafe) convenience public init(cmarRealTitle: Swift.String, cmarRealSubtitle: Swift.String?, cmarRealImage: UIKit.UIImage?, cmarRealIdentifier: UIKit.UIMenu.Identifier?, cmarRealOptions: UIKit.UIMenu.Options, cmarRealPreferredElementSize: UIKit.UIMenu.ElementSize, cmarRealChildren: [UIKit.UIMenuElement])
+  @_Concurrency.MainActor @preconcurrency convenience public init(cmarRealTitle: Swift.String, cmarRealSubtitle: Swift.String?, cmarRealImage: UIKit.UIImage?, cmarRealIdentifier: UIKit.UIMenu.Identifier?, cmarRealOptions: UIKit.UIMenu.Options, cmarRealPreferredElementSize: UIKit.UIMenu.ElementSize, cmarRealChildren: [UIKit.UIMenuElement])
   @available(iOS 15.0, *)
-  @_Concurrency.MainActor(unsafe) convenience public init(cmarRealTitle: Swift.String, cmarRealSubtitle: Swift.String?, cmarRealImage: UIKit.UIImage?, cmarRealIdentifier: UIKit.UIMenu.Identifier?, cmarRealOptions: UIKit.UIMenu.Options, cmarRealChildren: [UIKit.UIMenuElement])
-  @_Concurrency.MainActor(unsafe) convenience public init(cmarRealTitle: Swift.String, cmarRealImage: UIKit.UIImage?, cmarRealIdentifier: UIKit.UIMenu.Identifier?, cmarRealOptions: UIKit.UIMenu.Options, cmarRealChildren: [UIKit.UIMenuElement])
+  @_Concurrency.MainActor @preconcurrency convenience public init(cmarRealTitle: Swift.String, cmarRealSubtitle: Swift.String?, cmarRealImage: UIKit.UIImage?, cmarRealIdentifier: UIKit.UIMenu.Identifier?, cmarRealOptions: UIKit.UIMenu.Options, cmarRealChildren: [UIKit.UIMenuElement])
+  @_Concurrency.MainActor @preconcurrency convenience public init(cmarRealTitle: Swift.String, cmarRealImage: UIKit.UIImage?, cmarRealIdentifier: UIKit.UIMenu.Identifier?, cmarRealOptions: UIKit.UIMenu.Options, cmarRealChildren: [UIKit.UIMenuElement])
 }
 extension Swift.StringProtocol {
   public func cmarRealStringWrite<T>(toFile path: T, atomically useAuxiliaryFile: Swift.Bool, encoding enc: Swift.String.Encoding) throws where T : Swift.StringProtocol
@@ -86,40 +85,34 @@ extension Foundation.URL {
 }
 @available(iOS 15.0, *)
 extension GroupActivities.GroupActivity {
-  #if compiler(>=5.3) && $AsyncAwait
   public func cmarRealActivateGroupActivities() async throws -> Swift.Bool
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   public func cmarRealPrepareForActivation() async -> GroupActivities.GroupActivityActivationResult
-  #endif
 }
 @available(iOS 15.4, *)
 extension _GroupActivities_UIKit.GroupActivitySharingController {
   @_Concurrency.MainActor convenience public init<ActivityType>(cmarRealActivity: ActivityType) throws where ActivityType : GroupActivities.GroupActivity
-  #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor convenience public init<ActivityType>(cmarRealPreparationHandler: @escaping () async throws -> ActivityType) where ActivityType : GroupActivities.GroupActivity
-  #endif
 }
 @_hasMissingDesignatedInitializers public class DarwinStubs {
   public static func cmarRealOpen(_ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32) -> Swift.Int32
-  public static func cmarRealOpen(_ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32, _ mode: Darwin.mode_t) -> Swift.Int32
+  public static func cmarRealOpen(_ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32, _ mode: sys_types.mode_t) -> Swift.Int32
   public static func cmarRealOpenat(_ fd: Swift.Int32, _ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32) -> Swift.Int32
-  public static func cmarRealOpenat(_ fd: Swift.Int32, _ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32, _ mode: Darwin.mode_t) -> Swift.Int32
+  public static func cmarRealOpenat(_ fd: Swift.Int32, _ path: Swift.UnsafePointer<Swift.CChar>, _ oflag: Swift.Int32, _ mode: sys_types.mode_t) -> Swift.Int32
   @objc deinit
 }
 @available(iOS 14.0.0, *)
-extension SwiftUI.View {
-  public func cmarRealWidgetURL(_ url: Foundation.URL?) -> some SwiftUI.View
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func cmarRealWidgetURL(_ url: Foundation.URL?) -> some SwiftUICore.View
   
 }
 @available(iOS 14.0.0, *)
-extension SwiftUI.Link where Label == SwiftUI.Text {
-  public init(_ titleKey: SwiftUI.LocalizedStringKey, cmarRealURL: Foundation.URL)
-  public init<S>(_ title: S, cmarRealURL: Foundation.URL) where S : Swift.StringProtocol
+extension SwiftUI.Link where Label == SwiftUICore.Text {
+  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: SwiftUICore.LocalizedStringKey, cmarRealURL: Foundation.URL)
+  @_Concurrency.MainActor @preconcurrency public init<S>(_ title: S, cmarRealURL: Foundation.URL) where S : Swift.StringProtocol
 }
 @available(iOS 14.0.0, *)
 extension SwiftUI.Link {
-  public init(_ cmarRealURL: Foundation.URL, @SwiftUI.ViewBuilder cmarRealLabel: () -> Label)
+  @_Concurrency.MainActor @preconcurrency public init(_ cmarRealURL: Foundation.URL, @SwiftUICore.ViewBuilder cmarRealLabel: () -> Label)
 }
 extension Foundation.Data {
   public func cmarRealDataWrite(to url: Foundation.URL, options: Foundation.Data.WritingOptions = []) throws

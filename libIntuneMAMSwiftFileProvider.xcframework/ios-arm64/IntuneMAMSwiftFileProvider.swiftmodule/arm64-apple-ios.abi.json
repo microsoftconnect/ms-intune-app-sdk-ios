@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "IntuneMAMSwiftFileProvider",
+    "printedName": "IntuneMAMSwiftFileProvider",
     "children": [
       {
         "kind": "Import",
@@ -730,7 +730,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -911,6 +927,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1071,13 +1101,6 @@
       "offset": 1639,
       "length": 199,
       "value": "\"$s12AppleArchive0B6StreamC011withExtractC012extractingTo11selectUsing5flags11threadCount_x6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAM0qR0V_AkM0Q10FilterDataOSgtcSgAA0B5FlagsVSixACKXEtKlFZ\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
-      "kind": "StringLiteral",
-      "offset": 723,
-      "length": 26,
-      "value": "\"IntuneMAMSwiftFileProvider.CMARAppleArchiveSwiftHooks\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
@@ -1276,13 +1299,6 @@
       "value": "\"$s5UIKit17UIApplicationMainys5Int32VAD_SpySpys4Int8VGGSgSSSgAJtF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ApplicationSwiftHooks.swift",
-      "kind": "StringLiteral",
-      "offset": 1004,
-      "length": 25,
-      "value": "\"IntuneMAMSwiftFileProvider.CMARApplicationSwiftHooks\""
-    },
-    {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/SwiftTaskContextUtils.swift",
       "kind": "StringLiteral",
       "offset": 327,
@@ -1351,13 +1367,6 @@
       "offset": 671,
       "length": 63,
       "value": "\"$s10Foundation3URLV17setResourceValuesyyAA011URLResourceE0VKF\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
-      "kind": "StringLiteral",
-      "offset": 424,
-      "length": 17,
-      "value": "\"IntuneMAMSwiftFileProvider.CMARURLSwiftHooks\""
     }
   ]
 }

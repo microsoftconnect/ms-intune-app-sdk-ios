@@ -53,23 +53,11 @@ __attribute__((visibility("default")))
 @property (readonly) BOOL isPINRequired;
 
 
-// TRUE if the management policy allows applications to save managed files to the account accountName
-// in the given location. Applications should check this policy and if FALSE should disable any UI
-// which allows users to save managed documents to this account in this location.
-// If the accountName for the location is unknown, set this argument to nil. 
-- (BOOL) isSaveToAllowedForLocation: (IntuneMAMSaveLocation) location withAccountName: (NSString*_Nullable) accountName DEPRECATED_MSG_ATTRIBUTE("Use isSaveToAllowedForLocation:withAccountId: instead.");
-
 // TRUE if the management policy allows applications to save managed files to the Entra object ID
 // in the given location. Applications should check this policy and if FALSE should disable any UI
 // which allows users to save managed documents to this account in this location.
 // If the accountId for the location is unknown, set this argument to nil.
 - (BOOL) isSaveToAllowedForLocation: (IntuneMAMSaveLocation) location withAccountId: (NSString*_Nullable) accountId;
-
-// TRUE if the management policy allows applications to open files from the account accountName into
-// the managed app. Applications should check this policy and if FALSE should disabled any UI which
-// allows users to open documents from this account and location into the managed app.
-// If the accountName for the location is unknown, set this argument to nil.
-- (BOOL) isOpenFromAllowedForLocation: (IntuneMAMOpenLocation) location withAccountName: (NSString* _Nullable) accountName DEPRECATED_MSG_ATTRIBUTE("Use isOpenFromAllowedForLocation:withAccountId: instead.");
 
 // TRUE if the management policy allows applications to open files from the account Entra object ID into
 // the managed app. Applications should check this policy and if FALSE should disabled any UI which
@@ -79,22 +67,9 @@ __attribute__((visibility("default")))
 
 // Returns a dictionary mapping of all the IntuneMAMSaveLocations and whether each is allowed to have
 // data saved to it. Both the IntuneMAMSaveLocation keys and the BOOL allowed value are wrapped in
-// NSNumbers. Calling this is the same as calling isSaveToAllowedForLocation:withAccountName: for each
-// IntuneMAMSaveLocation in the enum.
-- (NSDictionary<NSNumber *, NSNumber *>* _Nonnull) getSaveToLocationsForAccount:(NSString* _Nullable)toAccount DEPRECATED_MSG_ATTRIBUTE("Use getSaveToLocationsForAccountId: instead.");
-
-
-// Returns a dictionary mapping of all the IntuneMAMSaveLocations and whether each is allowed to have
-// data saved to it. Both the IntuneMAMSaveLocation keys and the BOOL allowed value are wrapped in
 // NSNumbers. Calling this is the same as calling isSaveToAllowedForLocation:withAccountId: for each
 // IntuneMAMSaveLocation in the enum.
 - (NSDictionary<NSNumber *, NSNumber *>* _Nonnull) getSaveToLocationsForAccountId:(NSString* _Nullable)toAccountId;
-
-// Returns a dictionary mapping of all the IntuneMAMOpenFromLocations and whether each is allowed to
-// have data opened from it. Both the IntuneMAMOpenLocation keys and the BOOL allowed values are wrapped
-// in NSNumbers. Calling this is the same as calling isOpenFromAllowedForLocation:withAccountName: for
-// each IntuneMAMOpenLocation in the enum.
-- (NSDictionary<NSNumber *, NSNumber *>* _Nonnull) getOpenFromLocationsForAccount:(NSString* _Nullable)fromAccount DEPRECATED_MSG_ATTRIBUTE("Use getOpenFromLocationsForAccountId: instead.");
 
 // Returns a dictionary mapping of all the IntuneMAMOpenFromLocations and whether each is allowed to
 // have data opened from it. Both the IntuneMAMOpenLocation keys and the BOOL allowed values are wrapped

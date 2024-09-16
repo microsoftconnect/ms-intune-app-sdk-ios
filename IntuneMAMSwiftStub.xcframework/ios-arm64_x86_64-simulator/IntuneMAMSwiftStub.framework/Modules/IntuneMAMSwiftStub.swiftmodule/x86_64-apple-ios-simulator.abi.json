@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "IntuneMAMSwiftStub",
+    "printedName": "IntuneMAMSwiftStub",
     "children": [
       {
         "kind": "Import",
@@ -437,7 +437,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -489,6 +505,10 @@
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.App>",
             "sugared_genericSig": "<Self where Self : SwiftUI.App>",
             "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -504,12 +524,30 @@
         "intro_tvOS": "14.0",
         "intro_watchOS": "7.0",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -669,6 +707,20 @@
             "printedName": "ArchiveByteStreamProtocol",
             "usr": "s:12AppleArchive0B18ByteStreamProtocolP",
             "mangledName": "$s12AppleArchive0B18ByteStreamProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -932,6 +984,20 @@
             "printedName": "ArchiveStreamProtocol",
             "usr": "s:12AppleArchive0B14StreamProtocolP",
             "mangledName": "$s12AppleArchive0B14StreamProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -1507,6 +1573,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1678,6 +1758,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1897,7 +1991,23 @@
           "Available",
           "Available"
         ],
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1948,6 +2058,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2054,7 +2178,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ImageAnalysisInteractionDelegate",
-                "printedName": "VisionKit.ImageAnalysisInteractionDelegate",
+                "printedName": "any VisionKit.ImageAnalysisInteractionDelegate",
                 "usr": "s:9VisionKit32ImageAnalysisInteractionDelegateP"
               }
             ],
@@ -2145,6 +2269,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2300,6 +2438,7 @@
             "moduleName": "IntuneMAMSwiftStub",
             "intro_iOS": "16.0",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Convenience",
               "Available"
@@ -2393,6 +2532,7 @@
             "moduleName": "IntuneMAMSwiftStub",
             "intro_iOS": "15.0",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Convenience",
               "Available"
@@ -2471,6 +2611,7 @@
             "mangledName": "$sSo6UIMenuC18IntuneMAMSwiftStubE13cmarRealTitle0eF5Image0eF10Identifier0eF7Options0eF8ChildrenABSS_So7UIImageCSgSo0aI0aSgSo0aJ0VSaySo0A7ElementCGtcfc",
             "moduleName": "IntuneMAMSwiftStub",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Convenience"
             ],
@@ -2485,6 +2626,7 @@
         "intro_iOS": "13.0",
         "objc_name": "UIMenu",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -2499,6 +2641,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2641,6 +2797,20 @@
         "sugared_genericSig": "<Self : Swift.BidirectionalCollection, Self : Swift.Comparable, Self : Swift.ExpressibleByStringInterpolation, Self : Swift.Hashable, Self : Swift.LosslessStringConvertible, Self : Swift.TextOutputStream, Self : Swift.TextOutputStreamable, Self.Element == Swift.Character, Self.Index == Swift.String.Index, Self.StringInterpolation == Swift.DefaultStringInterpolation, Self.SubSequence : Swift.StringProtocol, Self.UTF16View : Swift.BidirectionalCollection, Self.UTF8View : Swift.Collection, Self.UnicodeScalarView : Swift.BidirectionalCollection, Self.UTF16View.Element == Swift.UInt16, Self.UTF16View.Index == Swift.String.Index, Self.UTF8View.Element == Swift.UInt8, Self.UTF8View.Index == Swift.String.Index, Self.UnicodeScalarView.Element == Swift.Unicode.Scalar, Self.UnicodeScalarView.Index == Swift.String.Index>",
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "TextOutputStreamable",
@@ -2883,10 +3053,31 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -2974,6 +3165,41 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -2993,27 +3219,6 @@
             ],
             "usr": "s:10Foundation20ReferenceConvertibleP",
             "mangledName": "$s10Foundation20ReferenceConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -3099,12 +3304,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -3182,6 +3381,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -3304,6 +3517,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3372,9 +3599,16 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Text",
-                "printedName": "SwiftUI.Text",
-                "usr": "s:7SwiftUI4TextV"
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
               },
               {
                 "kind": "TypeNominal",
@@ -3397,6 +3631,10 @@
             "moduleName": "IntuneMAMSwiftStub",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
@@ -3404,7 +3642,7 @@
         "declKind": "Protocol",
         "usr": "s:7SwiftUI4ViewP",
         "mangledName": "$s7SwiftUI4ViewP",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "genericSig": "<τ_0_0.Body : SwiftUI.View>",
         "sugared_genericSig": "<Self.Body : SwiftUI.View>",
         "intro_Macosx": "10.15",
@@ -3412,13 +3650,35 @@
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
+          "Preconcurrency",
           "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -3462,6 +3722,10 @@
             "moduleName": "IntuneMAMSwiftStub",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -3501,6 +3765,10 @@
             "moduleName": "IntuneMAMSwiftStub",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 == SwiftUI.Text, τ_1_0 : Swift.StringProtocol>",
             "sugared_genericSig": "<Label, S where Label == SwiftUI.Text, S : Swift.StringProtocol>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -3555,6 +3823,10 @@
             "moduleName": "IntuneMAMSwiftStub",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Label where Label : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           }
@@ -3570,10 +3842,12 @@
         "intro_tvOS": "14.0",
         "intro_watchOS": "7.0",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
         "isExternal": true,
         "conformances": [
@@ -3605,6 +3879,20 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -4062,6 +4350,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -4159,12 +4461,6 @@
                         "name": "TransferRepresentation",
                         "printedName": "CoreTransferable.TransferRepresentation",
                         "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
                       }
                     ]
                   }
@@ -4270,13 +4566,6 @@
       "offset": 3082,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/WidgetKit.swift",
-      "kind": "StringLiteral",
-      "offset": 282,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Data.swift",

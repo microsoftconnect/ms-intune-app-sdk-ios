@@ -17,20 +17,10 @@ __attribute__((visibility("default")))
 + (instancetype _Nullable) openFileAtPath:(NSString* _Nonnull)path error:(NSError* _Nullable* _Nullable)error;
 + (instancetype _Nullable) openFileAtPath:(NSString* _Nonnull)path flags:(int)flags error:(NSError* _Nullable* _Nullable)error;
 
-// Creates a new file or truncates an existing file for the specified owner. If encryption is required by policy,
-// the file contents will be software encrypted on disk. The flags/mode parameters are the same as the flags passed to POSIX open().
-+ (instancetype _Nullable) createFileAtPath:(NSString* _Nonnull)path forIdentity:(NSString* _Nullable)identity error:(NSError* _Nullable* _Nullable)error DEPRECATED_MSG_ATTRIBUTE("Use createFileAtPath:forAccountId:error: instead.");
-+ (instancetype _Nullable) createFileAtPath:(NSString* _Nonnull)path flags:(int)flags mode:(mode_t)mode forIdentity:(NSString* _Nullable)identity error:(NSError* _Nullable* _Nullable)error DEPRECATED_MSG_ATTRIBUTE("Use createFileAtPath:flags:mode:forAccountId:error: instead.");
-
 // Creates a new file or truncates an existing file for the specified owner Entra object ID(e.g. 3ec2c00f-b125-4519-acf0-302ac3761822). If encryption is required by policy,
 // the file contents will be software encrypted on disk. The flags/mode parameters are the same as the flags passed to POSIX open().
 + (instancetype _Nullable) createFileAtPath:(NSString* _Nonnull)path forAccountId:(NSString* _Nullable)acountId error:(NSError* _Nullable* _Nullable)error;
 + (instancetype _Nullable) createFileAtPath:(NSString* _Nonnull)path flags:(int)flags mode:(mode_t)mode forAccountId:(NSString* _Nullable)acountId error:(NSError* _Nullable* _Nullable)error;
-
-// Protects the file for the specified identity. The file will be software encrypted if required by policy.
-// If called on an encrypted file and the policy or identity changes to no longer require software
-// encryption, the file will be decrypted.
-+ (BOOL) protectFileAtPath:(NSString* _Nonnull)path forIdentity:(NSString* _Nullable)identity error:(NSError* _Nullable* _Nullable)error DEPRECATED_MSG_ATTRIBUTE("Use protectFileAtPath:forAccountId:error: instead.");
 
 // Protects the file for the specified identity. The file will be software encrypted if required by policy.
 // If called on an encrypted file and the policy or Entra object ID (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) changes to no longer require software
