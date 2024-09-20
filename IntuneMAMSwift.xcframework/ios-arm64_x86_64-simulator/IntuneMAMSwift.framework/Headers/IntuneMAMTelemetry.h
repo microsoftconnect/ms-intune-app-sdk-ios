@@ -38,7 +38,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMTelemetryDataRegion)
 __attribute__((visibility("default")))
 @protocol IntuneMAMTelemetryDelegate <NSObject>
 
-@optional
+@required
 
 /*!
  * Logs the specified event to Aria.
