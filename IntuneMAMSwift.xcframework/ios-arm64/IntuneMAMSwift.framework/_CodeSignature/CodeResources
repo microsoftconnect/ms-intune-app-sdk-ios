@@ -114,7 +114,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4Tzfuu2IhMcQRM480qitDSwT0oQ=
+		1GAEi0ebCN2HawO72MFFU7XWpVc=
 		</data>
 		<key>IntuneMAMResources.bundle/ActivityAlertViewController.nib</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/Assets.car</key>
 		<data>
-		bah8mqzYuffwyOHS/VR0vKZGv7s=
+		FqQWdnT/eMKwDADYOArJ2v9e7zE=
 		</data>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
 		<data>
@@ -136,7 +136,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iiGClpJd+PMz8z+fbci2fKmJhew=
+			3qXs4F+or+d2125FjsulyglYdzg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -163,7 +163,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		3ozJ6AIdi9HSh0AULgFsctb6c70=
+		tHtjaEdZsoJxuhJdsuEMBCDT8b8=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<data>
@@ -199,7 +199,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		wXySqDkL8bLmMmVRDElb2Va4dTY=
+		ez4sP1zl65woqrbA2whZk/JPOTs=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -207,15 +207,15 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		9N8ehQ5olYjIIrJ202n19e0/vI4=
+		InlWSHLxV7hzqJtxxOIpBm7/Lsc=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		Gr8yImq6DKHxN1aZOzwlbWe3Hyc=
+		uqDx+XYzgfgVdWggHn1Qk6387j4=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		2OVPmInLLWFMNRN8V+pG2GoCFn0=
+		QQ0zvyUHyN2udy/PztpmrvhUqsE=
 		</data>
 		<key>IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
 		<dict>
@@ -938,7 +938,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Lgqz9UkkXGm4d2+uIpyF8KCkkSfE3FMBKy5NSV2lJk=
+			VN4f11R/drmzfYfG0C0hliVkp6ZnZdDDZwOE7zlUWjk=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
@@ -959,7 +959,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NUViYOWEc/PJ2jegBn0jKyDZyXrnaqUslNEM0YdzhN0=
+			fkJvo3sr+fH/aWvuMeSjr7Drk2jrzKDyBh/pGrro5is=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1003,7 +1003,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6s/FqFr4tTA/8tHLfYTg39oYanhJGz3xqhreqOZBYSE=
+			2WMSYJaEToeGmznxXDBY+36pFbji9PEEyoqJ6BALQ5E=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
@@ -1066,7 +1066,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+yK+NqfG2l3Y/iyRRKtI+w6RBFglj5yJelZNhWGNb4=
+			i9tB4ToIJCrrxsSxQiwV3Pwtxek7y2bMF/4XtCAQGp8=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1080,21 +1080,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YxAybF1QmOdONZK+0XpUcOPt4o9Adp7Z1mw6qQLKY2s=
+			ozPwc74YZe8KSnQIc/B39bi9bV5VbS/jTJ+67t4B/70=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AdeSbCMgRNG+g+IOPJhV0wc1dYfsdkISSc3wgJOJzxk=
+			BGRJ4fXdk81B6TMXJsiAK3RWk16t20QJH6zH7REL77A=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G1z38U0pmfZFvIOZkQu1r6B7zvC0avbb4SbZ0D8dNM8=
+			scJIFRxzNbaf071u5cr/TecTohOxSMC8+kmcTO/lAH4=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
