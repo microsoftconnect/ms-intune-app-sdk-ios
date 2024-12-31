@@ -94,7 +94,7 @@
 		</data>
 		<key>Headers/IntuneMAMUIHelper.h</key>
 		<data>
-		noiAeM+WJDC4IDen31dzbSfu/0Y=
+		T0BCX2egAy0i7d8y+OYQ2b5JmoE=
 		</data>
 		<key>Headers/IntuneMAMUserStatus.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RX45smbGOhHOtw5TFFJYj0bJVXs=
+		LSGKQ7nlmK7Am4BWM5/W9BV7v/k=
 		</data>
 		<key>IntuneMAMResources.bundle/ActivityAlertViewController.nib</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/Assets.car</key>
 		<data>
-		FqQWdnT/eMKwDADYOArJ2v9e7zE=
+		WUNK3m37mIySrHU1h+VnamUv29w=
 		</data>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
 		<data>
@@ -159,7 +159,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		rD7/N2YOHbbgDY29vO8jyQ/N2YY=
+		bKkgzDr+xn5EiHsz85TvlLY0cjY=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<data>
@@ -195,7 +195,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		1fi/WuDvSashGnthPFy900OaJ1A=
+		+n/Vue80dVmg1s/VIEo1wzh2GlA=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -203,11 +203,11 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		cGQlldQRhTc4vO5d1byBhPaFlmY=
+		75g//dU3iR1B8SOQW25MD7oEaVA=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		uqDx+XYzgfgVdWggHn1Qk6387j4=
+		ixQGgSjmNCSKKvoX4m0jiPOtqe4=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -749,7 +749,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		stbzP9w4hLzv+ToOUa5H7ZEeIAU=
+		Lm2+4tHYHIolkb0ymeS9JpHh1iM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1000,11 +1000,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			noiAeM+WJDC4IDen31dzbSfu/0Y=
+			T0BCX2egAy0i7d8y+OYQ2b5JmoE=
 			</data>
 			<key>hash2</key>
 			<data>
-			+3D3hBccxPz5pkTbVx19XcYOqsav31GpFtawIjCLx2w=
+			xKJSRjNSbxPXH+nxGrIe1r1QFMxDv6C7tNOe7+ulj9I=
 			</data>
 		</dict>
 		<key>Headers/IntuneMAMUserStatus.h</key>
@@ -1055,11 +1055,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FqQWdnT/eMKwDADYOArJ2v9e7zE=
+			WUNK3m37mIySrHU1h+VnamUv29w=
 			</data>
 			<key>hash2</key>
 			<data>
-			VN4f11R/drmzfYfG0C0hliVkp6ZnZdDDZwOE7zlUWjk=
+			V/HgHl4rofPZPf+Mo6Rw0/1kAtdqALdat+BHoWolS0M=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/AuthViewController_iPad.nib</key>
@@ -1156,11 +1156,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rD7/N2YOHbbgDY29vO8jyQ/N2YY=
+			bKkgzDr+xn5EiHsz85TvlLY0cjY=
 			</data>
 			<key>hash2</key>
 			<data>
-			AbxuKkC/Q5w6IGjDgMy5TWxkKu2re/HlGESYGlwxFGQ=
+			/lBRV0+usWli73NLyK9cy313J5ao8pucH00wTxPwE0A=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
@@ -1255,11 +1255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1fi/WuDvSashGnthPFy900OaJ1A=
+			+n/Vue80dVmg1s/VIEo1wzh2GlA=
 			</data>
 			<key>hash2</key>
 			<data>
-			3sUicW/PVwwr7Rz+LlTegumAMo/85dBsU4bSHaZw+Q0=
+			I710ZYL5j3YWPP2FmgMt5SXIrlhxTILQkjvGjXdTNio=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1277,22 +1277,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cGQlldQRhTc4vO5d1byBhPaFlmY=
+			75g//dU3iR1B8SOQW25MD7oEaVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			KUaNZ8ioDOAlCFvOWRM51Luof1n/9D8t/OkFhWKrXok=
+			3xrRTCfrGkFBGHWWV4p9GiM7R2k0Zi+QfxdZPXm3QL8=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uqDx+XYzgfgVdWggHn1Qk6387j4=
+			ixQGgSjmNCSKKvoX4m0jiPOtqe4=
 			</data>
 			<key>hash2</key>
 			<data>
-			BGRJ4fXdk81B6TMXJsiAK3RWk16t20QJH6zH7REL77A=
+			Kx3tgfY0Kz6zlj4Ug1ZKGAgwSfRaSZ1l6Ute0mdnjis=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeSignature</key>
@@ -2144,11 +2144,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			stbzP9w4hLzv+ToOUa5H7ZEeIAU=
+			Lm2+4tHYHIolkb0ymeS9JpHh1iM=
 			</data>
 			<key>hash2</key>
 			<data>
-			/LDmpnRI+6mTcM5yB3j0NKBkJr9O7loZemNfv+8/qkY=
+			n6FMl+H0O+9Jumh90AdEyez1dmqEk1bV2QcQf5lbeC0=
 			</data>
 		</dict>
 	</dict>
