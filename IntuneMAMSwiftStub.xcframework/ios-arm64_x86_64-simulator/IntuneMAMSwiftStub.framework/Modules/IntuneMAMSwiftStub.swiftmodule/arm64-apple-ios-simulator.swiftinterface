@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IntuneMAMSwiftStub
 import AppleArchive
 import Darwin
@@ -107,12 +107,12 @@ extension SwiftUICore.View {
 }
 @available(iOS 14.0.0, *)
 extension SwiftUI.Link where Label == SwiftUICore.Text {
-  @_Concurrency.MainActor @preconcurrency public init(_ titleKey: SwiftUICore.LocalizedStringKey, cmarRealURL: Foundation.URL)
-  @_Concurrency.MainActor @preconcurrency public init<S>(_ title: S, cmarRealURL: Foundation.URL) where S : Swift.StringProtocol
+  public init(_ titleKey: SwiftUICore.LocalizedStringKey, cmarRealURL: Foundation.URL)
+  public init<S>(_ title: S, cmarRealURL: Foundation.URL) where S : Swift.StringProtocol
 }
 @available(iOS 14.0.0, *)
 extension SwiftUI.Link {
-  @_Concurrency.MainActor @preconcurrency public init(_ cmarRealURL: Foundation.URL, @SwiftUICore.ViewBuilder cmarRealLabel: () -> Label)
+  public init(_ cmarRealURL: Foundation.URL, @SwiftUICore.ViewBuilder cmarRealLabel: () -> Label)
 }
 extension Foundation.Data {
   public func cmarRealDataWrite(to url: Foundation.URL, options: Foundation.Data.WritingOptions = []) throws

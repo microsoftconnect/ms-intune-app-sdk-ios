@@ -3722,10 +3722,6 @@
             "moduleName": "IntuneMAMSwiftStub",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -3765,10 +3761,6 @@
             "moduleName": "IntuneMAMSwiftStub",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 == SwiftUI.Text, τ_1_0 : Swift.StringProtocol>",
             "sugared_genericSig": "<Label, S where Label == SwiftUI.Text, S : Swift.StringProtocol>",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -3823,10 +3815,6 @@
             "moduleName": "IntuneMAMSwiftStub",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Label where Label : SwiftUI.View>",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           }
@@ -3842,12 +3830,10 @@
         "intro_tvOS": "14.0",
         "intro_watchOS": "7.0",
         "declAttributes": [
-          "Preconcurrency",
           "Available",
           "Available",
           "Available",
-          "Available",
-          "Custom"
+          "Available"
         ],
         "isExternal": true,
         "conformances": [
