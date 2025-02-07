@@ -15,4 +15,7 @@ __attribute__((visibility("default")))
 // Returns a localized string value for the policy requires restart message.
 + (NSString*_Nullable) getRestartApplicationMessage;
 
+// Generates an image of the specified window regardless of screen capture block policy.
++ (UIImage*_Nullable) captureImageOfWindow:(UIWindow*_Nonnull)window;
+
 @end
