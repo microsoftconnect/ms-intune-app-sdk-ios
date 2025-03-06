@@ -1218,399 +1218,399 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 52,
       "value": "\"$s15GroupActivities0A8ActivityPAAE8activateSbyYaKF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1107,
       "length": 54,
       "value": "\"$s15GroupActivities0A8ActivityPAAE8activateSbyYaKFTu\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1205,
       "length": 76,
       "value": "\"$s15GroupActivities0A8ActivityPAAE20prepareForActivationAA0acF6ResultOyYaF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1332,
       "length": 78,
       "value": "\"$s15GroupActivities0A8ActivityPAAE20prepareForActivationAA0acF6ResultOyYaFTu\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1527,
       "length": 78,
       "value": "\"$s22_GroupActivities_UIKit0A25ActivitySharingControllerCyACxKc0aB00aD0RzlufC\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/GroupActivitiesSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1655,
       "length": 103,
       "value": "\"$s22_GroupActivities_UIKit0A25ActivitySharingControllerC18preparationHandlerACxyYaKc_tc0aB00aD0RzlufC\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DataSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DataSwiftHooks.swift",
       "kind": "Array",
       "offset": 2117,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 967,
       "length": 73,
       "value": "\"$s8Dispatch0A8WorkItemC3qos5flags5blockAcA0A3QoSV_AA0abC5FlagsVyyXBtcfC\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1079,
       "length": 60,
       "value": "\"$s8Dispatch0A8WorkItemC5flags5blockAcA0abC5FlagsV_yyXBtcfC\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1168,
       "length": 108,
       "value": "\"$s8Dispatch0A8WorkItemC6notify3qos5flags5queue7executeyAA0A3QoSV_AA0abC5FlagsVSo012OS_dispatch_G0CyyXBtFTj\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1323,
       "length": 128,
       "value": "\"$sSo17OS_dispatch_queueC8DispatchE16asyncAfterUnsafe8deadline3qos5flags7executeyAC0D4TimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1502,
       "length": 137,
       "value": "\"$sSo17OS_dispatch_queueC8DispatchE16asyncAfterUnsafe12wallDeadline3qos5flags7executeyAC0D8WallTimeV_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1678,
       "length": 124,
       "value": "\"$sSo17OS_dispatch_queueC8DispatchE11asyncUnsafe5group3qos5flags7executeySo0a1_b1_G0CSg_AC0D3QoSVAC0D13WorkItemFlagsVyyXBtF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "IntegerLiteral",
       "offset": 1929,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
       "offset": 9715,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
       "offset": 10526,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
       "offset": 11260,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
       "offset": 15423,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
       "offset": 16199,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
       "offset": 16983,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
       "offset": 17705,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "Array",
       "offset": 18442,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
       "kind": "IntegerLiteral",
       "offset": 253,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
       "kind": "IntegerLiteral",
       "offset": 285,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 54,
       "value": "\"\/System\/Library\/Frameworks\/SwiftUI.framework\/SwiftUI\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
       "kind": "StringLiteral",
       "offset": 443,
       "length": 58,
       "value": "\"\/System\/Library\/Frameworks\/WidgetKit.framework\/WidgetKit\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
       "kind": "StringLiteral",
       "offset": 544,
       "length": 70,
       "value": "\"\/System\/Library\/Frameworks\/GroupActivities.framework\/GroupActivities\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 896,
       "length": 161,
       "value": "\"$s12AppleArchive0B10ByteStreamC04fileD04path4mode7options11permissionsACSg6System8FilePathV_AJ0K10DescriptorV10AccessModeVAN11OpenOptionsVAJ0K11PermissionsVtFZ\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1117,
       "length": 169,
       "value": "\"$s12AppleArchive0B10ByteStreamC08withFileD04path4mode7options11permissions_x6System0F4PathV_AI0F10DescriptorV10AccessModeVAM11OpenOptionsVAI0F11PermissionsVxACKXEtKlFZ\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1391,
       "length": 188,
       "value": "\"$s12AppleArchive0B6StreamC07extractC012extractingTo11selectUsing5flags11threadCountACSg6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAN0pQ0V_AlN0P10FilterDataOSgtcSgAA0B5FlagsVSitFZ\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1639,
       "length": 199,
       "value": "\"$s12AppleArchive0B6StreamC011withExtractC012extractingTo11selectUsing5flags11threadCount_x6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAM0qR0V_AkM0Q10FilterDataOSgtcSgAA0B5FlagsVSixACKXEtKlFZ\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 7204,
       "length": 51,
       "value": "\"cmarHooked.AppleArchvie.ExtractStream.SerialQueue\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "Array",
       "offset": 10945,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "IntegerLiteral",
       "offset": 10968,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "Array",
       "offset": 12233,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "IntegerLiteral",
       "offset": 12256,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 895,
       "length": 170,
       "value": "\"$sSo6UIMenuC5UIKitE5title8subtitle5image10identifier7options20preferredElementSize8childrenABSS_SSSgSo7UIImageCSgSo0A10IdentifieraSgSo0A7OptionsVSo0aiJ0VSaySo0aI0CGtcfC\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1139,
       "length": 146,
       "value": "\"$sSo6UIMenuC5UIKitE5title8subtitle5image10identifier7options8childrenABSS_SSSgSo7UIImageCSgSo0A10IdentifieraSgSo0A7OptionsVSaySo0A7ElementCGtcfC\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1351,
       "length": 133,
       "value": "\"$sSo6UIMenuC5UIKitE5title5image10identifier7options8childrenABSS_So7UIImageCSgSo0A10IdentifieraSgSo0A7OptionsVSaySo0A7ElementCGtcfC\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 3801,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/ios\/UI\/Swift\/MenuSwiftHooks.swift",
       "kind": "Array",
       "offset": 4049,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ApplicationSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ApplicationSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1159,
       "length": 29,
       "value": "\"$s7SwiftUI3AppPAAE4mainyyFZ\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ApplicationSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ApplicationSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1228,
       "length": 66,
       "value": "\"$s5UIKit17UIApplicationMainys5Int32VAD_SpySpys4Int8VGGSgSSSgAJtF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 569,
       "length": 58,
       "value": "\"$s10Foundation3URLV17writeBookmarkData_2toyAA0E0V_ACtKFZ\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 671,
       "length": 63,
       "value": "\"$s10Foundation3URLV17setResourceValuesyyAA011URLResourceE0VKF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
       "kind": "StringLiteral",
       "offset": 670,
       "length": 41,
       "value": "\"$s6Darwin4openys5Int32VSPys4Int8VG_ADtF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
       "kind": "StringLiteral",
       "offset": 763,
       "length": 50,
       "value": "\"$s6Darwin4openys5Int32VSPys4Int8VG_ADs6UInt16VtF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
       "kind": "StringLiteral",
       "offset": 865,
       "length": 45,
       "value": "\"$s6Darwin6openatys5Int32VAD_SPys4Int8VGADtF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
       "kind": "StringLiteral",
       "offset": 962,
       "length": 54,
       "value": "\"$s6Darwin6openatys5Int32VAD_SPys4Int8VGADs6UInt16VtF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
       "kind": "StringLiteral",
       "offset": 1089,
       "length": 164,
       "value": "\"$s6System14FileDescriptorV5_open__7options11permissions16retryOnInterrupts6ResultOyAcA5ErrnoVGSPys4Int8VG_AC10AccessModeVAC11OpenOptionsVAA0B11PermissionsVSgSbtFZ\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/FileHooksSwift.swift",
       "kind": "BooleanLiteral",
       "offset": 7070,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/SwiftTaskContextUtils.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/SwiftTaskContextUtils.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 46,
       "value": "\"com.microsoft.intunemam.cmarswifttaskcontext\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/SwiftTaskContextUtils.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/SwiftTaskContextUtils.swift",
       "kind": "Dictionary",
       "offset": 465,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 342,
       "length": 61,
       "value": "\"$s7SwiftUI4ViewP9WidgetKitE9widgetURLyQr10Foundation0G0VSgF\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 87,
       "value": "\"$s7SwiftUI4LinkVA2A4TextVRszrlE_11destinationACyAEGqd___10Foundation3URLVtcSyRd__lufC\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 647,
       "length": 98,
       "value": "\"$s7SwiftUI4LinkVA2A4TextVRszrlE_11destinationACyAEGAA18LocalizedStringKeyV_10Foundation3URLVtcfC\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 797,
       "length": 68,

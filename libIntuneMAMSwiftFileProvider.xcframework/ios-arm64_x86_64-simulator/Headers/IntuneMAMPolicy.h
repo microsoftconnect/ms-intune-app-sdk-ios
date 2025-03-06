@@ -16,7 +16,8 @@ typedef NS_ENUM(NSInteger, IntuneMAMSaveLocation)
     IntuneMAMSaveLocationLocalDrive = 1<<5,
     IntuneMAMSaveLocationCameraRoll = 1<<6,
     IntuneMAMSaveLocationAccountDocument = 1<<7, // When the location is not listed in this enum but is accessed with a managed account, use this value
-
+    IntuneMAMSaveLocationIManage = 1<<8,
+    IntuneMAMSaveLocationEgnyte = 1<<9
 };
 
 typedef NS_ENUM(NSInteger, IntuneMAMOpenLocation)
@@ -28,6 +29,9 @@ typedef NS_ENUM(NSInteger, IntuneMAMOpenLocation)
     IntuneMAMOpenLocationLocalStorage = 1<<3,
     IntuneMAMOpenLocationPhotos = 1<<4,
     IntuneMAMOpenLocationAccountDocument = 1<<5, // When opening a document that has a managed account identity or the location is not listed in this enum but is accessed with a managed account, use this value
+    IntuneMAMOpenLocationBox = 1<<6,
+    IntuneMAMOpenLocationIManage = 1<<7,
+    IntuneMAMOpenLocationEgnyte = 1<<8
 };
 
 // IntuneMAMNotificationPolicyAllow - All notifications for the managed user should be allowed
