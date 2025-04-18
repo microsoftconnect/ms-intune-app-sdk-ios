@@ -17,10 +17,23 @@ extern NSString*_Nonnull const IntuneMAMPolicyDidChangeNotification;
 // UserInfo dictionary constants.
 __attribute__((visibility("default")))
 extern NSString*_Nonnull const IntuneMAMPolicyDidChangeNotificationAccountId;
+__attribute__((visibility("default")))
+extern NSString*_Nonnull const IntuneMAMSDKLifecycleEventAccountId;
+// Reference to the SDK UI overriding the app
+__attribute__((visibility("default")))
+extern NSString*_Nonnull const IntuneMAMUIScene;
 
 // Notification posted after the Intune SDK completes wiping the managed account.
 __attribute__((visibility("default")))
 extern NSString*_Nonnull const IntuneMAMWipeDidCompleteNotification;
+
+// Notification posted after the Intune SDK UI has taken over the application
+__attribute__((visibility("default")))
+extern NSString*_Nonnull const IntuneMAMSDKDidTakeOverUINotification;
+
+// Notification posted after the Intune SDK UI has released the application
+__attribute__((visibility("default")))
+extern NSString*_Nonnull const IntuneMAMSDKDidReleaseUINotification;
 
 // MAM policy source
 typedef NS_ENUM(NSInteger, IntuneMAMPolicySource)
