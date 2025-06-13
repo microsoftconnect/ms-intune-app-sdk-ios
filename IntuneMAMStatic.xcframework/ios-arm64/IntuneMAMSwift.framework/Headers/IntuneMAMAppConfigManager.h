@@ -27,4 +27,10 @@ __attribute__((visibility("default")))
 // Note: For any MDM settings to be returned the given AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) must be the AccountId of the MDM enrolled user
 -(id <IntuneMAMAppConfig> _Nonnull) appConfigForAccountId:(NSString*_Nullable)accountId;
 
+// Returns an object that can be used to retrieve Application Configuration
+// settings sent from the MAM service/MDM channel for a list of the specified Entra object IDs.
+// Note: For any MDM settings to be returned the given AccountId (e.g. 3ec2c00f-b125-4519-acf0-302ac3761822) must be the AccountId of the MDM enrolled user
+-(id <IntuneMAMAppConfig> _Nonnull) appConfigForAccountIds:(NSArray<NSString*>* _Nonnull)accountIds;
+
+
 @end

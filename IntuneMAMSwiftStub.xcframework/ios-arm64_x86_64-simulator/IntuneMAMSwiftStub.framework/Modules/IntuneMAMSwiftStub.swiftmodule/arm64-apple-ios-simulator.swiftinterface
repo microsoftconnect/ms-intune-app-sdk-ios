@@ -6,6 +6,7 @@ import Darwin
 import Dispatch
 import Foundation
 import GroupActivities
+import ImagePlayground
 import Swift
 import SwiftUI
 import System
@@ -52,6 +53,27 @@ extension Dispatch.DispatchWorkItem {
   public func cmarRealDispatchWorkItemNotify(qos: Dispatch.DispatchQoS = .unspecified, flags: Dispatch.DispatchWorkItemFlags = [], queue: Dispatch.DispatchQueue, execute: @escaping @convention(block) () -> Swift.Void)
   convenience public init(cmarRealQoS: Dispatch.DispatchQoS, cmarRealFlags: Dispatch.DispatchWorkItemFlags, cmarRealBlock: @escaping @convention(block) () -> Swift.Void)
   convenience public init(cmarRealFlags: Dispatch.DispatchWorkItemFlags, cmarRealBlock: @escaping @convention(block) () -> Swift.Void)
+}
+@available(iOS 18.1, *)
+extension ImagePlayground.ImagePlaygroundViewController {
+  @_Concurrency.MainActor @preconcurrency public func cmarRealImagePlaygroundViewControllerConceptsSetter(_ concepts: [ImagePlayground.ImagePlaygroundConcept])
+  @_Concurrency.MainActor @preconcurrency public func cmarRealImagePlaygroundViewControllerSourceImageSetter(_ sourceImage: UIKit.UIImage)
+  @_Concurrency.MainActor @preconcurrency public func cmarRealImagePlaygroundViewControllerDelegateSetter(_ delegate: (any ImagePlayground.ImagePlaygroundViewController.Delegate)?)
+}
+@available(iOS 18.1, *)
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func cmarRealImagePlaygroundSheetWithConceptsAndSourceImage(isPresented: SwiftUICore.Binding<Swift.Bool>, concepts: [ImagePlayground.ImagePlaygroundConcept] = [], sourceImage: SwiftUICore.Image? = nil, onCompletion: @escaping (Foundation.URL) -> Swift.Void, onCancellation: (() -> Swift.Void)? = nil) -> IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUICore.View>
+  
+  @_Concurrency.MainActor @preconcurrency public func cmarRealImagePlaygroundSheetWithConceptsAndSourceImageURL(isPresented: SwiftUICore.Binding<Swift.Bool>, concepts: [ImagePlayground.ImagePlaygroundConcept] = [], sourceImageURL: Foundation.URL, onCompletion: @escaping (Foundation.URL) -> Swift.Void, onCancellation: (() -> Swift.Void)? = nil) -> IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUICore.View>
+  
+  @_Concurrency.MainActor @preconcurrency public func cmarRealImagePlaygroundSheetWithConceptAndSourceImageURL(isPresented: SwiftUICore.Binding<Swift.Bool>, concept: Swift.String, sourceImageURL: Foundation.URL, onCompletion: @escaping (Foundation.URL) -> Swift.Void, onCancellation: (() -> Swift.Void)? = nil) -> IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUICore.View>
+  
+  @_Concurrency.MainActor @preconcurrency public func cmarRealImagePlaygroundSheetWithConceptAndSourceImage(isPresented: SwiftUICore.Binding<Swift.Bool>, concept: Swift.String, sourceImage: SwiftUICore.Image? = nil, onCompletion: @escaping (Foundation.URL) -> Swift.Void, onCancellation: (() -> Swift.Void)? = nil) -> IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUICore.View>
+  
+}
+public struct ImagePlaygroundSheetWrapper<T> {
+  public var sheet: T
+  public init(sheet: T)
 }
 @available(iOS 16.0, *)
 extension VisionKit.DataScannerViewController {

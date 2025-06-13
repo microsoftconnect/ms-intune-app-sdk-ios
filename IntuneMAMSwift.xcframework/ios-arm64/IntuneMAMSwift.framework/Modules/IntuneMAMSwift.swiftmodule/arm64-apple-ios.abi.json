@@ -635,6 +635,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
         "name": "Dispatch",
         "printedName": "Dispatch",
         "declKind": "Import",
@@ -666,6 +673,13 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
       },
       {
         "kind": "Import",
@@ -764,6 +778,92 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ImagePlayground",
+        "printedName": "ImagePlayground",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAMSwiftStub",
+        "printedName": "IntuneMAMSwiftStub",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUICore",
+        "printedName": "SwiftUICore",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -795,6 +895,34 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
       },
       {
         "kind": "Import",
@@ -883,6 +1011,27 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
       },
       {
         "kind": "Import",
@@ -1212,6 +1361,27 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift"
       }
     ],
     "json_format_version": 8
@@ -1372,6 +1542,370 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 131,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 162,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 193,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 289,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 330,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 374,
+      "length": 4,
+      "value": "0.18"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 422,
+      "length": 4,
+      "value": "0.08"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 519,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 554,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 686,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 749,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 782,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 815,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 850,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 883,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 922,
+      "length": 2,
+      "value": "55"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 967,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1010,
+      "length": 4,
+      "value": "0.11"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 1055,
+      "length": 4,
+      "value": "0.14"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1091,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1125,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1158,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1268,
+      "length": 2,
+      "value": "45"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1303,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1337,
+      "length": 2,
+      "value": "27"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1454,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1492,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1529,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1657,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1694,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1730,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1855,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1893,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1930,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2126,
+      "length": 4,
+      "value": "0.89"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2139,
+      "length": 4,
+      "value": "0.87"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2151,
+      "length": 4,
+      "value": "0.93"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2239,
+      "length": 4,
+      "value": "0.48"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2252,
+      "length": 4,
+      "value": "0.52"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2264,
+      "length": 4,
+      "value": "0.83"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2351,
+      "length": 4,
+      "value": "0.27"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2364,
+      "length": 4,
+      "value": "0.23"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2376,
+      "length": 4,
+      "value": "0.38"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2467,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2477,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2486,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2557,
+      "length": 4,
+      "value": "0.43"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2570,
+      "length": 4,
+      "value": "0.43"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/UI\/SwiftUIConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 2582,
+      "length": 4,
+      "value": "0.43"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
       "kind": "IntegerLiteral",
       "offset": 253,
@@ -1405,6 +1939,13 @@
       "offset": 544,
       "length": 70,
       "value": "\"\/System\/Library\/Frameworks\/GroupActivities.framework\/GroupActivities\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/SwiftHookManager.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 70,
+      "value": "\"\/System\/Library\/Frameworks\/ImagePlayground.framework\/ImagePlayground\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
@@ -1505,6 +2046,160 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ImagePlaygroundSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 1354,
+      "length": 68,
+      "value": "\"$s15ImagePlayground0aB14ViewControllerC06sourceA0So7UIImageCSgvsTj\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ImagePlaygroundSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 1462,
+      "length": 72,
+      "value": "\"$s15ImagePlayground0aB14ViewControllerC8conceptsSayAA0aB7ConceptVGvsTj\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ImagePlaygroundSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 1569,
+      "length": 69,
+      "value": "\"$s15ImagePlayground0aB14ViewControllerC8delegateAC8Delegate_pSgvsTj\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ImagePlaygroundSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 1779,
+      "length": 182,
+      "value": "\"$s7SwiftUI4ViewP15ImagePlaygroundE05imageE5Sheet11isPresented8concepts06sourceD012onCompletion0L12CancellationQrAA7BindingVySbG_SayAD0dE7ConceptVGAA0D0VSgy10Foundation3URLVcyycSgtF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ImagePlaygroundSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 2034,
+      "length": 178,
+      "value": "\"$s7SwiftUI4ViewP15ImagePlaygroundE05imageE5Sheet11isPresented8concepts06sourceD3URL12onCompletion0M12CancellationQrAA7BindingVySbG_SayAD0dE7ConceptVG10Foundation0L0VyAScyycSgtF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ImagePlaygroundSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 2284,
+      "length": 161,
+      "value": "\"$s7SwiftUI4ViewP15ImagePlaygroundE05imageE5Sheet11isPresented7concept06sourceD3URL12onCompletion0M12CancellationQrAA7BindingVySbG_SS10Foundation0L0VyAPcyycSgtF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ImagePlaygroundSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 2514,
+      "length": 165,
+      "value": "\"$s7SwiftUI4ViewP15ImagePlaygroundE05imageE5Sheet11isPresented7concept06sourceD012onCompletion0L12CancellationQrAA7BindingVySbG_SSAA0D0VSgy10Foundation3URLVcyycSgtF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 134,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 232,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "StringLiteral",
+      "offset": 276,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "StringLiteral",
+      "offset": 431,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 491,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 556,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 686,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 808,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1019,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinView.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/ApplicationSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 1159,
@@ -1517,6 +2212,55 @@
       "offset": 1228,
       "length": 66,
       "value": "\"$s5UIKit17UIApplicationMainys5Int32VAD_SpySpys4Int8VGGSgSSSgAJtF\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftConditionalLaunchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1342,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftConditionalLaunchViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1371,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/AppCLView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 109,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/AppCLView.swift",
+      "kind": "StringLiteral",
+      "offset": 151,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/AppCLView.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/AppCLView.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/AppCLView.swift",
+      "kind": "Array",
+      "offset": 304,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
@@ -1575,6 +2319,20 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 314,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PasscodeInputView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/SwiftTaskContextUtils.swift",
       "kind": "StringLiteral",
       "offset": 327,
@@ -1615,6 +2373,20 @@
       "offset": 797,
       "length": 68,
       "value": "\"$s7SwiftUI4LinkV11destination5labelACyxG10Foundation3URLV_xyXEtcfC\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinTextField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1386,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinTextField.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1834,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

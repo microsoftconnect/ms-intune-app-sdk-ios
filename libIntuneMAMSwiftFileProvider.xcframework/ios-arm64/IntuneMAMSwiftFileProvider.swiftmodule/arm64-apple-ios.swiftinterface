@@ -7,6 +7,7 @@ import Foundation
 import IntuneMAMSwiftStub
 import Swift
 import SwiftUI
+import SwiftUICore
 import System
 import UIKit
 import _Concurrency

@@ -6,10 +6,12 @@ import AppleArchive
 import Dispatch
 import Foundation
 import GroupActivities
+import ImagePlayground
 @_exported import IntuneMAMSwift
 import IntuneMAMSwiftStub
 import Swift
 import SwiftUI
+import SwiftUICore
 import System
 import UIKit
 import VisionKit
