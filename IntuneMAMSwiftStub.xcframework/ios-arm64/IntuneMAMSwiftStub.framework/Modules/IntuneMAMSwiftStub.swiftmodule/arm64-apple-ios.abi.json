@@ -142,6 +142,185 @@
       },
       {
         "kind": "Import",
+        "name": "ImagePlayground",
+        "printedName": "ImagePlayground",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftStub"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImagePlaygroundSheetWrapper",
+        "printedName": "ImagePlaygroundSheetWrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sheet",
+            "printedName": "sheet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV5sheetxvp",
+            "mangledName": "$s18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV5sheetxvp",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV5sheetxvg",
+                "mangledName": "$s18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV5sheetxvg",
+                "moduleName": "IntuneMAMSwiftStub",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV5sheetxvs",
+                "mangledName": "$s18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV5sheetxvs",
+                "moduleName": "IntuneMAMSwiftStub",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV5sheetxvM",
+                "mangledName": "$s18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV5sheetxvM",
+                "moduleName": "IntuneMAMSwiftStub",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sheet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImagePlaygroundSheetWrapper",
+                "printedName": "IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV5sheetACyxGx_tcfc",
+            "mangledName": "$s18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV5sheetACyxGx_tcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV",
+        "mangledName": "$s18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV",
+        "moduleName": "IntuneMAMSwiftStub",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2011,6 +2190,789 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ImagePlaygroundViewController",
+        "printedName": "ImagePlaygroundViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealImagePlaygroundViewControllerConceptsSetter",
+            "printedName": "cmarRealImagePlaygroundViewControllerConceptsSetter(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImagePlayground.ImagePlaygroundConcept]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImagePlaygroundConcept",
+                    "printedName": "ImagePlayground.ImagePlaygroundConcept",
+                    "usr": "s:15ImagePlayground0aB7ConceptV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ImagePlayground0aB14ViewControllerC18IntuneMAMSwiftStubE08cmarRealabcD14ConceptsSetteryySayAA0aB7ConceptVGF",
+            "mangledName": "$s15ImagePlayground0aB14ViewControllerC18IntuneMAMSwiftStubE08cmarRealabcD14ConceptsSetteryySayAA0aB7ConceptVGF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealImagePlaygroundViewControllerSourceImageSetter",
+            "printedName": "cmarRealImagePlaygroundViewControllerSourceImageSetter(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ImagePlayground0aB14ViewControllerC18IntuneMAMSwiftStubE08cmarRealabcd6SourceA6SetteryySo7UIImageCF",
+            "mangledName": "$s15ImagePlayground0aB14ViewControllerC18IntuneMAMSwiftStubE08cmarRealabcd6SourceA6SetteryySo7UIImageCF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealImagePlaygroundViewControllerDelegateSetter",
+            "printedName": "cmarRealImagePlaygroundViewControllerDelegateSetter(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any ImagePlayground.ImagePlaygroundViewController.Delegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Delegate",
+                    "printedName": "any ImagePlayground.ImagePlaygroundViewController.Delegate",
+                    "usr": "s:15ImagePlayground0aB14ViewControllerC8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15ImagePlayground0aB14ViewControllerC18IntuneMAMSwiftStubE08cmarRealabcD14DelegateSetteryyAC0J0_pSgF",
+            "mangledName": "$s15ImagePlayground0aB14ViewControllerC18IntuneMAMSwiftStubE08cmarRealabcD14DelegateSetteryyAC0J0_pSgF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ImagePlayground@objc(cs)ImagePlaygroundViewController",
+        "mangledName": "$s15ImagePlayground0aB14ViewControllerC",
+        "moduleName": "ImagePlayground",
+        "intro_Macosx": "15.1",
+        "intro_iOS": "18.1",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "ObjC",
+          "Custom"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cmarRealImagePlaygroundSheetWithConceptsAndSourceImage",
+            "printedName": "cmarRealImagePlaygroundSheetWithConceptsAndSourceImage(isPresented:concepts:sourceImage:onCompletion:onCancellation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImagePlaygroundSheetWrapper",
+                "printedName": "IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUI.View>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImagePlayground.ImagePlaygroundConcept]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImagePlaygroundConcept",
+                    "printedName": "ImagePlayground.ImagePlaygroundConcept",
+                    "usr": "s:15ImagePlayground0aB7ConceptV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE049cmarRealImagePlaygroundSheetWithConceptsAndSourceI011isPresented8concepts06sourceI012onCompletion0T12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_Say0iJ00iJ7ConceptVGAA0I0VSgy10Foundation3URLVcyycSgtF",
+            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE049cmarRealImagePlaygroundSheetWithConceptsAndSourceI011isPresented8concepts06sourceI012onCompletion0T12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_Say0iJ00iJ7ConceptVGAA0I0VSgy10Foundation3URLVcyycSgtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealImagePlaygroundSheetWithConceptsAndSourceImageURL",
+            "printedName": "cmarRealImagePlaygroundSheetWithConceptsAndSourceImageURL(isPresented:concepts:sourceImageURL:onCompletion:onCancellation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImagePlaygroundSheetWrapper",
+                "printedName": "IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUI.View>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImagePlayground.ImagePlaygroundConcept]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImagePlaygroundConcept",
+                    "printedName": "ImagePlayground.ImagePlaygroundConcept",
+                    "usr": "s:15ImagePlayground0aB7ConceptV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE049cmarRealImagePlaygroundSheetWithConceptsAndSourceI3URL11isPresented8concepts06sourceiP012onCompletion0U12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_Say0iJ00iJ7ConceptVG10Foundation0P0VyAWcyycSgtF",
+            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE049cmarRealImagePlaygroundSheetWithConceptsAndSourceI3URL11isPresented8concepts06sourceiP012onCompletion0U12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_Say0iJ00iJ7ConceptVG10Foundation0P0VyAWcyycSgtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealImagePlaygroundSheetWithConceptAndSourceImageURL",
+            "printedName": "cmarRealImagePlaygroundSheetWithConceptAndSourceImageURL(isPresented:concept:sourceImageURL:onCompletion:onCancellation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImagePlaygroundSheetWrapper",
+                "printedName": "IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUI.View>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE048cmarRealImagePlaygroundSheetWithConceptAndSourceI3URL11isPresented7concept06sourceiP012onCompletion0U12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_SS10Foundation0P0VyAScyycSgtF",
+            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE048cmarRealImagePlaygroundSheetWithConceptAndSourceI3URL11isPresented7concept06sourceiP012onCompletion0U12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_SS10Foundation0P0VyAScyycSgtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealImagePlaygroundSheetWithConceptAndSourceImage",
+            "printedName": "cmarRealImagePlaygroundSheetWithConceptAndSourceImage(isPresented:concept:sourceImage:onCompletion:onCancellation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImagePlaygroundSheetWrapper",
+                "printedName": "IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUI.View>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE048cmarRealImagePlaygroundSheetWithConceptAndSourceI011isPresented7concept06sourceI012onCompletion0T12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_SSAA0I0VSgy10Foundation3URLVcyycSgtF",
+            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE048cmarRealImagePlaygroundSheetWithConceptAndSourceI011isPresented7concept06sourceI012onCompletion0T12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_SSAA0I0VSgy10Foundation3URLVcyycSgtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealWidgetURL",
+            "printedName": "cmarRealWidgetURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE17cmarRealWidgetURLyQr10Foundation0J0VSgF",
+            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE17cmarRealWidgetURLyQr10Foundation0J0VSgF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUICore",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Custom"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "DataScannerViewController",
         "printedName": "DataScannerViewController",
         "children": [
@@ -3589,99 +4551,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "View",
-        "printedName": "View",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "cmarRealWidgetURL",
-            "printedName": "cmarRealWidgetURL(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OpaqueTypeArchetype",
-                "printedName": "some SwiftUI.View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "View",
-                    "printedName": "SwiftUI.View",
-                    "usr": "s:7SwiftUI4ViewP"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE17cmarRealWidgetURLyQr10Foundation0J0VSgF",
-            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE17cmarRealWidgetURLyQr10Foundation0J0VSgF",
-            "moduleName": "IntuneMAMSwiftStub",
-            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
-            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:7SwiftUI4ViewP",
-        "mangledName": "$s7SwiftUI4ViewP",
-        "moduleName": "SwiftUICore",
-        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
-        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
-        "intro_Macosx": "10.15",
-        "intro_iOS": "13.0",
-        "intro_tvOS": "13.0",
-        "intro_watchOS": "6.0",
-        "declAttributes": [
-          "Preconcurrency",
-          "TypeEraser",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "OriginallyDefinedIn",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Custom"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "Link",
         "printedName": "Link",
         "children": [
@@ -4550,6 +5419,20 @@
       "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
       "kind": "Array",
       "offset": 3082,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/ImagePlayground.swift",
+      "kind": "Array",
+      "offset": 1221,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/ImagePlayground.swift",
+      "kind": "Array",
+      "offset": 1797,
       "length": 2,
       "value": "[]"
     },
