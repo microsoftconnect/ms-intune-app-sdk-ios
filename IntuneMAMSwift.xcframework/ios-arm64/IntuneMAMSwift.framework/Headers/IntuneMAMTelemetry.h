@@ -31,8 +31,9 @@ typedef NS_ENUM(NSUInteger, IntuneMAMTelemetryPriorityLevel)
 
 typedef NS_ENUM(NSUInteger, IntuneMAMTelemetryDataRegion)
 {
-    IntuneMAMTelemetryDataRegionGlobal,
-    IntuneMAMTelemetryDataRegionEU
+    IntuneMAMTelemetryDataRegionGlobal = 0,
+    IntuneMAMTelemetryDataRegionEU,
+    IntuneMAMTelemetryDataRegionMax
 };
 
 __attribute__((visibility("default")))
