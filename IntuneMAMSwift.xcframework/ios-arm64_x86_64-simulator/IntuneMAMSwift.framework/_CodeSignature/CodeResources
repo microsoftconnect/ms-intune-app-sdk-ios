@@ -94,7 +94,7 @@
 		</data>
 		<key>Headers/IntuneMAMTelemetry.h</key>
 		<data>
-		hPvUeIlKQU1/RNAqUiBjAeLXV6Q=
+		DNSlEVsRYn7IAYat6NP4GgIaBMs=
 		</data>
 		<key>Headers/IntuneMAMUIHelper.h</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lIUE/tQ/IEwjM1HLPpmwvouby54=
+		qLc68BHQNdTH7oA2c1KSyGYJvoU=
 		</data>
 		<key>IntuneMAMResources.bundle/ActivityAlertViewController.nib</key>
 		<data>
@@ -163,7 +163,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		WxrStO5PtwCkCiduRMItSTcHn9g=
+		Rb0NYLB6cwW4T/ctbSrkGVlYuQ0=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<data>
@@ -199,7 +199,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		f4s/vCY6C9FekgNeupQYeedHlRo=
+		bY5pDUJ+3m/3OP1PeXThAElGTvc=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -207,7 +207,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		dvLiYtozBI6wnFSEENg8WfZiZeU=
+		LpJYDHxCBRdZ0Syg9iZMjZOCPow=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -916,7 +916,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UdAIO3qh6jz9xMMcU2U8GYnQiamwPbaCp+ixu0BTxQM=
+			ge/jg5nNpbzyfF+QjSz70XJjMKoOoraYyX7fIxB0omI=
 			</data>
 		</dict>
 		<key>Headers/IntuneMAMUIHelper.h</key>
@@ -1023,7 +1023,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			szc1zM+6ifzWvSp5WpNelTqrIitb1Iref4a++X4+vss=
+			iQoW5T3/Q+fOQ2SUThHGfL9eBFOBsH0bvJM08Ipc7LU=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
@@ -1086,7 +1086,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9w2y3SzKLQSkHNzrltocbUKavvNCCuAfKtFsD4JvO4o=
+			tQFwzEBtzHH7vQH3A3hZiNpQPhv+nE/hc1rze7iRlik=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1100,7 +1100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i3XL+UFf+bI7kXo0FWWY4Gry/m98omM1ptxEUhM3kwM=
+			KDH/ZzexZLEcxNffJ/HVPhkNkpCaxm9Rfugg1IN3+Kw=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
