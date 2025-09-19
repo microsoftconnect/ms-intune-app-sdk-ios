@@ -1,38 +1,36 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name IntuneMAMSwiftFileProvider
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target x86_64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IntuneMAMSwiftFileProvider
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AppleArchive
 import Dispatch
 import Foundation
 import IntuneMAMSwiftStub
 import Swift
 import SwiftUI
-import SwiftUICore
 import System
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
-  @available(*, deprecated, message: "Use getScopedAccountId instead.")
-  public static func getScopedIdentity() -> Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func getScopedAccountId() -> Swift.String?
-  @available(*, deprecated, message: "Use setAccountId:forScope: instead.")
-  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () -> Swift.Void)
-  @available(*, deprecated, message: "Use setAccountId:forScope: instead.")
-  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
-  @available(iOS 15.0, *)
-  @available(*, deprecated, message: "Use setAccountId:forScope: instead.")
-  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () async -> Swift.Void) async
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 15.0, *)
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async -> Swift.Void) async
-  @available(iOS 15.0, *)
-  @available(*, deprecated, message: "Use setAccountId:forScope: instead.")
-  public static func setIdentity(_ identity: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 15.0, *)
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
+  #endif
   @objc deinit
 }
 public enum IntuneMAMSwiftError : Swift.Error {
