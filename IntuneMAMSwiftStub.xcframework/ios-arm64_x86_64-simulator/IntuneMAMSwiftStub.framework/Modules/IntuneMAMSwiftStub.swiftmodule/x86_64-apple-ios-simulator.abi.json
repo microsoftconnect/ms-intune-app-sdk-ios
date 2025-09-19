@@ -1815,6 +1815,27 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TaskExecutor",
+            "printedName": "TaskExecutor",
+            "usr": "s:Sch",
+            "mangledName": "$sSch"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Executor",
+            "printedName": "Executor",
+            "usr": "s:ScF",
+            "mangledName": "$sScF"
+          },
+          {
+            "kind": "Conformance",
             "name": "Scheduler",
             "printedName": "Scheduler",
             "children": [
@@ -2000,6 +2021,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2313,6 +2341,7 @@
         "superclassUsr": "c:objc(cs)UIViewController",
         "isExternal": true,
         "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
           "UIKit.UIResponder",
@@ -2395,6 +2424,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2943,6 +2979,7 @@
         "declAttributes": [
           "Preconcurrency",
           "TypeEraser",
+          "TypeEraser",
           "OriginallyDefinedIn",
           "OriginallyDefinedIn",
           "OriginallyDefinedIn",
@@ -3300,6 +3337,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4036,6 +4080,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "BitwiseCopyable",
             "printedName": "BitwiseCopyable",
             "usr": "s:s15BitwiseCopyableP",
@@ -4145,6 +4196,13 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -4591,6 +4649,10 @@
             "moduleName": "IntuneMAMSwiftStub",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.Text>",
             "sugared_genericSig": "<Label where Label == SwiftUI.Text>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -4630,6 +4692,10 @@
             "moduleName": "IntuneMAMSwiftStub",
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 == SwiftUI.Text, τ_1_0 : Swift.StringProtocol>",
             "sugared_genericSig": "<Label, S where Label == SwiftUI.Text, S : Swift.StringProtocol>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           },
@@ -4684,6 +4750,10 @@
             "moduleName": "IntuneMAMSwiftStub",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Label where Label : SwiftUI.View>",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "init_kind": "Designated"
           }
@@ -4699,10 +4769,12 @@
         "intro_tvOS": "14.0",
         "intro_watchOS": "7.0",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
         "isExternal": true,
         "conformances": [
@@ -4755,6 +4827,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -4805,6 +4884,7 @@
         "intro_tvOS": "9.0",
         "intro_watchOS": "2.0",
         "declAttributes": [
+          "AddressableForDependencies",
           "Frozen",
           "Available",
           "Available",
@@ -5170,6 +5250,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sequence",
             "printedName": "Sequence",
             "children": [
@@ -5219,6 +5306,41 @@
           },
           {
             "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -5263,41 +5385,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
             "name": "Transferable",
             "printedName": "Transferable",
             "children": [
@@ -5339,105 +5426,105 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
       "kind": "Array",
       "offset": 1155,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
       "kind": "IntegerLiteral",
       "offset": 1178,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
       "kind": "Array",
       "offset": 1487,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/AppleArchive.swift",
       "kind": "IntegerLiteral",
       "offset": 1510,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
       "kind": "Array",
       "offset": 248,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
       "kind": "Array",
       "offset": 855,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
       "kind": "Array",
       "offset": 1151,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
       "kind": "Array",
       "offset": 1673,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
       "kind": "Array",
       "offset": 2005,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
       "kind": "Array",
       "offset": 2337,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
       "kind": "Array",
       "offset": 2775,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Dispatch.swift",
       "kind": "Array",
       "offset": 3082,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/ImagePlayground.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/ImagePlayground.swift",
       "kind": "Array",
       "offset": 1221,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/ImagePlayground.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/ImagePlayground.swift",
       "kind": "Array",
       "offset": 1797,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Data.swift",
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/Stubs\/Data.swift",
       "kind": "Array",
       "offset": 183,
       "length": 2,
