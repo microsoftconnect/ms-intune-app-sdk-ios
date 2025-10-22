@@ -6,6 +6,7 @@ import AppleArchive
 import Dispatch
 import Foundation
 import IntuneMAMSwiftStub
+import Security
 import Swift
 import SwiftUI
 import System
@@ -13,6 +14,15 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum ECSEnvironment {
+  case prod
+  case sandbox
+  public static func == (a: IntuneMAMSwiftFileProvider.ECSEnvironment, b: IntuneMAMSwiftFileProvider.ECSEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func getScopedAccountId() -> Swift.String?
@@ -41,5 +51,7 @@ public enum IntuneMAMSwiftError : Swift.Error {
     get
   }
 }
+extension IntuneMAMSwiftFileProvider.ECSEnvironment : Swift.Equatable {}
+extension IntuneMAMSwiftFileProvider.ECSEnvironment : Swift.Hashable {}
 extension IntuneMAMSwiftFileProvider.IntuneMAMSwiftError : Swift.Equatable {}
 extension IntuneMAMSwiftFileProvider.IntuneMAMSwiftError : Swift.Hashable {}
