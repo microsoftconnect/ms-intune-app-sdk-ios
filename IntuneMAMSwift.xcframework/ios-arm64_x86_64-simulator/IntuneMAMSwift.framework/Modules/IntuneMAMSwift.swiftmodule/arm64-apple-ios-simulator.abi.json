@@ -1014,6 +1014,252 @@
       },
       {
         "kind": "Import",
+        "name": "ExperimentKit",
+        "printedName": "ExperimentKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ECSEnvironment",
+        "printedName": "ECSEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "prod",
+            "printedName": "prod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IntuneMAMSwift.ECSEnvironment.Type) -> IntuneMAMSwift.ECSEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECSEnvironment",
+                    "printedName": "IntuneMAMSwift.ECSEnvironment",
+                    "usr": "s:14IntuneMAMSwift14ECSEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IntuneMAMSwift.ECSEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ECSEnvironment",
+                        "printedName": "IntuneMAMSwift.ECSEnvironment",
+                        "usr": "s:14IntuneMAMSwift14ECSEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14IntuneMAMSwift14ECSEnvironmentO4prodyA2CmF",
+            "mangledName": "$s14IntuneMAMSwift14ECSEnvironmentO4prodyA2CmF",
+            "moduleName": "IntuneMAMSwift"
+          },
+          {
+            "kind": "Var",
+            "name": "sandbox",
+            "printedName": "sandbox",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IntuneMAMSwift.ECSEnvironment.Type) -> IntuneMAMSwift.ECSEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECSEnvironment",
+                    "printedName": "IntuneMAMSwift.ECSEnvironment",
+                    "usr": "s:14IntuneMAMSwift14ECSEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IntuneMAMSwift.ECSEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ECSEnvironment",
+                        "printedName": "IntuneMAMSwift.ECSEnvironment",
+                        "usr": "s:14IntuneMAMSwift14ECSEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14IntuneMAMSwift14ECSEnvironmentO7sandboxyA2CmF",
+            "mangledName": "$s14IntuneMAMSwift14ECSEnvironmentO7sandboxyA2CmF",
+            "moduleName": "IntuneMAMSwift"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECSEnvironment",
+                "printedName": "IntuneMAMSwift.ECSEnvironment",
+                "usr": "s:14IntuneMAMSwift14ECSEnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECSEnvironment",
+                "printedName": "IntuneMAMSwift.ECSEnvironment",
+                "usr": "s:14IntuneMAMSwift14ECSEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift14ECSEnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14IntuneMAMSwift14ECSEnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "IntuneMAMSwift",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14IntuneMAMSwift14ECSEnvironmentO9hashValueSivp",
+            "mangledName": "$s14IntuneMAMSwift14ECSEnvironmentO9hashValueSivp",
+            "moduleName": "IntuneMAMSwift",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14IntuneMAMSwift14ECSEnvironmentO9hashValueSivg",
+                "mangledName": "$s14IntuneMAMSwift14ECSEnvironmentO9hashValueSivg",
+                "moduleName": "IntuneMAMSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14IntuneMAMSwift14ECSEnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14IntuneMAMSwift14ECSEnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "IntuneMAMSwift",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14IntuneMAMSwift14ECSEnvironmentO",
+        "mangledName": "$s14IntuneMAMSwift14ECSEnvironmentO",
+        "moduleName": "IntuneMAMSwift",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -2317,6 +2563,34 @@
       "offset": 7070,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 801,
+      "length": 15,
+      "value": "\"ECSFlightsKey\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5181,
+      "length": 38,
+      "value": "\"3A41D7AB-54A7-4548-BE99-499776D7E08F\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5308,
+      "length": 38,
+      "value": "\"39BFBECE-3C8F-404B-ABE2-6179BC36AACB\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5426,
+      "length": 38,
+      "value": "\"BB839925-9007-4AB0-ABC0-1DB85EC90AE6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftCards\/PinInputView.swift",

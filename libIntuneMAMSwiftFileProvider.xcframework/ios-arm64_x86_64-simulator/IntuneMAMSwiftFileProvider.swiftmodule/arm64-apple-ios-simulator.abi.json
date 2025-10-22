@@ -135,6 +135,252 @@
       },
       {
         "kind": "Import",
+        "name": "ExperimentKit",
+        "printedName": "ExperimentKit",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftFileProvider",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "IntuneMAM_Private",
+        "printedName": "IntuneMAM_Private",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftFileProvider",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "IntuneMAMSwiftFileProvider",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ECSEnvironment",
+        "printedName": "ECSEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "prod",
+            "printedName": "prod",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IntuneMAMSwiftFileProvider.ECSEnvironment.Type) -> IntuneMAMSwiftFileProvider.ECSEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECSEnvironment",
+                    "printedName": "IntuneMAMSwiftFileProvider.ECSEnvironment",
+                    "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IntuneMAMSwiftFileProvider.ECSEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ECSEnvironment",
+                        "printedName": "IntuneMAMSwiftFileProvider.ECSEnvironment",
+                        "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO4prodyA2CmF",
+            "mangledName": "$s26IntuneMAMSwiftFileProvider14ECSEnvironmentO4prodyA2CmF",
+            "moduleName": "IntuneMAMSwiftFileProvider"
+          },
+          {
+            "kind": "Var",
+            "name": "sandbox",
+            "printedName": "sandbox",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IntuneMAMSwiftFileProvider.ECSEnvironment.Type) -> IntuneMAMSwiftFileProvider.ECSEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ECSEnvironment",
+                    "printedName": "IntuneMAMSwiftFileProvider.ECSEnvironment",
+                    "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IntuneMAMSwiftFileProvider.ECSEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ECSEnvironment",
+                        "printedName": "IntuneMAMSwiftFileProvider.ECSEnvironment",
+                        "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO7sandboxyA2CmF",
+            "mangledName": "$s26IntuneMAMSwiftFileProvider14ECSEnvironmentO7sandboxyA2CmF",
+            "moduleName": "IntuneMAMSwiftFileProvider"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECSEnvironment",
+                "printedName": "IntuneMAMSwiftFileProvider.ECSEnvironment",
+                "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ECSEnvironment",
+                "printedName": "IntuneMAMSwiftFileProvider.ECSEnvironment",
+                "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s26IntuneMAMSwiftFileProvider14ECSEnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "IntuneMAMSwiftFileProvider",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO9hashValueSivp",
+            "mangledName": "$s26IntuneMAMSwiftFileProvider14ECSEnvironmentO9hashValueSivp",
+            "moduleName": "IntuneMAMSwiftFileProvider",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO9hashValueSivg",
+                "mangledName": "$s26IntuneMAMSwiftFileProvider14ECSEnvironmentO9hashValueSivg",
+                "moduleName": "IntuneMAMSwiftFileProvider",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s26IntuneMAMSwiftFileProvider14ECSEnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "IntuneMAMSwiftFileProvider",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:26IntuneMAMSwiftFileProvider14ECSEnvironmentO",
+        "mangledName": "$s26IntuneMAMSwiftFileProvider14ECSEnvironmentO",
+        "moduleName": "IntuneMAMSwiftFileProvider",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Dispatch",
         "printedName": "Dispatch",
         "declKind": "Import",
@@ -1307,6 +1553,34 @@
       "offset": 2117,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 801,
+      "length": 15,
+      "value": "\"ECSFlightsKey\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5181,
+      "length": 38,
+      "value": "\"3A41D7AB-54A7-4548-BE99-499776D7E08F\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5308,
+      "length": 38,
+      "value": "\"39BFBECE-3C8F-404B-ABE2-6179BC36AACB\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5426,
+      "length": 38,
+      "value": "\"BB839925-9007-4AB0-ABC0-1DB85EC90AE6\""
     },
     {
       "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",

@@ -9,6 +9,7 @@ import GroupActivities
 import ImagePlayground
 @_exported import IntuneMAMSwift
 import IntuneMAMSwiftStub
+import Security
 import Swift
 import SwiftUI
 import SwiftUICore
@@ -49,5 +50,16 @@ public enum IntuneMAMSwiftError : Swift.Error {
     get
   }
 }
+public enum ECSEnvironment {
+  case prod
+  case sandbox
+  public static func == (a: IntuneMAMSwift.ECSEnvironment, b: IntuneMAMSwift.ECSEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension IntuneMAMSwift.IntuneMAMSwiftError : Swift.Equatable {}
 extension IntuneMAMSwift.IntuneMAMSwiftError : Swift.Hashable {}
+extension IntuneMAMSwift.ECSEnvironment : Swift.Equatable {}
+extension IntuneMAMSwift.ECSEnvironment : Swift.Hashable {}

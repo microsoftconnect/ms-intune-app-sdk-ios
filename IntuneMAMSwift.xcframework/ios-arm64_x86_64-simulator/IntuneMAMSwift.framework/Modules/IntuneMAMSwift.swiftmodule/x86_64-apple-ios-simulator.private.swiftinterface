@@ -9,6 +9,7 @@ import GroupActivities
 import ImagePlayground
 @_exported import IntuneMAMSwift
 import IntuneMAMSwiftStub
+import Security
 import Swift
 import SwiftUI
 import SwiftUICore
@@ -41,6 +42,15 @@ import _SwiftConcurrencyShims
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
   @objc deinit
 }
+public enum ECSEnvironment {
+  case prod
+  case sandbox
+  public static func == (a: IntuneMAMSwift.ECSEnvironment, b: IntuneMAMSwift.ECSEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum IntuneMAMSwiftError : Swift.Error {
   case GroupActivitiesBlocked
   public static func == (a: IntuneMAMSwift.IntuneMAMSwiftError, b: IntuneMAMSwift.IntuneMAMSwiftError) -> Swift.Bool
@@ -49,5 +59,7 @@ public enum IntuneMAMSwiftError : Swift.Error {
     get
   }
 }
+extension IntuneMAMSwift.ECSEnvironment : Swift.Equatable {}
+extension IntuneMAMSwift.ECSEnvironment : Swift.Hashable {}
 extension IntuneMAMSwift.IntuneMAMSwiftError : Swift.Equatable {}
 extension IntuneMAMSwift.IntuneMAMSwiftError : Swift.Hashable {}
