@@ -8,6 +8,7 @@ import Foundation
 import GroupActivities
 import ImagePlayground
 import IntuneMAMSwiftStub
+import Security
 import Swift
 import SwiftUI
 import System
@@ -44,6 +45,15 @@ extension SwiftUICore.View {
   
   #endif
 }
+public enum ECSEnvironment {
+  case prod
+  case sandbox
+  public static func == (a: IntuneMAMSwift.ECSEnvironment, b: IntuneMAMSwift.ECSEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
   #if compiler(>=5.3) && $NonescapableTypes
   public static func getScopedAccountId() -> Swift.String?
@@ -69,3 +79,5 @@ extension IntuneMAMSwift.IntuneMAMSwiftError : Swift.Hashable {}
 extension IntuneMAMSwift.IntuneMAMSwiftWebViewPolicy : Swift.Equatable {}
 extension IntuneMAMSwift.IntuneMAMSwiftWebViewPolicy : Swift.Hashable {}
 extension IntuneMAMSwift.IntuneMAMSwiftWebViewPolicy : Swift.RawRepresentable {}
+extension IntuneMAMSwift.ECSEnvironment : Swift.Equatable {}
+extension IntuneMAMSwift.ECSEnvironment : Swift.Hashable {}

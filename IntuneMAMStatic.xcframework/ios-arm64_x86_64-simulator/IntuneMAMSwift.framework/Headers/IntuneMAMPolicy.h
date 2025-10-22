@@ -189,4 +189,9 @@ __attribute__((visibility("default")))
 // If TRUE the app should encrypt all managed files on disk.
 @property (readonly) BOOL isFileEncryptionRequired;
 
+// TRUE if the management policy allows screen capture or screen recording. FALSE otherwise.
+// Applications can check this policy to customize their UI. Policy enforcement
+// will be entirely handled by the SDK.
+@property (readonly) BOOL isScreenCaptureAllowed;
+
 @end
