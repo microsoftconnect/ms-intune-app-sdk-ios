@@ -1583,6 +1583,13 @@
       "value": "\"BB839925-9007-4AB0-ABC0-1DB85EC90AE6\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5511,
+      "length": 38,
+      "value": "\"7ADAC148-712F-4488-B74A-90D5747B546D\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 967,
