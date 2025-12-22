@@ -16,6 +16,21 @@
 __attribute__((visibility("default")))
 extern NSString*_Nonnull const IntuneMAMAllowedAccountsDidChangeNotification;
 
+/**
+ *  Posted when the cached MDM enrolled account ID changes (after launch / resume refresh
+ *  or an on-demand refresh triggered by mdmEnrolledAccountIdFromCache). The notification
+ *  object is the shared IntuneMAMEnrollmentManager instance. The userInfo dictionary contains
+ *  IntuneMAMMDMEnrolledAccountIdKey whose value is the new NSString* account ID or NSNull if none is cached.
+ */
+__attribute__((visibility("default")))
+extern NSString * _Nonnull const IntuneMAMMDMEnrolledAccountIdDidChangeNotification;
+
+/**
+ *  Key present in the userInfo dictionary of IntuneMAMMDMEnrolledAccountIdDidChangeNotification.
+ *  The associated value is the cached MDM enrolled account ID (NSString) or NSNull if none exists.
+ */
+__attribute__((visibility("default")))
+extern NSString * _Nonnull const IntuneMAMMDMEnrolledAccountIdKey;
 
 __attribute__((visibility("default")))
 @interface IntuneMAMEnrollmentManager : NSObject
@@ -159,5 +174,8 @@ __attribute__((visibility("default")))
  *
  */
 - (void) mdmEnrolledAccountIdWithCompletion:(void (^_Nonnull)(NSString*_Nullable))completionHandler;
+
+// Returns the last known (cached) MDM enrolled account's Entra object ID, or nil if none is cached yet.
+- (NSString * _Nullable) mdmEnrolledAccountIdFromCache;
 
 @end
