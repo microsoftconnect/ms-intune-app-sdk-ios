@@ -2853,6 +2853,62 @@
       "value": "\"BB839925-9007-4AB0-ABC0-1DB85EC90AE6\""
     },
     {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5511,
+      "length": 38,
+      "value": "\"7ADAC148-712F-4488-B74A-90D5747B546D\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5600,
+      "length": 38,
+      "value": "\"7B1C9E46-5312-4009-BFB1-8F000DFEED5E\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5685,
+      "length": 38,
+      "value": "\"67829380-FFC9-4FE7-8737-21087F048B09\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5774,
+      "length": 38,
+      "value": "\"E44D41F9-7D2F-4108-81BD-24B2B1816507\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5863,
+      "length": 38,
+      "value": "\"5A524990-CC8F-4AF7-99D8-FA8F33BDA6BF\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 5942,
+      "length": 38,
+      "value": "\"CE055D41-D03B-420A-B4D2-6CD2242B7EBD\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 6086,
+      "length": 38,
+      "value": "\"1FA6E2B8-8928-4476-8FC4-07DB8CA3E1A9\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 6171,
+      "length": 38,
+      "value": "\"B67BC5E8-538D-4DA9-A48E-6E23CD998EEE\""
+    },
+    {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",
       "kind": "StringLiteral",
       "offset": 342,

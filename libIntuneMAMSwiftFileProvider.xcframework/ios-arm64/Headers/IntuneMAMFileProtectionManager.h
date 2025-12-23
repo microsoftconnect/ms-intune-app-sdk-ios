@@ -6,6 +6,22 @@
 #import <FileProvider/FileProvider.h>
 #import "IntuneMAMFileProtectionInfo.h"
 
+// File protection/unprotection operation failure codes
+typedef NS_ENUM(NSUInteger, IntuneMAMFileProtectionStatusCode)
+{
+    IntuneMAMFileProtectionStatusApplicationNotManaged = 100,              // Operation failed because the application is not managed
+    IntuneMAMFileProtectionStatusInvalidArguments = 101,                   // Operation failed because one or more of the arguments were nil
+    IntuneMAMFileProtectionStatusFailedToEncryptFile = 102,                // File encryption operation failed
+    IntuneMAMFileProtectionStatusFailedToDecryptFile = 103,                // File decryption operation failed
+    IntuneMAMFileProtectionStatusFileNotFound = 104,                       // Operation failed because the file does not exist
+    IntuneMAMFileProtectionStatusOperationOnDirectory = 105,               // Operation failed because the path points to a directory
+    IntuneMAMFileProtectionStatusUnmanagedIdentity = 106,                  // Operation failed because the identity is not managed
+    IntuneMAMFileProtectionStatusInternalError = 107                       // Operation failed due to an internal error
+};
+
+// File protection operation error domain used for NSError objects.
+__attribute__((visibility("default")))
+extern NSString*_Nonnull IntuneMAMFileProtectionErrorDomain;
 
 __attribute__((visibility("default")))
 @interface IntuneMAMFileProtectionManager : NSObject
