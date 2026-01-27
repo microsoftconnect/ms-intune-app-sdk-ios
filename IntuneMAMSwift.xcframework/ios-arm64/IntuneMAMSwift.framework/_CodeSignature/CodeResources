@@ -114,7 +114,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZlMrZ2QQP15zLk+0viWguat8OOg=
+		hNchD6DuWcXtbXaHAfGLSBCJqrU=
 		</data>
 		<key>IntuneMAMResources.bundle/ActivityAlertViewController.nib</key>
 		<data>
@@ -163,7 +163,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		89KkMStU+B3CgWRh9i6o0sYkj2Y=
+		Na/z81YMJFkDvZbX+3dlBfQhp0U=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<data>
@@ -199,7 +199,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		cHvpbKTFFDtKwMdJlt8mt2kJ08E=
+		Qm80J6E8Wn4FyxVenOGBLv5SZyQ=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -207,7 +207,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		VXFFfuzDpy8KYFCJ72N3cWVJSok=
+		EAbGo3OUv29OFfbzeHkqhirpN+g=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -215,7 +215,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		bhwHqA2qDmBpzJU0iNCfT10cN9I=
+		h/pprsBtaXo2rcN+X0E8p7cjf7E=
 		</data>
 		<key>IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
 		<dict>
@@ -1003,7 +1003,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VjKfu8en32sz6djPczbeEo742HlXfUEFAFMZ4LZSrv4=
+			7xkqH5Lc9f3OH1gx0g7vuuBwFUNS/vwNcafiFLrj9Es=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
@@ -1066,7 +1066,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FhTQaM14OESsJeMXn5qZM13Xc3DqnjAXZvOl9sP+jeQ=
+			xu47ad7teSF5TfiE5Iq6fh9IylpwMJV/q615wwx7p+s=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1080,7 +1080,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Aq2VRGuzaGPk5g5qO4eKF8cP//SxcXvFZ2SK2MH76OI=
+			Ee6y4GWLULnXttN8TiQo7gSNY3YEeFTKknFgcoN02b8=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
@@ -1094,7 +1094,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FvK6Fo/mDKTm/0u4QYqq5pObKLplcQJ71lADzPOmqLM=
+			wKZ6CpUBHWUbY+7Zg+Ms4JjLWJ/h3kyr747A8c3YL04=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
