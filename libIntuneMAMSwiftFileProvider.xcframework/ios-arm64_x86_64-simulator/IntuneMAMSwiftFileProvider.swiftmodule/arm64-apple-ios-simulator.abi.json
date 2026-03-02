@@ -1213,63 +1213,63 @@
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 896,
+      "offset": 894,
       "length": 161,
       "value": "\"$s12AppleArchive0B10ByteStreamC04fileD04path4mode7options11permissionsACSg6System8FilePathV_AJ0K10DescriptorV10AccessModeVAN11OpenOptionsVAJ0K11PermissionsVtFZ\""
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1115,
       "length": 169,
       "value": "\"$s12AppleArchive0B10ByteStreamC08withFileD04path4mode7options11permissions_x6System0F4PathV_AI0F10DescriptorV10AccessModeVAM11OpenOptionsVAI0F11PermissionsVxACKXEtKlFZ\""
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 1391,
+      "offset": 1389,
       "length": 188,
       "value": "\"$s12AppleArchive0B6StreamC07extractC012extractingTo11selectUsing5flags11threadCountACSg6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAN0pQ0V_AlN0P10FilterDataOSgtcSgAA0B5FlagsVSitFZ\""
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 1639,
+      "offset": 1637,
       "length": 199,
       "value": "\"$s12AppleArchive0B6StreamC011withExtractC012extractingTo11selectUsing5flags11threadCount_x6System8FilePathV_AA0B6HeaderC18EntryMessageStatusVAM0qR0V_AkM0Q10FilterDataOSgtcSgAA0B5FlagsVSixACKXEtKlFZ\""
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 6892,
+      "offset": 6890,
       "length": 51,
       "value": "\"cmarHooked.AppleArchvie.ExtractStream.SerialQueue\""
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "Array",
-      "offset": 10492,
+      "offset": 10490,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "IntegerLiteral",
-      "offset": 10515,
+      "offset": 10513,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "Array",
-      "offset": 11733,
+      "offset": 11731,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/AppleArchiveSwiftHooks.swift",
       "kind": "IntegerLiteral",
-      "offset": 11756,
+      "offset": 11754,
       "length": 1,
       "value": "0"
     },
@@ -1426,6 +1426,41 @@
       "offset": 6480,
       "length": 38,
       "value": "\"71AC4BDA-446F-4211-9414-12E8D5A1A7D8\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 6593,
+      "length": 38,
+      "value": "\"42C3A8D4-F178-4EB1-AAD8-F73AC1D2FE10\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 6832,
+      "length": 38,
+      "value": "\"E7BF94D2-2E21-4D05-9A78-E2B417C91CBF\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 6952,
+      "length": 38,
+      "value": "\"A80C9E0C-30F1-4FBD-9864-F177444768E0\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 7096,
+      "length": 38,
+      "value": "\"2A773445-7B2D-4F24-8350-9221489102B0\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 7175,
+      "length": 38,
+      "value": "\"9AB32C10-51DB-4F1C-91F4-B7CB64377521\""
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DispatchSwiftHooks.swift",
@@ -2102,14 +2137,14 @@
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 570,
       "length": 58,
       "value": "\"$s10Foundation3URLV17writeBookmarkData_2toyAA0E0V_ACtKFZ\""
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/URLSwiftHooks.swift",
       "kind": "StringLiteral",
-      "offset": 671,
+      "offset": 672,
       "length": 63,
       "value": "\"$s10Foundation3URLV17setResourceValuesyyAA011URLResourceE0VKF\""
     },
