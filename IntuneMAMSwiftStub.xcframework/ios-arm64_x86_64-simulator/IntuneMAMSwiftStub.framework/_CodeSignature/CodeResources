@@ -6,11 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		Ci9B+yvnbY8yslSzolJ/r9fx7Sg=
+		1/4TeqFO2nil1YMHg7/avIVHIqA=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tlAAvBTOM4or6RRKkrax7iHS8sQ=
+		vME191RA9Im/Dr7/liPBpC88Mo4=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WO0twaKRKMThpYWpR+PZ/j8ZInI=
+		JPZ2SabRg7YSWj12+U+K/4EJxNM=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tlAAvBTOM4or6RRKkrax7iHS8sQ=
+		vME191RA9Im/Dr7/liPBpC88Mo4=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VCpyUZ3eHe2gJv7pxMP35LvbFbU=
+		CwwccUTD5KZ+BkIbAC0LtxWHFSA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nb+5QA0cppy42h5+rOLi/C+0oYktzCnUOwymsBNVZJc=
+			xevqFR0XlPSZmOtWqEXbzrFLRmIz+A27r/aNPYy8yN4=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a8cvxp2K5d2PImjryHgYpiow4iwVpOx63+rlB9hNHr8=
+			Se2H22HlaVhOYWpafNU3szYXqe2POAXT2FGdS0X1mRg=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nb+5QA0cppy42h5+rOLi/C+0oYktzCnUOwymsBNVZJc=
+			xevqFR0XlPSZmOtWqEXbzrFLRmIz+A27r/aNPYy8yN4=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xPIhC3pa+J0SxphCRQAEMrjqLlOoxGQrV3fMvt4qeSw=
+			NiXLwUbWkohOKAvroAPMlg0ywA4e+q1H7quXdhgT9jI=
 			</data>
 		</dict>
 	</dict>
