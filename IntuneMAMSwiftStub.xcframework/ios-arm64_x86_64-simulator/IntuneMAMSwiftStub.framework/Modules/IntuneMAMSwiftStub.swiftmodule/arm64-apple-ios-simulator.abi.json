@@ -4873,6 +4873,39 @@
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealContentsOf:cmarRealOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "paramValueOwnership": "Shared",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ReadingOptions",
+                "printedName": "Foundation.NSData.ReadingOptions",
+                "usr": "c:@E@NSDataReadingOptions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Foundation4DataV18IntuneMAMSwiftStubE18cmarRealContentsOf0fG7OptionsAcA3URLVh_So013NSDataReadingJ0VtKcfc",
+            "mangledName": "$s10Foundation4DataV18IntuneMAMSwiftStubE18cmarRealContentsOf0fG7OptionsAcA3URLVh_So013NSDataReadingJ0VtKcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "isFromExtension": true,
+            "throwing": true,
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",

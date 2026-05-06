@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		1BZ3yZchmzQOM0DcnNUaCgRyj4M=
+		/c3LwG94om3xrpYtkz+YSpCPnnM=
 		</data>
 		<key>AuthViewController_iPad.nib</key>
 		<data>
@@ -571,10 +571,6 @@
 	<dict>
 		<key>ActivityAlertViewController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lUIatnrgplk0TY+hLb+8VaI76pA=
-			</data>
 			<key>hash2</key>
 			<data>
 			Zq0EnogUbHHs/Z1W94VfPGit9qWN36+NrpvUpmqy+P4=
@@ -582,21 +578,13 @@
 		</dict>
 		<key>Assets.car</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1BZ3yZchmzQOM0DcnNUaCgRyj4M=
-			</data>
 			<key>hash2</key>
 			<data>
-			HWsN8WrtEZh4vE5/Kj5WW0LBp4AEuhzrzNgMhL0GYcs=
+			OSC1FNX+4RN4kbOb4T1oKpzZC4QuUGmcIgPYP5oc8EI=
 			</data>
 		</dict>
 		<key>AuthViewController_iPad.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			McYuewbBGGHQZXoFDucHyJ3qvE4=
-			</data>
 			<key>hash2</key>
 			<data>
 			8nrVG3hO16UW0mY+AVDEI8zcWDgB0YczV9VUYTTWrqk=
@@ -604,10 +592,6 @@
 		</dict>
 		<key>AuthViewController_iPhone.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LH+kDbKpvdl8PyPkMA6B8K+TmJU=
-			</data>
 			<key>hash2</key>
 			<data>
 			LW+9ppa3E2A75Lw9+1Mjj4uWPtDxao3lQqTClyPtrgw=
@@ -615,10 +599,6 @@
 		</dict>
 		<key>Base.lproj/PinViewController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r7lJKE3LyMibdeveQkHJJWL5xLA=
-			</data>
 			<key>hash2</key>
 			<data>
 			POZai1tL7k81zRrqLfHRF9jbLbTsDABXslFKNgbA4/4=
@@ -626,10 +606,6 @@
 		</dict>
 		<key>BlurViewController_iPad.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4Sz0yBVWZ2Y6+fk6lwb0BWuBqRo=
-			</data>
 			<key>hash2</key>
 			<data>
 			J7mg7WNp8ciHYHqrEMNYZmehx9sUBezhpyBKgWeTzLc=
@@ -637,10 +613,6 @@
 		</dict>
 		<key>BlurViewController_iPhone.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t353d3tO1yXynpbJzqGuw4sUKgs=
-			</data>
 			<key>hash2</key>
 			<data>
 			OYqHtlkG4sHD6YX6MC8k+6S5QtCra4O+dXLY3Hr/C4M=
@@ -648,10 +620,6 @@
 		</dict>
 		<key>DiagnosticAppStatusViewController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/EOJWe6awxQWvC90+JTcJhxVuJ8=
-			</data>
 			<key>hash2</key>
 			<data>
 			iUwGR3K1375XtAiTBqo+2rStvwQM9qgqQOJ+7iz2dwQ=
@@ -659,10 +627,6 @@
 		</dict>
 		<key>DiagnosticUploadViewController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OI5RRgqZYljSKb65VAcqg54PBWc=
-			</data>
 			<key>hash2</key>
 			<data>
 			am3bfXyQgXZqUhcm5Fw9VWUPzfj8nfUyUws8Nv+vCeQ=
@@ -670,10 +634,6 @@
 		</dict>
 		<key>DiagnosticViewController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			3TrHMt9kKhJU/BgeLxnbUbymXl8=
-			</data>
 			<key>hash2</key>
 			<data>
 			gjaGbY49yGpKbatEAmdKWar99zUEi/x0n/+uKDRyCG0=
@@ -681,10 +641,6 @@
 		</dict>
 		<key>MTDComplianceViewController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			C5rmRBEVMJWtD1Mc8sCLbWBTbww=
-			</data>
 			<key>hash2</key>
 			<data>
 			sQ2fKoYuzvzoiuOUZCkotEdBhP6WQuGJCQyKxvrqQZk=
@@ -692,10 +648,6 @@
 		</dict>
 		<key>MTDComplianceViewControllerUnlistedMTDApp.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eR5DAn4TvsPKcPV3R6ZWj/JHQjc=
-			</data>
 			<key>hash2</key>
 			<data>
 			yV4lL1N0BWIzOnYAFbUssJfJY2Ro0pBx0UDNGFZFuwo=
@@ -703,10 +655,6 @@
 		</dict>
 		<key>MessageViewController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			C71L0hsrBIFDQDHuJjUOTlX3XX8=
-			</data>
 			<key>hash2</key>
 			<data>
 			BvwH0qzYvgWAWvsI79n+fU3l1p/n7o/x8AKpZUXiQH8=
@@ -714,10 +662,6 @@
 		</dict>
 		<key>OpenInExtensionViewController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/X4dmpbULIVEdgMinChjCeSd9I0=
-			</data>
 			<key>hash2</key>
 			<data>
 			cn8Ciu2bRPqm+zYkjHzH3U+KjZrCo3M2EVRmicSWMN8=
@@ -725,10 +669,6 @@
 		</dict>
 		<key>PolicyViewController_iPad.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Y4TXGnpysUTWHq5DB/bDkcFjhEg=
-			</data>
 			<key>hash2</key>
 			<data>
 			SfRRUFOq728KJqv22z4jq84QTTptziDmEZadItPLY7I=
@@ -736,10 +676,6 @@
 		</dict>
 		<key>PolicyViewController_iPhone.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qqpxYnYMWMfzlDN7LvnksOUTGbE=
-			</data>
 			<key>hash2</key>
 			<data>
 			pf//b08a8UYUun9kSa/B+x/RJa9qur4gdMe7xAsk3XY=
@@ -747,10 +683,6 @@
 		</dict>
 		<key>SplashViewWithAlertController_iPad.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5vXnmdyjzTGeRHHmwg3UN8qEFX4=
-			</data>
 			<key>hash2</key>
 			<data>
 			XpSFpPxNfPJwhG+6Mg64EOzNvLEG6A1rFtQErslkV1M=
@@ -758,10 +690,6 @@
 		</dict>
 		<key>SplashViewWithAlertController_iPhone.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MI9gzWTORVukrvzxZPt3SOXmTnw=
-			</data>
 			<key>hash2</key>
 			<data>
 			ByWRYVKDhcngjhfUc9B6nzkXz+fWNiDE8ff0H0qANkg=
@@ -769,10 +697,6 @@
 		</dict>
 		<key>cs.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			a8byIIDd2AsPYb8sjZnrq4fNOms=
-			</data>
 			<key>hash2</key>
 			<data>
 			wO/A2dlXH4dhq+t0xhaGjrCLXJALWv0eIR5SPnHz7ck=
@@ -782,10 +706,6 @@
 		</dict>
 		<key>cs.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yzkplkWYLWCZ+7njle5S23kTnco=
-			</data>
 			<key>hash2</key>
 			<data>
 			I5m+spTF96AF/hLmqingfGYOMJr/A3ufJWgugPULX0I=
@@ -795,10 +715,6 @@
 		</dict>
 		<key>da.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BG+/TBx0p0xjiqJaOEBCYOi8mTY=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZqwY6cAuTt04P1KTLHbr0rGbqiN5rNctdYmzQoXCAmc=
@@ -808,10 +724,6 @@
 		</dict>
 		<key>da.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t6182ENYk0G+3r4ga5IdWFG/3Hs=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZyYhWMd0PBMYbid+Re3dQ+LjJjbSNjQ6TEDk4GySL74=
@@ -821,10 +733,6 @@
 		</dict>
 		<key>de.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QpK9eU+06CjoeYmnlRM4eb1Ghbs=
-			</data>
 			<key>hash2</key>
 			<data>
 			ZZnAsy2SMfyCrB5L2sNebmYUZjZqGgQ/tz/lisKPY7A=
@@ -834,10 +742,6 @@
 		</dict>
 		<key>de.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0TeRYTAXa90Ppzmq7rcQhefFRcE=
-			</data>
 			<key>hash2</key>
 			<data>
 			Qbi4RYxirtAMAaTEugYfxdRxS3H8cdEHX7GOTF8Yojw=
@@ -847,10 +751,6 @@
 		</dict>
 		<key>el.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			5/zl3wkROVXwRarFHc4Jf5ZWAAE=
-			</data>
 			<key>hash2</key>
 			<data>
 			M4L+cxx9ipDQj4GjD7bbfyEECGULDOCDmCVpNfMX9UA=
@@ -860,10 +760,6 @@
 		</dict>
 		<key>el.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DkA4WQfH52ybGEajRwHg+D4TQJE=
-			</data>
 			<key>hash2</key>
 			<data>
 			0VaRmj0PSWDNz4jpLX4SFtzSPqUOlJ9WZLT+ID5qsRI=
@@ -873,10 +769,6 @@
 		</dict>
 		<key>en.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tZ7eKjC9NPMXPbqdIaGUwh7lycA=
-			</data>
 			<key>hash2</key>
 			<data>
 			SRTJ0IDOixxoNCYBoPQFv+IU/TwzbNBxEuGuqENreXY=
@@ -886,10 +778,6 @@
 		</dict>
 		<key>en.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			x4jrfzECO4oWlK0pDEBND+SS7QM=
-			</data>
 			<key>hash2</key>
 			<data>
 			PaTzFWu5xOhxy0oGdqmGPx3G+YQfSCLu5eT+ym1tycs=
@@ -899,10 +787,6 @@
 		</dict>
 		<key>es.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Qt3VDTJYvehEeSvScLLANlmJY54=
-			</data>
 			<key>hash2</key>
 			<data>
 			L4PZMS63rfGDgMhikeugAt7wkUKIig4QJ1zTvnuttYE=
@@ -912,10 +796,6 @@
 		</dict>
 		<key>es.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZUPfPBUTn6ydX/uWxqn0Zzkue2k=
-			</data>
 			<key>hash2</key>
 			<data>
 			ACrkjM87eD0buJAHRQf9qV7MX3HjMp3vmBOro07L/yc=
@@ -925,10 +805,6 @@
 		</dict>
 		<key>fi.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6YIkxF95X5BIiwMoLOzrIXpM640=
-			</data>
 			<key>hash2</key>
 			<data>
 			DtVHWB48W7ti2IyQxA0sehp7Poi/TMwvdXK/xMyzchc=
@@ -938,10 +814,6 @@
 		</dict>
 		<key>fi.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BSgOxcCzS2lWU2mNLmRWr3CtWV0=
-			</data>
 			<key>hash2</key>
 			<data>
 			lNIkccCjtfTrzNndMSWKI97z7CttioDx98FurEmZG2g=
@@ -951,10 +823,6 @@
 		</dict>
 		<key>fr.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZdvwHvTdIq7ZuBK6zc7322FD9Yw=
-			</data>
 			<key>hash2</key>
 			<data>
 			OuCBOtpocSjYIGf5rU1MSpd0ROxrQPdBeP4bhyssKZ4=
@@ -964,10 +832,6 @@
 		</dict>
 		<key>fr.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WvE3Uak88HfTp6u3y1fFS+CGCXI=
-			</data>
 			<key>hash2</key>
 			<data>
 			HEQo+ZS+98Fj865LTe15g3T1jQlkbd/HzXusGQOKVRM=
@@ -977,10 +841,6 @@
 		</dict>
 		<key>hr.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PLuPg7pNmQiT1lpddb4gJzx7XeI=
-			</data>
 			<key>hash2</key>
 			<data>
 			1eW/ITd9qdaN5ztdvmVsdp3to6ChLy3isrZKB3ShaN0=
@@ -990,10 +850,6 @@
 		</dict>
 		<key>hr.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			P0CFPeNVNYpm8ctwVdhru/QHrtY=
-			</data>
 			<key>hash2</key>
 			<data>
 			FWdzwwQ2eUb549pvnDGYrfgJB/NWCophNLx88Bwf69I=
@@ -1003,10 +859,6 @@
 		</dict>
 		<key>hu.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			qxPWQDRAlykYm0CipCRQ3O3Fzok=
-			</data>
 			<key>hash2</key>
 			<data>
 			Fp70MXEQ9F+C1U43Kc0qkyju/86iOMyAWaKxCNIUISE=
@@ -1016,10 +868,6 @@
 		</dict>
 		<key>hu.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			imFUGYjPzg0gq7eB2XvdkZlKdos=
-			</data>
 			<key>hash2</key>
 			<data>
 			UjOjJq4H8NZx/i8Wasg+MyhXgtLiGArL5CQfDdeml10=
@@ -1029,10 +877,6 @@
 		</dict>
 		<key>id.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lBgUIUZ66/dBKQI5D7qxK4XZAt4=
-			</data>
 			<key>hash2</key>
 			<data>
 			fooHBAjqeS8VGaD1NOrcdERlF7A2Qx/UOGBsNuMjg/Q=
@@ -1042,10 +886,6 @@
 		</dict>
 		<key>id.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q44LPOXJYGHGh1p8YTmJVOIWcD8=
-			</data>
 			<key>hash2</key>
 			<data>
 			WxpvP4tuXqYNNMFUa7NLDvZs//jMxmVSB3VDQCAo/gc=
@@ -1055,10 +895,6 @@
 		</dict>
 		<key>it.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eRS450IEACHHi3ttcnBSlaQ2Yro=
-			</data>
 			<key>hash2</key>
 			<data>
 			c69AshhsgPrcBD7GqD7gXRLbVx15/OdhDv2jNts2wsk=
@@ -1068,10 +904,6 @@
 		</dict>
 		<key>it.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h3AT05n02BPYIQCLGoa6b4/YXoU=
-			</data>
 			<key>hash2</key>
 			<data>
 			mM69lLuDuVBcZCRYu+LfVa/Z/VBkuB+a1A8W2QGzVsU=
@@ -1081,10 +913,6 @@
 		</dict>
 		<key>ja.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WRoUY6NoN56B+O3i/QyjTk+GVp8=
-			</data>
 			<key>hash2</key>
 			<data>
 			MyWeVeaSs8jFpetjveiPkisig5RDEYlDfe6Wq9eQzdA=
@@ -1094,10 +922,6 @@
 		</dict>
 		<key>ja.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			v0p7Rn00mWb16X/eBZVqPWzwPUg=
-			</data>
 			<key>hash2</key>
 			<data>
 			b8CeTM1goQHjwo5x0JZMymtyv6d7qJqUgVlQ39iJofI=
@@ -1107,10 +931,6 @@
 		</dict>
 		<key>ko.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			C3F59+A3xIvAuKbxJBaaexnXXVQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			1hHdEhqqYIDYuS4bkMku/HaGSjnkQHyufAwNrAcRaJc=
@@ -1120,10 +940,6 @@
 		</dict>
 		<key>ko.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			i1kiN5FySW8mbqyIXHPma1Bh0gk=
-			</data>
 			<key>hash2</key>
 			<data>
 			nM/Ou7RDCC9tAjeqpnlHE2ndbrj/BeL+/wL8Fb66F48=
@@ -1133,10 +949,6 @@
 		</dict>
 		<key>mappingTable.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ixl/dkXYI70jyVJMjK7KSAZ2Tww=
-			</data>
 			<key>hash2</key>
 			<data>
 			bZWCnr7WYLCHUcAkNbueTsbdiqlhZPu+Kimb9oAbbhY=
@@ -1144,10 +956,6 @@
 		</dict>
 		<key>nb.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dclFHDpg05gnCctcilR83mY3jlU=
-			</data>
 			<key>hash2</key>
 			<data>
 			c63wlzN9M3OLVY2O6ZvB1j0n6I+GtQvNdQwqg8UKwd8=
@@ -1157,10 +965,6 @@
 		</dict>
 		<key>nb.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h296w7n4yZn7OSV3EsmtVAG8ePc=
-			</data>
 			<key>hash2</key>
 			<data>
 			xtn3936UI6aeW2f1JAnvmJSeH4XB2WUO+2IS3W2f2EU=
@@ -1170,10 +974,6 @@
 		</dict>
 		<key>nl.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WSNrfCwsrEsfOcOX+rm4G2vGe4s=
-			</data>
 			<key>hash2</key>
 			<data>
 			+TX5CrHf4KjjBBCwaLwGTij9JmW5wxHadKuzeDNRc6w=
@@ -1183,10 +983,6 @@
 		</dict>
 		<key>nl.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OpzdXKrklTQJmVIXfuyqUDJzbUE=
-			</data>
 			<key>hash2</key>
 			<data>
 			oOk76hEC1zuWFwig/yNKvljxB4SuVBRBIwo+P9CMai4=
@@ -1196,10 +992,6 @@
 		</dict>
 		<key>pl.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0/bDV9+Ov2RDDGorqV9arjmAY/4=
-			</data>
 			<key>hash2</key>
 			<data>
 			WsRC/wnZgYdmqb36v8NFJeSlL9OL7bzYr+GqHiLeJxs=
@@ -1209,10 +1001,6 @@
 		</dict>
 		<key>pl.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bXaSmW74QxwghjTCneFOTuyvayI=
-			</data>
 			<key>hash2</key>
 			<data>
 			X8I1pd9OyG72dfNdAaa4AwP94Tl+ZMsaXwExczs3MJI=
@@ -1222,10 +1010,6 @@
 		</dict>
 		<key>pt-br.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sYu/pU8MkkkD0o03z0tUq/G8alc=
-			</data>
 			<key>hash2</key>
 			<data>
 			csUn6Oq7+nqLB7fNRakSB3gpD4EUmvTnFo4g03ZOhJg=
@@ -1235,10 +1019,6 @@
 		</dict>
 		<key>pt-br.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8NJjZLLFn/HzzVOtr453fl04brc=
-			</data>
 			<key>hash2</key>
 			<data>
 			3HPVjByNq7KTj56KTOZfFgHzo6yIdkzy6cxV2j71hKI=
@@ -1248,10 +1028,6 @@
 		</dict>
 		<key>pt-pt.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rtE1xk+av/lBgiolEZoHiXVNbFc=
-			</data>
 			<key>hash2</key>
 			<data>
 			g1U0mtgFg9Cg1z1jvfS2Ei404dSGDh9/SFXkqxMxN/A=
@@ -1261,10 +1037,6 @@
 		</dict>
 		<key>pt-pt.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			w/ia/YNFXerXsWplKqL2b0U4Rlc=
-			</data>
 			<key>hash2</key>
 			<data>
 			MdFrZHO0k8+wZy+sVx9/qsX7eaXWgzPBqgg2fiaQMpU=
@@ -1274,10 +1046,6 @@
 		</dict>
 		<key>ro.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c7OtlDXEQakU48jq6nakd7l4ihc=
-			</data>
 			<key>hash2</key>
 			<data>
 			rw6SEWPl38ENmQ4yMFWsgjXx2STQ4Mb3fwL7CSEuIDQ=
@@ -1287,10 +1055,6 @@
 		</dict>
 		<key>ro.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1z4JLkubWvFLEv8e9JtHJw7GZWM=
-			</data>
 			<key>hash2</key>
 			<data>
 			4dvBfa9Dovh476Tiv1iBFVep35ek+9p4/h68/pZhStw=
@@ -1300,10 +1064,6 @@
 		</dict>
 		<key>ru.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			duABoaJeXSf1P4CVx7Dzs/MNvyM=
-			</data>
 			<key>hash2</key>
 			<data>
 			akEs9ye2GMPXGEbTclHC7S+Dz/B3/dcESLokwvtiH8c=
@@ -1313,10 +1073,6 @@
 		</dict>
 		<key>ru.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			igq3TX13+v2Wtkla6rYeNh41V6U=
-			</data>
 			<key>hash2</key>
 			<data>
 			Y8EI7DeuIlIioB9PgeihaQtpL086lEsmwEXa8Nl+604=
@@ -1326,10 +1082,6 @@
 		</dict>
 		<key>sv.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UMXA1nbZCXm0hr4pJzCeFDvviz4=
-			</data>
 			<key>hash2</key>
 			<data>
 			+MJf/efoEuc7oaMN4+TO67ftGXfJRGnhcb7anjepoAQ=
@@ -1339,10 +1091,6 @@
 		</dict>
 		<key>sv.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			H9Ms0xZFFnTSe15Gv7SsXgsVhwI=
-			</data>
 			<key>hash2</key>
 			<data>
 			upELfvbd6BWbShkFXMH98gKMojvxGOct34FL/1OBTKc=
@@ -1352,10 +1100,6 @@
 		</dict>
 		<key>th.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MdOKs2gC8c+O87aDNhh5Pqc1uTY=
-			</data>
 			<key>hash2</key>
 			<data>
 			Q0LNyyd+bUctrWeS4YQ799WS/C3UBZZXDPBcLrBuk0M=
@@ -1365,10 +1109,6 @@
 		</dict>
 		<key>th.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I74fj2Lx/lIBXOGfBfeV8OGo96w=
-			</data>
 			<key>hash2</key>
 			<data>
 			kjR85F0jIk+jVemWNNvI9G9opdVclc/h9pENxDUX0jo=
@@ -1378,10 +1118,6 @@
 		</dict>
 		<key>tr.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h/5MHAhIT4C8v873F0UYIFtfaxY=
-			</data>
 			<key>hash2</key>
 			<data>
 			erRfUuudjWWtxgE6+ljwa8JMPDmrjZwTz9ZS2AO6tTo=
@@ -1391,10 +1127,6 @@
 		</dict>
 		<key>tr.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1ibHVFLgG8Wa6TMof0w3cpc9edQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			sAiTfNdBLpn9lCCvRCRRmcrKf+gigv68CNZnzVs8Wt8=
@@ -1404,10 +1136,6 @@
 		</dict>
 		<key>vi.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D7WOhy7AYGgbzZS/lZHERTGgtYM=
-			</data>
 			<key>hash2</key>
 			<data>
 			y2kgRo/vNT3/XPmRgcJ8FZo/7zPhJW8xRbuET1V3NUU=
@@ -1417,10 +1145,6 @@
 		</dict>
 		<key>vi.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/s7oAjVLJSC7X0aSGG4wqx8RDPg=
-			</data>
 			<key>hash2</key>
 			<data>
 			+l2lvaEs8FdDsS3aP03fspJ3vO2qDYIHcnTHv3MwYoI=
@@ -1430,10 +1154,6 @@
 		</dict>
 		<key>zh-hans.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mLCRTukHk0Fa8n7HmV8SKimyj4M=
-			</data>
 			<key>hash2</key>
 			<data>
 			uAbS5vA+Y/AtfCxI0xNXJG+B6T6TUdJ/SBwUujMrwJA=
@@ -1443,10 +1163,6 @@
 		</dict>
 		<key>zh-hans.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QWGgRihIO5kwlJv31K6lobEbdaY=
-			</data>
 			<key>hash2</key>
 			<data>
 			8WjmGMnQy/d4U+5dCHzXc/QBeBSBSQXxPeN9pbdAjdY=
@@ -1456,10 +1172,6 @@
 		</dict>
 		<key>zh-hant.lproj/AppRestrictions.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			M5vuiW8pFirg4x4nsPCFVw1tvMk=
-			</data>
 			<key>hash2</key>
 			<data>
 			8okaXQHRXMxlql7VpnViGe8zQuYQLu2xQSH2zv/oehE=
@@ -1469,10 +1181,6 @@
 		</dict>
 		<key>zh-hant.lproj/PinViewController.strings</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			p80qURpXbqflO7r24Ag0d5PPGiY=
-			</data>
 			<key>hash2</key>
 			<data>
 			jKenhUsK//IAgIBfCtfJVvYbqgWK2+9Z9iSUdPSZViI=
