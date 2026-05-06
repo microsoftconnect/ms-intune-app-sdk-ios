@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nyvIkjoPDgSKh4C+CXTcmQAVC+g=
+		LvwRnJyLosDN1+ARB9HAZUqgi3I=
 		</data>
 		<key>IntuneMAMResources.bundle/ActivityAlertViewController.nib</key>
 		<data>
@@ -159,7 +159,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/Info.plist</key>
 		<data>
-		NrHCg8UXpmV85FF6VcQz8ZhYMZo=
+		uJwGCD+z+2zJkEBeeKKhHL2Hp3Y=
 		</data>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
 		<data>
@@ -195,7 +195,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		VS7q2+LJw0dfATTj+GXGKeMY0l4=
+		K5bXeXIwWL8esYLGR+MOxzYeC2M=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -203,7 +203,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		BHMbTa4nIb95i50r3rqAyrHXdME=
+		x6kYHDCybbc6fafc7Bjn3s2U2bU=
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -211,7 +211,7 @@
 		</data>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		/8gfdxwczceaZ2YMAVPk0Hh7pAg=
+		/myAitCwJLvtaH5rY92YymY3UQU=
 		</data>
 		<key>IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
 		<dict>
@@ -705,7 +705,7 @@
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ppO0BPegm99ypI2gz9KC0Z8qiEA=
+		EiXFhXiXBCKnstylBWln/ehWC3U=
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -721,7 +721,7 @@
 		</data>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		bNz39evhLk/MlHfS35sxIjzaLkU=
+		E7p3NA9xyeGmg/ptHwizQCsDe0I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1136,11 +1136,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NrHCg8UXpmV85FF6VcQz8ZhYMZo=
+			uJwGCD+z+2zJkEBeeKKhHL2Hp3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z+Z7WCz0LkqsZ1EUxTPA46uX2mv89CIVp2k6ViV6K8M=
+			HVAW4xsxHcTdIRZiOQ/1Vqida9sOPJWGPkhWZJHuh3Q=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/MTDComplianceViewController.nib</key>
@@ -1235,11 +1235,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VS7q2+LJw0dfATTj+GXGKeMY0l4=
+			K5bXeXIwWL8esYLGR+MOxzYeC2M=
 			</data>
 			<key>hash2</key>
 			<data>
-			hlGkrE7YMHnQ/WsYk61vGkeLEagWYz+/ZRaW2UYwOpk=
+			EWqMLhxFw1fGJGYgKJ9yKA6ZyLLj/OH6BJ8l4atE2Yg=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -1257,11 +1257,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BHMbTa4nIb95i50r3rqAyrHXdME=
+			x6kYHDCybbc6fafc7Bjn3s2U2bU=
 			</data>
 			<key>hash2</key>
 			<data>
-			J5Cjk7V0KRHrXtvnkkCCh5VCwweNR5GxP6rhTZU+iE8=
+			Om52sBMKFpBQkpVW+wGGptAw6MHYg6gaT2sC4ydAeDY=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/_CodeSignature/CodeResources</key>
@@ -1279,11 +1279,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/8gfdxwczceaZ2YMAVPk0Hh7pAg=
+			/myAitCwJLvtaH5rY92YymY3UQU=
 			</data>
 			<key>hash2</key>
 			<data>
-			a9DE4xPUW4Lk8FrEqSAYUAIFvTvBchoOdeX4knTv0pw=
+			ZakKE0ONFKPV4UHR7wErGNMeekwn1CkgqlIpBQS4wM8=
 			</data>
 		</dict>
 		<key>IntuneMAMResources.bundle/cs.lproj/AppRestrictions.strings</key>
@@ -2003,11 +2003,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ppO0BPegm99ypI2gz9KC0Z8qiEA=
+			EiXFhXiXBCKnstylBWln/ehWC3U=
 			</data>
 			<key>hash2</key>
 			<data>
-			YhCmvxIGCYjEkN31KQs3DM2MNsLUMpkZ9zWR0tsX+tc=
+			aAI35HsFXlNo3hfe0VG1mRQOBNoSwlSz+5MCuaCC9Y8=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -2047,11 +2047,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bNz39evhLk/MlHfS35sxIjzaLkU=
+			E7p3NA9xyeGmg/ptHwizQCsDe0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			JFeEBwvroy8EqRpdK8dxtir8IqomK3s0irCJop1X5CU=
+			yAxuNJ/3OdliYrJX4MRFyUvE/Q9NoJN2pBQfiW115yg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
