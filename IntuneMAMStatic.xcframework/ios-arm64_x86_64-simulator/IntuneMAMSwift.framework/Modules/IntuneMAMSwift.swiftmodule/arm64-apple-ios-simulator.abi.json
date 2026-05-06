@@ -1225,6 +1225,43 @@
             "moduleName": "IntuneMAMSwift"
           },
           {
+            "kind": "Var",
+            "name": "FailedToConstructDataFromEncryptedFile",
+            "printedName": "FailedToConstructDataFromEncryptedFile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IntuneMAMSwift.IntuneMAMSwiftError.Type) -> IntuneMAMSwift.IntuneMAMSwiftError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IntuneMAMSwiftError",
+                    "printedName": "IntuneMAMSwift.IntuneMAMSwiftError",
+                    "usr": "s:14IntuneMAMSwift0aB5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "IntuneMAMSwift.IntuneMAMSwiftError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IntuneMAMSwiftError",
+                        "printedName": "IntuneMAMSwift.IntuneMAMSwiftError",
+                        "usr": "s:14IntuneMAMSwift0aB5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14IntuneMAMSwift0aB5ErrorO38FailedToConstructDataFromEncryptedFileyA2CmF",
+            "mangledName": "$s14IntuneMAMSwift0aB5ErrorO38FailedToConstructDataFromEncryptedFileyA2CmF",
+            "moduleName": "IntuneMAMSwift"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -1867,8 +1904,22 @@
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DataSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 836,
+      "length": 76,
+      "value": "\"$s10Foundation4DataV5write2to7optionsyAA3URLV_So20NSDataWritingOptionsVtKF\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DataSwiftHooks.swift",
+      "kind": "StringLiteral",
+      "offset": 955,
+      "length": 82,
+      "value": "\"$s10Foundation4DataV10contentsOf7optionsAcA3URLVh_So20NSDataReadingOptionsVtKcfC\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/DataSwiftHooks.swift",
       "kind": "Array",
-      "offset": 2117,
+      "offset": 3508,
       "length": 2,
       "value": "[]"
     },
@@ -2680,14 +2731,14 @@
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftConditionalLaunchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1342,
+      "offset": 1382,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/UI\/ios\/SwiftConditionalLaunchViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1371,
+      "offset": 1411,
       "length": 5,
       "value": "false"
     },
@@ -2963,6 +3014,76 @@
       "offset": 7175,
       "length": 38,
       "value": "\"9AB32C10-51DB-4F1C-91F4-B7CB64377521\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 7256,
+      "length": 38,
+      "value": "\"32549BE9-21D3-4D73-AE46-89B830CBA45E\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 7336,
+      "length": 38,
+      "value": "\"F11513BC-F05D-4717-8A6A-C7E9DDB3550E\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 7415,
+      "length": 38,
+      "value": "\"47EB040F-201D-43AF-9E14-926DF0EDBF64\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 7490,
+      "length": 38,
+      "value": "\"6110DDB3-92F0-4552-B9D8-90EEDE4ABC14\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 7583,
+      "length": 38,
+      "value": "\"23A7EAFA-78DB-4B31-A4A4-7C8AAB4B6C42\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 7667,
+      "length": 38,
+      "value": "\"D95B5AD6-BFD6-48C0-9CF6-AFB4A69724AC\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 7873,
+      "length": 38,
+      "value": "\"23F10AB0-A76C-4306-A669-E71F1CA66ED4\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 7962,
+      "length": 38,
+      "value": "\"839FCD23-6633-4C0A-AD23-F6F390B5EB78\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 8047,
+      "length": 38,
+      "value": "\"1EFE6E8C-1354-485E-BA26-C24A9115D73A\""
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Utils\/Core\/ECS.swift",
+      "kind": "StringLiteral",
+      "offset": 8122,
+      "length": 38,
+      "value": "\"D72D5211-1734-406D-95BB-409FDD92DC9A\""
     },
     {
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictions\/Hooking\/Core\/SwiftHooks\/WidgetKitSwiftHooks.swift",

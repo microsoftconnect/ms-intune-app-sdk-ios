@@ -11,7 +11,7 @@ typedef NS_ENUM(NSUInteger, IntuneMAMComplianceStatus)
     IntuneMAMComplianceServiceFailure           = 2, // There was an error retrieving compliance data from the Intune Service; the app should try again later.
     IntuneMAMComplianceNetworkFailure           = 3, // There was an error connecting to the Intune Service; the app should try again when the network health is restored.
     IntuneMAMComplianceInteractionRequired      = 4, // The SDK encountered a scenario that requires user interaction, the app should call again with silent:NO.
-    IntuneMAMComplianceUserCancelled            = 5  // The user has canceled the remediation attmempt.
+    IntuneMAMComplianceUserCancelled            = 5, // The user has canceled the remediation attmempt.
 };
 
 /**
@@ -19,6 +19,8 @@ typedef NS_ENUM(NSUInteger, IntuneMAMComplianceStatus)
  */
 __attribute__((visibility("default")))
 @protocol IntuneMAMComplianceDelegate <NSObject>
+
+@optional
 
 /**
  * This method is called when the Intune SDK has completed compliance remediation for an identity.
