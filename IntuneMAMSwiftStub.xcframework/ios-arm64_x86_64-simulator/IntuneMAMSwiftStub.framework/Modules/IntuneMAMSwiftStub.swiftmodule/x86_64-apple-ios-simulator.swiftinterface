@@ -135,6 +135,8 @@ extension System.FileDescriptor {
 extension Foundation.URL {
   public static func cmarRealURLWriteBookmarkData(_ data: Foundation.Data, to url: Foundation.URL) throws
   public mutating func cmarRealSetResourceValues(_ values: Foundation.URLResourceValues) throws
+  public func cmarRealStartAccessingSecurityScopedResource() -> Swift.Bool
+  public func cmarRealStopAccessingSecurityScopedResource()
 }
 @available(iOS 15.0, *)
 extension GroupActivities.GroupActivity {
