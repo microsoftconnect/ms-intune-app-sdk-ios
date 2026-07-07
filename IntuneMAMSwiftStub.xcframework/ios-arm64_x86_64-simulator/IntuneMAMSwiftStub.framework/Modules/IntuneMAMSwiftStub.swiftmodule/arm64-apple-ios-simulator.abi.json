@@ -4158,6 +4158,43 @@
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealStartAccessingSecurityScopedResource",
+            "printedName": "cmarRealStartAccessingSecurityScopedResource()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation3URLV18IntuneMAMSwiftStubE44cmarRealStartAccessingSecurityScopedResourceSbyF",
+            "mangledName": "$s10Foundation3URLV18IntuneMAMSwiftStubE44cmarRealStartAccessingSecurityScopedResourceSbyF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealStopAccessingSecurityScopedResource",
+            "printedName": "cmarRealStopAccessingSecurityScopedResource()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Foundation3URLV18IntuneMAMSwiftStubE43cmarRealStopAccessingSecurityScopedResourceyyF",
+            "mangledName": "$s10Foundation3URLV18IntuneMAMSwiftStubE43cmarRealStopAccessingSecurityScopedResourceyyF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
