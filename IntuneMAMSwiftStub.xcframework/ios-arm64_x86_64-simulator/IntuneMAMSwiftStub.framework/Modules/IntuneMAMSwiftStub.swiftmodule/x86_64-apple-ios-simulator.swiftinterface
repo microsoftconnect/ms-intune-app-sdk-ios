@@ -109,6 +109,15 @@ extension VisionKit.ImageAnalysisInteraction {
   @_Concurrency.MainActor final public func cmarRealPreferredInteractionTypes(_ types: VisionKit.ImageAnalysisInteraction.InteractionTypes)
   @_Concurrency.MainActor final public func cmarRealAllowLongPressForDataDetectorsInTextMode(_ allow: Swift.Bool)
 }
+@available(iOS 17.0, *)
+extension UIKit.UIImageReader {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func cmarRealImage(contentsOf fileURL: Foundation.URL) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func cmarRealImage(contentsOf fileURL: Foundation.URL) async -> UIKit.UIImage?
+  #endif
+}
 extension UIKit.UIMenu {
   #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 16.0, *)
@@ -174,4 +183,9 @@ extension SwiftUI.Link {
 extension Foundation.Data {
   public func cmarRealDataWrite(to url: Foundation.URL, options: Foundation.Data.WritingOptions = []) throws
   public init(cmarRealContentsOf url: borrowing Foundation.URL, cmarRealOptions options: Foundation.Data.ReadingOptions) throws
+}
+extension UIKit.UIImage {
+  #if compiler(>=5.3) && $NonescapableTypes
+  convenience public init?(cmarRealContentsOfFile path: Swift.String)
+  #endif
 }
