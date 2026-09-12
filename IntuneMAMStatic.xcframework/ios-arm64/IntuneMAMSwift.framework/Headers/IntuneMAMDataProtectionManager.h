@@ -8,12 +8,13 @@
 // Data protection/unprotection operation failure codes
 typedef NS_ENUM(NSUInteger, IntuneMAMDataProtectionStatusCode)
 {
-    IntuneMAMDataProtectionStatusApplicationNotManaged = 100,             // Operation failed because the application is not managed
-    IntuneMAMDataProtectionStatusInvalidArguments = 101,             // Operation failed because one or more of the arguments were nil
-    IntuneMAMDataProtectionStatusFailedToEncryptData = 102,             // Data encryption operation failed
-    IntuneMAMDataProtectionStatusFailedToDecryptData = 103,             // Data decryption operation failed
-    IntuneMAMDataProtectionStatusDataNotProtected = 104,             // Operation failed because the data was not encrypted or protected
-    IntuneMAMDataProtectionStatusEmptyData = 105             // Operation failed because the data was empty
+    IntuneMAMDataProtectionStatusApplicationNotManaged = 100,      // Operation failed because the application is not managed
+    IntuneMAMDataProtectionStatusInvalidArguments = 101,           // Operation failed because one or more of the arguments were nil
+    IntuneMAMDataProtectionStatusFailedToEncryptData = 102,        // Data encryption operation failed
+    IntuneMAMDataProtectionStatusFailedToDecryptData = 103,        // Data decryption operation failed
+    IntuneMAMDataProtectionStatusDataNotProtected = 104,           // Operation failed because the data was not encrypted or protected
+    IntuneMAMDataProtectionStatusEmptyData = 105,                  // Operation failed because the data was empty
+    IntuneMAMDataProtectionStatusAllocationError = 106             // Memory allocation error
 };
 
 // Notification name for Intune data protection level change notifications.
