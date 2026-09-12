@@ -17,15 +17,15 @@ required to debug changes to any libraries licensed under the GNU Lesser General
 
 Third Party Code: 
 
-Microsoft 1DS C/C++ SDK v. 3.6.187 (https://github.com/microsoft/cpp_client_telemetry)
+Microsoft 1DS C/C++ SDK v. 3.10.173.1 (https://github.com/microsoft/cpp_client_telemetry)
 
 As the recipient of the above Third-Party Code, Microsoft sets forth a copy of the notices and other information below.
 Provided for Informational Purposes Only 
 
-%% Microsoft 1DS C/C++ SDK v. 3.6.187 NOTICES AND INFORMATION BEGIN HERE
+%% Microsoft 1DS C/C++ SDK v. 3.10.173.1 NOTICES AND INFORMATION BEGIN HERE
 =========================================
 
-Microsoft 1DS C/C++ SDK v. 3.6.187 is licensed under the Apache License 2.0:
+Microsoft 1DS C/C++ SDK v. 3.10.173.1 is licensed under the Apache License 2.0:
 
                                  Apache License
                            Version 2.0, January 2004
@@ -229,7 +229,7 @@ Microsoft 1DS C/C++ SDK v. 3.6.187 is licensed under the Apache License 2.0:
    See the License for the specific language governing permissions and
    limitations under the License.
    
-END OF Microsoft 1DS C/C++ SDK v. 3.6.187 NOTICES AND INFORMATION
+END OF Microsoft 1DS C/C++ SDK v. 3.10.173.1 NOTICES AND INFORMATION
 =========================================
 
 darwin-xnu/osfmk/kern/cs_blobs.h - Version xnu-7195.121.3 

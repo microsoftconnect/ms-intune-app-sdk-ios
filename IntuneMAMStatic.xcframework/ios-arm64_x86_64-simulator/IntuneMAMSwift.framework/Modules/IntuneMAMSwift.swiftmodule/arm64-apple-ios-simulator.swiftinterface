@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IntuneMAMSwift
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IntuneMAMSwift
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import AppleArchive
 import Dispatch
 import Foundation
@@ -9,6 +9,7 @@ import GroupActivities
 import ImagePlayground
 @_exported import IntuneMAMSwift
 import IntuneMAMSwiftStub
+import LiveCommunicationKit
 import Security
 import Swift
 import SwiftUI
@@ -20,23 +21,13 @@ import _GroupActivities_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func getScopedAccountId() -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 15.0, *)
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async -> Swift.Void) async
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 15.0, *)
   public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
-  #endif
   @objc deinit
 }
 public enum IntuneMAMSwiftWebViewPolicy : Swift.Int {
@@ -44,19 +35,15 @@ public enum IntuneMAMSwiftWebViewPolicy : Swift.Int {
   case unmanaged
   case currentIdentity
   case currentIdentityBlockUpload
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 extension SwiftUICore.View {
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func intuneMAMWebViewPolicy(_ policy: IntuneMAMSwift.IntuneMAMSwiftWebViewPolicy? = nil, isExternalURL: ((Foundation.URL) -> Swift.Bool)? = nil) -> some SwiftUICore.View
   
-  #endif
 }
 public enum IntuneMAMSwiftError : Swift.Error {
   case GroupActivitiesBlocked
