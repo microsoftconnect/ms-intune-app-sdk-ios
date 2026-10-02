@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
-// swift-module-flags: -target arm64-apple-ios17.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IntuneMAMSwiftFileProvider
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+// swift-compiler-version: Apple Swift version 6.4 effective-5.10 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)
+// swift-module-flags: -target arm64-apple-ios18.0 -enable-objc-interop -enable-library-evolution -language-mode 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name IntuneMAMSwiftFileProvider
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.4
 import AppleArchive
 import Dispatch
 import Foundation
@@ -17,32 +17,32 @@ import _SwiftConcurrencyShims
 public enum ECSEnvironment {
   case prod
   case sandbox
-  public static func == (a: IntuneMAMSwiftFileProvider.ECSEnvironment, b: IntuneMAMSwiftFileProvider.ECSEnvironment) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public static func == (a: IntuneMAMSwiftFileProvider::ECSEnvironment, b: IntuneMAMSwiftFileProvider::ECSEnvironment) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
     get
   }
 }
 @_hasMissingDesignatedInitializers public class IntuneMAMSwiftContextManager {
-  public static func getScopedAccountId() -> Swift.String?
-  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () -> Swift.Void)
-  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () throws -> Swift.Void) throws
+  public static func getScopedAccountId() -> Swift::String?
+  public static func setAccountId(_ accountId: Swift::String?, forScope scope: @escaping () -> Swift::Void)
+  public static func setAccountId(_ accountId: Swift::String?, forScope scope: @escaping () throws -> Swift::Void) throws
   @available(iOS 15.0, *)
-  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async -> Swift.Void) async
+  public static func setAccountId(_ accountId: Swift::String?, forScope scope: @escaping () async -> Swift::Void) async
   @available(iOS 15.0, *)
-  public static func setAccountId(_ accountId: Swift.String?, forScope scope: @escaping () async throws -> Swift.Void) async throws
+  public static func setAccountId(_ accountId: Swift::String?, forScope scope: @escaping () async throws -> Swift::Void) async throws
   @objc deinit
 }
-public enum IntuneMAMSwiftError : Swift.Error {
+public enum IntuneMAMSwiftError : Swift::Error {
   case GroupActivitiesBlocked
   case FailedToConstructDataFromEncryptedFile
-  public static func == (a: IntuneMAMSwiftFileProvider.IntuneMAMSwiftError, b: IntuneMAMSwiftFileProvider.IntuneMAMSwiftError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public static func == (a: IntuneMAMSwiftFileProvider::IntuneMAMSwiftError, b: IntuneMAMSwiftFileProvider::IntuneMAMSwiftError) -> Swift::Bool
+  public func hash(into hasher: inout Swift::Hasher)
+  public var hashValue: Swift::Int {
     get
   }
 }
-extension IntuneMAMSwiftFileProvider.ECSEnvironment : Swift.Equatable {}
-extension IntuneMAMSwiftFileProvider.ECSEnvironment : Swift.Hashable {}
-extension IntuneMAMSwiftFileProvider.IntuneMAMSwiftError : Swift.Equatable {}
-extension IntuneMAMSwiftFileProvider.IntuneMAMSwiftError : Swift.Hashable {}
+extension IntuneMAMSwiftFileProvider::ECSEnvironment : Swift::Equatable {}
+extension IntuneMAMSwiftFileProvider::ECSEnvironment : Swift::Hashable {}
+extension IntuneMAMSwiftFileProvider::IntuneMAMSwiftError : Swift::Equatable {}
+extension IntuneMAMSwiftFileProvider::IntuneMAMSwiftError : Swift::Hashable {}

@@ -1766,7 +1766,6 @@
         "declAttributes": [
           "ObjC",
           "SynthesizedProtocol",
-          "Sendable",
           "HasMissingDesignatedInitializers",
           "Dynamic"
         ],
@@ -1977,7 +1976,6 @@
         "declAttributes": [
           "ObjC",
           "SynthesizedProtocol",
-          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)OS_dispatch_object",
@@ -2958,6 +2956,566 @@
           },
           {
             "kind": "Function",
+            "name": "cmarRealImagePlaygroundSheetWithConceptsAndSourceImageAndGlyphCreation",
+            "printedName": "cmarRealImagePlaygroundSheetWithConceptsAndSourceImageAndGlyphCreation(isPresented:concepts:sourceImage:onCompletion:onAdaptiveImageGlyphCreation:onCancellation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImagePlaygroundSheetWrapper",
+                "printedName": "IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUI.View>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImagePlayground.ImagePlaygroundConcept]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImagePlaygroundConcept",
+                    "printedName": "ImagePlayground.ImagePlaygroundConcept",
+                    "usr": "s:15ImagePlayground0aB7ConceptV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.NSAdaptiveImageGlyph) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAdaptiveImageGlyph",
+                    "printedName": "UIKit.NSAdaptiveImageGlyph",
+                    "usr": "c:objc(cs)NSAdaptiveImageGlyph"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE049cmarRealImagePlaygroundSheetWithConceptsAndSourceiN13GlyphCreation11isPresented8concepts06sourceI012onCompletion0v8AdaptiveipQ00V12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_Say0iJ00iJ7ConceptVGAA0I0VSgy10Foundation3URLVcySo010NSAdaptiveiP0CcyycSgtF",
+            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE049cmarRealImagePlaygroundSheetWithConceptsAndSourceiN13GlyphCreation11isPresented8concepts06sourceI012onCompletion0v8AdaptiveipQ00V12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_Say0iJ00iJ7ConceptVGAA0I0VSgy10Foundation3URLVcySo010NSAdaptiveiP0CcyycSgtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "intro_iOS": "27.0",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealImagePlaygroundSheetWithConceptsAndSourceImageURLAndGlyphCreation",
+            "printedName": "cmarRealImagePlaygroundSheetWithConceptsAndSourceImageURLAndGlyphCreation(isPresented:concepts:sourceImageURL:onCompletion:onAdaptiveImageGlyphCreation:onCancellation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImagePlaygroundSheetWrapper",
+                "printedName": "IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUI.View>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ImagePlayground.ImagePlaygroundConcept]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImagePlaygroundConcept",
+                    "printedName": "ImagePlayground.ImagePlaygroundConcept",
+                    "usr": "s:15ImagePlayground0aB7ConceptV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.NSAdaptiveImageGlyph) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAdaptiveImageGlyph",
+                    "printedName": "UIKit.NSAdaptiveImageGlyph",
+                    "usr": "c:objc(cs)NSAdaptiveImageGlyph"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE049cmarRealImagePlaygroundSheetWithConceptsAndSourceI19URLAndGlyphCreation11isPresented8concepts06sourceI3URL12onCompletion0x8AdaptiveiqR00X12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_Say0iJ00iJ7ConceptVG10Foundation0W0VyAXcySo010NSAdaptiveiQ0CcyycSgtF",
+            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE049cmarRealImagePlaygroundSheetWithConceptsAndSourceI19URLAndGlyphCreation11isPresented8concepts06sourceI3URL12onCompletion0x8AdaptiveiqR00X12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_Say0iJ00iJ7ConceptVG10Foundation0W0VyAXcySo010NSAdaptiveiQ0CcyycSgtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "intro_iOS": "27.0",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealImagePlaygroundSheetWithConceptAndSourceImageURLAndGlyphCreation",
+            "printedName": "cmarRealImagePlaygroundSheetWithConceptAndSourceImageURLAndGlyphCreation(isPresented:concept:sourceImageURL:onCompletion:onAdaptiveImageGlyphCreation:onCancellation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImagePlaygroundSheetWrapper",
+                "printedName": "IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUI.View>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.NSAdaptiveImageGlyph) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAdaptiveImageGlyph",
+                    "printedName": "UIKit.NSAdaptiveImageGlyph",
+                    "usr": "c:objc(cs)NSAdaptiveImageGlyph"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE048cmarRealImagePlaygroundSheetWithConceptAndSourceI19URLAndGlyphCreation11isPresented7concept06sourceI3URL12onCompletion0x8AdaptiveiqR00X12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_SS10Foundation0W0VyATcySo010NSAdaptiveiQ0CcyycSgtF",
+            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE048cmarRealImagePlaygroundSheetWithConceptAndSourceI19URLAndGlyphCreation11isPresented7concept06sourceI3URL12onCompletion0x8AdaptiveiqR00X12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_SS10Foundation0W0VyATcySo010NSAdaptiveiQ0CcyycSgtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "intro_iOS": "27.0",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cmarRealImagePlaygroundSheetWithConceptAndSourceImageAndGlyphCreation",
+            "printedName": "cmarRealImagePlaygroundSheetWithConceptAndSourceImageAndGlyphCreation(isPresented:concept:sourceImage:onCompletion:onAdaptiveImageGlyphCreation:onCancellation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImagePlaygroundSheetWrapper",
+                "printedName": "IntuneMAMSwiftStub.ImagePlaygroundSheetWrapper<some SwiftUI.View>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:18IntuneMAMSwiftStub27ImagePlaygroundSheetWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.NSAdaptiveImageGlyph) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSAdaptiveImageGlyph",
+                    "printedName": "UIKit.NSAdaptiveImageGlyph",
+                    "usr": "c:objc(cs)NSAdaptiveImageGlyph"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP18IntuneMAMSwiftStubE048cmarRealImagePlaygroundSheetWithConceptAndSourceiN13GlyphCreation11isPresented7concept06sourceI012onCompletion0v8AdaptiveipQ00V12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_SSAA0I0VSgy10Foundation3URLVcySo010NSAdaptiveiP0CcyycSgtF",
+            "mangledName": "$s7SwiftUI4ViewP18IntuneMAMSwiftStubE048cmarRealImagePlaygroundSheetWithConceptAndSourceiN13GlyphCreation11isPresented7concept06sourceI012onCompletion0v8AdaptiveipQ00V12CancellationAD0ijK7WrapperVyQrGAA7BindingVySbG_SSAA0I0VSgy10Foundation3URLVcySo010NSAdaptiveiP0CcyycSgtF",
+            "moduleName": "IntuneMAMSwiftStub",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "intro_iOS": "27.0",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Available",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "cmarRealWidgetURL",
             "printedName": "cmarRealWidgetURL(_:)",
             "children": [
@@ -3491,6 +4049,112 @@
         "name": "UIMenu",
         "printedName": "UIMenu",
         "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cmarRealTitle:cmarRealSubtitle:cmarRealImage:cmarRealPreferredImageVisibility:cmarRealIdentifier:cmarRealOptions:cmarRealPreferredElementSize:cmarRealChildren:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIMenu",
+                "printedName": "UIKit.UIMenu",
+                "usr": "c:objc(cs)UIMenu"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImageVisibility",
+                "printedName": "UIKit.UIMenuElement.ImageVisibility",
+                "usr": "c:@E@UIMenuElementImageVisibility"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIMenu.Identifier?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Identifier",
+                    "printedName": "UIKit.UIMenu.Identifier",
+                    "usr": "c:@T@UIMenuIdentifier"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "UIKit.UIMenu.Options",
+                "usr": "c:@E@UIMenuOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ElementSize",
+                "printedName": "UIKit.UIMenu.ElementSize",
+                "usr": "c:@E@UIMenuElementSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIMenuElement]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIMenuElement",
+                    "printedName": "UIKit.UIMenuElement",
+                    "usr": "c:objc(cs)UIMenuElement"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So6UIMenuC18IntuneMAMSwiftStubE13cmarRealTitle0eF8Subtitle0eF5Image0ef9PreferredI10Visibility0eF10Identifier0eF7Options0efJ11ElementSize0eF8ChildrenABSS_SSSgSo7UIImageCSgSo0aniK0VSo0aL0aSgSo0aM0VSo0anO0VSaySo0aN0CGtcfc",
+            "mangledName": "$sSo6UIMenuC18IntuneMAMSwiftStubE13cmarRealTitle0eF8Subtitle0eF5Image0ef9PreferredI10Visibility0eF10Identifier0eF7Options0efJ11ElementSize0eF8ChildrenABSS_SSSgSo7UIImageCSgSo0aniK0VSo0aL0aSgSo0aM0VSo0anO0VSaySo0aN0CGtcfc",
+            "moduleName": "IntuneMAMSwiftStub",
+            "intro_iOS": "27.0",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -4383,6 +5047,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ReferenceConvertible",
             "printedName": "ReferenceConvertible",
             "children": [
@@ -5065,20 +5736,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
             "name": "View",
             "printedName": "View",
             "children": [
@@ -5232,6 +5889,13 @@
             ],
             "usr": "s:16CoreTransferable0B0P",
             "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVAttachmentValueRepresentable",
+            "printedName": "CVAttachmentValueRepresentable",
+            "usr": "s:9CoreVideo30CVAttachmentValueRepresentableP",
+            "mangledName": "$s9CoreVideo30CVAttachmentValueRepresentableP"
           },
           {
             "kind": "Conformance",
@@ -5778,7 +6442,6 @@
           "ObjC",
           "SynthesizedProtocol",
           "NonSendable",
-          "Sendable",
           "Dynamic"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -5973,6 +6636,20 @@
       "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/ImagePlayground.swift",
       "kind": "Array",
       "offset": 1793,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/ImagePlayground.swift",
+      "kind": "Array",
+      "offset": 3786,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/cloudtest\/vss\/_work\/1\/s\/xplat-iOS-MAM\/AppRestrictionsiOS\/AppRestrictionsLib\/AppRestrictionsSwiftStub\/AppRestrictionsSwiftStub\/ImagePlayground.swift",
+      "kind": "Array",
+      "offset": 4575,
       "length": 2,
       "value": "[]"
     },

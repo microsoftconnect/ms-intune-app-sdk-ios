@@ -6,27 +6,27 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		1YzIl3gJUpuQofi+oS2pp1rYMl0=
+		8g6CaO9gWkgKHM1gQaj0tQSmnU0=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		zNu5iP6eSukfcLge19RjuMEgHfE=
+		15Ir0ablpVYDINp9YvbzG4qHDaQ=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		9VVnQHW02NBS/vrXyb0y/1UiACQ=
+		tUxqNQAtnKeC9LBuGWxZ1QE3RIA=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		8vOTOaNb1rog7T3hhJyY7PVhLJA=
+		gJBmYP+iO8JunD3+ipHpKA5nc7k=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		9VVnQHW02NBS/vrXyb0y/1UiACQ=
+		tUxqNQAtnKeC9LBuGWxZ1QE3RIA=
 		</data>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		36rp74nTS2imM0SZKxVtdIu+rkk=
+		wnMGT7VSvcYdzrfnDkXYPOVdPP4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,35 +35,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iPS2NR2w98Ht5kIL4/pYTAe4ppX4Jh2E2Us63TuH7YQ=
+			Sx7TXge6X1VXepJThf/3flj7Q8lJX2etNUf128s+3lw=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UB3VmnUQvElFPAE0PUDDW9isufq6xiw0zDkS3SqqVqc=
+			/j/qahJTv6NHJpf3DIyTwi5Pt63mI0/x+ZB2nQeKGnI=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7LW93vhca32F51KBjCQa7i8DaP5PnwzWCjk9I7/ER7o=
+			5a8w9lK37u4tqW0gjj24UVtwaw2LRvyYim5NcXWPyMU=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UB3VmnUQvElFPAE0PUDDW9isufq6xiw0zDkS3SqqVqc=
+			/j/qahJTv6NHJpf3DIyTwi5Pt63mI0/x+ZB2nQeKGnI=
 			</data>
 		</dict>
 		<key>Modules/IntuneMAMSwiftStub.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yhZninNjiHsT9qEYlN/c/HUrhinXkaXNoyMz2VscKYE=
+			A/aD6DIB84iRz/Da9Av5csxS+VS+immnuy2ITKMedvA=
 			</data>
 		</dict>
 	</dict>
